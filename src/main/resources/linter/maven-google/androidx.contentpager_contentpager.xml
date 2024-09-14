@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.contentpager.content.ContentPager android.os.Bundle buildExtras(android.os.Bundle, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_COPIED, androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_PAGED, androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_REPAGED, androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_WRAPPED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.contentpager.content.ContentPager.CursorView CursorView(android.database.Cursor, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_COPIED, androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_PAGED, androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_REPAGED, androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_WRAPPED}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.ml.modeldownloader.FirebaseMlException FirebaseMlException(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.ml.modeldownloader.FirebaseMlException.CANCELLED, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNKNOWN, com.google.firebase.ml.modeldownloader.FirebaseMlException.INVALID_ARGUMENT, com.google.firebase.ml.modeldownloader.FirebaseMlException.DEADLINE_EXCEEDED, com.google.firebase.ml.modeldownloader.FirebaseMlException.NOT_FOUND, com.google.firebase.ml.modeldownloader.FirebaseMlException.ALREADY_EXISTS, com.google.firebase.ml.modeldownloader.FirebaseMlException.PERMISSION_DENIED, com.google.firebase.ml.modeldownloader.FirebaseMlException.RESOURCE_EXHAUSTED, com.google.firebase.ml.modeldownloader.FirebaseMlException.FAILED_PRECONDITION, com.google.firebase.ml.modeldownloader.FirebaseMlException.ABORTED, com.google.firebase.ml.modeldownloader.FirebaseMlException.OUT_OF_RANGE, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNIMPLEMENTED, com.google.firebase.ml.modeldownloader.FirebaseMlException.INTERNAL, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNAVAILABLE, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNAUTHENTICATED, com.google.firebase.ml.modeldownloader.FirebaseMlException.NO_NETWORK_CONNECTION, com.google.firebase.ml.modeldownloader.FirebaseMlException.NOT_ENOUGH_SPACE, com.google.firebase.ml.modeldownloader.FirebaseMlException.MODEL_HASH_MISMATCH, com.google.firebase.ml.modeldownloader.FirebaseMlException.DOWNLOAD_URL_EXPIRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.ml.modeldownloader.internal.CustomModelDownloadService com.google.android.gms.tasks.Task&lt;com.google.firebase.ml.modeldownloader.CustomModel&gt; setAndLogException(java.lang.String, int, java.lang.String, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.ml.modeldownloader.FirebaseMlException.CANCELLED, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNKNOWN, com.google.firebase.ml.modeldownloader.FirebaseMlException.INVALID_ARGUMENT, com.google.firebase.ml.modeldownloader.FirebaseMlException.DEADLINE_EXCEEDED, com.google.firebase.ml.modeldownloader.FirebaseMlException.NOT_FOUND, com.google.firebase.ml.modeldownloader.FirebaseMlException.ALREADY_EXISTS, com.google.firebase.ml.modeldownloader.FirebaseMlException.PERMISSION_DENIED, com.google.firebase.ml.modeldownloader.FirebaseMlException.RESOURCE_EXHAUSTED, com.google.firebase.ml.modeldownloader.FirebaseMlException.FAILED_PRECONDITION, com.google.firebase.ml.modeldownloader.FirebaseMlException.ABORTED, com.google.firebase.ml.modeldownloader.FirebaseMlException.OUT_OF_RANGE, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNIMPLEMENTED, com.google.firebase.ml.modeldownloader.FirebaseMlException.INTERNAL, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNAVAILABLE, com.google.firebase.ml.modeldownloader.FirebaseMlException.UNAUTHENTICATED, com.google.firebase.ml.modeldownloader.FirebaseMlException.NO_NETWORK_CONNECTION, com.google.firebase.ml.modeldownloader.FirebaseMlException.NOT_ENOUGH_SPACE, com.google.firebase.ml.modeldownloader.FirebaseMlException.MODEL_HASH_MISMATCH, com.google.firebase.ml.modeldownloader.FirebaseMlException.DOWNLOAD_URL_EXPIRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.ml.modeldownloader.internal.FirebaseMlLogEvent.DeleteModelLogEvent.Builder com.google.firebase.ml.modeldownloader.internal.FirebaseMlLogEvent.DeleteModelLogEvent.Builder setModelType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.ml.modeldownloader.internal.FirebaseMlLogEvent.ModelDownloadLogEvent.ModelOptions.ModelInfo.ModelType.CUSTOM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.ml.modeldownloader.internal.FirebaseMlLogEvent.ModelDownloadLogEvent.ModelOptions.ModelInfo.Builder com.google.firebase.ml.modeldownloader.internal.FirebaseMlLogEvent.ModelDownloadLogEvent.ModelOptions.ModelInfo.Builder setModelType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.ml.modeldownloader.internal.FirebaseMlLogEvent.ModelDownloadLogEvent.ModelOptions.ModelInfo.ModelType.CUSTOM}"></val>
+        </annotation>
+    </item>
+</root>

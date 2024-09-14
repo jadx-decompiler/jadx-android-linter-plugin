@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.microsoft.appcenter.crashes.Crashes void handleUserConfirmation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.microsoft.appcenter.crashes.Crashes.SEND, com.microsoft.appcenter.crashes.Crashes.DONT_SEND, com.microsoft.appcenter.crashes.Crashes.ALWAYS_SEND}"></val>
+        </annotation>
+    </item>
+    <item name="com.microsoft.appcenter.crashes.Crashes void notifyUserConfirmation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.microsoft.appcenter.crashes.Crashes.SEND, com.microsoft.appcenter.crashes.Crashes.DONT_SEND, com.microsoft.appcenter.crashes.Crashes.ALWAYS_SEND}"></val>
+        </annotation>
+    </item>
+</root>

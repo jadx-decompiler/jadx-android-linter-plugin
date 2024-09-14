@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.ads.mediation.adcolony.AdColonyMediationAdapter com.google.android.gms.ads.AdError createAdapterError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_ADCOLONY_SDK, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_INVALID_SERVER_PARAMETERS, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_AD_ALREADY_REQUESTED, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_ADCOLONY_NOT_INITIALIZED, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_BANNER_SIZE_MISMATCH, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_PRESENTATION_AD_NOT_LOADED, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_CONTEXT_NOT_ACTIVITY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.ads.mediation.adcolony.AdColonyMediationAdapter com.google.android.gms.ads.AdError createSdkError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_ADCOLONY_SDK, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_INVALID_SERVER_PARAMETERS, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_AD_ALREADY_REQUESTED, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_ADCOLONY_NOT_INITIALIZED, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_BANNER_SIZE_MISMATCH, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_PRESENTATION_AD_NOT_LOADED, com.google.ads.mediation.adcolony.AdColonyMediationAdapter.ERROR_CONTEXT_NOT_ACTIVITY}"></val>
+        </annotation>
+    </item>
+</root>

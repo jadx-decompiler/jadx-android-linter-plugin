@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.storage.StorageException StorageException(int, java.lang.Throwable, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.storage.StorageException.ERROR_UNKNOWN, com.google.firebase.storage.StorageException.ERROR_OBJECT_NOT_FOUND, com.google.firebase.storage.StorageException.ERROR_BUCKET_NOT_FOUND, com.google.firebase.storage.StorageException.ERROR_PROJECT_NOT_FOUND, com.google.firebase.storage.StorageException.ERROR_QUOTA_EXCEEDED, com.google.firebase.storage.StorageException.ERROR_NOT_AUTHENTICATED, com.google.firebase.storage.StorageException.ERROR_NOT_AUTHORIZED, com.google.firebase.storage.StorageException.ERROR_RETRY_LIMIT_EXCEEDED, com.google.firebase.storage.StorageException.ERROR_INVALID_CHECKSUM, com.google.firebase.storage.StorageException.ERROR_CANCELED}"></val>
+        </annotation>
+    </item>
+</root>

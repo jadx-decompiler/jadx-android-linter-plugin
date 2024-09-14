@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.slidingpanelayout.widget.SlidingPaneLayout void setLockMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_UNLOCKED, androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_LOCKED_OPEN, androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_LOCKED_CLOSED, androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_LOCKED}"></val>
+        </annotation>
+    </item>
+</root>

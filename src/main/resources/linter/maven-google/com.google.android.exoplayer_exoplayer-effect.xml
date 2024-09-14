@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.effect.Presentation Presentation(int, int, float, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT, com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, com.google.android.exoplayer2.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.effect.Presentation com.google.android.exoplayer2.effect.Presentation createForAspectRatio(float, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT, com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, com.google.android.exoplayer2.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.effect.Presentation com.google.android.exoplayer2.effect.Presentation createForWidthAndHeight(int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT, com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, com.google.android.exoplayer2.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.effect.Presentation void checkLayout(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT, com.google.android.exoplayer2.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, com.google.android.exoplayer2.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+</root>

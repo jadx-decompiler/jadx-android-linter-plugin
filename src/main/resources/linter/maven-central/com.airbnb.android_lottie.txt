@@ -1,0 +1,2 @@
+com.airbnb.lottie.LottieDrawable.RESTART=1
+com.airbnb.lottie.LottieDrawable.REVERSE=2

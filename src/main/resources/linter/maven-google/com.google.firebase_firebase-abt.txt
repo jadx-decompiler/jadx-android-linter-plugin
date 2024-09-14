@@ -1,0 +1,2 @@
+com.google.firebase.abt.FirebaseABTesting.OriginService.INAPP_MESSAGING=fiam
+com.google.firebase.abt.FirebaseABTesting.OriginService.REMOTE_CONFIG=frc

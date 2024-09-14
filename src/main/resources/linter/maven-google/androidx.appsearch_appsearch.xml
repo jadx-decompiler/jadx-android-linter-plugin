@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.appsearch.app.AppSearchBatchResult.Builder androidx.appsearch.app.AppSearchBatchResult.Builder&lt;KeyType,ValueType&gt; setFailure(KeyType, int, java.lang.String) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchResult AppSearchResult(int, ValueType, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchResult androidx.appsearch.app.AppSearchResult&lt;ValueType&gt; newFailedResult(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.BooleanPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.BooleanPropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.BytesPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.BytesPropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.DocumentPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.DocumentPropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.DoublePropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.DoublePropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.Builder setIndexingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.INDEXING_TYPE_SIMILARITY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.Builder setIndexingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.INDEXING_TYPE_RANGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder setCardinality(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder setIndexingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.INDEXING_TYPE_EXACT_TERMS, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.INDEXING_TYPE_PREFIXES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder setJoinableValueType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.JOINABLE_VALUE_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.JOINABLE_VALUE_TYPE_QUALIFIED_ID}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.Builder setTokenizerType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_PLAIN, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_VERBATIM, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_RFC822}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.GetSchemaResponse.Builder androidx.appsearch.app.GetSchemaResponse.Builder setRequiredPermissionsForSchemaTypeVisibility(java.lang.String, java.util.Set&lt;java.util.Set&lt;java.lang.Integer&gt;&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SetSchemaRequest.READ_SMS, androidx.appsearch.app.SetSchemaRequest.READ_CALENDAR, androidx.appsearch.app.SetSchemaRequest.READ_CONTACTS, androidx.appsearch.app.SetSchemaRequest.READ_EXTERNAL_STORAGE, androidx.appsearch.app.SetSchemaRequest.READ_HOME_APP_SEARCH_DATA, androidx.appsearch.app.SetSchemaRequest.READ_ASSISTANT_APP_SEARCH_DATA, androidx.appsearch.app.SetSchemaRequest.ENTERPRISE_ACCESS, androidx.appsearch.app.SetSchemaRequest.MANAGED_PROFILE_CONTACTS_ACCESS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.JoinSpec JoinSpec(java.lang.String, androidx.appsearch.app.SearchSpec, java.lang.String, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_OUTER_RESULT_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_RESULT_COUNT, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_MIN_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_AVG_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_MAX_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_SUM_RANKING_SIGNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.JoinSpec.Builder androidx.appsearch.app.JoinSpec.Builder setAggregationScoringStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_OUTER_RESULT_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_RESULT_COUNT, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_MIN_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_AVG_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_MAX_RANKING_SIGNAL, androidx.appsearch.app.JoinSpec.AGGREGATION_SCORING_SUM_RANKING_SIGNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec SearchSpec(int, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;, android.os.Bundle, java.util.List&lt;java.lang.String&gt;, int, int, int, int, int, int, android.os.Bundle, int, int, android.os.Bundle, androidx.appsearch.app.JoinSpec, java.lang.String, java.util.List&lt;java.lang.String&gt;, java.lang.String, java.util.List&lt;androidx.appsearch.app.EmbeddingVector&gt;, int, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_NONE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_DOCUMENT_SCORE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_CREATION_TIMESTAMP, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_RELEVANCE_SCORE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_USAGE_COUNT, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_USAGE_LAST_USED_TIMESTAMP, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_SYSTEM_USAGE_COUNT, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_SYSTEM_USAGE_LAST_USED_TIMESTAMP, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_JOIN_AGGREGATE_SCORE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_ADVANCED_RANKING_EXPRESSION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec SearchSpec(int, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;, android.os.Bundle, java.util.List&lt;java.lang.String&gt;, int, int, int, int, int, int, android.os.Bundle, int, int, android.os.Bundle, androidx.appsearch.app.JoinSpec, java.lang.String, java.util.List&lt;java.lang.String&gt;, java.lang.String, java.util.List&lt;androidx.appsearch.app.EmbeddingVector&gt;, int, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;) 7">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.ORDER_DESCENDING, androidx.appsearch.app.SearchSpec.ORDER_ASCENDING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec.Builder androidx.appsearch.app.SearchSpec.Builder setDefaultEmbeddingSearchMetricType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.EMBEDDING_SEARCH_METRIC_TYPE_COSINE, androidx.appsearch.app.SearchSpec.EMBEDDING_SEARCH_METRIC_TYPE_DOT_PRODUCT, androidx.appsearch.app.SearchSpec.EMBEDDING_SEARCH_METRIC_TYPE_EUCLIDEAN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec.Builder androidx.appsearch.app.SearchSpec.Builder setOrder(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.ORDER_DESCENDING, androidx.appsearch.app.SearchSpec.ORDER_ASCENDING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec.Builder androidx.appsearch.app.SearchSpec.Builder setRankingStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_NONE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_DOCUMENT_SCORE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_CREATION_TIMESTAMP, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_RELEVANCE_SCORE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_USAGE_COUNT, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_USAGE_LAST_USED_TIMESTAMP, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_SYSTEM_USAGE_COUNT, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_SYSTEM_USAGE_LAST_USED_TIMESTAMP, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_JOIN_AGGREGATE_SCORE, androidx.appsearch.app.SearchSpec.RANKING_STRATEGY_ADVANCED_RANKING_EXPRESSION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec.Builder androidx.appsearch.app.SearchSpec.Builder setResultGrouping(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.GROUPING_TYPE_PER_PACKAGE, androidx.appsearch.app.SearchSpec.GROUPING_TYPE_PER_NAMESPACE, androidx.appsearch.app.SearchSpec.GROUPING_TYPE_PER_SCHEMA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSpec.Builder androidx.appsearch.app.SearchSpec.Builder setTermMatch(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSpec.TERM_MATCH_EXACT_ONLY, androidx.appsearch.app.SearchSpec.TERM_MATCH_PREFIX}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSuggestionSpec SearchSuggestionSpec(java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;, android.os.Bundle, android.os.Bundle, int, int, java.util.List&lt;java.lang.String&gt;) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSuggestionSpec.SUGGESTION_RANKING_STRATEGY_NONE, androidx.appsearch.app.SearchSuggestionSpec.SUGGESTION_RANKING_STRATEGY_DOCUMENT_COUNT, androidx.appsearch.app.SearchSuggestionSpec.SUGGESTION_RANKING_STRATEGY_TERM_FREQUENCY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SearchSuggestionSpec.Builder androidx.appsearch.app.SearchSuggestionSpec.Builder setRankingStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SearchSuggestionSpec.SUGGESTION_RANKING_STRATEGY_NONE, androidx.appsearch.app.SearchSuggestionSpec.SUGGESTION_RANKING_STRATEGY_DOCUMENT_COUNT, androidx.appsearch.app.SearchSuggestionSpec.SUGGESTION_RANKING_STRATEGY_TERM_FREQUENCY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SetSchemaRequest.Builder androidx.appsearch.app.SetSchemaRequest.Builder addRequiredPermissionsForDocumentClassVisibility(java.lang.Class&lt;?&gt;, java.util.Set&lt;java.lang.Integer&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SetSchemaRequest.READ_SMS, androidx.appsearch.app.SetSchemaRequest.READ_CALENDAR, androidx.appsearch.app.SetSchemaRequest.READ_CONTACTS, androidx.appsearch.app.SetSchemaRequest.READ_EXTERNAL_STORAGE, androidx.appsearch.app.SetSchemaRequest.READ_HOME_APP_SEARCH_DATA, androidx.appsearch.app.SetSchemaRequest.READ_ASSISTANT_APP_SEARCH_DATA, androidx.appsearch.app.SetSchemaRequest.ENTERPRISE_ACCESS, androidx.appsearch.app.SetSchemaRequest.MANAGED_PROFILE_CONTACTS_ACCESS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.app.SetSchemaRequest.Builder androidx.appsearch.app.SetSchemaRequest.Builder addRequiredPermissionsForSchemaTypeVisibility(java.lang.String, java.util.Set&lt;java.lang.Integer&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.SetSchemaRequest.READ_SMS, androidx.appsearch.app.SetSchemaRequest.READ_CALENDAR, androidx.appsearch.app.SetSchemaRequest.READ_CONTACTS, androidx.appsearch.app.SetSchemaRequest.READ_EXTERNAL_STORAGE, androidx.appsearch.app.SetSchemaRequest.READ_HOME_APP_SEARCH_DATA, androidx.appsearch.app.SetSchemaRequest.READ_ASSISTANT_APP_SEARCH_DATA, androidx.appsearch.app.SetSchemaRequest.ENTERPRISE_ACCESS, androidx.appsearch.app.SetSchemaRequest.MANAGED_PROFILE_CONTACTS_ACCESS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.exceptions.AppSearchException AppSearchException(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.exceptions.AppSearchException AppSearchException(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.exceptions.AppSearchException AppSearchException(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel PropertyConfigParcel(java.lang.String, int, int, java.lang.String, androidx.appsearch.safeparcel.PropertyConfigParcel.StringIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.DocumentIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.IntegerIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.JoinableConfigParcel, java.lang.String, androidx.appsearch.safeparcel.PropertyConfigParcel.EmbeddingIndexingConfigParcel) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_STRING, androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_LONG, androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_DOUBLE, androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_BOOLEAN, androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_BYTES, androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_DOCUMENT, androidx.appsearch.app.AppSearchSchema.PropertyConfig.DATA_TYPE_EMBEDDING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel PropertyConfigParcel(java.lang.String, int, int, java.lang.String, androidx.appsearch.safeparcel.PropertyConfigParcel.StringIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.DocumentIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.IntegerIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.JoinableConfigParcel, java.lang.String, androidx.appsearch.safeparcel.PropertyConfigParcel.EmbeddingIndexingConfigParcel) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForBoolean(java.lang.String, java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForBytes(java.lang.String, java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForDocument(java.lang.String, java.lang.String, int, java.lang.String, androidx.appsearch.safeparcel.PropertyConfigParcel.DocumentIndexingConfigParcel) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForDouble(java.lang.String, java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForEmbedding(java.lang.String, java.lang.String, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForEmbedding(java.lang.String, java.lang.String, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.INDEXING_TYPE_SIMILARITY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForLong(java.lang.String, java.lang.String, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForLong(java.lang.String, java.lang.String, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.INDEXING_TYPE_RANGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel androidx.appsearch.safeparcel.PropertyConfigParcel createForString(java.lang.String, java.lang.String, int, androidx.appsearch.safeparcel.PropertyConfigParcel.StringIndexingConfigParcel, androidx.appsearch.safeparcel.PropertyConfigParcel.JoinableConfigParcel) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REPEATED, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_OPTIONAL, androidx.appsearch.app.AppSearchSchema.PropertyConfig.CARDINALITY_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel.EmbeddingIndexingConfigParcel EmbeddingIndexingConfigParcel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.EmbeddingPropertyConfig.INDEXING_TYPE_SIMILARITY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel.IntegerIndexingConfigParcel IntegerIndexingConfigParcel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.LongPropertyConfig.INDEXING_TYPE_RANGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel.JoinableConfigParcel JoinableConfigParcel(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.JOINABLE_VALUE_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.JOINABLE_VALUE_TYPE_QUALIFIED_ID}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel.StringIndexingConfigParcel StringIndexingConfigParcel(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.INDEXING_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.INDEXING_TYPE_EXACT_TERMS, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.INDEXING_TYPE_PREFIXES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.safeparcel.PropertyConfigParcel.StringIndexingConfigParcel StringIndexingConfigParcel(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_NONE, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_PLAIN, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_VERBATIM, androidx.appsearch.app.AppSearchSchema.StringPropertyConfig.TOKENIZER_TYPE_RFC822}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.stats.SchemaMigrationStats.Builder androidx.appsearch.stats.SchemaMigrationStats.Builder setStatusCode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.app.AppSearchResult.RESULT_OK, androidx.appsearch.app.AppSearchResult.RESULT_UNKNOWN_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INTERNAL_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_ARGUMENT, androidx.appsearch.app.AppSearchResult.RESULT_IO_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_OUT_OF_SPACE, androidx.appsearch.app.AppSearchResult.RESULT_NOT_FOUND, androidx.appsearch.app.AppSearchResult.RESULT_INVALID_SCHEMA, androidx.appsearch.app.AppSearchResult.RESULT_SECURITY_ERROR, androidx.appsearch.app.AppSearchResult.RESULT_DENIED, androidx.appsearch.app.AppSearchResult.RESULT_RATE_LIMITED, androidx.appsearch.app.AppSearchResult.RESULT_TIMED_OUT, androidx.appsearch.app.AppSearchResult.RESULT_ALREADY_EXISTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.ClickAction ClickAction(java.lang.String, java.lang.String, long, long, int, java.lang.String, java.lang.String, int, int, long) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.ClickAction.Builder Builder(java.lang.String, java.lang.String, long, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.SearchAction SearchAction(java.lang.String, java.lang.String, long, long, int, java.lang.String, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.SearchAction.Builder Builder(java.lang.String, java.lang.String, long, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.TakenAction TakenAction(java.lang.String, java.lang.String, long, long, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.TakenAction.Builder Builder(java.lang.String, java.lang.String, long, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.usagereporting.TakenAction.BuilderImpl BuilderImpl(java.lang.String, java.lang.String, long, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_UNKNOWN, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_SEARCH, androidx.appsearch.usagereporting.ActionConstants.ACTION_TYPE_CLICK}"></val>
+        </annotation>
+    </item>
+</root>

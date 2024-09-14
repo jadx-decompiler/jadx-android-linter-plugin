@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.simplecityapps.recyclerview_fastscroll.views.FastScrollPopup void setPopupPosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.ADJACENT, com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.CENTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.simplecityapps.recyclerview_fastscroll.views.FastScrollPopup void setPopupTextVerticalAlignmentMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupTextVerticalAlignmentMode.TEXT_BOUNDS, com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupTextVerticalAlignmentMode.FONT_METRICS}"></val>
+        </annotation>
+    </item>
+    <item name="com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView void setPopupPosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.ADJACENT, com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.CENTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.simplecityapps.recyclerview_fastscroll.views.FastScroller void setPopupPosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.ADJACENT, com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.CENTER}"></val>
+        </annotation>
+    </item>
+</root>

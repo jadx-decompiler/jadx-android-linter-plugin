@@ -1,0 +1,3 @@
+com.google.androidbrowserhelper.trusted.TwaProviderPicker.LaunchMode.BROWSER=2
+com.google.androidbrowserhelper.trusted.TwaProviderPicker.LaunchMode.CUSTOM_TAB=1
+com.google.androidbrowserhelper.trusted.TwaProviderPicker.LaunchMode.TRUSTED_WEB_ACTIVITY=0

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.exoplayer.rtsp.RtspAuthenticationInfo RtspAuthenticationInfo(int, java.lang.String, java.lang.String, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.exoplayer.rtsp.RtspAuthenticationInfo.BASIC, androidx.media3.exoplayer.rtsp.RtspAuthenticationInfo.DIGEST}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.exoplayer.rtsp.RtspAuthenticationInfo java.lang.String getAuthorizationHeaderValue(androidx.media3.exoplayer.rtsp.RtspMessageUtil.RtspAuthUserInfo, android.net.Uri, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_UNSET, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_ANNOUNCE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_DESCRIBE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_GET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_OPTIONS, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PAUSE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY_NOTIFY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_RECORD, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_REDIRECT, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SETUP, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_TEARDOWN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.exoplayer.rtsp.RtspAuthenticationInfo java.lang.String getDigestAuthorizationHeaderValue(androidx.media3.exoplayer.rtsp.RtspMessageUtil.RtspAuthUserInfo, android.net.Uri, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_UNSET, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_ANNOUNCE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_DESCRIBE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_GET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_OPTIONS, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PAUSE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY_NOTIFY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_RECORD, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_REDIRECT, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SETUP, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_TEARDOWN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.exoplayer.rtsp.RtspClient.MessageSender androidx.media3.exoplayer.rtsp.RtspRequest getRequestWithCommonHeaders(int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;, android.net.Uri) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_UNSET, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_ANNOUNCE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_DESCRIBE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_GET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_OPTIONS, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PAUSE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY_NOTIFY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_RECORD, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_REDIRECT, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SETUP, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_TEARDOWN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.exoplayer.rtsp.RtspMessageUtil java.lang.String toMethodString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_UNSET, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_ANNOUNCE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_DESCRIBE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_GET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_OPTIONS, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PAUSE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY_NOTIFY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_RECORD, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_REDIRECT, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SETUP, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_TEARDOWN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.exoplayer.rtsp.RtspRequest RtspRequest(android.net.Uri, int, androidx.media3.exoplayer.rtsp.RtspHeaders, java.lang.String) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_UNSET, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_ANNOUNCE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_DESCRIBE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_GET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_OPTIONS, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PAUSE, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_PLAY_NOTIFY, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_RECORD, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_REDIRECT, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SETUP, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_SET_PARAMETER, androidx.media3.exoplayer.rtsp.RtspRequest.METHOD_TEARDOWN}"></val>
+        </annotation>
+    </item>
+</root>

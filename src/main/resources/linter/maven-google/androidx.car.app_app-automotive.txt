@@ -1,0 +1,2 @@
+androidx.car.app.hardware.common.CarZoneUtils.AreaType.NONE=2
+androidx.car.app.hardware.common.CarZoneUtils.AreaType.SEAT=1

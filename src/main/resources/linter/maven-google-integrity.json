@@ -1,0 +1,624 @@
+{
+  "artifacts": [
+    {
+      "name": "androidx.appcompat_appcompat",
+      "rules": "sha512-5oovEdeFeO2KwrTxX0ko4b3m/zjfUqPK3AV9j+iPT7wqbLJSpyn1zhG2/DqFvz72wIGPY2NqBZo9Fkk1RQHFCA==",
+      "constants": "sha512-ly6UfqwQ3lRHxCbqeYmlmvMnl4atb7FkhCRynB2LnQEIu69iz3/oQa376/dBE7FP7HKaWGCr47nbCV4URjHaMw=="
+    },
+    {
+      "name": "androidx.appsearch_appsearch",
+      "rules": "sha512-nHny6nfKMffJpEQIYowADe6cATLs05dBrrMnJTj/DCi8AntvTt9nH00uvrcEk8072L70R7Bf0UeQbG7fTMdVXA==",
+      "constants": "sha512-gwUV+CCZecZDdzRWlyYWG+5QrzYZsApv29UrNLyd+yZnDGNdAkxkejJKRJyQvMaUSRrLQbN6dtA5aoWfMm0QEQ=="
+    },
+    {
+      "name": "androidx.appsearch_appsearch-builtin-types",
+      "rules": "sha512-YWgJ7/qbEhQAF/SpUmG7HgkygIzLbBSE2bw0vFXIPofGjxo0P1hVpQ2YrV6HmiEkHiFzTW4vt5tp8Rf9NaomJw==",
+      "constants": "sha512-oHYy4r8iMLI6zFEvYru+9vOtVb3vuV+Rg2Ii+EG+FJWS6nbef+fnn6kmacyFgYMhvPewiZ5xDjS6eQQBta+bcQ=="
+    },
+    {
+      "name": "androidx.appsearch_appsearch-debug-view",
+      "rules": "sha512-8o5BgWTLG1hMh5/5fEgAz3p0mMaZRJukUfXexSrqkjjpNGsKlNcEHGlvYVuNL1Kmx+JWBdiNKPVdwZpS0JmGKg==",
+      "constants": "sha512-U7v+GNVzaHxu8qyBGNgoOk9fU3rCHIJ18hjcU+pPts3cSQCXUiWgSVUT1w5aZPm7YhhgZ7N9pRMSbnuHaXbRYg=="
+    },
+    {
+      "name": "androidx.appsearch_appsearch-local-storage",
+      "rules": "sha512-9KK5ZMBbxxxFBQWaEOL8ihnhGU2Nt52oXOHluJ472K3HIVh8p076WMMcWvBlFUwjN+Ar/zGzAlQ5HQV5hRfKNw==",
+      "constants": "sha512-uKNCe3bvDydEZrqsSnoJfnc5Xzv3ZE1jHrH58Un8FJ8Yp1F4DYLwbu8EvA94Ib9MWokxTQXH7W5t/mi1u44mVQ=="
+    },
+    {
+      "name": "androidx.autofill_autofill",
+      "rules": "sha512-eZTueLLtPrFYAv2GkKTWrzbXha47DDbHcaYEyf/QzNiDmU0HU4QbMaNHez4q6ljsfx/A90DpMy1egqdKCkm8ZQ==",
+      "constants": "sha512-KWP7NBt5vSIb11K97xfMQiiHjb11q9QEQ1NQUtna5PUYr58DC5uMwtto0SCJUcO3BraTAdVphGvzR8B5vz/wRw=="
+    },
+    {
+      "name": "androidx.biometric_biometric",
+      "rules": "sha512-BAzPhp2EKIO646Foy4HLGlf/4qeoUucIVyDiKewBUY/E9vrd74OoCbLrmz+kk2Q91R+jZiXspRjpRB02skdmgw==",
+      "constants": "sha512-oqLf+EV46wwt2rLve3AvYaFox9sqghiKmPRUHtIZCiHeTPKG5DM4LEZceivYih1EHlXdV6eETDqviztTGODRCQ=="
+    },
+    {
+      "name": "androidx.browser_browser",
+      "rules": "sha512-om9bhqzS7fHkaNR0wTp0XMP3iuTuLH/SbYp812gnjkOM36ZjhE3wWyRW53UoZTY//a1pEPUWczZUpqj83SbmdA==",
+      "constants": "sha512-MzPJQi1dgNtR+7cY9oqjzHdZqvJ6zppVnVEaIELEwgpWJAJnIzeChtAiKGeCljwHplijPq8PgmnM1wp3Ypb9Ig=="
+    },
+    {
+      "name": "androidx.camera.viewfinder_viewfinder-view",
+      "rules": "sha512-7WUjRbjCBfcteO9WU/6dPg0kSvq2waROBX4gM8IoZQrQooGjtJ1hXqk4Pzj4QJpUnPB+AQh4BGoau+R3raYNcw=="
+    },
+    {
+      "name": "androidx.camera_camera-camera2",
+      "rules": "sha512-punwdHvywItySgGSoDiq8qLcL6m4txuyvUzUVtvXjLmKz6MNrboQ2eTimUqLouEhXUFJgLWvgSJ9iFVnYs6Fvg==",
+      "constants": "sha512-1OoMfVhZ7NsRDLVaga6vFvOKya21k0yUx4T/a9KZHgoRGxPsFEIPPIBssfXpIqnlH8i+RilSG89P0f7QWCJzaQ=="
+    },
+    {
+      "name": "androidx.camera_camera-core",
+      "rules": "sha512-8mEnx9I1bI3hGbqbNBYMdojnToMBfP6SiHL1ugHB4l6MbJZsrQ+ciQoZP2WVJ8DQGxN74mSLm2s2W3+4LYxU8A==",
+      "constants": "sha512-xH2F7WpHsvnBFGvsnRQ6I6SvZ4l/qkxKelDnz0zgJoIOMrbrVHStPa3M488pQzu18LxH+FcFwR+4OE+IH/vejg=="
+    },
+    {
+      "name": "androidx.camera_camera-extensions",
+      "rules": "sha512-mrK2cPI2uP4SGbyJvfe4qLdc5wBwOik5nKX+MnnlIoAdIMy81pDZ+lErTxKr54u8yhYoDEJq/4Ji9yz/u+/DUg==",
+      "constants": "sha512-cQARnpZXsaXWCr0iVibevE6Xr31gq2fZX6gpbUIyT0HTeCv/EmhGOzvOf1v6iEfCbv2Cq404TV73w4MvUfHUuw=="
+    },
+    {
+      "name": "androidx.camera_camera-video",
+      "rules": "sha512-kniu3R6OdgoGs7SkMHr/3PVgfp6mZSvNMe6XKGdM5dcbOVTTgfdLqKUrz+MPTOl1dTYToxkhyiYUoG5P5JAW2w==",
+      "constants": "sha512-2BB4v558lq/Q6pDsENU1zxOZN8pvJB5m17JU37/OzHsfs+QdYSHC3X5RSZbcOz621zssEphz4oygFj/AP+jfeg=="
+    },
+    {
+      "name": "androidx.camera_camera-view",
+      "rules": "sha512-RqQxXu7gI/G5YchyV+9ovUV4OJLcy4i4nbW8fNg0lDCH35libDdRedAFhARNadaOg1U1seQz7Qf/nNTbtxPm9Q==",
+      "constants": "sha512-8fAkOP9zCUiBdadR+MdHOXYdLDUU8sToKQCJtTY4Piy6lKgflofbK+vsZY2MWFuLirUII51EJwhJYuUv3tOgyw=="
+    },
+    {
+      "name": "androidx.camera_camera-viewfinder",
+      "rules": "sha512-7WUjRbjCBfcteO9WU/6dPg0kSvq2waROBX4gM8IoZQrQooGjtJ1hXqk4Pzj4QJpUnPB+AQh4BGoau+R3raYNcw=="
+    },
+    {
+      "name": "androidx.car.app_app",
+      "rules": "sha512-wqIvSI7QHtrKYUveup/xHfXoCpADK7iqCXKR/wCbMeKORLfhHnyEFho8UK1H5EtJtcvKKAW5S3MXomV/SEkCIg==",
+      "constants": "sha512-mmeQTHRPf0+6LEgIWH+M0OTKD9joNL99aEbOBbw+Xd2spOdeJauxuHDkIitnDvjnTT/NfKqf/jZ7q85WLxJL4g=="
+    },
+    {
+      "name": "androidx.car.app_app-automotive",
+      "rules": "sha512-2Pz+O266WmdfdAPxRgEtR+l+2p7uXwJbOIOYkkWYFHSOhC4D8K0B+C8/+ftbgLNqNgbd9YSfqHI73LxolOlF3A==",
+      "constants": "sha512-Y9yiR9ZYumcaSs+nvD5vpqPU3Tk3IhZJvZfLwqQcs3/eIkvKpYgm3OlwFWjTUplOYoyEOQDgGp8/lNS4M1m/Iw=="
+    },
+    {
+      "name": "androidx.car_car",
+      "rules": "sha512-XBB9R8tql1fYsbEyQ2b3y/bFtJetWjztgiINfP/hrL9Kpg1vS2gE4Mufp6MfnSXU3780PpJ6MK8zlxC4V9Ujeg==",
+      "constants": "sha512-TvWfw0SK8GISSSr0COKZOSIJ9XxHZR9uWrljRIP1zqSlo4hX85EvqjIYC3id8UmVavtxUQ1/jiFJJcS9XcQiPg=="
+    },
+    {
+      "name": "androidx.compose.ui_ui-android",
+      "rules": "sha512-3VZo4FTGVm42z3uIQaga56XNab/lrelBzC6cXzfhm/LdUbdXz6ObQDfMXLhUESrNHmJsK/Z3zYQWmqS59kYLRw==",
+      "constants": "sha512-Bi2mWRsly/UPzGd1Lkef2BwgK6ryByE8EV7Sy9UqBF2kkU7KZgGRar+DahTpFt5Oz1LK+PqP5nNauAei87Jrdg=="
+    },
+    {
+      "name": "androidx.contentpager_contentpager",
+      "rules": "sha512-Mvmysc3/WfQS8SIEfYchOpJRREXrDjCmGRlDUqXClTPRev0M7wPSA2xERaIJz4jM5JvKqVRuX+6thTZncdRolg==",
+      "constants": "sha512-Uc9mkGj8ztCNUoVc4I79iMM0GN8Eecmmo6EmVMm5vd8rOR7nJpUr5hyNCdLAn+WolPlQXsuj3r5WUlpj3aOdDw=="
+    },
+    {
+      "name": "androidx.coordinatorlayout_coordinatorlayout",
+      "rules": "sha512-9qJhAszlrGx3jFTHLfyBj1p73eiqZ4RPGM6JYmKLgYXt8UP2HdTxW9Ldi+litkByZt9cNXY7tmUXYbmHGie/pw==",
+      "constants": "sha512-A7H+K906JZPtPGNeEODYr8d8RXbQb4SsknggoeyhJBqmS6FgYBSYC4e/JA2oN+M1guaWzf19jVgM83QG/fmcsg=="
+    },
+    {
+      "name": "androidx.core_core",
+      "rules": "sha512-udHrpRu+9bFfGs2vKWa4YaauSCCnpv2loXgnKC9+PymnA3eQaCL9V7ALom/5jjvZcDEYIQta/L3PawPJVeakLQ==",
+      "constants": "sha512-M53YvqsEpzk51C4WorSVLmaIj1MOMxS/BSuLNQvoRLHCIcB5yC7fmRA/HL/tSP/+myvI3hV0rYw3w2A2+GbT5Q=="
+    },
+    {
+      "name": "androidx.core_core-animation",
+      "rules": "sha512-6NrgehRCgunEMdqPEz/e9D7qhtA9GEXfTgEyP/xXamYW1rkAPKaZyU0JinBhzy4F5NX8pDYUePCef8tlwKdkLQ==",
+      "constants": "sha512-A5OcQ9gThlVfIAeh7T1oLvGVo8XWtvumXM2NiN/kmgnrmI1vGwBJhXQ8jFmanIZ+51mhUxbwRTt8khSwUXyxwg=="
+    },
+    {
+      "name": "androidx.drawerlayout_drawerlayout",
+      "rules": "sha512-lGpXd9WXgkc2b9XHwQRK+fpizKmnP2oS07YI4hOLHR1eLxVzz0XDFg2Dg6bQVgEpYLoR0EzvStr/uTX2hHaOGQ==",
+      "constants": "sha512-sCgTN5mnNIkDcV9ipmFqYmjNyTxGq2pq+pBwAZERFfRu2r3dJxiHF145IskKu7ieLYO6pivDyP0psRhdAGQIIg=="
+    },
+    {
+      "name": "androidx.emoji2_emoji2",
+      "rules": "sha512-161vImQ24sv+/PLh+tLqLAaTEsuoJAneSJeXGc4tU4wboZDeJzisHNsakb+SVXyt9ADmiWw9QAV1SfMvClJTHA==",
+      "constants": "sha512-TacHavVO2QoMWLDQH/5hUbap/twPylSEMK3VUIcsl5N9Y1JBiq0CAG1Ju5kzscFMWB1B6zzaEf7v39i59cKqqQ=="
+    },
+    {
+      "name": "androidx.emoji_emoji",
+      "rules": "sha512-M8xXgkGg/IRN+IPR/a0S6kzoDE6zA85wmFGW0W35RJ6scgzIFWELFAs4D21BdudZ/OKh0HHIf6v8SOYGSM2f/g==",
+      "constants": "sha512-LsFhk3hDwnTFICq33HZSqsNzfTIYbSmVqILMTKhVqdSSH3SubZ3OOtz9MzqwmZ7cRJRGnoTvBgKsZyLtZWC/8Q=="
+    },
+    {
+      "name": "androidx.enterprise_enterprise-feedback",
+      "rules": "sha512-Wxd2MQx1f39iILFH/F0FqOol+N5d9kqI3CHp44cdKfoI9e4uLyeyvmFJ5f5LKO1ESZ3+4lT4aOSxx6LxixhRAA==",
+      "constants": "sha512-/IHVTvFbCRFtI/q4f657GoKpkUA96Y8JgvEz2JfJD6EQcJYN+4LegAd0Y78X1nwjJ0f5y1JF/UWacRFlA4ZeYQ=="
+    },
+    {
+      "name": "androidx.exifinterface_exifinterface",
+      "rules": "sha512-6Kbf/bGY41IxIjfTxTSG0g3DGLZrn+tdY7anWUUgly/2zxMGbr7G7mM/8rbWYPV/iNa18gsm49elo3qoU5gebQ==",
+      "constants": "sha512-gXBgK889WqlMuEfIDNn87QQwEQ9ZAcv4TpIXNJVtBtfAJbVQ+s8RChOGhuF+4/UBibMsUY4neH0Q7FPCNAvDvQ=="
+    },
+    {
+      "name": "androidx.fragment_fragment",
+      "rules": "sha512-13POTDHhajyT54LOTYBcFFojZKYo1Qy0poWpJvY+lQ5udi5BwHMKu2AujnYj9Ek2kzFxLOWrie/lKYrF2IqiSg==",
+      "constants": "sha512-ywdLmjX7Pu4ML3+6pJXaV+sOHnBsfVIOP1eFJ1uWWP8tFrpXNawniD/CK7KjyFYcJoJMb7FOZ4kDVTPYQCUs4A=="
+    },
+    {
+      "name": "androidx.heifwriter_heifwriter",
+      "rules": "sha512-QrcdfnCHiYpguMwZR+q16Yjhkfch6F5xfS7QA8fX7VgDUCPsQYbrs+7djKpMmgRMBc8/bjSqzKfCFTw6AM5tAA==",
+      "constants": "sha512-LTYyLnNGIll7GCnmeAa2X0BbzQKWnSWAW1U+ZEtmq0Y8zhX60ci9L7D8RndrObOBmKZYwOf1qKBFBxxJj+BXRQ=="
+    },
+    {
+      "name": "androidx.javascriptengine_javascriptengine",
+      "rules": "sha512-1P0B4R+Ye8l8jY89N+4Qojo+NeEytD4FTSMyhyMKGWz0XPeU8aa8UUyOH84aqBUZDd87m6H0FvJj41YR/WUuTQ==",
+      "constants": "sha512-/p1ME/075nmc6HKZmp8XSQ1gnyQ8/XGWrOF+X/k5fmA6nJ0qXeCKAIkW54zNAz0pUCv2J4W/pMvcMi70Qd5j+Q=="
+    },
+    {
+      "name": "androidx.media2_media2",
+      "rules": "sha512-XcUYfNrc4PmEPMxHxBr1/KlmbJGP/zdD3yVEYsyfxEg5Z+MfRrg4aOqFOfWeKEl5VGKFBkXPJHC+IfzJgHbh3g==",
+      "constants": "sha512-mlNWuyrnjn74SMJEv1IBwil8xfxRD7lPdz/zlSrI2aiACMYU7W3r7UmjwF7gWVrH5YiyrlFXB4cMGnaK3W2g1g=="
+    },
+    {
+      "name": "androidx.media2_media2-common",
+      "rules": "sha512-aucfZ1MQecNZHXFm4vpPkXmNQnZaFRrdaEaEuFBFGCZ6izdmnO3WkIWRU1SZ8CaT5xN/q4L4u2ClDgXRxjce1Q==",
+      "constants": "sha512-bVhB/e4qK4Wuz9RSVfanwOplKeJUu12Xwhkmz2fpcNxUx/CZjGltS1OeuouQWqE0h2AQAZ6T8N/rd41nd7DT7g=="
+    },
+    {
+      "name": "androidx.media2_media2-player",
+      "rules": "sha512-X0ua8bp+iMmDJq3qAu+Wa2bxE043KPgOerWEOmLJe2E9/N4rakpnz7/Kqc7J4irXH02hf2MVLKIHqfojZnBVJA==",
+      "constants": "sha512-1WxqwmkTYfdD4+rLXZL78UsvVBhWlZcEaAQQLvQZP3y03x1IQInBnlb2cxiIInLa9hW1bxamIY1i8gr7DI/bsQ=="
+    },
+    {
+      "name": "androidx.media2_media2-session",
+      "rules": "sha512-10P4drim4cu9pFXJ+HE2gQouP2bz+Zsbdp6yPq1zojYnuRu00SGlchsjyFGrMOIMwA74/StsFoN05k+58zJ2sQ==",
+      "constants": "sha512-58d3ZAaqWquGuHtsren27hAPnZ43uUI0kW/xednfaW0hfNCwgtPgd43fBu/lU+kuFLm0si6k1O5LSa6Xe6xPDQ=="
+    },
+    {
+      "name": "androidx.media2_media2-widget",
+      "rules": "sha512-veC6hM/WmJGW7bk4ISX/xmYYmyHTa04ptmpXKeN3SXWlNC1uXQ1WFfIjyn9OhwBVmXpYxAhvlYzCXV2tX2vKQw==",
+      "constants": "sha512-e1sTWivCUOeNlcK8K6bOflYHLZAOhVKly3qUlfmw9I3zeVgcXxU5mI0ySur0t7cGqHcmj+fpy9F5JvrX1r+zpA=="
+    },
+    {
+      "name": "androidx.media3_media3-common",
+      "rules": "sha512-MssktI68OXojjH/QZE2BG29Y7IsFTGlp0vqBLO2882z83OfxuDLPULuia4SivYa7I/hpJcx/jOArvpfSIETLVw==",
+      "constants": "sha512-yOBzCGi9iJsKLh4/cjboSWNa6DkzbgRGLgVlWXizeKAVomxO3kA6O+eL1sYIrcKOSaxxi+DUJycpb/u0o6ibFA=="
+    },
+    {
+      "name": "androidx.media3_media3-database",
+      "rules": "sha512-mBoLRtcUzmdEMq0h3gZ6gmefdvKQMdCpxLMHYg/vAgAqnlhMfsIeB7UbIz3gz9mJzLkibOHgdP8+rC8odluHkA==",
+      "constants": "sha512-mq0U1W6kvOvI/ZJ4WWhHwmjKzZTtWgRti3fnL5+qWJQ1lX3nw0NJWCIWyieXBvOFndaaG9/qoLax1VCRf3e1+Q=="
+    },
+    {
+      "name": "androidx.media3_media3-datasource",
+      "rules": "sha512-8DbB1vtaT3W7CV4Ji+5j5+4IeRVUPJRo/B62bAOg3mNwy6buzHd4tU/O6a23QeiU3l+ZBn42iEXFW2FuP7Aw3w==",
+      "constants": "sha512-1jQmV82X3A/YfyHH5z4619EaTW0R0ytKQDlosktFuJWPlIsA6fqujS99GSNUXUXb4Y1FDUL0wPhmudBsRREPfQ=="
+    },
+    {
+      "name": "androidx.media3_media3-decoder",
+      "rules": "sha512-zHU7+Kd8UBCmJglGYDziJPVpd44gPfluW/Mq+iNe72d3vkZ8LebB4SNE/eQLDKgxpi/VKCuj3+3wXJs1Q4BK/g==",
+      "constants": "sha512-OdgT9Ltck9oqr+QxhRQMh8xuRR7SpBxCsHRUpRCQ2rSq2YKuV1ElX8vqbkiHqDePuKAzNVLVpd8gVDHV+IEfcA=="
+    },
+    {
+      "name": "androidx.media3_media3-effect",
+      "rules": "sha512-20HeEemN6Mcvj+Qvtjrd/aYf427hN6PkR734rZFoyUcV7+YFgRWVHWveh/fS6OyfLtqkmlerAAVwSuA94dZbgg==",
+      "constants": "sha512-ZGWegEaK7Hv2FiIe6U+dOmK3WCVgxo16TvVmTBHQhVvFNcOC1/1XQSyOWdlvQ+Q8N3QohsRfZ93xRyvBbvYZMA=="
+    },
+    {
+      "name": "androidx.media3_media3-exoplayer",
+      "rules": "sha512-MYDVlXIfW0Pn7JXpCssAJT+5xdrgm6aSiMr0rjTbvf4ZqRcyB9irsNAuTOCmqt29SaCXZYAtxQdpTCk1/LjXhQ==",
+      "constants": "sha512-LfnqmIo9RoKyn41Qhe1cAHQitCHsfLny/AeBj8dlqWR601GTGs2lPpUVWynEO2ruPNACXhpnAjmeiQPoje9fPQ=="
+    },
+    {
+      "name": "androidx.media3_media3-exoplayer-dash",
+      "rules": "sha512-uftXAacOgvs3L8+BT8zZq3rSql0gx8yUGG/B37wJXNudz5lUGdT6cPsNFgEcoeyjVmuGILPI0rDiFBQChBUkqA==",
+      "constants": "sha512-mYrM6Sco9p9RdSru8IwBx9Pb97g4+3nDhiOxwT5ui3enGWk6iKf0tvE+V/ybQ7ut7MHWYhK8IN+hFGuGUxqcdQ=="
+    },
+    {
+      "name": "androidx.media3_media3-exoplayer-hls",
+      "rules": "sha512-4ckgV2aoFNV/bxzuvr7mxZ962suHxpKMY95VZgKT07+3mcve/e/9iOPia6hFbesbxE6bEOy9Fk2juFTSi+OKHg==",
+      "constants": "sha512-0SyitTXObf3h36axPHdhdveXxJ7XOVXntg1Jd9f+sOj8wzgjynqmA5l8CP8Bhxu7nULPQiwr7iT6p9p8FCxxZQ=="
+    },
+    {
+      "name": "androidx.media3_media3-exoplayer-rtsp",
+      "rules": "sha512-yNNKNJJXtnfInY9aqzn8FZvInI9ZwqwJvanFUv0lJusQYmsx6+S4Bze+bVujqolmBfa36KA2/2k664q43+3tyQ==",
+      "constants": "sha512-DV1JgLarhGh/sBbppLtQkDXku6mgc+oy9ZynqPHZ4tXagQM9lPPOBT9KRhqwfYDCPja/T8EuntHHMGVrtqtr7g=="
+    },
+    {
+      "name": "androidx.media3_media3-extractor",
+      "rules": "sha512-p/aZrD53eFZnJZwB0ogtyttFWukkPskRc0nOHHU4tUAkWLjGp92a+11rYGYhUnns8jECYg8M0kTrqkuqBe/qpQ==",
+      "constants": "sha512-x4EkyuXhjSivstE/gwA2f4QzhMLjTEjbz3aTORX3GAL4WFRuVVtRehdGKRbJkRrPqKG1wHA3Z2rL6qFAOHmb/A=="
+    },
+    {
+      "name": "androidx.media3_media3-muxer",
+      "rules": "sha512-V28XDWZmE1Pc3i3BGaUOKTbReip+oG1Gb2rXn4AggqqbhJAGNl2sKPjQYJtDrVnHM64WZPdP+yd1lSfPPqgouQ==",
+      "constants": "sha512-NNTWqNCEMTmHK+Ya/WD3uNt4PEJSZXHbiYnAob8qQjKv/d85Va8i1KEw1LiaVned6pit13Q9S/uhJmWlYMHBhQ=="
+    },
+    {
+      "name": "androidx.media3_media3-session",
+      "rules": "sha512-c6hfcS3vE028EMzGsv0YW7yQaCWC0m4lOkpLvlsbqmhOOvOeZhNpK+MhM/o3fnsUBORcN/126uAjYV/ByhDgWQ==",
+      "constants": "sha512-zufmQC5HmLCaLvhVUkYJXFehl5lET4zbmimvO6IqaVy3I67mn6rudAtdowdUVG0Es6MQHJUMWzsiX2hTbq/c4A=="
+    },
+    {
+      "name": "androidx.media3_media3-test-utils",
+      "rules": "sha512-m8grJrvN4ky39M2c3AZY8HEHN8OlKFX+Xj8K1xnuy04ax6fbUFHz1O+YaOw02/slNIcrDpyCvbVlOG1ODxxwpw==",
+      "constants": "sha512-nztG+1b8fYtbwbc2k6RmY78jzPcOuoQwoPgHgFN4naagoRCVLx7HI1p0xSvq0CMQRhjMk31k6Kmv4rfYBAiejA=="
+    },
+    {
+      "name": "androidx.media3_media3-transformer",
+      "rules": "sha512-ZfodZJvT/4zMVXd2s6CvfqJpIapvDGFfRX9caZ+LmSJp5q0DBzQSXHZbopJliijL+67aBRYLUpMhp3K7nUx+8w==",
+      "constants": "sha512-CnbcglC2IF386sARNQly6Ss6jpiOK7+8tko6ce+1rxrhhe5GMpiSi8HeqvRLFGLJzevZL30J0xSXvNagA3lBBQ=="
+    },
+    {
+      "name": "androidx.media3_media3-ui",
+      "rules": "sha512-hvdVHJ2PcJWr/iLosPKzGZpmuxI2Px6GM7L93LxWzsME4HkE+wJEEfFo9IEmJjC92tSFOFU6h4ZLilUCGLV2mg==",
+      "constants": "sha512-DgNTVTtpTKLmDwKr94vxDSS33m3rOVm63hc3Nn6WrRssKwYraNEUQFvFSOs+lalls35HJpwHAb3rOAkdeh1XMA=="
+    },
+    {
+      "name": "androidx.media_media",
+      "rules": "sha512-FPiIzFROwMCiv/Lr7cUgvBw8o6OMZiZENfAYkJ+ZeC5XEOxWjgYNfeRgpZdYIE6dOUUEdGJteirgFzymT2KWAg==",
+      "constants": "sha512-nHSxxRi8/Y2KkanaFxRfM6z+QqYGhcpAOvIOPTN2dU4zmmNv8XpPAgcVvLziF8aUnKW5U/EPSdAh1xkdwetuUQ=="
+    },
+    {
+      "name": "androidx.media_media-widget",
+      "rules": "sha512-1D9+CtWh7Aoy8WIcciLOj5AAL8sd9MlDnbIWmhaShI1+oZmIjYCHYJULW1aIN9+QT5nhxKxh8QjrDyPgcOaGNQ==",
+      "constants": "sha512-e1sTWivCUOeNlcK8K6bOflYHLZAOhVKly3qUlfmw9I3zeVgcXxU5mI0ySur0t7cGqHcmj+fpy9F5JvrX1r+zpA=="
+    },
+    {
+      "name": "androidx.mediarouter_mediarouter",
+      "rules": "sha512-ZBhWCfx24/54SlHFR2HGHoHYQKHIZD8h89qBE8g86y5DvgXfrBYCdMkCKrCJhcyr4iwCV1FbyEuoadCNHxLl2A==",
+      "constants": "sha512-ZUx/UHUxQ/nzFim8GS7NXUlE2M4VNETMxc9PaQAu/3aWNbdtcSmgzA9/xc7NsmF+EEwM74xm5PzJWq9gpIinLA=="
+    },
+    {
+      "name": "androidx.print_print",
+      "rules": "sha512-+FGgfA21A+Tkk6LKYrIpCNWfGifxysNOyQPxxGNbjyMlXBELIAeBNqJ86ABmpIblUas+/N0NZACkYQBoPs2lCQ==",
+      "constants": "sha512-KgKA2/KlZBkwEccnETCYYpmRuzdSASbM+TzsM8RT0gnxFbcDgrycz6cJMgufjIvrtMtYqpw3qEeJrbZ/JDNxQg=="
+    },
+    {
+      "name": "androidx.profileinstaller_profileinstaller",
+      "rules": "sha512-NxlQ62OgrtoyOZVAQ41pA6DLWLCVWx8vnr4g5XaSEvQH6XY+Z2VXLhLSiMslBnXWO4L4k3pndKT3E8xdZLRh7w==",
+      "constants": "sha512-5I6Jq3/d0rhICHpa5FMvH98LcMJxAW5W+kKtmYUOY29rsLlGKeIdpdhjpmvPhWBo1TbLjPyYjfNfuqYm2zQczQ=="
+    },
+    {
+      "name": "androidx.recommendation_recommendation",
+      "rules": "sha512-wcT7MtcThcN0RUHYdBmtp38PDqRpv8CzJqhV5yQyZzgYbK4T4E5G5PlUAtKrwhzP58sY3qQ1E1mOZJmuL74BBQ==",
+      "constants": "sha512-wsMVgdUB6xI+ljuFB+e6AeMxMv+u+HNbG5naWhpwTZ7Slj702yYSGUuWDK/ClVhJm+Nu6R4xr1/e8VBPVCU7qg=="
+    },
+    {
+      "name": "androidx.recyclerview_recyclerview",
+      "rules": "sha512-PjX4ut8cq5ftFeC0Ry2n9MLx+ttSELxooC+lVrwh/PmqeflBskDXmBohiTQ1KlRClYh+CT6sEtS823q1ZPDDHw==",
+      "constants": "sha512-2GNJwwoy1cOfQbq4NUu+FzM2BFHQeeoiNYWZjBPOpu7rXvoy4H2HWvTbxIX0w7F78RkYqgBLber/t2TWqAYaHQ=="
+    },
+    {
+      "name": "androidx.recyclerview_recyclerview-selection",
+      "rules": "sha512-gZ+fxox2WUzKSJ7krgSLA8SHKy6bLmXn3jJeIeth8G83MOGV4BEjL1dppQPlLjSGZbSRX/Ee01icGnW6VHm0ng==",
+      "constants": "sha512-qZPPFL1HXSPEnpCQBIKgQ3JRK+Y4qWnZ9ibnaxn0U7YiCtN4pI1EcwuL0U5VTzh6DPpYlE34f+I1pOm8cu44lA=="
+    },
+    {
+      "name": "androidx.remotecallback_remotecallback",
+      "rules": "sha512-yR2iEcphkBkQoSzyUM6nglw5KtJPzL3xa1D27vaGJmYG7oIbaahGf5wzPx06CIg2V+iMuB93UhDgVxmqdoAxbA==",
+      "constants": "sha512-Xyq59oeauLJp6WN6jTb0W7dP/7rlL1UZJZbFDlWy6E1KJlEG8N2PYfeHYfgy1uSB9bRjtHKF0E+LRztZfh0eZw=="
+    },
+    {
+      "name": "androidx.security_security-app-authenticator-testing",
+      "rules": "sha512-vRoTGvyeHfXHgKaYRPzaW7PE8V4+Qf7RRBrxUg6xVktHGq6jpilcQFatFkhbp1dRuErqC7APNXMYklIb43Uc2Q==",
+      "constants": "sha512-hkFJmCLBgO9baJePQfwJZ4YeL2tJC+L7Ye8TD7NeJvG81REGAO9yCHXTtbdEzXY1HcxB/g0zCroek4Zut+Dxmg=="
+    },
+    {
+      "name": "androidx.security_security-identity-credential",
+      "rules": "sha512-FvWQH5cOEi4YdPt0OSDmrULhoZXn0qK5d+GTPsf7RYH6yKH1OhYvFvl/oEeLJ5m3oyqoOnb2ms9RkVJm2dX78Q==",
+      "constants": "sha512-rnqD3l77zUh500S0uKxsd8cKQX/e6UN6Ei9ZpGPWh92c2v1BGRK2p1tiLB/TekAJt72SkZWKcAZH4LnrnP8Txw=="
+    },
+    {
+      "name": "androidx.slice_slice-builders",
+      "rules": "sha512-9CPGAoHy00JaloAbCKIes0qaXl2rN2r2n4hzQ9JyK3XtiXxi4bumYht7jpsFDww7/1VQmk82YNVPOHZfXrhCSQ==",
+      "constants": "sha512-p3lRlYZB1BAExdXFnkWaZEjkpxyP5MeKfLhuLQWdPwJQICNx/omRzcPCnWR6G7h7gqEfsr5/2dnUbvuIUSZalw=="
+    },
+    {
+      "name": "androidx.slice_slice-core",
+      "rules": "sha512-uN0i9wGpcYhLc1QSyLVR4CZiPF/D1ZtQ4KjpHSJfPFs517+8VZDiqui1eRAc894HVE55aH6COHzCH/UCGLO4Kw==",
+      "constants": "sha512-q8zsmJ203TvaUJXeE4tO3VY8FXYTTrRENeKsXqzUtv1WXUpY+aHdVE83sbb9ekOTdMYqKH0Gv7Q2wCcJSJT+AA=="
+    },
+    {
+      "name": "androidx.slice_slice-view",
+      "rules": "sha512-iM/rM/0zDyfcJu1hbTludW5t5MfQzI8dJAKbhkkDdDWaWv/MlNv8+U1IqpuV4NSN8VmMnMkyU5gfJyifN0WfOg==",
+      "constants": "sha512-ebBu2Yw02B6QcpXGaWznJSyR2wu8lGASxS/Ztf4kWHvceINWZz08Y166CClN0Ufy2ldq6BaQP7mRa0p70tm4EA=="
+    },
+    {
+      "name": "androidx.slidingpanelayout_slidingpanelayout",
+      "rules": "sha512-DH/56B4WQrWkPTU7oQFL9ifQbGJ9Wj3QaMv6UwmM46LgCZHddeHXBwlNBpKbpOLfVR4fAPx2WICgY66lD+n9rw==",
+      "constants": "sha512-B+lVhn2yN4P7hXnqHMsAxrAv+alfmAa5WkIY5knJkynb0y+7qJqIvI60hQX7ra9n0V4xLk5AL1ExhxaOJ3w0pQ=="
+    },
+    {
+      "name": "androidx.swiperefreshlayout_swiperefreshlayout",
+      "rules": "sha512-TUaN+HIWT3xZIakRmisWLMginjW4HG3uoS5oIfhdQZyhw8wGmqJGsHgWv5p7h1alwRpsSPGVZ1SMx5JTGlQTDA==",
+      "constants": "sha512-Ok1ft5VOHRC4y2eqei9a5rHb8QX4KS2vAD9PI6jAUbQHDHu1QEZCbmdsYL+pVph3cYLxmCW0Eg7LGL6aT9mz3g=="
+    },
+    {
+      "name": "androidx.textclassifier_textclassifier",
+      "rules": "sha512-KLMZSmUksSifq2blbVrC2RZWsCZuwi94EkVGw6mOr1Em6FkXyYUpUvRWBNLjPv8inAVZAPliEvj+2gCcixVzvA==",
+      "constants": "sha512-1qUduwzK9ch5OofqzcfSf9QRqBNzKVIGHJD24Jd5hLdXWRUaujeGErtH8eLSd5Z1OTRyFVfqplc8xJJb10niOA=="
+    },
+    {
+      "name": "androidx.transition_transition",
+      "rules": "sha512-FY0kQvLuYzwGmty2ZUotIFd18Ugoj8/BLSmGG9bE6FZ2fuk4fikfyNOd+3h2V1luxZOEIpZhCo45gmA5b8merg==",
+      "constants": "sha512-YT3LHaD672cGrc6RQ+3c044IfIFvES9WfGP0jGE3H1wy5wFDwLK8lLRx3H9xkyNlDOCLuJPEVAStLmcpcUEklw=="
+    },
+    {
+      "name": "androidx.tvprovider_tvprovider",
+      "rules": "sha512-jFl67U38qG8afU5afZoBhtfcwrJ9Pyo1aKMoHXMb3xISEHFdCiRQ58vTLv17joFaiAoFgI7IZBdnXj9u1w1sfg==",
+      "constants": "sha512-ddEOJIr/L4Z4J8cXdTqloEqEI/UqoynbpNgjX94oeI7EhSdZj4eC5etKz/NwzteOaEzkfwhBeywGMFn9Hb399w=="
+    },
+    {
+      "name": "androidx.viewpager2_viewpager2",
+      "rules": "sha512-YyscWg606ppSXZt6VnZBKIzQpZxtJUlxqf0qfF5HcX0iewFqEPvigq1RuEmCRJXBNi4FkXXtTFod9/F0Q9FCXA==",
+      "constants": "sha512-/bLWeR+MC1SysjxsTRBFuYdOUUokavRnBa2lUwQXHYQxT3IEEgU56QbIUL8qNabj/eIZj2o3exQWQKs02i7B0g=="
+    },
+    {
+      "name": "androidx.wear.protolayout_protolayout",
+      "rules": "sha512-vMecWRj5xBh7FUnD3kHcT9E3Yw1iGwvjyb5j01QOFAkr9D2MZ8cYLI6/s4FFEqnAV4w4+L1IdjIyqnwMttt7nw==",
+      "constants": "sha512-fidpV8oF6nEiaE5dhFcASGn2NKbIlwURueuW8qA8vqUmz+2lqdGY5IS5De39wVToYeLkQGFyKhfOBS21vV75Iw=="
+    },
+    {
+      "name": "androidx.wear.protolayout_protolayout-expression",
+      "rules": "sha512-ioKNnsA5jgC+Mss+yhR5HSc41EzGXKNVbYGIup7UDyD2ooWZU99XPh2rtydjpy3d09Hmamd3/gmmm4VngYTNog==",
+      "constants": "sha512-iX+bQhTSR1GhVgnaMeqGnWK4zDDbWumtqOsod42756ntNPwD4YPrfIW0HTQbPTurKdS0gZptXb078/sbP0dgow=="
+    },
+    {
+      "name": "androidx.wear.protolayout_protolayout-material",
+      "rules": "sha512-8VSwdosHOb2G/gcrCCUeUfgS3+QzKhWCdhTHPy4AcNfutkJzOM/ngUE/6siXdMqFGIIdKHefLAf1F+YXXbbgRQ==",
+      "constants": "sha512-j/LMkQQmKn0hpKqG9OpfPCbZYQg5fAylrPG7NorQ4kgLnvTXC2c2FCbIRuRRifccEtGslwggcjrN+vmlZzHeSg=="
+    },
+    {
+      "name": "androidx.wear.protolayout_protolayout-material-core",
+      "rules": "sha512-1w2KUxY9qG3tYNzIG+u0+e8JPDkuM5732WG2aIZ6lhe63YU5zptHicR4FMJhMB51+ExVAGc16zYZb8umKr01oA==",
+      "constants": "sha512-vkVgi93toy1fbpgsyd/oOT8g+gJ9WpHgT24uiaGMwl8NpoM842jGX8awB0oI1/VN1cTpVT7Q2dN8Y5bjNtROgw=="
+    },
+    {
+      "name": "androidx.wear.protolayout_protolayout-renderer",
+      "rules": "sha512-g/WdH5pa1KQC7I+/6k4+V6SGcaAgWjo4LU9tCCh0i/RqRPBictguvK0Jvg529MmzFH8UHFttF121+x9eVmRdFQ==",
+      "constants": "sha512-hlm/99yUXwLyOV5hSDDq012+WVACPznSVN/ZNLAQDnXKKGK1h87WiuErigcGnoYUBpNh7BIALYcsdBrL2EcSTQ=="
+    },
+    {
+      "name": "androidx.wear.tiles_tiles",
+      "rules": "sha512-1XygAnGc99Zeen2CVFt183TEV5G1sPC/AGS2PNENw7bOA7Sz/9TyjW9B1gkMHy8wBtUJBi0RIP8PGuNJrrV9Ew==",
+      "constants": "sha512-bYvxpbMngpBaoLZBywOilQl8j1qCWczz2tW7NJZxaI6zOrtx3Hs4CpoAKvScMy7DDzZDxcXsBn0uE85aCf0eDQ=="
+    },
+    {
+      "name": "androidx.wear.tiles_tiles-material",
+      "rules": "sha512-mmLEs4te3EgWJGqhDm3rf9lLctPnGSDFuFWC9qwJdvi5qQsQ7B0zvqpknb5ZcIBUGC54lGNMJmryBc/aP3t4YQ==",
+      "constants": "sha512-it+p4mkSxcGPRM1O4S747sY6604zfXjAjY717T2EkQwpgh3CZOPJD6bfhc10eLFR71+a2tS5K1A7Gxo6LXfXZA=="
+    },
+    {
+      "name": "androidx.wear.watchface_watchface-complications-data",
+      "rules": "sha512-Nk73dzUh7U/dtm5+I7WoM3GV0DzrUSlm8FxPFC9vK/8sSN49hFCKecJo22/QRB7exud7ie3iKB1ORVVOLcGUQg==",
+      "constants": "sha512-MSC20jpsPuMJ6tcQ+IEHC94uR438yBJgmv7z/az3VRvwncvzugbf9t7NP9y2qGRIIkzokXeSkAOnwhqIshbmFg=="
+    },
+    {
+      "name": "androidx.wear_wear",
+      "rules": "sha512-8KwkzlLQhOxEjho98T29NA+KUOsUQK8tSI7wXp6bjsm2TauZECFxDbHQNfSQcTKMRRa9Ow/67PUP4mgsH+BTGA==",
+      "constants": "sha512-Vpw6Yj+1SE0RS4r717KxSTE6J9Kgj9i7bK3R0tYiW60yzUAU3LRjof+jOm6YjeL32N0q9SBsNK4PO4GzBSZqEg=="
+    },
+    {
+      "name": "androidx.wear_wear-complications-data",
+      "rules": "sha512-BVVi1SwgOm8tc0bGTY8wL2YIOCt2LNre+GZ6vDjX6aG98MMj3Mmqm88lwvkcRxPHaH6muhiFyptyZfYgIzoE+A==",
+      "constants": "sha512-QJVtkwHIt/Fcja2FjIU3i1n8dJYwLmsdSX7CHtLWbCfB7p2iBDdtJU6v0ytWc3ZSGgAFW4FuDwIvxFUSUsSlPQ=="
+    },
+    {
+      "name": "androidx.wear_wear-core",
+      "rules": "sha512-xQU2SmcC8sg67WCLjaMhkgrjw0v9WNAEijROPd5/jzJfxXqlMLTmaiJ41NpJw2+SeXzynqs85/txeN7s8S82GQ==",
+      "constants": "sha512-GFcwFd9ZQDj7CH3HaZ9tK6uGWjPdU9cOqdJTz6dTpY0Mpur5c5475c83YW1ZfqGWe9vJqpbbtmj6AMxUJ4hrqQ=="
+    },
+    {
+      "name": "androidx.wear_wear-input",
+      "rules": "sha512-9ZhdofnelH41rSAja+Nng0ZhjrYfPFAMdkzzmCN4UIPlxW5opJNqgn6DqLUMPebYqwwu/YD4vOQJkPXum2Vtlg==",
+      "constants": "sha512-iumDVufpejEZ1Xs6tMlKIQcalnV9LW0t31qYh6Kpdj+wVlOhERZ1pQw/rI8u5VBBmvP2/yjJTSiWx3thiVMpfw=="
+    },
+    {
+      "name": "androidx.wear_wear-tiles",
+      "rules": "sha512-eAMq9Hvy1Nl/hHHtwHaW9cYvW7aXCWBSESHe22kV8E+2YXMhuyzScOgoaR0s1cH+qPpi0z4qU36QJ8Wsl7Ck4w==",
+      "constants": "sha512-Znxp1SWdqTtct2QV5ejfPsMF9bWwxf92RW8TkZ6iTtzIbsFtsp3utBBGk2Ksrx5Mv+wkjniOZOObMK5iSQHk7A=="
+    },
+    {
+      "name": "androidx.wear_wear-tiles-renderer",
+      "rules": "sha512-LrkUShSVqCjOcy76gdOr9WdeNgQq8l2wxcO3PLta8Nv2mQ9lEn/oLcncOFrg0yBBr59LFpW5fa2Ejc+G9oqydw==",
+      "constants": "sha512-PbT7MdJv6HhZMKAcsO4qNoXKoLvjYtOjv7KGWJHSeiqIuYZLr/ziy/ELNYfl9NkFvRfXYYGYt46yaDHWOqNptg=="
+    },
+    {
+      "name": "androidx.webkit_webkit",
+      "rules": "sha512-4ywgHK2vlt3ZcuMy/vRtZ5El1u9B2NxdRdEsAWyPUZrr8j1A0gRiHyzc2QhSu8gNQ3GujkzVET2fe8AHWZcgcw==",
+      "constants": "sha512-BFKOkdLxC9HpvNE1OFpfCOgxJJH0OACKPm+yy9+uiXkLIomyl67yFzdC72+ysG1i+OtgdhNU2jkfR6dkSgH2gA=="
+    },
+    {
+      "name": "androidx.window_window-extensions",
+      "rules": "sha512-r4DsWg2Ad7I3M8qCO/nAosp+BTkOpYFv0UtRn1+nNkTPXaQZg2fbR+/FcCCP1dJzVJo5QI/qAiDTwFHhZ55OLw==",
+      "constants": "sha512-5Ge7qBDmWppJtqqXmcKyyjbTVjQgO1CviAXR+6QgkuIVnMrpVU2aebPoBj40C3wE04hui/Td1+fYPZP2Blvkaw=="
+    },
+    {
+      "name": "com.android.identity_identity-android-legacy",
+      "rules": "sha512-ohnTV8ah5EZ/WDwz1M30s0kB9ylJXxANal+d/lIos0WXLAyu08XNcRoJsE0yA7YzAGTIuT5WqYVO6g9MOx3/9A==",
+      "constants": "sha512-QqwV/bA92tYcjR5dsUj+M6wx36sZlsqnxkiFksBhtCNzUTrbRnuYYZrgjduHYxcsIDsc8t7CTJXMW05+Xzs3kA=="
+    },
+    {
+      "name": "com.android.identity_identity-credential-android",
+      "rules": "sha512-pAqCo1tj9bUXjqXV8hFcQ8pGQ4SD9dHp4I7KjntortSSsMfSyK59KZgqVZOg+1eoyY1yuaX4aiI8fVPDrqi0Og==",
+      "constants": "sha512-ABWAAwbeQGCUk9QdBFRLOGJhMo8yJHJvNM7mZm8OU6w04yWUkWD1ZsUT+0Dm0eCoBkIbOTQ6Zg3IEuD/+agPHg=="
+    },
+    {
+      "name": "com.android.volley_volley",
+      "rules": "sha512-45StEkUCWhuKgY+swfHp0Ijf00Op7a25rc54K83jKQeC/aCMKFuhrKWWaqlGHHDiV83540EZCHxrxEjwSJQVnA==",
+      "constants": "sha512-ox700OKRHd0IOHt5UWWB2Fgq2NdyKsUXCHVGSa7zxEFzzAOSAjWvGCqyjhn8+uky0hdPOJEmeZc+8VoRvkG/cw=="
+    },
+    {
+      "name": "com.google.ads.mediation_adcolony",
+      "rules": "sha512-IvFHohPt9BCojE5R3yuZ7f6hRfUgzdkwWUD/c+DcoyidAXS564tdeVtL02x5BC7avj2er6WtMgTIieYvfKZ3lg==",
+      "constants": "sha512-zAPPKk3vPOkqC7MYPgXnUe7/bNjJJhJuGPcxCXTwtcLTbVIpQ7MPwpZ3+6+xhQ2k+NET/NAGS+esdJxXOCkxHw=="
+    },
+    {
+      "name": "com.google.ads.mediation_chartboost",
+      "rules": "sha512-ZB+qqriV7pKvuqaMdLibApEVMoNXOKt8CnFSr4aDtUSGYSCpIVzVHJw7riJkL9RtwPUryKLtULD0+VIopRVpng==",
+      "constants": "sha512-hF7PkTPVr1tGznDZ30ONW89estSwyAUDaMMWoVHuZHRHNOsYDGIxa3lk1E+BsFoScnz3rx0Mq3T9DKvxtKpQVw=="
+    },
+    {
+      "name": "com.google.ads.mediation_inmobi",
+      "rules": "sha512-sWpJALf3c/GpwSrimxMTWv871DuNIDZeALcagNmmoxr3n4JXtoQAgX+rKIHp8QLmkVVCBVZwdA3qKrBxwimKsA==",
+      "constants": "sha512-KfonqtU3wdDkOwZxNf96zZn3aPtKVWNoVDbDMdde7PXEtJR9oBEfqH/8neVc6JtKN6O5CNkLxXzvDQp9aAfhRQ=="
+    },
+    {
+      "name": "com.google.ads.mediation_mintegral",
+      "rules": "sha512-hnMCA3Kx+5i4jtQZCwvHjbZOdUIJc4aWZRl9y2mZkIQx1UDdxA27fl9wCo38OUKM3bcFIV2jpbFiepNSi6ZGtg==",
+      "constants": "sha512-GzGfEZu5jn/tS+a6JkRugv0jo4elpwwjKY0HWCuGweHZPYaDmkFidfwT85UAjpgvrOWbPHmOf4HmLDIA3vF3fA=="
+    },
+    {
+      "name": "com.google.ads.mediation_mopub",
+      "rules": "sha512-w/JVAkXGDFjHm3kG3MpbwRR/7RQD0ahjPnqnAEzfZ2dlPaK7qL3xWJBffJNtnpSUI9Ebw2UmSxPODOrWyfXl3w==",
+      "constants": "sha512-VV4l2XQ4RpdgJQPN0yO1QOIGluvLUvtoPDVnjdojTWTJ1N3bcRaAqXVNLFiRAVJ9AKgZ/BIvFnMDcrlK7+CBIw=="
+    },
+    {
+      "name": "com.google.ads.mediation_pangle",
+      "rules": "sha512-LWTcBiUype1UQMLWGKdfSpaoQHXb0aHOm/15bsd3cOzgZk1hwcZkMHsBcyC0f5/BN4QF0w5JyKSHm7oHgzJodA==",
+      "constants": "sha512-FbIVe4CclAkeDTzWoCPAZxH/dxjZSjhYKTv+DyshWuJNiP0QvbGDB/avhW1aavB+OdE2PKDQ1hHW+NiC7fOhdQ=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-common",
+      "rules": "sha512-wMFkww0zQXWpXtPivuOmrlhn+PjcDzn2WZ89KO012a1bU0O94jYZzjkw4CHR8+G0KZflLRs0yqopuNBve3iOIw==",
+      "constants": "sha512-OhHOsIS5qP7/Wu8HHRL6AkNKkA7BkFZSEZigSuToOhqrqaUom5BvxYyGw0GQshhmVxEbGH4W+NZH9t+B4k6C2A=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-core",
+      "rules": "sha512-NP60ZVR1UxMl/QTHAytBV/TbSxJmZJqF8frJ2PLdzaDKkdSAWRrvNhSlOVs0eMrEY0kQ4J+8eQu4j2jxefghug==",
+      "constants": "sha512-MUBurdTlra0Sbrz3eSwQj5MiY6r3il3exrPLMSJrrqg56MXCdlGkuePJmY5wJEB4jQdLTkS4zrDBIgg1wz+6Gg=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-dash",
+      "rules": "sha512-rEH77OzsNCY+VS21vvbxNBg0AWsolRms/klyb8tPRBxpKbEynpDRwSE7R2mCO2DQQAA4wvSXjzgOelSUGlDlYg==",
+      "constants": "sha512-fWcT9QQ8EJ3n8aAFhI6NcWvXE8Mz3AXMXuJu96zIYbrUaw+Sawy+//jXxwoBPjTDZVp1P96KQ5h5QbidlQc/ZA=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-database",
+      "rules": "sha512-qXxgknUaeXxri3wjTUKF/nnSMEnmQH+pK9hnOP7K4vmx1NH+ZwrrBP2fglNNHqoJRFQutURLc14tgkIJJCqoqQ==",
+      "constants": "sha512-C3lmWfpSuHekhpj5n9xIcmP7nAK2IvgVbgGV8AfHgAscvirKtcVenS+pdcDnOYlrMYi0Ss3/h/FwjlUVN4juug=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-datasource",
+      "rules": "sha512-EhEeRHKs+5DN0uo6hSpaq/riyUkMMVmyy1iBtNcHv4AJZmyu223eloT2ThNH9v7ct0OJx+mRPCXIq8Y7SSIZng==",
+      "constants": "sha512-yJlTPss42Y5MVcKhhW1z1nOnV0uf9AU6ViIsAtcxAbMhiV+IAWlUS+4LDPogUocMaom7726WoAYzNltwYv5GZQ=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-decoder",
+      "rules": "sha512-jFNDhO+MFa3DDf/pEpAsIz8MNoqKo+bbpjf3X40vXcOC2MvMWbiFlWKQ6CkAlaliKvIso60/2IAiUKd7zUvkAw==",
+      "constants": "sha512-vKbkN+KaLGtrb8df7MVyO4n/2sflVn7VuPL1nmW3gHQ+mripXpteP0AgdbT1iX/ciGTu1pXRJ/pu3XUWtV9BgQ=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-effect",
+      "rules": "sha512-7K5ttBTwyaVI82RTXhWo6mcftHN4P5xRekIY9cDPp/HJPDqm2Qqvk91rmmU4vkQz2gfAfMtKRqhoTuCkupmTMw==",
+      "constants": "sha512-Iqa5YCN9EvDIM7UDvAkQiP6DUI1dQMQ5QXkTmB8kTEfrgj4C0soHRy+VU0F0Yl8E/Dol+fKN0OHwECB0F/eO7A=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-extractor",
+      "rules": "sha512-e5ru6JShH1TEqcij5yTyON47kwV673fmA84w31GHTjhkle9lDoo0qaAL8MsZ3fmTPEo8S399ndv2nMMdMD4H3A==",
+      "constants": "sha512-WmQG0JApmv1i/XNv4BUWl2z1vORdFg5eejTKxNEwKjQPJp8OeNCp9kn8kW/uhjmgkQc1ErWPmQ7FGx+mj2BlKQ=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-hls",
+      "rules": "sha512-2hIb1ecoNpNNOKWTGr+sQXIj0tyZudjaEe1knE7dcsfCXA7wVvDD+PNOefeo6/4gLZch3BDVLClpBOiMW8zsLg==",
+      "constants": "sha512-bXr/NfdlO7k4TpQnmR34gcag4toL2cliDqyPTe7lBhgUoDmtrp7vLwEyG03TWk1zxNSbHT4FO+grYQMraIq0mg=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-muxer",
+      "rules": "sha512-xOXcyIQ9W5c2c9V43cXUMnEWF9ZUD7UgvUgmvoEP0CjuqBSEg38Q6zhGB4rU5pRGbizRWep46v4obNjvJDqaKA==",
+      "constants": "sha512-mg3/BAuo8ZVYfKwvCihnA6daRSlhoucQj4ciKnDRqyolRN/kiSU5je8xm66FXRQosfmtCE7adsf7UWdmp0/t0Q=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-rtsp",
+      "rules": "sha512-ZMBwOXdy4tk1TLb922Y2WfEk1QcP1hgGHA0Rlq4+SVoYx5/b8Y2myfJBJcSqiiutcTM4mc3PjyVUGP7dYXY4/Q==",
+      "constants": "sha512-Olm2GctftMwQjCbPDpQjb5nFHS4hEkpvyVKbMxeikGmYqXDGFV46A7UL3Q8PhZh29LoxnekBTESIfT2l+g1O0w=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-testutils",
+      "rules": "sha512-2z5Oxv37+p8zmnj142I07wCxgFMxCh7U/PfA/5aARc4WX2t6zRkc5+O+3UfhCI/1nBBpGG6feAPblEhOnsv2Rg==",
+      "constants": "sha512-r7IFVLIv6B/7/dmcxNfKf7kYm86t8xN5OlxD78L12TLa+bDyGiQtygmioBpfMOb01L/okI9+y816mloVK/2xKw=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-transformer",
+      "rules": "sha512-LtSDIL52pE/QGGVL5pLX2TLTlvw7yFry5I3tbn/gGQ7EmFQluwh+cajJ+IRr6Bsufm4Rl4CPMKFb5MDCZvwFgA==",
+      "constants": "sha512-jZwYpupgZ/hSBW+LhOBy/0wczKTDX1dnCY6gy62Xs+6YY7xHx5S2e3u3aVHoZVRTDb890GC2eYgKg9Lstr+amQ=="
+    },
+    {
+      "name": "com.google.android.exoplayer_exoplayer-ui",
+      "rules": "sha512-MiBky1Bz/wXHI0SNIDsRPgxpEWBL1d86KjEtclb7zGbqxixyy/2hREjvU8xwhXSuZDJe9EW+mixx+zQXgn+6DQ==",
+      "constants": "sha512-z0rbm1PaQm+ag2cFv6UO2AzTbNXPK7ZzLJ3tIo2bLBXOrTwYyop6LLWD/nvcwMcNPxpvIKjyotlKk4f35P5Aiw=="
+    },
+    {
+      "name": "com.google.android.exoplayer_extension-media2",
+      "rules": "sha512-W1SBwPIz7X/95WC/HWamtJDPSI4WyfZQKscopr8St65wohjN9tzWsEOvOKdcpL7UhjF73JMNoCgwBVqMNrnm3Q==",
+      "constants": "sha512-wRPSTaZG0nr9OLXtN+TSgix9mGIiM27+uK6aq44CnZiV5nCl9Hz5HXq9ReqiwDhwddjaFk0mTdjXCBuFbTXezA=="
+    },
+    {
+      "name": "com.google.android.exoplayer_extension-mediasession",
+      "rules": "sha512-GyRz4OSDSCpWZh8DWOKnmMB4WbdNYAxs9rTSN7sVpsQhtbRBILDkFX9PWIcFYh5hgl8KxT4tTbXktzpzKqvOMg=="
+    },
+    {
+      "name": "com.google.android.flexbox_flexbox",
+      "rules": "sha512-xnzofJRquLorwFNsx8+mOr2395Deh+7IAEKOS3r/wQwJrQJfZikFk7a2+O0DgAL0XkBTgqUL5g4KIJc2BFrlDg==",
+      "constants": "sha512-S+fPZMCNOuilQg0vvT2PLyJ/tuSK8XtRqzrPxL/A/nIHSWPTT127kccDLARYyOw1SGWewdtZb1XeDyDbcXo49g=="
+    },
+    {
+      "name": "com.google.android.material_material",
+      "rules": "sha512-BhGNCMNCxmMQQLp1JeH0ZPnRn0briTjLVT+fAATiWHghs3JkPRKvcf9wNHf4U0uf71VzwAt3rYE9U/L3iq5AYw==",
+      "constants": "sha512-fAEyF2Ck4heTiJF/b6dt0QKIRyil8TVUvzS/3zBE1pg9TKg5xlXx1kyg5g+ag2LPRKrqpFNHSlFGIqzZDbO1VQ=="
+    },
+    {
+      "name": "com.google.androidbrowserhelper_androidbrowserhelper",
+      "rules": "sha512-zH/0NmOaDVtIaFHw3ySIfD1qTiTvtn8Sg477jlfWpYy597bW1nNbac7fsLEI2WXm7IAO7byWSNGuPNneLE3tkw==",
+      "constants": "sha512-+8FnVmwPIRHM87pmuDPKqX0RfLx3S+6qYt87wRfZyTjSNVvxTzf7R0zMJGhVDe097+5JhfrsyQhcVbArImagtg=="
+    },
+    {
+      "name": "com.google.firebase_firebase-abt",
+      "rules": "sha512-TIjJsphNKvfP+cJdHpYatx1ZUVdGJucCeP/h/hkScWhHXVxr1R2MIj/MedFnw5Eefz/RZejOfAgFDFNNU0S6QA==",
+      "constants": "sha512-4UbkxTyHe5UnBkaLRacGIIdXNqijdgnhQPxcxaguhTBlxp3DcqnQj5sZW0l0pzK1yNFs1FN8eXVnlyNKlyIlJg=="
+    },
+    {
+      "name": "com.google.firebase_firebase-appcheck",
+      "rules": "sha512-bbr4rshZfWctTav1sz9HLdqSVkLhi22TQ4v2Hz3XTo1oPcqkzLk3ZzufUtm8keTRR9WOuh0npaU3xlsTf1Jp6A==",
+      "constants": "sha512-Au6KClq6g4abmFCvn9Fe/+Xyr1O1we0/EIIuHhsBfDUKupYNCh8kIiX4f7oDY6A96h+Vws2iy5xZQmEsop78cw=="
+    },
+    {
+      "name": "com.google.firebase_firebase-components",
+      "rules": "sha512-F3IFPbl4LitxgYUxUIB97n4e+TQBvMw/QvcvczpVn5pQ6TOuSuJss7NdHCOJYjMG3t7Vxysk3Eu/XaixeNTV2Q=="
+    },
+    {
+      "name": "com.google.firebase_firebase-config",
+      "rules": "sha512-t1nqxnoP3rFBMn3gfs6twXf+doN0+KrromMKacWQgejYQxdMOOtBIYpJ/xWmmNNQWhc3ZAJHlduUxXv0ZTjP3g==",
+      "constants": "sha512-ANns+s7vzrsmiSoVl8KXEGySYeQK5KEVpKu/kv9j8naRaBNFy0JtUnBw7eiKkzKr3/kGipWXErQUTyoreI0pdg=="
+    },
+    {
+      "name": "com.google.firebase_firebase-crashlytics",
+      "rules": "sha512-UYbiNcm0RqFeLu6uyuc3kxqDr24TZc+frZX1w6WnVNqZE6VtvFEL2q758WjrVY+CNzgzc3NkMv9c2p4LNrHU2A==",
+      "constants": "sha512-R8INmohBfq4HvGSMKAQUm2/g2yGXk5kNlMFZ3yK4wmHGoC9Hn1713vlZv1o2p+gXC7rFOSTwlkB2w1zkJb5kfQ=="
+    },
+    {
+      "name": "com.google.firebase_firebase-dynamic-links",
+      "rules": "sha512-Xpe0qGxRzu5QnY39yl0RGNKat2SJz9zzjgbkySdwOs5bWmP5quR/ZhqJxaBSSkvcArybogtzwX9f6UCEgKoGjg==",
+      "constants": "sha512-81940UMn2ytGEo4Y7SUJXEh190fjfcXxPzUhALupXJIrWRKjQJR+FrQgp7uzn41zrNCw+tTRwQy1Z8Wc8A8lCw=="
+    },
+    {
+      "name": "com.google.firebase_firebase-messaging",
+      "rules": "sha512-O0BvSGm+oTbrgChdGmZ4xiz7ZdC69lxOzMbEzaMRj9wFezyxw70G1Yzv5Cta1gVPnhpyEnmeWJCR5q61rlRVLA=="
+    },
+    {
+      "name": "com.google.firebase_firebase-ml-modeldownloader",
+      "rules": "sha512-ZOUOS75VHY4Coen7SRFUwohDjJwLZ/RiQF34XaLpCT7gf2yrolmI0p9vgneq/eW/tW5Pf3eVlppUVzRfmSZNZw==",
+      "constants": "sha512-tiMzD49hx6Y8UTOsoCMjol/x2MIK383zGEODHjLAJ0/9TpxPjuXC1eDh+zgeWbIIqisuaty12nhW3CgFKkV6Eg=="
+    },
+    {
+      "name": "com.google.firebase_firebase-perf",
+      "rules": "sha512-dIJcSWDjiiRBvzsPsROcqctg/PJx7F9mgBY3XSUp+jTVLQcpjwZ3UTzZRo6QOflipt94IX5y6khaItd62UFnUw==",
+      "constants": "sha512-TQRnAqxDR7Vna7t/5SgXbrpnRZGD5lI/fAJw3wdIROn7B40FEQlD+mJW8oghkz73+815YQUWwE7ALEdFjrBzJg=="
+    },
+    {
+      "name": "com.google.firebase_firebase-storage",
+      "rules": "sha512-ZzCecm9LopYAimk7Wo8++6zjeOvnQQYjV5rnUDKesZV9XCfBETCRTRR6iQE5CzO5n61VUlv6bezxKgMNBk5u5g==",
+      "constants": "sha512-Z5ieadai8mOYMsZ/G4GjFwp88/3FRZEwMRAIs5szz16xX2KkMzhCrmKzEPR8SRNiLnnNgdMjNjddSYZDpt/Azw=="
+    }
+  ]
+}

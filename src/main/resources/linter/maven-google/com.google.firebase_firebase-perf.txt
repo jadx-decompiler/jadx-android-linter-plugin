@@ -1,0 +1,11 @@
+com.google.firebase.perf.FirebasePerformance.HttpMethod.CONNECT=CONNECT
+com.google.firebase.perf.FirebasePerformance.HttpMethod.DELETE=DELETE
+com.google.firebase.perf.FirebasePerformance.HttpMethod.GET=GET
+com.google.firebase.perf.FirebasePerformance.HttpMethod.HEAD=HEAD
+com.google.firebase.perf.FirebasePerformance.HttpMethod.OPTIONS=OPTIONS
+com.google.firebase.perf.FirebasePerformance.HttpMethod.PATCH=PATCH
+com.google.firebase.perf.FirebasePerformance.HttpMethod.POST=POST
+com.google.firebase.perf.FirebasePerformance.HttpMethod.PUT=PUT
+com.google.firebase.perf.FirebasePerformance.HttpMethod.TRACE=TRACE
+com.google.firebase.perf.metrics.resource.ResourceType.NETWORK=Network
+com.google.firebase.perf.metrics.resource.ResourceType.TRACE=Trace

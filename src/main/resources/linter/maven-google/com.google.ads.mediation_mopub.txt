@@ -1,0 +1,10 @@
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_AD_ALREADY_LOADED=107
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_AD_EXPIRED=108
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_AD_NOT_READY=112
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_BANNER_SIZE_MISMATCH=102
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_DOWNLOADING_NATIVE_ASSETS=111
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_INVALID_SERVER_PARAMETERS=101
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_MINIMUM_BANNER_SIZE=113
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_REQUIRES_ACTIVITY_CONTEXT=103
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_REQUIRES_UNIFIED_NATIVE_ADS=110
+com.google.ads.mediation.mopub.MoPubMediationAdapter.ERROR_WRONG_NATIVE_TYPE=105

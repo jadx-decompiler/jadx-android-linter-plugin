@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.ads.mediation.chartboost.ChartboostConstants com.google.android.gms.ads.AdError createAdapterError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.ads.mediation.chartboost.ChartboostConstants.ERROR_BANNER_SIZE_MISMATCH, com.google.ads.mediation.chartboost.ChartboostConstants.ERROR_AD_ALREADY_LOADED, com.google.ads.mediation.chartboost.ChartboostConstants.ERROR_INVALID_SERVER_PARAMETERS, com.google.ads.mediation.chartboost.ChartboostConstants.ERROR_AD_NOT_READY}"></val>
+        </annotation>
+    </item>
+</root>

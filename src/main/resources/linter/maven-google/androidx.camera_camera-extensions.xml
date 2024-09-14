@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.camera.extensions.ExtensionsConfig.Builder androidx.camera.extensions.ExtensionsConfig.Builder setExtensionMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo android.util.Range&lt;java.lang.Long&gt; getEstimatedCaptureLatencyRange(androidx.camera.core.CameraSelector, int, android.util.Size) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo androidx.camera.core.CameraFilter getFilter(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo androidx.camera.core.CameraSelector getExtensionCameraSelectorAndInjectCameraConfig(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo androidx.camera.extensions.internal.VendorExtender getVendorExtender(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo boolean isExtensionAvailable(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo boolean isImageAnalysisSupported(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo java.lang.String getExtendedCameraConfigProviderId(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsInfo void injectExtensionCameraConfig(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsManager android.util.Range&lt;java.lang.Long&gt; getEstimatedCaptureLatencyRange(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsManager androidx.camera.core.CameraSelector getExtensionEnabledCameraSelector(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsManager boolean isExtensionAvailable(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.ExtensionsManager boolean isImageAnalysisSupported(androidx.camera.core.CameraSelector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.VendorExtenderFactory androidx.camera.extensions.internal.VendorExtender createVendorExtender(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.internal.AdvancedVendorExtender AdvancedVendorExtender(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.internal.BasicVendorExtender BasicVendorExtender(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.extensions.internal.sessionprocessor.AdvancedSessionProcessor AdvancedSessionProcessor(androidx.camera.extensions.impl.advanced.SessionProcessorImpl, java.util.List&lt;android.hardware.camera2.CaptureRequest.Key&gt;, androidx.camera.extensions.internal.VendorExtender, android.content.Context, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.extensions.ExtensionMode.NONE, androidx.camera.extensions.ExtensionMode.BOKEH, androidx.camera.extensions.ExtensionMode.HDR, androidx.camera.extensions.ExtensionMode.NIGHT, androidx.camera.extensions.ExtensionMode.FACE_RETOUCH, androidx.camera.extensions.ExtensionMode.AUTO}"></val>
+        </annotation>
+    </item>
+</root>

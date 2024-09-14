@@ -1,0 +1,5 @@
+androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_AUTO=0
+androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_NO=2
+androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_NO_EXCLUDE_DESCENDANTS=8
+androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_YES=1
+androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_YES_EXCLUDE_DESCENDANTS=4

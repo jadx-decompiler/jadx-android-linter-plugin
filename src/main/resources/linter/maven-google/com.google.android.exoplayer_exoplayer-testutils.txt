@@ -1,0 +1,3 @@
+com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED=1
+com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_ENABLED=2
+com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED=3

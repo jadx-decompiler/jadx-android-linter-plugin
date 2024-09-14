@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.decoder.DecoderInputBuffer DecoderInputBuffer(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DISABLED, androidx.media3.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_NORMAL, androidx.media3.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.decoder.DecoderInputBuffer DecoderInputBuffer(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DISABLED, androidx.media3.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_NORMAL, androidx.media3.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT}"></val>
+        </annotation>
+    </item>
+</root>

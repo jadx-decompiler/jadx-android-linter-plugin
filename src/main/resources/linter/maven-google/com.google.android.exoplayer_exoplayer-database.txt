@@ -1,0 +1,4 @@
+com.google.android.exoplayer2.database.VersionTable.FEATURE_CACHE_CONTENT_METADATA=1
+com.google.android.exoplayer2.database.VersionTable.FEATURE_CACHE_FILE_METADATA=2
+com.google.android.exoplayer2.database.VersionTable.FEATURE_EXTERNAL=1000
+com.google.android.exoplayer2.database.VersionTable.FEATURE_OFFLINE=0

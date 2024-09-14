@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.transition.Fade Fade(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.transition.Visibility.MODE_IN, androidx.transition.Visibility.MODE_OUT, androidx.transition.Fade.IN, androidx.transition.Fade.OUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.transition.SidePropagation void setSide(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.transition.Slide Slide(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.transition.Slide void setSlideEdge(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.transition.Transition void setMatchOrder(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.transition.Transition.MATCH_INSTANCE, androidx.transition.Transition.MATCH_NAME, androidx.transition.Transition.MATCH_ID, androidx.transition.Transition.MATCH_ITEM_ID}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.transition.Visibility void setMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.transition.Visibility.MODE_IN, androidx.transition.Visibility.MODE_OUT, androidx.transition.Fade.IN, androidx.transition.Fade.OUT}"></val>
+        </annotation>
+    </item>
+</root>

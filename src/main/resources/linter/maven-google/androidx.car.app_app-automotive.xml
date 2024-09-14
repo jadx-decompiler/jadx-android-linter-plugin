@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.car.app.hardware.common.CarZoneUtils androidx.car.app.hardware.common.CarZoneAreaIdConverter getZoneAreaIdConverter(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.app.hardware.common.CarZoneUtils.AreaType.SEAT, androidx.car.app.hardware.common.CarZoneUtils.AreaType.NONE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.app.hardware.common.CarZoneUtils com.google.common.collect.ImmutableSet&lt;androidx.car.app.hardware.common.CarZone&gt; convertAreaIdToCarZones(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.app.hardware.common.CarZoneUtils.AreaType.SEAT, androidx.car.app.hardware.common.CarZoneUtils.AreaType.NONE}"></val>
+        </annotation>
+    </item>
+</root>

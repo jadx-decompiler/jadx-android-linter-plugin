@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.ads.mediation.inmobi.InMobiConstants com.google.android.gms.ads.AdError createAdapterError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.ads.mediation.inmobi.InMobiConstants.ERROR_INVALID_SERVER_PARAMETERS, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_INMOBI_FAILED_INITIALIZATION, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_BANNER_SIZE_MISMATCH, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_NON_UNIFIED_NATIVE_REQUEST, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_INMOBI_NOT_INITIALIZED, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_AD_NOT_READY, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_AD_DISPLAY_FAILED, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_MISSING_NATIVE_ASSETS, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_MALFORMED_IMAGE_URL, com.google.ads.mediation.inmobi.InMobiConstants.ERROR_NATIVE_ASSET_DOWNLOAD_FAILED}"></val>
+        </annotation>
+    </item>
+</root>

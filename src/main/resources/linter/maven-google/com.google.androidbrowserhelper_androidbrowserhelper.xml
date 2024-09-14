@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.androidbrowserhelper.trusted.TwaProviderPicker.Action Action(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.androidbrowserhelper.trusted.TwaProviderPicker.LaunchMode.TRUSTED_WEB_ACTIVITY, com.google.androidbrowserhelper.trusted.TwaProviderPicker.LaunchMode.CUSTOM_TAB, com.google.androidbrowserhelper.trusted.TwaProviderPicker.LaunchMode.BROWSER}"></val>
+        </annotation>
+    </item>
+</root>

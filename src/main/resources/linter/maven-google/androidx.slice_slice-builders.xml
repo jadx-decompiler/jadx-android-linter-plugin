@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.slice.builders.GridRowBuilder androidx.slice.builders.GridRowBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.GridRowBuilder.CellBuilder androidx.slice.builders.GridRowBuilder.CellBuilder addImage(androidx.core.graphics.drawable.IconCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.GridRowBuilder.CellBuilder androidx.slice.builders.GridRowBuilder.CellBuilder addImage(androidx.core.graphics.drawable.IconCompat, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder androidx.slice.builders.ListBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.HeaderBuilder androidx.slice.builders.ListBuilder.HeaderBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.InputRangeBuilder androidx.slice.builders.ListBuilder.InputRangeBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.InputRangeBuilder androidx.slice.builders.ListBuilder.InputRangeBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.InputRangeBuilder androidx.slice.builders.ListBuilder.InputRangeBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RangeBuilder androidx.slice.builders.ListBuilder.RangeBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RangeBuilder androidx.slice.builders.ListBuilder.RangeBuilder setMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.RANGE_MODE_DETERMINATE, androidx.slice.builders.ListBuilder.RANGE_MODE_INDETERMINATE, androidx.slice.builders.ListBuilder.RANGE_MODE_STAR_RATING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RangeBuilder androidx.slice.builders.ListBuilder.RangeBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RangeBuilder androidx.slice.builders.ListBuilder.RangeBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RatingBuilder androidx.slice.builders.ListBuilder.RatingBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RatingBuilder androidx.slice.builders.ListBuilder.RatingBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RowBuilder androidx.slice.builders.ListBuilder.RowBuilder addEndItem(androidx.core.graphics.drawable.IconCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RowBuilder androidx.slice.builders.ListBuilder.RowBuilder addEndItem(androidx.core.graphics.drawable.IconCompat, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RowBuilder androidx.slice.builders.ListBuilder.RowBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RowBuilder androidx.slice.builders.ListBuilder.RowBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.ListBuilder.RowBuilder androidx.slice.builders.ListBuilder.RowBuilder setTitleItem(androidx.core.graphics.drawable.IconCompat, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SelectionBuilder androidx.slice.builders.SelectionBuilder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.View.LAYOUT_DIRECTION_RTL, android.view.View.LAYOUT_DIRECTION_LTR, android.view.View.LAYOUT_DIRECTION_INHERIT, android.view.View.LAYOUT_DIRECTION_LOCALE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SliceAction SliceAction(android.app.PendingIntent, android.graphics.drawable.Icon, int, java.lang.CharSequence) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SliceAction SliceAction(android.app.PendingIntent, androidx.core.graphics.drawable.IconCompat, int, java.lang.CharSequence) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SliceAction androidx.slice.builders.SliceAction create(android.app.PendingIntent, androidx.core.graphics.drawable.IconCompat, int, java.lang.CharSequence) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SliceAction androidx.slice.builders.SliceAction create(androidx.remotecallback.RemoteCallback, androidx.core.graphics.drawable.IconCompat, int, java.lang.CharSequence) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SliceAction androidx.slice.builders.SliceAction createDeeplink(android.app.PendingIntent, androidx.core.graphics.drawable.IconCompat, int, java.lang.CharSequence) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.builders.SliceAction androidx.slice.builders.SliceAction createDeeplink(androidx.remotecallback.RemoteCallback, androidx.core.graphics.drawable.IconCompat, int, java.lang.CharSequence) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.builders.ListBuilder.LARGE_IMAGE, androidx.slice.builders.ListBuilder.SMALL_IMAGE, androidx.slice.builders.ListBuilder.ICON_IMAGE, androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL, androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE, androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE, androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL}"></val>
+        </annotation>
+    </item>
+</root>

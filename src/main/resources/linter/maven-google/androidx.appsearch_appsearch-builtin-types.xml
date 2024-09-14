@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.appsearch.builtintypes.Alarm.BuilderImpl T setOriginatingDevice(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.builtintypes.Alarm.ORIGINATING_DEVICE_UNKNOWN, androidx.appsearch.builtintypes.Alarm.ORIGINATING_DEVICE_SMART_PHONE, androidx.appsearch.builtintypes.Alarm.ORIGINATING_DEVICE_SMART_WATCH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.builtintypes.AlarmInstance.BuilderImpl T setStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.builtintypes.AlarmInstance.STATUS_UNKNOWN, androidx.appsearch.builtintypes.AlarmInstance.STATUS_SCHEDULED, androidx.appsearch.builtintypes.AlarmInstance.STATUS_FIRING, androidx.appsearch.builtintypes.AlarmInstance.STATUS_DISMISSED, androidx.appsearch.builtintypes.AlarmInstance.STATUS_SNOOZED, androidx.appsearch.builtintypes.AlarmInstance.STATUS_MISSED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.builtintypes.Person Person(java.lang.String, java.lang.String, int, long, long, java.lang.String, java.util.List&lt;java.lang.String&gt;, java.lang.String, java.lang.String, java.lang.String, java.util.List&lt;androidx.appsearch.builtintypes.PotentialAction&gt;, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.Long&gt;, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;androidx.appsearch.builtintypes.ContactPoint&gt;) 19">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.builtintypes.Person.AdditionalName.TYPE_UNKNOWN, androidx.appsearch.builtintypes.Person.AdditionalName.TYPE_NICKNAME, androidx.appsearch.builtintypes.Person.AdditionalName.TYPE_PHONETIC_NAME}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.builtintypes.Person.AdditionalName AdditionalName(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.builtintypes.Person.AdditionalName.TYPE_UNKNOWN, androidx.appsearch.builtintypes.Person.AdditionalName.TYPE_NICKNAME, androidx.appsearch.builtintypes.Person.AdditionalName.TYPE_PHONETIC_NAME}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.builtintypes.Stopwatch.BuilderImpl T setStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.builtintypes.Stopwatch.STATUS_UNKNOWN, androidx.appsearch.builtintypes.Stopwatch.STATUS_RESET, androidx.appsearch.builtintypes.Stopwatch.STATUS_RUNNING, androidx.appsearch.builtintypes.Stopwatch.STATUS_PAUSED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.builtintypes.Timer.BuilderImpl T setStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.builtintypes.Timer.STATUS_UNKNOWN, androidx.appsearch.builtintypes.Timer.STATUS_STARTED, androidx.appsearch.builtintypes.Timer.STATUS_PAUSED, androidx.appsearch.builtintypes.Timer.STATUS_EXPIRED, androidx.appsearch.builtintypes.Timer.STATUS_MISSED, androidx.appsearch.builtintypes.Timer.STATUS_RESET}"></val>
+        </annotation>
+    </item>
+</root>

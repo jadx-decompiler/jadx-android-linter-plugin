@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media2.widget.VideoView void setViewType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.widget.VideoView.VIEW_TYPE_TEXTUREVIEW, androidx.media2.widget.VideoView.VIEW_TYPE_SURFACEVIEW}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.widget.VideoView.OnViewTypeChangedListener void onViewTypeChanged(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.widget.VideoView.VIEW_TYPE_TEXTUREVIEW, androidx.media2.widget.VideoView.VIEW_TYPE_SURFACEVIEW}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.tiles.renderer.WearArcLayout void setAnchorType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_START, androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_CENTER, androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.renderer.WearArcLayout.LayoutParams void setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.renderer.WearArcLayout.LayoutParams.VALIGN_OUTER, androidx.wear.tiles.renderer.WearArcLayout.LayoutParams.VALIGN_CENTER, androidx.wear.tiles.renderer.WearArcLayout.LayoutParams.VALIGN_INNER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.renderer.WearCurvedTextView void setAnchorType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_START, androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_CENTER, androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_END}"></val>
+        </annotation>
+    </item>
+</root>

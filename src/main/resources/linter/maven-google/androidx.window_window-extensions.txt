@@ -1,0 +1,7 @@
+androidx.window.extensions.ExtensionDeviceState.POSTURE_CLOSED=1
+androidx.window.extensions.ExtensionDeviceState.POSTURE_FLIPPED=4
+androidx.window.extensions.ExtensionDeviceState.POSTURE_HALF_OPENED=2
+androidx.window.extensions.ExtensionDeviceState.POSTURE_OPENED=3
+androidx.window.extensions.ExtensionDeviceState.POSTURE_UNKNOWN=0
+androidx.window.extensions.ExtensionDisplayFeature.TYPE_FOLD=1
+androidx.window.extensions.ExtensionDisplayFeature.TYPE_HINGE=2

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.remotecallback.RemoteCallback RemoteCallback(android.content.Context, int, android.content.Intent, java.lang.String, android.os.Bundle) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.remotecallback.RemoteCallback.TYPE_RECEIVER, androidx.remotecallback.RemoteCallback.TYPE_PROVIDER}"></val>
+        </annotation>
+    </item>
+</root>

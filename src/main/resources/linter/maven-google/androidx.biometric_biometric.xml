@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.biometric.AuthenticatorUtils boolean isDeviceCredentialAllowed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.AuthenticatorUtils boolean isSomeBiometricAllowed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.AuthenticatorUtils boolean isSupportedCombination(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.AuthenticatorUtils boolean isWeakBiometricAllowed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.AuthenticatorUtils int getBiometricAuthenticators(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.AuthenticatorUtils java.lang.String convertToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricFragment void cancelAuthentication(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.BiometricFragment.CANCELED_FROM_INTERNAL, androidx.biometric.BiometricFragment.CANCELED_FROM_USER, androidx.biometric.BiometricFragment.CANCELED_FROM_NEGATIVE_BUTTON, androidx.biometric.BiometricFragment.CANCELED_FROM_CLIENT, androidx.biometric.BiometricFragment.CANCELED_FROM_MORE_OPTIONS_BUTTON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricFragment.Api30Impl void setAllowedAuthenticators(android.hardware.biometrics.BiometricPrompt.Builder, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricManager androidx.biometric.BiometricManager.Strings getStrings(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricManager int canAuthenticate(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricManager int canAuthenticateCompat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricManager.Api30Impl int canAuthenticate(android.hardware.biometrics.BiometricManager, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricManager.Api31Impl android.hardware.biometrics.BiometricManager.Strings getStrings(android.hardware.biometrics.BiometricManager, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricManager.StringsCompat StringsCompat(android.content.res.Resources, int, boolean, boolean, boolean, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricPrompt.AuthenticationCallback void onAuthenticationError(int, java.lang.CharSequence) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.BiometricPrompt.ERROR_HW_UNAVAILABLE, androidx.biometric.BiometricPrompt.ERROR_UNABLE_TO_PROCESS, androidx.biometric.BiometricPrompt.ERROR_TIMEOUT, androidx.biometric.BiometricPrompt.ERROR_NO_SPACE, androidx.biometric.BiometricPrompt.ERROR_CANCELED, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT, androidx.biometric.BiometricPrompt.ERROR_VENDOR, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT_PERMANENT, androidx.biometric.BiometricPrompt.ERROR_USER_CANCELED, androidx.biometric.BiometricPrompt.ERROR_NO_BIOMETRICS, androidx.biometric.BiometricPrompt.ERROR_HW_NOT_PRESENT, androidx.biometric.BiometricPrompt.ERROR_NEGATIVE_BUTTON, androidx.biometric.BiometricPrompt.ERROR_NO_DEVICE_CREDENTIAL, androidx.biometric.BiometricPrompt.ERROR_MORE_OPTIONS_BUTTON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricPrompt.AuthenticationResult AuthenticationResult(androidx.biometric.BiometricPrompt.CryptoObject, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_UNKNOWN, androidx.biometric.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_DEVICE_CREDENTIAL, androidx.biometric.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_BIOMETRIC}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricPrompt.PromptInfo PromptInfo(int, android.graphics.Bitmap, java.lang.String, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, androidx.biometric.PromptContentView, java.lang.CharSequence, boolean, boolean, int) 10">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricPrompt.PromptInfo.Builder androidx.biometric.BiometricPrompt.PromptInfo.Builder setAllowedAuthenticators(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricViewModel void setFingerprintDialogPreviousState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.BiometricViewModel void setFingerprintDialogState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.FingerprintDialogFragment android.graphics.drawable.Drawable getAssetForTransition(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.FingerprintDialogFragment android.graphics.drawable.Drawable getAssetForTransition(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.FingerprintDialogFragment boolean shouldAnimateForTransition(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.FingerprintDialogFragment boolean shouldAnimateForTransition(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.FingerprintDialogFragment void updateFingerprintIcon(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.FingerprintDialogFragment void updateHelpMessageColor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.FingerprintDialogFragment.STATE_NONE, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_ERROR, androidx.biometric.FingerprintDialogFragment.STATE_FINGERPRINT_AUTHENTICATED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.biometric.auth.AuthPromptCallback void onAuthenticationError(androidx.fragment.app.FragmentActivity, int, java.lang.CharSequence) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.biometric.BiometricPrompt.ERROR_HW_UNAVAILABLE, androidx.biometric.BiometricPrompt.ERROR_UNABLE_TO_PROCESS, androidx.biometric.BiometricPrompt.ERROR_TIMEOUT, androidx.biometric.BiometricPrompt.ERROR_NO_SPACE, androidx.biometric.BiometricPrompt.ERROR_CANCELED, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT, androidx.biometric.BiometricPrompt.ERROR_VENDOR, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT_PERMANENT, androidx.biometric.BiometricPrompt.ERROR_USER_CANCELED, androidx.biometric.BiometricPrompt.ERROR_NO_BIOMETRICS, androidx.biometric.BiometricPrompt.ERROR_HW_NOT_PRESENT, androidx.biometric.BiometricPrompt.ERROR_NEGATIVE_BUTTON, androidx.biometric.BiometricPrompt.ERROR_NO_DEVICE_CREDENTIAL, androidx.biometric.BiometricPrompt.ERROR_MORE_OPTIONS_BUTTON}"></val>
+        </annotation>
+    </item>
+</root>

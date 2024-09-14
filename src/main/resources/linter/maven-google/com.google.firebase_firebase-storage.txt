@@ -1,0 +1,10 @@
+com.google.firebase.storage.StorageException.ERROR_BUCKET_NOT_FOUND=-13011
+com.google.firebase.storage.StorageException.ERROR_CANCELED=-13040
+com.google.firebase.storage.StorageException.ERROR_INVALID_CHECKSUM=-13031
+com.google.firebase.storage.StorageException.ERROR_NOT_AUTHENTICATED=-13020
+com.google.firebase.storage.StorageException.ERROR_NOT_AUTHORIZED=-13021
+com.google.firebase.storage.StorageException.ERROR_OBJECT_NOT_FOUND=-13010
+com.google.firebase.storage.StorageException.ERROR_PROJECT_NOT_FOUND=-13012
+com.google.firebase.storage.StorageException.ERROR_QUOTA_EXCEEDED=-13013
+com.google.firebase.storage.StorageException.ERROR_RETRY_LIMIT_EXCEEDED=-13030
+com.google.firebase.storage.StorageException.ERROR_UNKNOWN=-13000

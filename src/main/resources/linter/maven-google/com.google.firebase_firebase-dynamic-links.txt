@@ -1,0 +1,2 @@
+com.google.firebase.dynamiclinks.ShortDynamicLink.Suffix.SHORT=2
+com.google.firebase.dynamiclinks.ShortDynamicLink.Suffix.UNGUESSABLE=1

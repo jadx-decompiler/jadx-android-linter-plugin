@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.camera.video.AudioSpec.Builder androidx.camera.video.AudioSpec.Builder setChannelCount(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{androidx.camera.video.AudioSpec.CHANNEL_COUNT_AUTO, androidx.camera.video.AudioSpec.CHANNEL_COUNT_NONE, androidx.camera.video.AudioSpec.CHANNEL_COUNT_MONO, androidx.camera.video.AudioSpec.CHANNEL_COUNT_STEREO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.AudioSpec.Builder androidx.camera.video.AudioSpec.Builder setSource(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.AudioSpec.SOURCE_AUTO, androidx.camera.video.AudioSpec.SOURCE_CAMCORDER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.AudioSpec.Builder androidx.camera.video.AudioSpec.Builder setSourceFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.AudioSpec.SOURCE_FORMAT_AUTO, androidx.camera.video.AudioSpec.SOURCE_FORMAT_PCM_16BIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.AudioStats androidx.camera.video.AudioStats of(int, java.lang.Throwable, double) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.AudioStats.AUDIO_STATE_ACTIVE, androidx.camera.video.AudioStats.AUDIO_STATE_DISABLED, androidx.camera.video.AudioStats.AUDIO_STATE_SOURCE_SILENCED, androidx.camera.video.AudioStats.AUDIO_STATE_ENCODER_ERROR, androidx.camera.video.AudioStats.AUDIO_STATE_SOURCE_ERROR, androidx.camera.video.AudioStats.AUDIO_STATE_MUTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.MediaSpec int outputFormatToAudioProfile(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.MediaSpec.OUTPUT_FORMAT_AUTO, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_MPEG_4, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_WEBM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.MediaSpec int outputFormatToMuxerFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.MediaSpec.OUTPUT_FORMAT_AUTO, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_MPEG_4, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_WEBM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.MediaSpec java.lang.String outputFormatToAudioMime(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.MediaSpec.OUTPUT_FORMAT_AUTO, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_MPEG_4, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_WEBM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.MediaSpec java.lang.String outputFormatToVideoMime(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.MediaSpec.OUTPUT_FORMAT_AUTO, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_MPEG_4, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_WEBM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.MediaSpec.Builder androidx.camera.video.MediaSpec.Builder setOutputFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.MediaSpec.OUTPUT_FORMAT_AUTO, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_MPEG_4, androidx.camera.video.MediaSpec.OUTPUT_FORMAT_WEBM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder Recorder(java.util.concurrent.Executor, androidx.camera.video.MediaSpec, int, androidx.camera.video.internal.encoder.EncoderFactory, androidx.camera.video.internal.encoder.EncoderFactory) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CAMCORDER_PROFILE, androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CODEC_CAPABILITIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder androidx.camera.video.VideoCapabilities getVideoCapabilities(androidx.camera.core.CameraInfo, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CAMCORDER_PROFILE, androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CODEC_CAPABILITIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder void finalizeInProgressRecording(int, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder void finalizePendingRecording(androidx.camera.video.Recorder.RecordingRecord, int, java.lang.Throwable) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder void onInProgressRecordingInternalError(androidx.camera.video.Recorder.RecordingRecord, int, java.lang.Throwable) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder void requestReset(int, java.lang.Throwable, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder void stop(androidx.camera.video.Recording, int, java.lang.Throwable) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder void stopInternal(androidx.camera.video.Recorder.RecordingRecord, long, int, java.lang.Throwable) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder.Builder androidx.camera.video.Recorder.Builder setAudioSource(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.AudioSpec.SOURCE_AUTO, androidx.camera.video.AudioSpec.SOURCE_CAMCORDER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recorder.Builder androidx.camera.video.Recorder.Builder setVideoCapabilitiesSource(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CAMCORDER_PROFILE, androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CODEC_CAPABILITIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.RecorderVideoCapabilities RecorderVideoCapabilities(int, androidx.camera.core.impl.CameraInfoInternal, androidx.arch.core.util.Function&lt;androidx.camera.video.internal.encoder.VideoEncoderConfig,androidx.camera.video.internal.encoder.VideoEncoderInfo&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CAMCORDER_PROFILE, androidx.camera.video.Recorder.VIDEO_CAPABILITIES_SOURCE_CODEC_CAPABILITIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.Recording void stopWithError(int, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.VideoRecordEvent androidx.camera.video.VideoRecordEvent.Finalize finalizeWithError(androidx.camera.video.OutputOptions, androidx.camera.video.RecordingStats, androidx.camera.video.OutputResults, int, java.lang.Throwable) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.VideoRecordEvent.Finalize Finalize(androidx.camera.video.OutputOptions, androidx.camera.video.RecordingStats, androidx.camera.video.OutputResults, int, java.lang.Throwable) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.VideoRecordEvent.Finalize java.lang.String errorToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NONE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_UNKNOWN, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_FILE_SIZE_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_INVALID_OUTPUT_OPTIONS, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_ENCODING_FAILED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDER_ERROR, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_NO_VALID_DATA, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_SOURCE_INACTIVE, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_DURATION_LIMIT_REACHED, androidx.camera.video.VideoRecordEvent.Finalize.ERROR_RECORDING_GARBAGE_COLLECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.internal.encoder.EncodeException EncodeException(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.internal.encoder.EncodeException.ERROR_UNKNOWN, androidx.camera.video.internal.encoder.EncodeException.ERROR_CODEC}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.internal.encoder.EncoderImpl void handleEncodeError(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.internal.encoder.EncodeException.ERROR_UNKNOWN, androidx.camera.video.internal.encoder.EncodeException.ERROR_CODEC}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.video.internal.encoder.EncoderImpl void notifyError(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.video.internal.encoder.EncodeException.ERROR_UNKNOWN, androidx.camera.video.internal.encoder.EncodeException.ERROR_CODEC}"></val>
+        </annotation>
+    </item>
+</root>

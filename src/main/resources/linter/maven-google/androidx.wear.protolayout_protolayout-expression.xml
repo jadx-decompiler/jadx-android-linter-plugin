@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.protolayout.expression.AnimationParameterBuilders.Repeatable.Builder androidx.wear.protolayout.expression.AnimationParameterBuilders.Repeatable.Builder setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.AnimationParameterBuilders.REPEAT_MODE_UNKNOWN, androidx.wear.protolayout.expression.AnimationParameterBuilders.REPEAT_MODE_RESTART, androidx.wear.protolayout.expression.AnimationParameterBuilders.REPEAT_MODE_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.ArithmeticFloatOp.Builder androidx.wear.protolayout.expression.DynamicBuilders.ArithmeticFloatOp.Builder setOperationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_ADD, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_SUBTRACT, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_MULTIPLY, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_DIVIDE, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_MODULO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.ArithmeticInt32Op.Builder androidx.wear.protolayout.expression.DynamicBuilders.ArithmeticInt32Op.Builder setOperationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_ADD, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_SUBTRACT, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_MULTIPLY, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_DIVIDE, androidx.wear.protolayout.expression.DynamicBuilders.ARITHMETIC_OP_TYPE_MODULO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.ComparisonFloatOp.Builder androidx.wear.protolayout.expression.DynamicBuilders.ComparisonFloatOp.Builder setOperationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_EQUALS, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_NOT_EQUALS, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_LESS_THAN, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_LESS_THAN_OR_EQUAL_TO, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_GREATER_THAN, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_GREATER_THAN_OR_EQUAL_TO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.ComparisonInt32Op.Builder androidx.wear.protolayout.expression.DynamicBuilders.ComparisonInt32Op.Builder setOperationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_EQUALS, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_NOT_EQUALS, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_LESS_THAN, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_LESS_THAN_OR_EQUAL_TO, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_GREATER_THAN, androidx.wear.protolayout.expression.DynamicBuilders.COMPARISON_OP_TYPE_GREATER_THAN_OR_EQUAL_TO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.FloatToInt32Op.Builder androidx.wear.protolayout.expression.DynamicBuilders.FloatToInt32Op.Builder setRoundMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.ROUND_MODE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.ROUND_MODE_FLOOR, androidx.wear.protolayout.expression.DynamicBuilders.ROUND_MODE_ROUND, androidx.wear.protolayout.expression.DynamicBuilders.ROUND_MODE_CEILING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.GetDurationPartOp.Builder androidx.wear.protolayout.expression.DynamicBuilders.GetDurationPartOp.Builder setDurationPart(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_TOTAL_DAYS, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_TOTAL_HOURS, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_TOTAL_MINUTES, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_TOTAL_SECONDS, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_DAYS, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_HOURS, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_MINUTES, androidx.wear.protolayout.expression.DynamicBuilders.DURATION_PART_TYPE_SECONDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.GetZonedDateTimePartOp.Builder androidx.wear.protolayout.expression.DynamicBuilders.GetZonedDateTimePartOp.Builder setPartType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_SECOND, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_MINUTE, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_HOUR_24H, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_DAY_OF_WEEK, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_DAY_OF_MONTH, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_MONTH, androidx.wear.protolayout.expression.DynamicBuilders.ZONED_DATE_TIME_PART_YEAR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.LogicalBoolOp.Builder androidx.wear.protolayout.expression.DynamicBuilders.LogicalBoolOp.Builder setOperationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.LOGICAL_OP_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.LOGICAL_OP_TYPE_AND, androidx.wear.protolayout.expression.DynamicBuilders.LOGICAL_OP_TYPE_OR, androidx.wear.protolayout.expression.DynamicBuilders.LOGICAL_OP_TYPE_EQUAL, androidx.wear.protolayout.expression.DynamicBuilders.LOGICAL_OP_TYPE_NOT_EQUAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.DynamicBuilders.PlatformInt32Source.Builder androidx.wear.protolayout.expression.DynamicBuilders.PlatformInt32Source.Builder setSourceType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.DynamicBuilders.PLATFORM_INT32_SOURCE_TYPE_UNDEFINED, androidx.wear.protolayout.expression.DynamicBuilders.PLATFORM_INT32_SOURCE_TYPE_CURRENT_HEART_RATE, androidx.wear.protolayout.expression.DynamicBuilders.PLATFORM_INT32_SOURCE_TYPE_DAILY_STEP_COUNT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.PlatformHealthSources.DynamicHeartRateAccuracy androidx.wear.protolayout.expression.DynamicDataBuilders.DynamicDataValue&lt;androidx.wear.protolayout.expression.PlatformHealthSources.DynamicHeartRateAccuracy&gt; dynamicDataValueOf(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_UNKNOWN, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_NO_CONTACT, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_UNRELIABLE, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_LOW, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_MEDIUM, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_HIGH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.expression.PlatformHealthSources.DynamicHeartRateAccuracy androidx.wear.protolayout.expression.PlatformHealthSources.DynamicHeartRateAccuracy constant(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_UNKNOWN, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_NO_CONTACT, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_UNRELIABLE, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_LOW, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_MEDIUM, androidx.wear.protolayout.expression.PlatformHealthSources.HEART_RATE_ACCURACY_HIGH}"></val>
+        </annotation>
+    </item>
+</root>

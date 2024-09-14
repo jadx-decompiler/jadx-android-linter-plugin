@@ -1,0 +1,14 @@
+androidx.heifwriter.AvifWriter.INPUT_MODE_BITMAP=2
+androidx.heifwriter.AvifWriter.INPUT_MODE_BUFFER=0
+androidx.heifwriter.AvifWriter.INPUT_MODE_SURFACE=1
+androidx.heifwriter.EncoderBase.INPUT_MODE_BITMAP=2
+androidx.heifwriter.EncoderBase.INPUT_MODE_BUFFER=0
+androidx.heifwriter.EncoderBase.INPUT_MODE_SURFACE=1
+androidx.heifwriter.HeifWriter.INPUT_MODE_BITMAP=2
+androidx.heifwriter.HeifWriter.INPUT_MODE_BUFFER=0
+androidx.heifwriter.HeifWriter.INPUT_MODE_SURFACE=1
+androidx.heifwriter.Texture2dProgram.TEXTURE_2D=0
+androidx.heifwriter.Texture2dProgram.TEXTURE_EXT=1
+androidx.heifwriter.WriterBase.INPUT_MODE_BITMAP=2
+androidx.heifwriter.WriterBase.INPUT_MODE_BUFFER=0
+androidx.heifwriter.WriterBase.INPUT_MODE_SURFACE=1

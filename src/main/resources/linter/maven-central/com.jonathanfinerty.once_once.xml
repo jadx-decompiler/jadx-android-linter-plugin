@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="jonathanfinerty.once.Once boolean beenDone(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{jonathanfinerty.once.Once.THIS_APP_INSTALL, jonathanfinerty.once.Once.THIS_APP_VERSION, jonathanfinerty.once.Once.THIS_APP_SESSION}"></val>
+        </annotation>
+    </item>
+    <item name="jonathanfinerty.once.Once boolean beenDone(int, java.lang.String, jonathanfinerty.once.CountChecker) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{jonathanfinerty.once.Once.THIS_APP_INSTALL, jonathanfinerty.once.Once.THIS_APP_VERSION, jonathanfinerty.once.Once.THIS_APP_SESSION}"></val>
+        </annotation>
+    </item>
+    <item name="jonathanfinerty.once.Once void toDo(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{jonathanfinerty.once.Once.THIS_APP_INSTALL, jonathanfinerty.once.Once.THIS_APP_VERSION, jonathanfinerty.once.Once.THIS_APP_SESSION}"></val>
+        </annotation>
+    </item>
+</root>

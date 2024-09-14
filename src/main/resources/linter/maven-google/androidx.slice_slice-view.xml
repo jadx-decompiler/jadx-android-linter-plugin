@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.slice.SliceUtils androidx.slice.Slice stripSlice(androidx.slice.Slice, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.SliceUtils.SerializeOptions androidx.slice.SliceUtils.SerializeOptions setActionMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.SliceUtils.SerializeOptions.MODE_THROW, androidx.slice.SliceUtils.SerializeOptions.MODE_REMOVE, androidx.slice.SliceUtils.SerializeOptions.MODE_CONVERT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.SliceUtils.SerializeOptions androidx.slice.SliceUtils.SerializeOptions setImageMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.SliceUtils.SerializeOptions.MODE_THROW, androidx.slice.SliceUtils.SerializeOptions.MODE_REMOVE, androidx.slice.SliceUtils.SerializeOptions.MODE_CONVERT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo EventInfo(int, int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo EventInfo(int, int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.EventInfo.ACTION_TYPE_TOGGLE, androidx.slice.widget.EventInfo.ACTION_TYPE_BUTTON, androidx.slice.widget.EventInfo.ACTION_TYPE_SLIDER, androidx.slice.widget.EventInfo.ACTION_TYPE_CONTENT, androidx.slice.widget.EventInfo.ACTION_TYPE_SEE_MORE, androidx.slice.widget.EventInfo.ACTION_TYPE_SELECTION, androidx.slice.widget.EventInfo.ACTION_TYPE_DATE_PICK, androidx.slice.widget.EventInfo.ACTION_TYPE_TIME_PICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo EventInfo(int, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.EventInfo.ROW_TYPE_SHORTCUT, androidx.slice.widget.EventInfo.ROW_TYPE_LIST, androidx.slice.widget.EventInfo.ROW_TYPE_GRID, androidx.slice.widget.EventInfo.ROW_TYPE_MESSAGING, androidx.slice.widget.EventInfo.ROW_TYPE_TOGGLE, androidx.slice.widget.EventInfo.ROW_TYPE_SLIDER, androidx.slice.widget.EventInfo.ROW_TYPE_PROGRESS, androidx.slice.widget.EventInfo.ROW_TYPE_SELECTION, androidx.slice.widget.EventInfo.ROW_TYPE_DATE_PICK, androidx.slice.widget.EventInfo.ROW_TYPE_TIME_PICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo java.lang.String actionToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.EventInfo.ACTION_TYPE_TOGGLE, androidx.slice.widget.EventInfo.ACTION_TYPE_BUTTON, androidx.slice.widget.EventInfo.ACTION_TYPE_SLIDER, androidx.slice.widget.EventInfo.ACTION_TYPE_CONTENT, androidx.slice.widget.EventInfo.ACTION_TYPE_SEE_MORE, androidx.slice.widget.EventInfo.ACTION_TYPE_SELECTION, androidx.slice.widget.EventInfo.ACTION_TYPE_DATE_PICK, androidx.slice.widget.EventInfo.ACTION_TYPE_TIME_PICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo java.lang.String positionToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.EventInfo.POSITION_START, androidx.slice.widget.EventInfo.POSITION_END, androidx.slice.widget.EventInfo.POSITION_CELL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo java.lang.String rowTypeToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.EventInfo.ROW_TYPE_SHORTCUT, androidx.slice.widget.EventInfo.ROW_TYPE_LIST, androidx.slice.widget.EventInfo.ROW_TYPE_GRID, androidx.slice.widget.EventInfo.ROW_TYPE_MESSAGING, androidx.slice.widget.EventInfo.ROW_TYPE_TOGGLE, androidx.slice.widget.EventInfo.ROW_TYPE_SLIDER, androidx.slice.widget.EventInfo.ROW_TYPE_PROGRESS, androidx.slice.widget.EventInfo.ROW_TYPE_SELECTION, androidx.slice.widget.EventInfo.ROW_TYPE_DATE_PICK, androidx.slice.widget.EventInfo.ROW_TYPE_TIME_PICK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.EventInfo void setPosition(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.EventInfo.POSITION_START, androidx.slice.widget.EventInfo.POSITION_END, androidx.slice.widget.EventInfo.POSITION_CELL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.SliceLiveData.OnErrorListener void onSliceError(int, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceLiveData.OnErrorListener.ERROR_UNKNOWN, androidx.slice.widget.SliceLiveData.OnErrorListener.ERROR_STRUCTURE_CHANGED, androidx.slice.widget.SliceLiveData.OnErrorListener.ERROR_SLICE_NO_LONGER_PRESENT, androidx.slice.widget.SliceLiveData.OnErrorListener.ERROR_INVALID_INPUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.SliceView java.lang.String modeToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.SliceView void setMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.SliceView void setMode(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.SliceViewPolicy void setMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.slice.widget.SliceViewPolicy.PolicyChangeListener void onModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.slice.widget.SliceView.MODE_SMALL, androidx.slice.widget.SliceView.MODE_LARGE, androidx.slice.widget.SliceView.MODE_SHORTCUT}"></val>
+        </annotation>
+    </item>
+</root>

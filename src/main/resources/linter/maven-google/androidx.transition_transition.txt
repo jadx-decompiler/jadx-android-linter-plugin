@@ -1,0 +1,8 @@
+androidx.transition.Fade.IN=1
+androidx.transition.Fade.OUT=2
+androidx.transition.Transition.MATCH_ID=3
+androidx.transition.Transition.MATCH_INSTANCE=1
+androidx.transition.Transition.MATCH_ITEM_ID=4
+androidx.transition.Transition.MATCH_NAME=2
+androidx.transition.Visibility.MODE_IN=1
+androidx.transition.Visibility.MODE_OUT=2

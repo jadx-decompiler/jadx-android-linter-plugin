@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.protolayout.materialcore.Button.Builder androidx.wear.protolayout.materialcore.Button.Builder setContent(androidx.wear.protolayout.LayoutElementBuilders.LayoutElement, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.materialcore.Button.Builder.NOT_SET, androidx.wear.protolayout.materialcore.Button.Builder.ICON, androidx.wear.protolayout.materialcore.Button.Builder.TEXT, androidx.wear.protolayout.materialcore.Button.Builder.IMAGE, androidx.wear.protolayout.materialcore.Button.Builder.CUSTOM_CONTENT}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="android.support.wearable.complications.ComplicationData boolean isFieldValidForType(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.TYPE_EMPTY, android.support.wearable.complications.ComplicationData.TYPE_NOT_CONFIGURED, android.support.wearable.complications.ComplicationData.TYPE_SHORT_TEXT, android.support.wearable.complications.ComplicationData.TYPE_LONG_TEXT, android.support.wearable.complications.ComplicationData.TYPE_RANGED_VALUE, android.support.wearable.complications.ComplicationData.TYPE_ICON, android.support.wearable.complications.ComplicationData.TYPE_SMALL_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_LARGE_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_NO_PERMISSION, android.support.wearable.complications.ComplicationData.TYPE_NO_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationData void checkFieldValidForType(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.TYPE_EMPTY, android.support.wearable.complications.ComplicationData.TYPE_NOT_CONFIGURED, android.support.wearable.complications.ComplicationData.TYPE_SHORT_TEXT, android.support.wearable.complications.ComplicationData.TYPE_LONG_TEXT, android.support.wearable.complications.ComplicationData.TYPE_RANGED_VALUE, android.support.wearable.complications.ComplicationData.TYPE_ICON, android.support.wearable.complications.ComplicationData.TYPE_SMALL_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_LARGE_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_NO_PERMISSION, android.support.wearable.complications.ComplicationData.TYPE_NO_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationData void checkFieldValidForTypeWithoutThrowingException(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.TYPE_EMPTY, android.support.wearable.complications.ComplicationData.TYPE_NOT_CONFIGURED, android.support.wearable.complications.ComplicationData.TYPE_SHORT_TEXT, android.support.wearable.complications.ComplicationData.TYPE_LONG_TEXT, android.support.wearable.complications.ComplicationData.TYPE_RANGED_VALUE, android.support.wearable.complications.ComplicationData.TYPE_ICON, android.support.wearable.complications.ComplicationData.TYPE_SMALL_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_LARGE_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_NO_PERMISSION, android.support.wearable.complications.ComplicationData.TYPE_NO_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationData.Builder Builder(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.TYPE_EMPTY, android.support.wearable.complications.ComplicationData.TYPE_NOT_CONFIGURED, android.support.wearable.complications.ComplicationData.TYPE_SHORT_TEXT, android.support.wearable.complications.ComplicationData.TYPE_LONG_TEXT, android.support.wearable.complications.ComplicationData.TYPE_RANGED_VALUE, android.support.wearable.complications.ComplicationData.TYPE_ICON, android.support.wearable.complications.ComplicationData.TYPE_SMALL_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_LARGE_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_NO_PERMISSION, android.support.wearable.complications.ComplicationData.TYPE_NO_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationData.Builder android.support.wearable.complications.ComplicationData.Builder setSmallImageStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.IMAGE_STYLE_PHOTO, android.support.wearable.complications.ComplicationData.IMAGE_STYLE_ICON}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationProviderInfo ComplicationProviderInfo(java.lang.String, java.lang.String, android.graphics.drawable.Icon, int, android.content.ComponentName) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.TYPE_EMPTY, android.support.wearable.complications.ComplicationData.TYPE_NOT_CONFIGURED, android.support.wearable.complications.ComplicationData.TYPE_SHORT_TEXT, android.support.wearable.complications.ComplicationData.TYPE_LONG_TEXT, android.support.wearable.complications.ComplicationData.TYPE_RANGED_VALUE, android.support.wearable.complications.ComplicationData.TYPE_ICON, android.support.wearable.complications.ComplicationData.TYPE_SMALL_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_LARGE_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_NO_PERMISSION, android.support.wearable.complications.ComplicationData.TYPE_NO_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationProviderInfo void setComplicationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationData.TYPE_EMPTY, android.support.wearable.complications.ComplicationData.TYPE_NOT_CONFIGURED, android.support.wearable.complications.ComplicationData.TYPE_SHORT_TEXT, android.support.wearable.complications.ComplicationData.TYPE_LONG_TEXT, android.support.wearable.complications.ComplicationData.TYPE_RANGED_VALUE, android.support.wearable.complications.ComplicationData.TYPE_ICON, android.support.wearable.complications.ComplicationData.TYPE_SMALL_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_LARGE_IMAGE, android.support.wearable.complications.ComplicationData.TYPE_NO_PERMISSION, android.support.wearable.complications.ComplicationData.TYPE_NO_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationText.TimeDifferenceBuilder android.support.wearable.complications.ComplicationText.TimeDifferenceBuilder setStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_STOPWATCH, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_DUAL_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_WORDS_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_WORDS_SINGLE_UNIT}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationText.TimeFormatBuilder android.support.wearable.complications.ComplicationText.TimeFormatBuilder setStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeDifferenceText TimeDifferenceText(long, long, int, boolean, java.util.concurrent.TimeUnit) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_STOPWATCH, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_DUAL_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_WORDS_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_WORDS_SINGLE_UNIT}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeFormatText TimeFormatText(java.lang.String, int, java.util.TimeZone) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE}"></val>
+        </annotation>
+    </item>
+</root>

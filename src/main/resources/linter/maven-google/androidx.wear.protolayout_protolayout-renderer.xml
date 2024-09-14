@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.protolayout.renderer.common.NoOpProviderStatsLogger void logInflationFailed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_LAYOUT_DEPTH_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_EXPRESSION_NODE_COUNT_EXCEEDED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.NoOpProviderStatsLogger void logTileRequestReason(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_UNKNOWN, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_SYSUI_CAROUSEL, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_FRESHNESS, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_USER_INTERACTION, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_UPDATE_REQUESTER, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_CACHE_INVALIDATION, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_RETRY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.NoOpProviderStatsLogger.NoOpInflaterStatsLogger void logIgnoredFailure(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_APPLY_MUTATION_EXCEPTION, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_ANIMATION_QUOTA_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_DIFFING_FAILURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.NoOpProviderStatsLogger.NoOpInflaterStatsLogger void logInflationFailed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_LAYOUT_DEPTH_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_EXPRESSION_NODE_COUNT_EXCEEDED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.ProviderStatsLogger void logIgnoredFailure(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_APPLY_MUTATION_EXCEPTION, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_ANIMATION_QUOTA_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_DIFFING_FAILURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.ProviderStatsLogger void logInflationFailed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_LAYOUT_DEPTH_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_EXPRESSION_NODE_COUNT_EXCEEDED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.ProviderStatsLogger void logTileRequestReason(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_UNKNOWN, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_SYSUI_CAROUSEL, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_FRESHNESS, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_USER_INTERACTION, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_UPDATE_REQUESTER, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_CACHE_INVALIDATION, androidx.wear.protolayout.renderer.common.Constants.UPDATE_REQUEST_REASON_RETRY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.ProviderStatsLogger.InflaterStatsLogger void logIgnoredFailure(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_APPLY_MUTATION_EXCEPTION, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_ANIMATION_QUOTA_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.IGNORED_FAILURE_DIFFING_FAILURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.common.ProviderStatsLogger.InflaterStatsLogger void logInflationFailed(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_UNKNOWN, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_LAYOUT_DEPTH_EXCEEDED, androidx.wear.protolayout.renderer.common.ProviderStatsLogger.INFLATION_FAILURE_REASON_EXPRESSION_NODE_COUNT_EXCEEDED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.renderer.impl.ProtoLayoutViewInstance void setLayoutVisibility(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.renderer.ProtoLayoutVisibilityState.VISIBILITY_STATE_FULLY_VISIBLE, androidx.wear.protolayout.renderer.ProtoLayoutVisibilityState.VISIBILITY_STATE_PARTIALLY_VISIBLE, androidx.wear.protolayout.renderer.ProtoLayoutVisibilityState.VISIBILITY_STATE_INVISIBLE}"></val>
+        </annotation>
+    </item>
+</root>

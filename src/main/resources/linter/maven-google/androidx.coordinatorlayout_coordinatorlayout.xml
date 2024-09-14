@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.coordinatorlayout.widget.CoordinatorLayout void onChildViewsChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.coordinatorlayout.widget.CoordinatorLayout.EVENT_PRE_DRAW, androidx.coordinatorlayout.widget.CoordinatorLayout.EVENT_NESTED_SCROLL, androidx.coordinatorlayout.widget.CoordinatorLayout.EVENT_VIEW_REMOVED}"></val>
+        </annotation>
+    </item>
+</root>

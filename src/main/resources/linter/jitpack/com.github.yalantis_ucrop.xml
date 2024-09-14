@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.yalantis.ucrop.UCrop.Options void setAllowedGestures(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.yalantis.ucrop.UCropActivity.NONE, com.yalantis.ucrop.UCropActivity.SCALE, com.yalantis.ucrop.UCropActivity.ROTATE, com.yalantis.ucrop.UCropActivity.ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.yalantis.ucrop.UCrop.Options void setAllowedGestures(int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.yalantis.ucrop.UCropActivity.NONE, com.yalantis.ucrop.UCropActivity.SCALE, com.yalantis.ucrop.UCropActivity.ROTATE, com.yalantis.ucrop.UCropActivity.ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.yalantis.ucrop.UCrop.Options void setAllowedGestures(int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.yalantis.ucrop.UCropActivity.NONE, com.yalantis.ucrop.UCropActivity.SCALE, com.yalantis.ucrop.UCropActivity.ROTATE, com.yalantis.ucrop.UCropActivity.ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.yalantis.ucrop.view.OverlayView void setFreestyleCropMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.yalantis.ucrop.view.OverlayView.FREESTYLE_CROP_MODE_DISABLE, com.yalantis.ucrop.view.OverlayView.FREESTYLE_CROP_MODE_ENABLE, com.yalantis.ucrop.view.OverlayView.FREESTYLE_CROP_MODE_ENABLE_WITH_PASS_THROUGH}"></val>
+        </annotation>
+    </item>
+</root>

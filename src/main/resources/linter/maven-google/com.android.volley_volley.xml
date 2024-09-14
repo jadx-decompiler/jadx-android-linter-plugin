@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.android.volley.Request void sendEvent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.android.volley.RequestQueue.RequestEvent.REQUEST_QUEUED, com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_STARTED, com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_FINISHED, com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_STARTED, com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_FINISHED, com.android.volley.RequestQueue.RequestEvent.REQUEST_FINISHED}"></val>
+        </annotation>
+    </item>
+    <item name="com.android.volley.RequestQueue void sendRequestEvent(com.android.volley.Request&lt;?&gt;, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.android.volley.RequestQueue.RequestEvent.REQUEST_QUEUED, com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_STARTED, com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_FINISHED, com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_STARTED, com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_FINISHED, com.android.volley.RequestQueue.RequestEvent.REQUEST_FINISHED}"></val>
+        </annotation>
+    </item>
+    <item name="com.android.volley.RequestQueue.RequestEventListener void onRequestEvent(com.android.volley.Request&lt;?&gt;, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.android.volley.RequestQueue.RequestEvent.REQUEST_QUEUED, com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_STARTED, com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_FINISHED, com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_STARTED, com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_FINISHED, com.android.volley.RequestQueue.RequestEvent.REQUEST_FINISHED}"></val>
+        </annotation>
+    </item>
+</root>

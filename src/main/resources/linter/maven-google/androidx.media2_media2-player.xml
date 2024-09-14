@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media2.player.ExoPlayerWrapper void seekTo(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.SEEK_PREVIOUS_SYNC, androidx.media2.player.MediaPlayer2.SEEK_NEXT_SYNC, androidx.media2.player.MediaPlayer2.SEEK_CLOSEST_SYNC, androidx.media2.player.MediaPlayer2.SEEK_CLOSEST}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer com.google.common.util.concurrent.ListenableFuture&lt;androidx.media2.common.SessionPlayer.PlayerResult&gt; seekTo(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer.SEEK_PREVIOUS_SYNC, androidx.media2.player.MediaPlayer.SEEK_NEXT_SYNC, androidx.media2.player.MediaPlayer.SEEK_CLOSEST_SYNC, androidx.media2.player.MediaPlayer.SEEK_CLOSEST}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer.DrmResult DrmResult(int, androidx.media2.common.MediaItem) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.common.BaseResult.RESULT_SUCCESS, androidx.media2.player.MediaPlayer.DrmResult.RESULT_ERROR_PROVISIONING_NETWORK_ERROR, androidx.media2.player.MediaPlayer.DrmResult.RESULT_ERROR_PROVISIONING_SERVER_ERROR, androidx.media2.player.MediaPlayer.DrmResult.RESULT_ERROR_PREPARATION_ERROR, androidx.media2.player.MediaPlayer.DrmResult.RESULT_ERROR_UNSUPPORTED_SCHEME, androidx.media2.player.MediaPlayer.DrmResult.RESULT_ERROR_RESOURCE_BUSY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer.PlayerCallback void onError(androidx.media2.player.MediaPlayer, androidx.media2.common.MediaItem, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer.PLAYER_ERROR_UNKNOWN, androidx.media2.player.MediaPlayer.PLAYER_ERROR_IO, androidx.media2.player.MediaPlayer.PLAYER_ERROR_MALFORMED, androidx.media2.player.MediaPlayer.PLAYER_ERROR_UNSUPPORTED, androidx.media2.player.MediaPlayer.PLAYER_ERROR_TIMED_OUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer.PlayerCallback void onInfo(androidx.media2.player.MediaPlayer, androidx.media2.common.MediaItem, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer.MEDIA_INFO_MEDIA_ITEM_START, androidx.media2.player.MediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START, androidx.media2.player.MediaPlayer.MEDIA_INFO_MEDIA_ITEM_END, androidx.media2.player.MediaPlayer.MEDIA_INFO_MEDIA_ITEM_LIST_END, androidx.media2.player.MediaPlayer.MEDIA_INFO_MEDIA_ITEM_REPEAT, androidx.media2.player.MediaPlayer.MEDIA_INFO_PREPARED, androidx.media2.player.MediaPlayer.MEDIA_INFO_VIDEO_TRACK_LAGGING, androidx.media2.player.MediaPlayer.MEDIA_INFO_BUFFERING_START, androidx.media2.player.MediaPlayer.MEDIA_INFO_BUFFERING_END, androidx.media2.player.MediaPlayer.MEDIA_INFO_NETWORK_BANDWIDTH, androidx.media2.player.MediaPlayer.MEDIA_INFO_BUFFERING_UPDATE, androidx.media2.player.MediaPlayer.MEDIA_INFO_BAD_INTERLEAVING, androidx.media2.player.MediaPlayer.MEDIA_INFO_NOT_SEEKABLE, androidx.media2.player.MediaPlayer.MEDIA_INFO_METADATA_UPDATE, androidx.media2.player.MediaPlayer.MEDIA_INFO_EXTERNAL_METADATA_UPDATE, androidx.media2.player.MediaPlayer.MEDIA_INFO_AUDIO_NOT_PLAYING, androidx.media2.player.MediaPlayer.MEDIA_INFO_VIDEO_NOT_PLAYING, androidx.media2.player.MediaPlayer.MEDIA_INFO_UNSUPPORTED_SUBTITLE, androidx.media2.player.MediaPlayer.MEDIA_INFO_SUBTITLE_TIMED_OUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer2 java.lang.Object seekTo(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.SEEK_PREVIOUS_SYNC, androidx.media2.player.MediaPlayer2.SEEK_NEXT_SYNC, androidx.media2.player.MediaPlayer2.SEEK_CLOSEST_SYNC, androidx.media2.player.MediaPlayer2.SEEK_CLOSEST}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer2.DrmEventCallback void onDrmPrepared(androidx.media2.player.MediaPlayer2, androidx.media2.common.MediaItem, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.PREPARE_DRM_STATUS_SUCCESS, androidx.media2.player.MediaPlayer2.PREPARE_DRM_STATUS_PROVISIONING_NETWORK_ERROR, androidx.media2.player.MediaPlayer2.PREPARE_DRM_STATUS_PROVISIONING_SERVER_ERROR, androidx.media2.player.MediaPlayer2.PREPARE_DRM_STATUS_PREPARATION_ERROR, androidx.media2.player.MediaPlayer2.PREPARE_DRM_STATUS_UNSUPPORTED_SCHEME, androidx.media2.player.MediaPlayer2.PREPARE_DRM_STATUS_RESOURCE_BUSY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer2.EventCallback void onCallCompleted(androidx.media2.player.MediaPlayer2, androidx.media2.common.MediaItem, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.CALL_COMPLETED_ATTACH_AUX_EFFECT, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_DESELECT_TRACK, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_LOOP_CURRENT, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_PAUSE, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_PLAY, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_PREPARE, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SEEK_TO, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SELECT_TRACK, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_AUDIO_ATTRIBUTES, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_AUDIO_SESSION_ID, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_AUX_EFFECT_SEND_LEVEL, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_DATA_SOURCE, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_NEXT_DATA_SOURCE, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_NEXT_DATA_SOURCES, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_PLAYBACK_PARAMS, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_PLAYER_VOLUME, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SET_SURFACE, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_SKIP_TO_NEXT, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_NOTIFY_WHEN_COMMAND_LABEL_REACHED, androidx.media2.player.MediaPlayer2.CALL_COMPLETED_PREPARE_DRM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer2.EventCallback void onCallCompleted(androidx.media2.player.MediaPlayer2, androidx.media2.common.MediaItem, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.CALL_STATUS_NO_ERROR, androidx.media2.player.MediaPlayer2.CALL_STATUS_ERROR_UNKNOWN, androidx.media2.player.MediaPlayer2.CALL_STATUS_INVALID_OPERATION, androidx.media2.player.MediaPlayer2.CALL_STATUS_BAD_VALUE, androidx.media2.player.MediaPlayer2.CALL_STATUS_PERMISSION_DENIED, androidx.media2.player.MediaPlayer2.CALL_STATUS_ERROR_IO, androidx.media2.player.MediaPlayer2.CALL_STATUS_SKIPPED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer2.EventCallback void onError(androidx.media2.player.MediaPlayer2, androidx.media2.common.MediaItem, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.MEDIA_ERROR_UNKNOWN, androidx.media2.player.MediaPlayer2.MEDIA_ERROR_IO, androidx.media2.player.MediaPlayer2.MEDIA_ERROR_MALFORMED, androidx.media2.player.MediaPlayer2.MEDIA_ERROR_UNSUPPORTED, androidx.media2.player.MediaPlayer2.MEDIA_ERROR_TIMED_OUT, androidx.media2.player.MediaPlayer2.MEDIA_ERROR_SYSTEM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.MediaPlayer2.EventCallback void onInfo(androidx.media2.player.MediaPlayer2, androidx.media2.common.MediaItem, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.player.MediaPlayer2.MEDIA_INFO_UNKNOWN, androidx.media2.player.MediaPlayer2.MEDIA_INFO_DATA_SOURCE_START, androidx.media2.player.MediaPlayer2.MEDIA_INFO_VIDEO_RENDERING_START, androidx.media2.player.MediaPlayer2.MEDIA_INFO_AUDIO_RENDERING_START, androidx.media2.player.MediaPlayer2.MEDIA_INFO_DATA_SOURCE_END, androidx.media2.player.MediaPlayer2.MEDIA_INFO_DATA_SOURCE_LIST_END, androidx.media2.player.MediaPlayer2.MEDIA_INFO_DATA_SOURCE_REPEAT, androidx.media2.player.MediaPlayer2.MEDIA_INFO_PREPARED, androidx.media2.player.MediaPlayer2.MEDIA_INFO_VIDEO_TRACK_LAGGING, androidx.media2.player.MediaPlayer2.MEDIA_INFO_BUFFERING_START, androidx.media2.player.MediaPlayer2.MEDIA_INFO_BUFFERING_END, androidx.media2.player.MediaPlayer2.MEDIA_INFO_NETWORK_BANDWIDTH, androidx.media2.player.MediaPlayer2.MEDIA_INFO_BUFFERING_UPDATE, androidx.media2.player.MediaPlayer2.MEDIA_INFO_BAD_INTERLEAVING, androidx.media2.player.MediaPlayer2.MEDIA_INFO_NOT_SEEKABLE, androidx.media2.player.MediaPlayer2.MEDIA_INFO_METADATA_UPDATE, androidx.media2.player.MediaPlayer2.MEDIA_INFO_EXTERNAL_METADATA_UPDATE, androidx.media2.player.MediaPlayer2.MEDIA_INFO_AUDIO_NOT_PLAYING, androidx.media2.player.MediaPlayer2.MEDIA_INFO_VIDEO_NOT_PLAYING, androidx.media2.player.MediaPlayer2.MEDIA_INFO_UNSUPPORTED_SUBTITLE, androidx.media2.player.MediaPlayer2.MEDIA_INFO_SUBTITLE_TIMED_OUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.PlaybackParams.Builder androidx.media2.player.PlaybackParams.Builder setAudioFallbackMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.player.PlaybackParams.AUDIO_FALLBACK_MODE_DEFAULT, androidx.media2.player.PlaybackParams.AUDIO_FALLBACK_MODE_MUTE, androidx.media2.player.PlaybackParams.AUDIO_FALLBACK_MODE_FAIL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.TextRenderer void select(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.player.TextRenderer.TRACK_TYPE_CEA608, androidx.media2.player.TextRenderer.TRACK_TYPE_CEA708, androidx.media2.player.TextRenderer.TRACK_TYPE_WEBVTT, androidx.media2.player.TextRenderer.TRACK_TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.TrackSelector.InternalTextTrackInfo InternalTextTrackInfo(int, int, androidx.media2.exoplayer.external.Format, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.player.TextRenderer.TRACK_TYPE_CEA608, androidx.media2.player.TextRenderer.TRACK_TYPE_CEA708, androidx.media2.player.TextRenderer.TRACK_TYPE_WEBVTT, androidx.media2.player.TextRenderer.TRACK_TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.TrackSelector.InternalTextTrackInfo android.media.MediaFormat getMediaFormat(int, androidx.media2.exoplayer.external.Format, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.player.TextRenderer.TRACK_TYPE_CEA608, androidx.media2.player.TextRenderer.TRACK_TYPE_CEA708, androidx.media2.player.TextRenderer.TRACK_TYPE_WEBVTT, androidx.media2.player.TextRenderer.TRACK_TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.player.TrackSelector.InternalTextTrackInfo int getTrackInfoType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.player.TextRenderer.TRACK_TYPE_CEA608, androidx.media2.player.TextRenderer.TRACK_TYPE_CEA708, androidx.media2.player.TextRenderer.TRACK_TYPE_WEBVTT, androidx.media2.player.TextRenderer.TRACK_TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+</root>

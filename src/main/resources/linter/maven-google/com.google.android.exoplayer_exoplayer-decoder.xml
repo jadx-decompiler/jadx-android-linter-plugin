@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.decoder.DecoderInputBuffer DecoderInputBuffer(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DISABLED, com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_NORMAL, com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.decoder.DecoderInputBuffer DecoderInputBuffer(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DISABLED, com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_NORMAL, com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT}"></val>
+        </annotation>
+    </item>
+</root>

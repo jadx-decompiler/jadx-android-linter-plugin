@@ -1,0 +1,8 @@
+android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_DUAL_UNIT=3
+android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_SINGLE_UNIT=2
+android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_WORDS_SINGLE_UNIT=5
+android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_STOPWATCH=1
+android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_WORDS_SINGLE_UNIT=4
+android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT=1
+android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE=3
+android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE=2

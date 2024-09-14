@@ -1,0 +1,5 @@
+androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_1=WEAR_TIRAMISU_1
+androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_2=WEAR_TIRAMISU_2
+androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_3=WEAR_TIRAMISU_3
+androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_4=WEAR_TIRAMISU_4
+androidx.wear.utils.WearApiVersionHelper.WEAR_UDC_1=WEAR_UDC_1

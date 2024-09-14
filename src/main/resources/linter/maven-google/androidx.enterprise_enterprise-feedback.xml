@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.enterprise.feedback.KeyedAppState.KeyedAppStateBuilder androidx.enterprise.feedback.KeyedAppState.KeyedAppStateBuilder setSeverity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.enterprise.feedback.KeyedAppState.SEVERITY_INFO, androidx.enterprise.feedback.KeyedAppState.SEVERITY_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.enterprise.feedback.ReceivedKeyedAppState.ReceivedKeyedAppStateBuilder androidx.enterprise.feedback.ReceivedKeyedAppState.ReceivedKeyedAppStateBuilder setSeverity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.enterprise.feedback.KeyedAppState.SEVERITY_INFO, androidx.enterprise.feedback.KeyedAppState.SEVERITY_ERROR}"></val>
+        </annotation>
+    </item>
+</root>

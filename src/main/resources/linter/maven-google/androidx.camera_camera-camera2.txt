@@ -1,0 +1,9 @@
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR=10002
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED=1
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED=2
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR=3
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE=4
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB=10001
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE=5
+androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_HIGH_SPEED=1
+androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_REGULAR=0

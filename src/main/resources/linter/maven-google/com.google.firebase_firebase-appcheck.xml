@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.appcheck.internal.NetworkClient com.google.firebase.appcheck.internal.AppCheckTokenResponse exchangeAttestationForAppCheckToken(byte[], int, com.google.firebase.appcheck.internal.RetryManager) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.appcheck.internal.NetworkClient.UNKNOWN, com.google.firebase.appcheck.internal.NetworkClient.DEBUG, com.google.firebase.appcheck.internal.NetworkClient.PLAY_INTEGRITY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.appcheck.internal.NetworkClient java.lang.String getUrlTemplate(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.appcheck.internal.NetworkClient.UNKNOWN, com.google.firebase.appcheck.internal.NetworkClient.DEBUG, com.google.firebase.appcheck.internal.NetworkClient.PLAY_INTEGRITY}"></val>
+        </annotation>
+    </item>
+</root>

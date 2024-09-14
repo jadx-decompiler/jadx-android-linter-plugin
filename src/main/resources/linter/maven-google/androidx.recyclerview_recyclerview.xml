@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.recyclerview.widget.FastScroller void setState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.widget.FastScroller.STATE_HIDDEN, androidx.recyclerview.widget.FastScroller.STATE_VISIBLE, androidx.recyclerview.widget.FastScroller.STATE_DRAGGING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.GridLayoutManager GridLayoutManager(android.content.Context, int, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.HORIZONTAL, androidx.recyclerview.widget.RecyclerView.VERTICAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.LinearLayoutManager LinearLayoutManager(android.content.Context, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.HORIZONTAL, androidx.recyclerview.widget.RecyclerView.VERTICAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.LinearLayoutManager void setOrientation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.HORIZONTAL, androidx.recyclerview.widget.RecyclerView.VERTICAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.OrientationHelper androidx.recyclerview.widget.OrientationHelper createOrientationHelper(androidx.recyclerview.widget.RecyclerView.LayoutManager, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.HORIZONTAL, androidx.recyclerview.widget.RecyclerView.VERTICAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.RecyclerView.EdgeEffectFactory android.widget.EdgeEffect createEdgeEffect(androidx.recyclerview.widget.RecyclerView, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.EdgeEffectFactory.DIRECTION_LEFT, androidx.recyclerview.widget.RecyclerView.EdgeEffectFactory.DIRECTION_TOP, androidx.recyclerview.widget.RecyclerView.EdgeEffectFactory.DIRECTION_RIGHT, androidx.recyclerview.widget.RecyclerView.EdgeEffectFactory.DIRECTION_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.RecyclerView.ItemAnimator androidx.recyclerview.widget.RecyclerView.ItemAnimator.ItemHolderInfo recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView.State, androidx.recyclerview.widget.RecyclerView.ViewHolder, int, java.util.List&lt;java.lang.Object&gt;) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_CHANGED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_REMOVED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_MOVED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_INVALIDATED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_APPEARED_IN_PRE_LAYOUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.RecyclerView.ItemAnimator.ItemHolderInfo androidx.recyclerview.widget.RecyclerView.ItemAnimator.ItemHolderInfo setFrom(androidx.recyclerview.widget.RecyclerView.ViewHolder, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_CHANGED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_REMOVED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_MOVED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_INVALIDATED, androidx.recyclerview.widget.RecyclerView.ItemAnimator.FLAG_APPEARED_IN_PRE_LAYOUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.ViewBoundsCheck android.view.View findOneViewWithinBoundFlags(int, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.ViewBoundsCheck android.view.View findOneViewWithinBoundFlags(int, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.ViewBoundsCheck boolean isViewWithinBoundFlags(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.widget.ViewBoundsCheck.BoundFlags void addFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVS_LT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVS, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_GT_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_EQ_PVE, androidx.recyclerview.widget.ViewBoundsCheck.FLAG_CVE_LT_PVE}"></val>
+        </annotation>
+    </item>
+</root>

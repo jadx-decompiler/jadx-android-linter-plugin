@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.camera.camera2.internal.SupportedSurfaceCombination.FeatureSettings androidx.camera.camera2.internal.SupportedSurfaceCombination.FeatureSettings of(int, int, boolean, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.DynamicRange.BIT_DEPTH_8_BIT, androidx.camera.core.DynamicRange.BIT_DEPTH_10_BIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat CameraAccessExceptionCompat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat CameraAccessExceptionCompat(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat CameraAccessExceptionCompat(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat CameraAccessExceptionCompat(int, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat java.lang.String getCombinedMessage(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat java.lang.String getDefaultMessage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.MAX_CAMERAS_IN_USE, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISABLED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_DISCONNECTED, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_ERROR, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_UNAVAILABLE_DO_NOT_DISTURB, androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat.CAMERA_CHARACTERISTICS_CREATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat SessionConfigurationCompat(int, java.util.List&lt;androidx.camera.camera2.internal.compat.params.OutputConfigurationCompat&gt;, java.util.concurrent.Executor, android.hardware.camera2.CameraCaptureSession.StateCallback) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_REGULAR, androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_HIGH_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SessionConfigurationCompatApi28Impl SessionConfigurationCompatApi28Impl(int, java.util.List&lt;androidx.camera.camera2.internal.compat.params.OutputConfigurationCompat&gt;, java.util.concurrent.Executor, android.hardware.camera2.CameraCaptureSession.StateCallback) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_REGULAR, androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_HIGH_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SessionConfigurationCompatBaseImpl SessionConfigurationCompatBaseImpl(int, java.util.List&lt;androidx.camera.camera2.internal.compat.params.OutputConfigurationCompat&gt;, java.util.concurrent.Executor, android.hardware.camera2.CameraCaptureSession.StateCallback) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_REGULAR, androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat.SESSION_HIGH_SPEED}"></val>
+        </annotation>
+    </item>
+</root>

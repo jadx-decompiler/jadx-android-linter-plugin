@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.source.hls.HlsMediaPeriod HlsMediaPeriod(com.google.android.exoplayer2.source.hls.HlsExtractorFactory, com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker, com.google.android.exoplayer2.source.hls.HlsDataSourceFactory, com.google.android.exoplayer2.upstream.TransferListener, com.google.android.exoplayer2.upstream.CmcdConfiguration, com.google.android.exoplayer2.drm.DrmSessionManager, com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher, com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy, com.google.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher, com.google.android.exoplayer2.upstream.Allocator, com.google.android.exoplayer2.source.CompositeSequenceableLoaderFactory, boolean, int, boolean, com.google.android.exoplayer2.analytics.PlayerId, long) 12">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_ID3, com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_EMSG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.hls.HlsMediaSource HlsMediaSource(com.google.android.exoplayer2.MediaItem, com.google.android.exoplayer2.source.hls.HlsDataSourceFactory, com.google.android.exoplayer2.source.hls.HlsExtractorFactory, com.google.android.exoplayer2.source.CompositeSequenceableLoaderFactory, com.google.android.exoplayer2.upstream.CmcdConfiguration, com.google.android.exoplayer2.drm.DrmSessionManager, com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy, com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker, long, boolean, int, boolean, long) 10">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_ID3, com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_EMSG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.hls.HlsMediaSource.Factory com.google.android.exoplayer2.source.hls.HlsMediaSource.Factory setMetadataType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_ID3, com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_EMSG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.hls.HlsSampleStreamWrapper HlsSampleStreamWrapper(java.lang.String, int, com.google.android.exoplayer2.source.hls.HlsSampleStreamWrapper.Callback, com.google.android.exoplayer2.source.hls.HlsChunkSource, java.util.Map&lt;java.lang.String,com.google.android.exoplayer2.drm.DrmInitData&gt;, com.google.android.exoplayer2.upstream.Allocator, long, com.google.android.exoplayer2.Format, com.google.android.exoplayer2.drm.DrmSessionManager, com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher, com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy, com.google.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher, int) 12">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_ID3, com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_EMSG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.hls.HlsSampleStreamWrapper.EmsgUnwrappingTrackOutput EmsgUnwrappingTrackOutput(com.google.android.exoplayer2.extractor.TrackOutput, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_ID3, com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_EMSG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist HlsMediaPlaylist(int, java.lang.String, java.util.List&lt;java.lang.String&gt;, long, boolean, long, boolean, int, long, int, long, long, boolean, boolean, boolean, com.google.android.exoplayer2.drm.DrmInitData, java.util.List&lt;com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment&gt;, java.util.List&lt;com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Part&gt;, com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.ServerControl, java.util.Map&lt;android.net.Uri,com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.RenditionReport&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.PLAYLIST_TYPE_UNKNOWN, com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.PLAYLIST_TYPE_VOD, com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.PLAYLIST_TYPE_EVENT}"></val>
+        </annotation>
+    </item>
+</root>

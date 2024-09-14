@@ -1,0 +1,3 @@
+jonathanfinerty.once.Once.THIS_APP_INSTALL=0
+jonathanfinerty.once.Once.THIS_APP_SESSION=2
+jonathanfinerty.once.Once.THIS_APP_VERSION=1

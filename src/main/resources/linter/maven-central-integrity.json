@@ -1,0 +1,29 @@
+{
+  "artifacts": [
+    {
+      "name": "com.airbnb.android_lottie",
+      "rules": "sha512-fzs37q2n0dsrstPDm69p66UbATUXvKPSTo+J4g7oeO0Y+brGn1+Sn2/ZsVAaXMW8avBNqYkf8X4e3CKEF3JDlg==",
+      "constants": "sha512-tH4jSld4XUb+TeBTpep84+TsqYeuICBLFiXfSKdfusLKZnFai32bYGz3Gu6b1ByeUhdUk8HO+N689YJGdjQBQA=="
+    },
+    {
+      "name": "com.ashokvarma.android_bottom-navigation-bar",
+      "rules": "sha512-IpDURgMlsgnI6GY50uEv50YOR6lTP72hJSmXTZ7efPPM/CUp3yFCFncgaNihgNgQLve44ovHoiKp0mtZ9qArJQ==",
+      "constants": "sha512-8HDuCullk1bp+jq/NAw0ZKjPCLfhoCOg1G/vA3eVx9BECeomjpvYEAcJLlymW8xS9oDDh5OyAKREwjtMGMpNmQ=="
+    },
+    {
+      "name": "com.jonathanfinerty.once_once",
+      "rules": "sha512-2P0+i3UBUH1ZnBI+GbWhoO+31sxKhsvOSAxsOdUHLHWxSus3+AYdvl9MTnqh0OYQIJebyhEM6jWmfKrec+zi+g==",
+      "constants": "sha512-XDuVq0viJm9BRsWv0atZHNyxq92krqvTOYE4mQXQwq5RrBRADU673scdBIYnZMVjqE2Diqx8v+msH3ofG/pkpA=="
+    },
+    {
+      "name": "com.microsoft.appcenter_appcenter-crashes",
+      "rules": "sha512-Z8LKb+flBRMqmbzL2NS3qIGGbq1Rvi63xFAuvvOiV2wB7ZkK6nqSPKKZv36G65qDGmNo7n5ACeeRZfgMITgLKw==",
+      "constants": "sha512-gI233ksuCtuAs5NEV1+Rx78blf3RN3Cvt63aAvaw05sdZxScqf4hH/+xrgfZ94KU+32/amTRoNHkRkJSQxXK/g=="
+    },
+    {
+      "name": "com.simplecityapps_recyclerview-fastscroll",
+      "rules": "sha512-dqWcmsFmJq/1BhW9xK+3Sf8JBsKlopMnB2LF+MnrdtN4kD0ixKnyqLST7lrn7rG5C+qQt4rNA5oGJBlgp+OChQ==",
+      "constants": "sha512-ptGHtEavfq2EKAz6cI7A4cvHjIIYikkAvJVDkI/tCCnqTaYEpn6RqyydkJinmQ7+OEG5XCr2wuwUBlqy/0RA/A=="
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_CENTER=1
+androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_END=2
+androidx.wear.tiles.renderer.WearArcLayout.ANCHOR_START=0
+androidx.wear.tiles.renderer.WearArcLayout.LayoutParams.VALIGN_CENTER=1
+androidx.wear.tiles.renderer.WearArcLayout.LayoutParams.VALIGN_INNER=2
+androidx.wear.tiles.renderer.WearArcLayout.LayoutParams.VALIGN_OUTER=0

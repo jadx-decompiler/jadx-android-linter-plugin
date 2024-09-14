@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.perf.FirebasePerformance com.google.firebase.perf.metrics.HttpMetric newHttpMetric(java.lang.String, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.FirebasePerformance.HttpMethod.GET, com.google.firebase.perf.FirebasePerformance.HttpMethod.PUT, com.google.firebase.perf.FirebasePerformance.HttpMethod.POST, com.google.firebase.perf.FirebasePerformance.HttpMethod.DELETE, com.google.firebase.perf.FirebasePerformance.HttpMethod.HEAD, com.google.firebase.perf.FirebasePerformance.HttpMethod.PATCH, com.google.firebase.perf.FirebasePerformance.HttpMethod.OPTIONS, com.google.firebase.perf.FirebasePerformance.HttpMethod.TRACE, com.google.firebase.perf.FirebasePerformance.HttpMethod.CONNECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.FirebasePerformance com.google.firebase.perf.metrics.HttpMetric newHttpMetric(java.net.URL, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.FirebasePerformance.HttpMethod.GET, com.google.firebase.perf.FirebasePerformance.HttpMethod.PUT, com.google.firebase.perf.FirebasePerformance.HttpMethod.POST, com.google.firebase.perf.FirebasePerformance.HttpMethod.DELETE, com.google.firebase.perf.FirebasePerformance.HttpMethod.HEAD, com.google.firebase.perf.FirebasePerformance.HttpMethod.PATCH, com.google.firebase.perf.FirebasePerformance.HttpMethod.OPTIONS, com.google.firebase.perf.FirebasePerformance.HttpMethod.TRACE, com.google.firebase.perf.FirebasePerformance.HttpMethod.CONNECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.metrics.HttpMetric HttpMetric(java.lang.String, java.lang.String, com.google.firebase.perf.transport.TransportManager, com.google.firebase.perf.util.Timer) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.FirebasePerformance.HttpMethod.GET, com.google.firebase.perf.FirebasePerformance.HttpMethod.PUT, com.google.firebase.perf.FirebasePerformance.HttpMethod.POST, com.google.firebase.perf.FirebasePerformance.HttpMethod.DELETE, com.google.firebase.perf.FirebasePerformance.HttpMethod.HEAD, com.google.firebase.perf.FirebasePerformance.HttpMethod.PATCH, com.google.firebase.perf.FirebasePerformance.HttpMethod.OPTIONS, com.google.firebase.perf.FirebasePerformance.HttpMethod.TRACE, com.google.firebase.perf.FirebasePerformance.HttpMethod.CONNECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.metrics.HttpMetric HttpMetric(java.net.URL, java.lang.String, com.google.firebase.perf.transport.TransportManager, com.google.firebase.perf.util.Timer) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.FirebasePerformance.HttpMethod.GET, com.google.firebase.perf.FirebasePerformance.HttpMethod.PUT, com.google.firebase.perf.FirebasePerformance.HttpMethod.POST, com.google.firebase.perf.FirebasePerformance.HttpMethod.DELETE, com.google.firebase.perf.FirebasePerformance.HttpMethod.HEAD, com.google.firebase.perf.FirebasePerformance.HttpMethod.PATCH, com.google.firebase.perf.FirebasePerformance.HttpMethod.OPTIONS, com.google.firebase.perf.FirebasePerformance.HttpMethod.TRACE, com.google.firebase.perf.FirebasePerformance.HttpMethod.CONNECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.transport.RateLimiter.RateLimiterImpl RateLimiterImpl(com.google.firebase.perf.util.Rate, long, com.google.firebase.perf.util.Clock, com.google.firebase.perf.config.ConfigResolver, java.lang.String, boolean) 4">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.metrics.resource.ResourceType.TRACE, com.google.firebase.perf.metrics.resource.ResourceType.NETWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.transport.RateLimiter.RateLimiterImpl long getBlimitEvents(com.google.firebase.perf.config.ConfigResolver, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.metrics.resource.ResourceType.TRACE, com.google.firebase.perf.metrics.resource.ResourceType.NETWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.transport.RateLimiter.RateLimiterImpl long getBlimitSec(com.google.firebase.perf.config.ConfigResolver, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.metrics.resource.ResourceType.TRACE, com.google.firebase.perf.metrics.resource.ResourceType.NETWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.transport.RateLimiter.RateLimiterImpl long getFlimitEvents(com.google.firebase.perf.config.ConfigResolver, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.metrics.resource.ResourceType.TRACE, com.google.firebase.perf.metrics.resource.ResourceType.NETWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.transport.RateLimiter.RateLimiterImpl long getFlimitSec(com.google.firebase.perf.config.ConfigResolver, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.metrics.resource.ResourceType.TRACE, com.google.firebase.perf.metrics.resource.ResourceType.NETWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.perf.transport.RateLimiter.RateLimiterImpl void setRateByReadingRemoteConfigValues(com.google.firebase.perf.config.ConfigResolver, java.lang.String, boolean) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.perf.metrics.resource.ResourceType.TRACE, com.google.firebase.perf.metrics.resource.ResourceType.NETWORK}"></val>
+        </annotation>
+    </item>
+</root>

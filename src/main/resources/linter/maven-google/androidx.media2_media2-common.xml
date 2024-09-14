@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media2.common.MediaMetadata android.graphics.Bitmap getBitmap(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_ART, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ART, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_ICON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata androidx.media2.common.Rating getRating(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_USER_RATING, androidx.media2.common.MediaMetadata.METADATA_KEY_RATING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata float getFloat(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_RADIO_FREQUENCY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata java.lang.CharSequence getText(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM, androidx.media2.common.MediaMetadata.METADATA_KEY_AUTHOR, androidx.media2.common.MediaMetadata.METADATA_KEY_WRITER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPOSER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPILATION, androidx.media2.common.MediaMetadata.METADATA_KEY_DATE, androidx.media2.common.MediaMetadata.METADATA_KEY_GENRE, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_ICON_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_ID, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_RADIO_PROGRAM_NAME}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata java.lang.String getString(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM, androidx.media2.common.MediaMetadata.METADATA_KEY_AUTHOR, androidx.media2.common.MediaMetadata.METADATA_KEY_WRITER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPOSER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPILATION, androidx.media2.common.MediaMetadata.METADATA_KEY_DATE, androidx.media2.common.MediaMetadata.METADATA_KEY_GENRE, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_ICON_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_ID, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_RADIO_PROGRAM_NAME}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata long getLong(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_DURATION, androidx.media2.common.MediaMetadata.METADATA_KEY_YEAR, androidx.media2.common.MediaMetadata.METADATA_KEY_TRACK_NUMBER, androidx.media2.common.MediaMetadata.METADATA_KEY_NUM_TRACKS, androidx.media2.common.MediaMetadata.METADATA_KEY_DISC_NUMBER, androidx.media2.common.MediaMetadata.METADATA_KEY_BROWSABLE, androidx.media2.common.MediaMetadata.METADATA_KEY_PLAYABLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ADVERTISEMENT, androidx.media2.common.MediaMetadata.METADATA_KEY_DOWNLOAD_STATUS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata.Builder androidx.media2.common.MediaMetadata.Builder putBitmap(java.lang.String, android.graphics.Bitmap) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_ART, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ART, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_ICON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata.Builder androidx.media2.common.MediaMetadata.Builder putFloat(java.lang.String, float) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_DURATION, androidx.media2.common.MediaMetadata.METADATA_KEY_YEAR, androidx.media2.common.MediaMetadata.METADATA_KEY_TRACK_NUMBER, androidx.media2.common.MediaMetadata.METADATA_KEY_NUM_TRACKS, androidx.media2.common.MediaMetadata.METADATA_KEY_DISC_NUMBER, androidx.media2.common.MediaMetadata.METADATA_KEY_BROWSABLE, androidx.media2.common.MediaMetadata.METADATA_KEY_PLAYABLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ADVERTISEMENT, androidx.media2.common.MediaMetadata.METADATA_KEY_DOWNLOAD_STATUS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata.Builder androidx.media2.common.MediaMetadata.Builder putLong(java.lang.String, long) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_DURATION, androidx.media2.common.MediaMetadata.METADATA_KEY_YEAR, androidx.media2.common.MediaMetadata.METADATA_KEY_TRACK_NUMBER, androidx.media2.common.MediaMetadata.METADATA_KEY_NUM_TRACKS, androidx.media2.common.MediaMetadata.METADATA_KEY_DISC_NUMBER, androidx.media2.common.MediaMetadata.METADATA_KEY_BROWSABLE, androidx.media2.common.MediaMetadata.METADATA_KEY_PLAYABLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ADVERTISEMENT, androidx.media2.common.MediaMetadata.METADATA_KEY_DOWNLOAD_STATUS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata.Builder androidx.media2.common.MediaMetadata.Builder putRating(java.lang.String, androidx.media2.common.Rating) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_USER_RATING, androidx.media2.common.MediaMetadata.METADATA_KEY_RATING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata.Builder androidx.media2.common.MediaMetadata.Builder putString(java.lang.String, java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM, androidx.media2.common.MediaMetadata.METADATA_KEY_AUTHOR, androidx.media2.common.MediaMetadata.METADATA_KEY_WRITER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPOSER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPILATION, androidx.media2.common.MediaMetadata.METADATA_KEY_DATE, androidx.media2.common.MediaMetadata.METADATA_KEY_GENRE, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_ICON_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_ID, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_RADIO_PROGRAM_NAME}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.MediaMetadata.Builder androidx.media2.common.MediaMetadata.Builder putText(java.lang.String, java.lang.CharSequence) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media2.common.MediaMetadata.METADATA_KEY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM, androidx.media2.common.MediaMetadata.METADATA_KEY_AUTHOR, androidx.media2.common.MediaMetadata.METADATA_KEY_WRITER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPOSER, androidx.media2.common.MediaMetadata.METADATA_KEY_COMPILATION, androidx.media2.common.MediaMetadata.METADATA_KEY_DATE, androidx.media2.common.MediaMetadata.METADATA_KEY_GENRE, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ARTIST, androidx.media2.common.MediaMetadata.METADATA_KEY_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_ALBUM_ART_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_TITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_ICON_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_ID, androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_URI, androidx.media2.common.MediaMetadata.METADATA_KEY_RADIO_PROGRAM_NAME}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer androidx.media2.common.SessionPlayer.TrackInfo getSelectedTrack(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="false"></val>
+            <val name="value" val="{androidx.media2.common.SessionPlayer.TrackInfo.MEDIA_TRACK_TYPE_UNKNOWN, androidx.media2.common.SessionPlayer.TrackInfo.MEDIA_TRACK_TYPE_VIDEO, androidx.media2.common.SessionPlayer.TrackInfo.MEDIA_TRACK_TYPE_AUDIO, androidx.media2.common.SessionPlayer.TrackInfo.MEDIA_TRACK_TYPE_SUBTITLE, androidx.media2.common.SessionPlayer.TrackInfo.MEDIA_TRACK_TYPE_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer com.google.common.util.concurrent.ListenableFuture&lt;androidx.media2.common.SessionPlayer.PlayerResult&gt; setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.common.SessionPlayer.REPEAT_MODE_NONE, androidx.media2.common.SessionPlayer.REPEAT_MODE_ONE, androidx.media2.common.SessionPlayer.REPEAT_MODE_ALL, androidx.media2.common.SessionPlayer.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer com.google.common.util.concurrent.ListenableFuture&lt;androidx.media2.common.SessionPlayer.PlayerResult&gt; setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.common.SessionPlayer.SHUFFLE_MODE_NONE, androidx.media2.common.SessionPlayer.SHUFFLE_MODE_ALL, androidx.media2.common.SessionPlayer.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer.PlayerCallback void onBufferingStateChanged(androidx.media2.common.SessionPlayer, androidx.media2.common.MediaItem, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.common.SessionPlayer.BUFFERING_STATE_UNKNOWN, androidx.media2.common.SessionPlayer.BUFFERING_STATE_BUFFERING_AND_PLAYABLE, androidx.media2.common.SessionPlayer.BUFFERING_STATE_BUFFERING_AND_STARVED, androidx.media2.common.SessionPlayer.BUFFERING_STATE_COMPLETE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer.PlayerCallback void onPlayerStateChanged(androidx.media2.common.SessionPlayer, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.common.SessionPlayer.PLAYER_STATE_IDLE, androidx.media2.common.SessionPlayer.PLAYER_STATE_PAUSED, androidx.media2.common.SessionPlayer.PLAYER_STATE_PLAYING, androidx.media2.common.SessionPlayer.PLAYER_STATE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer.PlayerCallback void onRepeatModeChanged(androidx.media2.common.SessionPlayer, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.common.SessionPlayer.REPEAT_MODE_NONE, androidx.media2.common.SessionPlayer.REPEAT_MODE_ONE, androidx.media2.common.SessionPlayer.REPEAT_MODE_ALL, androidx.media2.common.SessionPlayer.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media2.common.SessionPlayer.PlayerCallback void onShuffleModeChanged(androidx.media2.common.SessionPlayer, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media2.common.SessionPlayer.SHUFFLE_MODE_NONE, androidx.media2.common.SessionPlayer.SHUFFLE_MODE_ALL, androidx.media2.common.SessionPlayer.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+</root>

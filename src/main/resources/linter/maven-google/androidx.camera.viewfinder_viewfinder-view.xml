@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.camera.viewfinder.ViewfinderSurfaceRequest.Builder androidx.camera.viewfinder.ViewfinderSurfaceRequest.Builder setLensFacing(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.hardware.camera2.CameraMetadata.LENS_FACING_FRONT, android.hardware.camera2.CameraMetadata.LENS_FACING_BACK, android.hardware.camera2.CameraMetadata.LENS_FACING_EXTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.viewfinder.internal.transform.TransformationInfo androidx.camera.viewfinder.internal.transform.TransformationInfo of(android.graphics.Rect, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.viewfinder.internal.utils.CameraOrientationUtil int surfaceRotationToDegrees(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+</root>

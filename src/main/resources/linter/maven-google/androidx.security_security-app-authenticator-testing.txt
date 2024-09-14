@@ -1,0 +1,3 @@
+androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_CUSTOM=3
+androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_DENY_ALL=2
+androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_SIGNATURE_ACCEPTED_FOR_DECLARED_PACKAGES=1

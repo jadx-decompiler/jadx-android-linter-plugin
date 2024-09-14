@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.abt.AbtExperimentInfo com.google.firebase.analytics.connector.AnalyticsConnector.ConditionalUserProperty toConditionalUserProperty(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.abt.FirebaseABTesting.OriginService.REMOTE_CONFIG, com.google.firebase.abt.FirebaseABTesting.OriginService.INAPP_MESSAGING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.abt.FirebaseABTesting FirebaseABTesting(android.content.Context, com.google.firebase.inject.Provider&lt;com.google.firebase.analytics.connector.AnalyticsConnector&gt;, java.lang.String) 2">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.abt.FirebaseABTesting.OriginService.REMOTE_CONFIG, com.google.firebase.abt.FirebaseABTesting.OriginService.INAPP_MESSAGING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.abt.component.AbtComponent com.google.firebase.abt.FirebaseABTesting createAbtInstance(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.abt.FirebaseABTesting.OriginService.REMOTE_CONFIG, com.google.firebase.abt.FirebaseABTesting.OriginService.INAPP_MESSAGING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.abt.component.AbtComponent com.google.firebase.abt.FirebaseABTesting get(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.firebase.abt.FirebaseABTesting.OriginService.REMOTE_CONFIG, com.google.firebase.abt.FirebaseABTesting.OriginService.INAPP_MESSAGING}"></val>
+        </annotation>
+    </item>
+</root>

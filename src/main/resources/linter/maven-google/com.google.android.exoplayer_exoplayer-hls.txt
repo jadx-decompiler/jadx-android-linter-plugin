@@ -1,0 +1,5 @@
+com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_EMSG=3
+com.google.android.exoplayer2.source.hls.HlsMediaSource.METADATA_TYPE_ID3=1
+com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.PLAYLIST_TYPE_EVENT=2
+com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.PLAYLIST_TYPE_UNKNOWN=0
+com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.PLAYLIST_TYPE_VOD=1

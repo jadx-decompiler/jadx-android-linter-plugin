@@ -1,0 +1,8 @@
+com.android.identity.android.legacy.IdentityCredentialStore.CIPHERSUITE_ECDHE_HKDF_ECDSA_WITH_AES_256_GCM_SHA256=1
+com.android.identity.android.legacy.ResultData.STATUS_NOT_IN_REQUEST_MESSAGE=3
+com.android.identity.android.legacy.ResultData.STATUS_NOT_REQUESTED=2
+com.android.identity.android.legacy.ResultData.STATUS_NO_ACCESS_CONTROL_PROFILES=6
+com.android.identity.android.legacy.ResultData.STATUS_NO_SUCH_ENTRY=1
+com.android.identity.android.legacy.ResultData.STATUS_OK=0
+com.android.identity.android.legacy.ResultData.STATUS_READER_AUTHENTICATION_FAILED=5
+com.android.identity.android.legacy.ResultData.STATUS_USER_AUTHENTICATION_FAILED=4

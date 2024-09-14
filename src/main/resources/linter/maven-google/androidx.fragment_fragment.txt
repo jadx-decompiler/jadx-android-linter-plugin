@@ -1,0 +1,14 @@
+androidx.fragment.app.DialogFragment.STYLE_NORMAL=0
+androidx.fragment.app.DialogFragment.STYLE_NO_FRAME=2
+androidx.fragment.app.DialogFragment.STYLE_NO_INPUT=3
+androidx.fragment.app.DialogFragment.STYLE_NO_TITLE=1
+androidx.fragment.app.FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT=1
+androidx.fragment.app.FragmentPagerAdapter.BEHAVIOR_SET_USER_VISIBLE_HINT=0
+androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT=1
+androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_SET_USER_VISIBLE_HINT=0
+androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_CLOSE=8194
+androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE=4099
+androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_MATCH_ACTIVITY_CLOSE=8197
+androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_MATCH_ACTIVITY_OPEN=4100
+androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_OPEN=4097
+androidx.fragment.app.FragmentTransaction.TRANSIT_NONE=0

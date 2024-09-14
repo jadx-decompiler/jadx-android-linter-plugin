@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.security.app.authenticator.TestAppAuthenticatorBuilder androidx.security.app.authenticator.TestAppAuthenticatorBuilder setTestPolicy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_SIGNATURE_ACCEPTED_FOR_DECLARED_PACKAGES, androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_DENY_ALL, androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_CUSTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.security.app.authenticator.TestAppSignatureVerifier TestAppSignatureVerifier(android.content.Context, java.util.Map&lt;java.lang.String,java.util.Map&lt;java.lang.String,java.util.Set&lt;java.lang.String&gt;&gt;&gt;, java.util.Map&lt;java.lang.String,java.util.Set&lt;java.lang.String&gt;&gt;, java.util.Set&lt;java.lang.String&gt;, java.util.Set&lt;java.lang.String&gt;, java.util.Map&lt;java.lang.String,java.lang.String&gt;, int) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_SIGNATURE_ACCEPTED_FOR_DECLARED_PACKAGES, androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_DENY_ALL, androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_CUSTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.security.app.authenticator.TestAppSignatureVerifier.Builder androidx.security.app.authenticator.TestAppSignatureVerifier.Builder setTestPolicy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_SIGNATURE_ACCEPTED_FOR_DECLARED_PACKAGES, androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_DENY_ALL, androidx.security.app.authenticator.TestAppAuthenticatorBuilder.POLICY_CUSTOM}"></val>
+        </annotation>
+    </item>
+</root>

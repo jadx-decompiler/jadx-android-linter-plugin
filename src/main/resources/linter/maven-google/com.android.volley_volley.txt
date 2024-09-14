@@ -1,0 +1,6 @@
+com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_FINISHED=2
+com.android.volley.RequestQueue.RequestEvent.REQUEST_CACHE_LOOKUP_STARTED=1
+com.android.volley.RequestQueue.RequestEvent.REQUEST_FINISHED=5
+com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_FINISHED=4
+com.android.volley.RequestQueue.RequestEvent.REQUEST_NETWORK_DISPATCH_STARTED=3
+com.android.volley.RequestQueue.RequestEvent.REQUEST_QUEUED=0

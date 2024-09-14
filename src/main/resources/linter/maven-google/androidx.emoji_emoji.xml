@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.emoji.text.EmojiCompat java.lang.CharSequence process(java.lang.CharSequence, int, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.text.EmojiCompat.Config androidx.emoji.text.EmojiCompat.Config setMetadataLoadStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.LOAD_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.LOAD_STRATEGY_MANUAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.text.EmojiCompat.ListenerDispatcher ListenerDispatcher(androidx.emoji.text.EmojiCompat.InitCallback, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.LOAD_STATE_DEFAULT, androidx.emoji.text.EmojiCompat.LOAD_STATE_LOADING, androidx.emoji.text.EmojiCompat.LOAD_STATE_SUCCEEDED, androidx.emoji.text.EmojiCompat.LOAD_STATE_FAILED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.text.EmojiCompat.ListenerDispatcher ListenerDispatcher(java.util.Collection&lt;androidx.emoji.text.EmojiCompat.InitCallback&gt;, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.LOAD_STATE_DEFAULT, androidx.emoji.text.EmojiCompat.LOAD_STATE_LOADING, androidx.emoji.text.EmojiCompat.LOAD_STATE_SUCCEEDED, androidx.emoji.text.EmojiCompat.LOAD_STATE_FAILED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.text.EmojiCompat.ListenerDispatcher ListenerDispatcher(java.util.Collection&lt;androidx.emoji.text.EmojiCompat.InitCallback&gt;, int, java.lang.Throwable) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.LOAD_STATE_DEFAULT, androidx.emoji.text.EmojiCompat.LOAD_STATE_LOADING, androidx.emoji.text.EmojiCompat.LOAD_STATE_SUCCEEDED, androidx.emoji.text.EmojiCompat.LOAD_STATE_FAILED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.widget.EmojiEditTextHelper void setEmojiReplaceStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.widget.EmojiEditTextHelper.HelperInternal void setEmojiReplaceStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.widget.EmojiEditTextHelper.HelperInternal19 void setEmojiReplaceStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.widget.EmojiExtractEditText void setEmojiReplaceStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.widget.EmojiExtractTextLayout void setEmojiReplaceStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji.widget.EmojiTextWatcher void setEmojiReplaceStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+</root>

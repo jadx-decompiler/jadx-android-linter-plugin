@@ -1,0 +1,12 @@
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_EXIF=1
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_GPS=2
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_INTEROPERABILITY=3
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_CAMERA_SETTINGS=7
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_IMAGE_PROCESSING=8
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_MAKER_NOTE=6
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_PEF=9
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_PREVIEW=5
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_PRIMARY=0
+androidx.exifinterface.media.ExifInterface.IFD_TYPE_THUMBNAIL=4
+androidx.exifinterface.media.ExifInterface.STREAM_TYPE_EXIF_DATA_ONLY=1
+androidx.exifinterface.media.ExifInterface.STREAM_TYPE_FULL_IMAGE_DATA=0

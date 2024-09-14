@@ -1,0 +1,4 @@
+androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_LOCKED=3
+androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_LOCKED_CLOSED=2
+androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_LOCKED_OPEN=1
+androidx.slidingpanelayout.widget.SlidingPaneLayout.LOCK_MODE_UNLOCKED=0

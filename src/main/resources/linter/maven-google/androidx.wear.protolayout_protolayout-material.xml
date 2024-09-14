@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.protolayout.material.Button.Builder androidx.wear.protolayout.material.Button.Builder setTextContent(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BUTTON, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION3}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.Chip.Builder androidx.wear.protolayout.material.Chip.Builder setPrimaryLabelTypography(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BUTTON, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION3}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.Text.Builder androidx.wear.protolayout.material.Text.Builder setTypography(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BUTTON, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION3}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.Typography androidx.wear.protolayout.DimensionBuilders.SpProp getLineHeightForTypography(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BUTTON, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION3}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.Typography androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder getFontStyleBuilder(int, android.content.Context) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BUTTON, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION3}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.Typography androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder getFontStyleBuilder(int, android.content.Context, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_DISPLAY3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_TITLE3, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BODY2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_BUTTON, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION1, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION2, androidx.wear.protolayout.material.Typography.TYPOGRAPHY_CAPTION3}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.layouts.EdgeContentLayout boolean areElementsPresent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.wear.protolayout.material.layouts.EdgeContentLayout.EDGE_CONTENT_PRESENT, androidx.wear.protolayout.material.layouts.EdgeContentLayout.PRIMARY_LABEL_PRESENT, androidx.wear.protolayout.material.layouts.EdgeContentLayout.SECONDARY_LABEL_PRESENT, androidx.wear.protolayout.material.layouts.EdgeContentLayout.CONTENT_PRESENT, androidx.wear.protolayout.material.layouts.EdgeContentLayout.EDGE_CONTENT_POSITION, androidx.wear.protolayout.material.layouts.EdgeContentLayout.CONTENT_INSET_USED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.layouts.MultiButtonLayout.Builder androidx.wear.protolayout.material.layouts.MultiButtonLayout.Builder setFiveButtonDistribution(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.material.layouts.MultiButtonLayout.FIVE_BUTTON_DISTRIBUTION_TOP_HEAVY, androidx.wear.protolayout.material.layouts.MultiButtonLayout.FIVE_BUTTON_DISTRIBUTION_BOTTOM_HEAVY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.material.layouts.PrimaryLayout boolean areElementsPresent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.wear.protolayout.material.layouts.PrimaryLayout.CHIP_PRESENT, androidx.wear.protolayout.material.layouts.PrimaryLayout.PRIMARY_LABEL_PRESENT, androidx.wear.protolayout.material.layouts.PrimaryLayout.SECONDARY_LABEL_PRESENT, androidx.wear.protolayout.material.layouts.PrimaryLayout.CONTENT_PRESENT, androidx.wear.protolayout.material.layouts.PrimaryLayout.CONTENT_INSET_USED}"></val>
+        </annotation>
+    </item>
+</root>

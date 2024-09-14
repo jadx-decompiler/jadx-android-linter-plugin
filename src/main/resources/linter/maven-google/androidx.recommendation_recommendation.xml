@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.recommendation.app.ContentRecommendation void setStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_READY, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_PENDING, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_AVAILABLE, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_UNAVAILABLE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.ContentRecommendation.Builder androidx.recommendation.app.ContentRecommendation.Builder setContentIntentData(int, android.content.Intent, int, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.INTENT_TYPE_ACTIVITY, androidx.recommendation.app.ContentRecommendation.INTENT_TYPE_BROADCAST, androidx.recommendation.app.ContentRecommendation.INTENT_TYPE_SERVICE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.ContentRecommendation.Builder androidx.recommendation.app.ContentRecommendation.Builder setDismissIntentData(int, android.content.Intent, int, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.INTENT_TYPE_ACTIVITY, androidx.recommendation.app.ContentRecommendation.INTENT_TYPE_BROADCAST, androidx.recommendation.app.ContentRecommendation.INTENT_TYPE_SERVICE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.ContentRecommendation.Builder androidx.recommendation.app.ContentRecommendation.Builder setMaturityRating(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_ALL, androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_LOW, androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_MEDIUM, androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_HIGH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.ContentRecommendation.Builder androidx.recommendation.app.ContentRecommendation.Builder setPricingInformation(java.lang.String, java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_FREE, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_RENTAL, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_PURCHASE, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_PREORDER, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_SUBSCRIPTION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.ContentRecommendation.Builder androidx.recommendation.app.ContentRecommendation.Builder setStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_READY, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_PENDING, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_AVAILABLE, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_UNAVAILABLE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.RecommendationExtender androidx.recommendation.app.RecommendationExtender setMaturityRating(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_ALL, androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_LOW, androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_MEDIUM, androidx.recommendation.app.ContentRecommendation.CONTENT_MATURITY_HIGH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.RecommendationExtender androidx.recommendation.app.RecommendationExtender setPricingInformation(java.lang.String, java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_FREE, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_RENTAL, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_PURCHASE, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_PREORDER, androidx.recommendation.app.ContentRecommendation.CONTENT_PRICING_SUBSCRIPTION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recommendation.app.RecommendationExtender androidx.recommendation.app.RecommendationExtender setStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_READY, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_PENDING, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_AVAILABLE, androidx.recommendation.app.ContentRecommendation.CONTENT_STATUS_UNAVAILABLE}"></val>
+        </annotation>
+    </item>
+</root>

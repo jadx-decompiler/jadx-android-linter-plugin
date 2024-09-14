@@ -1,0 +1,3 @@
+androidx.camera.view.CameraController.IMAGE_ANALYSIS=2
+androidx.camera.view.CameraController.IMAGE_CAPTURE=1
+androidx.camera.view.CameraController.VIDEO_CAPTURE=4

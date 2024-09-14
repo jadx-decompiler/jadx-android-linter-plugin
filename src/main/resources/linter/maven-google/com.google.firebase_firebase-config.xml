@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.remoteconfig.internal.ConfigFetchHandler.FetchResponse FetchResponse(java.util.Date, int, com.google.firebase.remoteconfig.internal.ConfigContainer, java.lang.String) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.remoteconfig.internal.ConfigFetchHandler.FetchResponse.Status.BACKEND_UPDATES_FETCHED, com.google.firebase.remoteconfig.internal.ConfigFetchHandler.FetchResponse.Status.BACKEND_HAS_NO_UPDATES, com.google.firebase.remoteconfig.internal.ConfigFetchHandler.FetchResponse.Status.LOCAL_STORAGE_USED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.remoteconfig.internal.FirebaseRemoteConfigInfoImpl.Builder com.google.firebase.remoteconfig.internal.FirebaseRemoteConfigInfoImpl.Builder withLastFetchStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.remoteconfig.FirebaseRemoteConfig.LAST_FETCH_STATUS_SUCCESS, com.google.firebase.remoteconfig.FirebaseRemoteConfig.LAST_FETCH_STATUS_NO_FETCH_YET, com.google.firebase.remoteconfig.FirebaseRemoteConfig.LAST_FETCH_STATUS_FAILURE, com.google.firebase.remoteconfig.FirebaseRemoteConfig.LAST_FETCH_STATUS_THROTTLED}"></val>
+        </annotation>
+    </item>
+</root>

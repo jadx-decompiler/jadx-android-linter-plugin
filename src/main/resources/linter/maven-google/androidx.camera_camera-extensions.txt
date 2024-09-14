@@ -1,0 +1,6 @@
+androidx.camera.extensions.ExtensionMode.AUTO=5
+androidx.camera.extensions.ExtensionMode.BOKEH=1
+androidx.camera.extensions.ExtensionMode.FACE_RETOUCH=4
+androidx.camera.extensions.ExtensionMode.HDR=2
+androidx.camera.extensions.ExtensionMode.NIGHT=3
+androidx.camera.extensions.ExtensionMode.NONE=0

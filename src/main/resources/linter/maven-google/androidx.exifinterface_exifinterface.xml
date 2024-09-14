@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.exifinterface.media.ExifInterface ExifInterface(java.io.InputStream, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.exifinterface.media.ExifInterface.STREAM_TYPE_FULL_IMAGE_DATA, androidx.exifinterface.media.ExifInterface.STREAM_TYPE_EXIF_DATA_ONLY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.exifinterface.media.ExifInterface void readImageFileDirectory(androidx.exifinterface.media.ExifInterface.SeekableByteOrderedDataInputStream, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.exifinterface.media.ExifInterface.IFD_TYPE_PRIMARY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_EXIF, androidx.exifinterface.media.ExifInterface.IFD_TYPE_GPS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_INTEROPERABILITY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_THUMBNAIL, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PREVIEW, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_MAKER_NOTE, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_CAMERA_SETTINGS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_IMAGE_PROCESSING, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PEF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.exifinterface.media.ExifInterface void replaceInvalidTags(int, java.lang.String, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.exifinterface.media.ExifInterface.IFD_TYPE_PRIMARY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_EXIF, androidx.exifinterface.media.ExifInterface.IFD_TYPE_GPS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_INTEROPERABILITY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_THUMBNAIL, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PREVIEW, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_MAKER_NOTE, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_CAMERA_SETTINGS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_IMAGE_PROCESSING, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PEF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.exifinterface.media.ExifInterface void swapBasedOnImageSize(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.exifinterface.media.ExifInterface.IFD_TYPE_PRIMARY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_EXIF, androidx.exifinterface.media.ExifInterface.IFD_TYPE_GPS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_INTEROPERABILITY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_THUMBNAIL, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PREVIEW, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_MAKER_NOTE, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_CAMERA_SETTINGS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_IMAGE_PROCESSING, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PEF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.exifinterface.media.ExifInterface void swapBasedOnImageSize(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.exifinterface.media.ExifInterface.IFD_TYPE_PRIMARY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_EXIF, androidx.exifinterface.media.ExifInterface.IFD_TYPE_GPS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_INTEROPERABILITY, androidx.exifinterface.media.ExifInterface.IFD_TYPE_THUMBNAIL, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PREVIEW, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_MAKER_NOTE, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_CAMERA_SETTINGS, androidx.exifinterface.media.ExifInterface.IFD_TYPE_ORF_IMAGE_PROCESSING, androidx.exifinterface.media.ExifInterface.IFD_TYPE_PEF}"></val>
+        </annotation>
+    </item>
+</root>

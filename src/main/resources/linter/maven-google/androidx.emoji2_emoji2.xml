@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.emoji2.text.EmojiCompat java.lang.CharSequence process(java.lang.CharSequence, int, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji2.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT, androidx.emoji2.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT, androidx.emoji2.text.EmojiCompat.REPLACE_STRATEGY_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.emoji2.text.EmojiCompat.Config androidx.emoji2.text.EmojiCompat.Config setMetadataLoadStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.emoji2.text.EmojiCompat.LOAD_STRATEGY_DEFAULT, androidx.emoji2.text.EmojiCompat.LOAD_STRATEGY_MANUAL}"></val>
+        </annotation>
+    </item>
+</root>

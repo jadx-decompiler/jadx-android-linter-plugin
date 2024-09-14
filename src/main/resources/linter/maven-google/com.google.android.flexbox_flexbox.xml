@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.flexbox.FlexContainer void setAlignContent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignContent.FLEX_START, com.google.android.flexbox.AlignContent.FLEX_END, com.google.android.flexbox.AlignContent.CENTER, com.google.android.flexbox.AlignContent.SPACE_BETWEEN, com.google.android.flexbox.AlignContent.SPACE_AROUND, com.google.android.flexbox.AlignContent.STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexContainer void setAlignItems(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignItems.FLEX_START, com.google.android.flexbox.AlignItems.FLEX_END, com.google.android.flexbox.AlignItems.CENTER, com.google.android.flexbox.AlignItems.BASELINE, com.google.android.flexbox.AlignItems.STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexContainer void setFlexDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexDirection.ROW, com.google.android.flexbox.FlexDirection.ROW_REVERSE, com.google.android.flexbox.FlexDirection.COLUMN, com.google.android.flexbox.FlexDirection.COLUMN_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexContainer void setFlexWrap(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexWrap.NOWRAP, com.google.android.flexbox.FlexWrap.WRAP, com.google.android.flexbox.FlexWrap.WRAP_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexContainer void setJustifyContent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.JustifyContent.FLEX_START, com.google.android.flexbox.JustifyContent.FLEX_END, com.google.android.flexbox.JustifyContent.CENTER, com.google.android.flexbox.JustifyContent.SPACE_BETWEEN, com.google.android.flexbox.JustifyContent.SPACE_AROUND, com.google.android.flexbox.JustifyContent.SPACE_EVENLY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexItem void setAlignSelf(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignItems.FLEX_START, com.google.android.flexbox.AlignItems.FLEX_END, com.google.android.flexbox.AlignItems.CENTER, com.google.android.flexbox.AlignItems.BASELINE, com.google.android.flexbox.AlignItems.STRETCH, com.google.android.flexbox.AlignSelf.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setAlignContent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignContent.FLEX_START, com.google.android.flexbox.AlignContent.FLEX_END, com.google.android.flexbox.AlignContent.CENTER, com.google.android.flexbox.AlignContent.SPACE_BETWEEN, com.google.android.flexbox.AlignContent.SPACE_AROUND, com.google.android.flexbox.AlignContent.STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setAlignItems(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignItems.FLEX_START, com.google.android.flexbox.AlignItems.FLEX_END, com.google.android.flexbox.AlignItems.CENTER, com.google.android.flexbox.AlignItems.BASELINE, com.google.android.flexbox.AlignItems.STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setFlexDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexDirection.ROW, com.google.android.flexbox.FlexDirection.ROW_REVERSE, com.google.android.flexbox.FlexDirection.COLUMN, com.google.android.flexbox.FlexDirection.COLUMN_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setFlexWrap(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexWrap.NOWRAP, com.google.android.flexbox.FlexWrap.WRAP, com.google.android.flexbox.FlexWrap.WRAP_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setJustifyContent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.JustifyContent.FLEX_START, com.google.android.flexbox.JustifyContent.FLEX_END, com.google.android.flexbox.JustifyContent.CENTER, com.google.android.flexbox.JustifyContent.SPACE_BETWEEN, com.google.android.flexbox.JustifyContent.SPACE_AROUND, com.google.android.flexbox.JustifyContent.SPACE_EVENLY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setMeasuredDimensionForFlex(int, int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexDirection.ROW, com.google.android.flexbox.FlexDirection.ROW_REVERSE, com.google.android.flexbox.FlexDirection.COLUMN, com.google.android.flexbox.FlexDirection.COLUMN_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setShowDivider(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_NONE, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_BEGINNING, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_MIDDLE, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setShowDividerHorizontal(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_NONE, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_BEGINNING, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_MIDDLE, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout void setShowDividerVertical(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_NONE, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_BEGINNING, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_MIDDLE, com.google.android.flexbox.FlexboxLayout.SHOW_DIVIDER_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayout.LayoutParams void setAlignSelf(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignItems.FLEX_START, com.google.android.flexbox.AlignItems.FLEX_END, com.google.android.flexbox.AlignItems.CENTER, com.google.android.flexbox.AlignItems.BASELINE, com.google.android.flexbox.AlignItems.STRETCH, com.google.android.flexbox.AlignSelf.AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager FlexboxLayoutManager(android.content.Context, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexDirection.ROW, com.google.android.flexbox.FlexDirection.ROW_REVERSE, com.google.android.flexbox.FlexDirection.COLUMN, com.google.android.flexbox.FlexDirection.COLUMN_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager FlexboxLayoutManager(android.content.Context, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexDirection.ROW, com.google.android.flexbox.FlexDirection.ROW_REVERSE, com.google.android.flexbox.FlexDirection.COLUMN, com.google.android.flexbox.FlexDirection.COLUMN_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager FlexboxLayoutManager(android.content.Context, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexWrap.NOWRAP, com.google.android.flexbox.FlexWrap.WRAP, com.google.android.flexbox.FlexWrap.WRAP_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager void setAlignContent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignContent.FLEX_START, com.google.android.flexbox.AlignContent.FLEX_END, com.google.android.flexbox.AlignContent.CENTER, com.google.android.flexbox.AlignContent.SPACE_BETWEEN, com.google.android.flexbox.AlignContent.SPACE_AROUND, com.google.android.flexbox.AlignContent.STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager void setAlignItems(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignItems.FLEX_START, com.google.android.flexbox.AlignItems.FLEX_END, com.google.android.flexbox.AlignItems.CENTER, com.google.android.flexbox.AlignItems.BASELINE, com.google.android.flexbox.AlignItems.STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager void setFlexDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexDirection.ROW, com.google.android.flexbox.FlexDirection.ROW_REVERSE, com.google.android.flexbox.FlexDirection.COLUMN, com.google.android.flexbox.FlexDirection.COLUMN_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager void setFlexWrap(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.FlexWrap.NOWRAP, com.google.android.flexbox.FlexWrap.WRAP, com.google.android.flexbox.FlexWrap.WRAP_REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager void setJustifyContent(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.JustifyContent.FLEX_START, com.google.android.flexbox.JustifyContent.FLEX_END, com.google.android.flexbox.JustifyContent.CENTER, com.google.android.flexbox.JustifyContent.SPACE_BETWEEN, com.google.android.flexbox.JustifyContent.SPACE_AROUND, com.google.android.flexbox.JustifyContent.SPACE_EVENLY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.flexbox.FlexboxLayoutManager.LayoutParams void setAlignSelf(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.flexbox.AlignItems.FLEX_START, com.google.android.flexbox.AlignItems.FLEX_END, com.google.android.flexbox.AlignItems.CENTER, com.google.android.flexbox.AlignItems.BASELINE, com.google.android.flexbox.AlignItems.STRETCH, com.google.android.flexbox.AlignSelf.AUTO}"></val>
+        </annotation>
+    </item>
+</root>

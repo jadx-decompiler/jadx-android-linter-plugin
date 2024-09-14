@@ -1,0 +1,2 @@
+androidx.enterprise.feedback.KeyedAppState.SEVERITY_ERROR=2
+androidx.enterprise.feedback.KeyedAppState.SEVERITY_INFO=1

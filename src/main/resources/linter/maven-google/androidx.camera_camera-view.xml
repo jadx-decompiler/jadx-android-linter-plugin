@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.camera.view.CameraController void setEnabledUseCases(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.view.CameraController.IMAGE_CAPTURE, androidx.camera.view.CameraController.IMAGE_ANALYSIS, androidx.camera.view.CameraController.VIDEO_CAPTURE}"></val>
+        </annotation>
+    </item>
+</root>

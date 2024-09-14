@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.heifwriter.AvifEncoder AvifEncoder(int, int, boolean, int, int, android.os.Handler, androidx.heifwriter.EncoderBase.Callback, boolean) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.EncoderBase.INPUT_MODE_BUFFER, androidx.heifwriter.EncoderBase.INPUT_MODE_SURFACE, androidx.heifwriter.EncoderBase.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.AvifWriter AvifWriter(java.lang.String, java.io.FileDescriptor, int, int, int, boolean, int, int, int, int, android.os.Handler, boolean) 9">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.AvifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.AvifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.AvifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.AvifWriter.Builder Builder(java.io.FileDescriptor, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.AvifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.AvifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.AvifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.AvifWriter.Builder Builder(java.lang.String, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.AvifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.AvifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.AvifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.AvifWriter.Builder Builder(java.lang.String, java.io.FileDescriptor, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.AvifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.AvifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.AvifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.EncoderBase EncoderBase(java.lang.String, int, int, boolean, int, int, android.os.Handler, androidx.heifwriter.EncoderBase.Callback, boolean) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.EncoderBase.INPUT_MODE_BUFFER, androidx.heifwriter.EncoderBase.INPUT_MODE_SURFACE, androidx.heifwriter.EncoderBase.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.HeifEncoder HeifEncoder(int, int, boolean, int, int, android.os.Handler, androidx.heifwriter.EncoderBase.Callback) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.EncoderBase.INPUT_MODE_BUFFER, androidx.heifwriter.EncoderBase.INPUT_MODE_SURFACE, androidx.heifwriter.EncoderBase.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.HeifWriter HeifWriter(java.lang.String, java.io.FileDescriptor, int, int, int, boolean, int, int, int, int, android.os.Handler) 9">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.HeifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.HeifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.HeifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.HeifWriter.Builder Builder(java.io.FileDescriptor, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.HeifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.HeifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.HeifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.HeifWriter.Builder Builder(java.lang.String, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.HeifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.HeifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.HeifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.HeifWriter.Builder Builder(java.lang.String, java.io.FileDescriptor, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.HeifWriter.INPUT_MODE_BUFFER, androidx.heifwriter.HeifWriter.INPUT_MODE_SURFACE, androidx.heifwriter.HeifWriter.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.Texture2dProgram Texture2dProgram(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.Texture2dProgram.TEXTURE_2D, androidx.heifwriter.Texture2dProgram.TEXTURE_EXT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.WriterBase WriterBase(int, int, int, int, boolean, int, android.os.Handler, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.WriterBase.INPUT_MODE_BUFFER, androidx.heifwriter.WriterBase.INPUT_MODE_SURFACE, androidx.heifwriter.WriterBase.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.WriterBase void checkMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.WriterBase.INPUT_MODE_BUFFER, androidx.heifwriter.WriterBase.INPUT_MODE_SURFACE, androidx.heifwriter.WriterBase.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.heifwriter.WriterBase void checkStartedAndMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.heifwriter.WriterBase.INPUT_MODE_BUFFER, androidx.heifwriter.WriterBase.INPUT_MODE_SURFACE, androidx.heifwriter.WriterBase.INPUT_MODE_BITMAP}"></val>
+        </annotation>
+    </item>
+</root>

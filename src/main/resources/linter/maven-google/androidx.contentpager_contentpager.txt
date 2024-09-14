@@ -1,0 +1,4 @@
+androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_COPIED=1
+androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_PAGED=2
+androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_REPAGED=3
+androidx.contentpager.content.ContentPager.CURSOR_DISPOSITION_WRAPPED=4

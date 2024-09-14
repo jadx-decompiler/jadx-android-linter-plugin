@@ -1,0 +1,6 @@
+com.google.ads.mediation.mintegral.MintegralConstants.ERROR_BANNER_SIZE_UNSUPPORTED=102
+com.google.ads.mediation.mintegral.MintegralConstants.ERROR_CODE_NO_FILL=104
+com.google.ads.mediation.mintegral.MintegralConstants.ERROR_CODE_SDK_INIT_FAILED=105
+com.google.ads.mediation.mintegral.MintegralConstants.ERROR_INVALID_BID_RESPONSE=103
+com.google.ads.mediation.mintegral.MintegralConstants.ERROR_INVALID_SERVER_PARAMETERS=101
+com.google.ads.mediation.mintegral.MintegralConstants.ERROR_MINTEGRAL_SDK=100

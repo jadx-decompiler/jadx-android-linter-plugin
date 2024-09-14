@@ -1,0 +1,4 @@
+androidx.appsearch.debugview.view.AppSearchDebugActivity.SEARCH_TYPE_GLOBAL=1
+androidx.appsearch.debugview.view.AppSearchDebugActivity.SEARCH_TYPE_LOCAL=0
+androidx.appsearch.debugview.view.AppSearchDebugActivity.STORAGE_TYPE_LOCAL=0
+androidx.appsearch.debugview.view.AppSearchDebugActivity.STORAGE_TYPE_PLATFORM=1

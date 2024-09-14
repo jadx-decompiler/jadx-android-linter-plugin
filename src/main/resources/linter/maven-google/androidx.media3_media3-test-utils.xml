@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.test.utils.WebServerDispatcher.Resource Resource(java.lang.String, byte[], boolean, boolean, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED, androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_ENABLED, androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.test.utils.WebServerDispatcher.Resource.Builder androidx.media3.test.utils.WebServerDispatcher.Resource.Builder setGzipSupport(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED, androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_ENABLED, androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED}"></val>
+        </annotation>
+    </item>
+</root>

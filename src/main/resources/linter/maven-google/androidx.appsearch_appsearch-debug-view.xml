@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.appsearch.debugview.DebugAppSearchManager DebugAppSearchManager(android.content.Context, java.util.concurrent.ExecutorService, int, java.lang.String, java.lang.String) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.debugview.view.AppSearchDebugActivity.SEARCH_TYPE_LOCAL, androidx.appsearch.debugview.view.AppSearchDebugActivity.SEARCH_TYPE_GLOBAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.debugview.DebugAppSearchManager com.google.common.util.concurrent.ListenableFuture&lt;androidx.appsearch.debugview.DebugAppSearchManager&gt; createAsync(android.content.Context, java.util.concurrent.ExecutorService, java.lang.String, java.lang.String, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.debugview.view.AppSearchDebugActivity.STORAGE_TYPE_LOCAL, androidx.appsearch.debugview.view.AppSearchDebugActivity.STORAGE_TYPE_PLATFORM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.debugview.DebugAppSearchManager com.google.common.util.concurrent.ListenableFuture&lt;androidx.appsearch.debugview.DebugAppSearchManager&gt; createAsync(android.content.Context, java.util.concurrent.ExecutorService, java.lang.String, java.lang.String, int, int) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.debugview.view.AppSearchDebugActivity.SEARCH_TYPE_LOCAL, androidx.appsearch.debugview.view.AppSearchDebugActivity.SEARCH_TYPE_GLOBAL}"></val>
+        </annotation>
+    </item>
+</root>

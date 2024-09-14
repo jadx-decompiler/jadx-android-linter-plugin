@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.protolayout.DeviceParametersBuilders.DeviceParameters.Builder androidx.wear.protolayout.DeviceParametersBuilders.DeviceParameters.Builder setDevicePlatform(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.DeviceParametersBuilders.DEVICE_PLATFORM_UNDEFINED, androidx.wear.protolayout.DeviceParametersBuilders.DEVICE_PLATFORM_WEAR_OS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.DeviceParametersBuilders.DeviceParameters.Builder androidx.wear.protolayout.DeviceParametersBuilders.DeviceParameters.Builder setScreenShape(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.DeviceParametersBuilders.SCREEN_SHAPE_UNDEFINED, androidx.wear.protolayout.DeviceParametersBuilders.SCREEN_SHAPE_ROUND, androidx.wear.protolayout.DeviceParametersBuilders.SCREEN_SHAPE_RECT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.DimensionBuilders.AngularLayoutConstraint.Builder androidx.wear.protolayout.DimensionBuilders.AngularLayoutConstraint.Builder setAngularAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ANGULAR_ALIGNMENT_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.ANGULAR_ALIGNMENT_START, androidx.wear.protolayout.LayoutElementBuilders.ANGULAR_ALIGNMENT_CENTER, androidx.wear.protolayout.LayoutElementBuilders.ANGULAR_ALIGNMENT_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.DimensionBuilders.HorizontalLayoutConstraint.Builder androidx.wear.protolayout.DimensionBuilders.HorizontalLayoutConstraint.Builder setHorizontalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_LEFT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_RIGHT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.DimensionBuilders.VerticalLayoutConstraint.Builder androidx.wear.protolayout.DimensionBuilders.VerticalLayoutConstraint.Builder setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_TOP, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Arc.Builder androidx.wear.protolayout.LayoutElementBuilders.Arc.Builder setAnchorType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_START, androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_CENTER, androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Arc.Builder androidx.wear.protolayout.LayoutElementBuilders.Arc.Builder setArcDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_CLOCKWISE, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_COUNTER_CLOCKWISE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Arc.Builder androidx.wear.protolayout.LayoutElementBuilders.Arc.Builder setVerticalAlign(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_TOP, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ArcAnchorTypeProp.Builder androidx.wear.protolayout.LayoutElementBuilders.ArcAnchorTypeProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_START, androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_CENTER, androidx.wear.protolayout.LayoutElementBuilders.ARC_ANCHOR_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ArcDirectionProp.Builder Builder(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_CLOCKWISE, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_COUNTER_CLOCKWISE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ArcDirectionProp.Builder androidx.wear.protolayout.LayoutElementBuilders.ArcDirectionProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_CLOCKWISE, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_COUNTER_CLOCKWISE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ArcLine.Builder androidx.wear.protolayout.LayoutElementBuilders.ArcLine.Builder setArcDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_CLOCKWISE, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_COUNTER_CLOCKWISE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ArcLine.Builder androidx.wear.protolayout.LayoutElementBuilders.ArcLine.Builder setStrokeCap(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_BUTT, androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_ROUND, androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_SQUARE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ArcText.Builder androidx.wear.protolayout.LayoutElementBuilders.ArcText.Builder setArcDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_CLOCKWISE, androidx.wear.protolayout.LayoutElementBuilders.ARC_DIRECTION_COUNTER_CLOCKWISE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Box.Builder androidx.wear.protolayout.LayoutElementBuilders.Box.Builder setHorizontalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_LEFT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_RIGHT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Box.Builder androidx.wear.protolayout.LayoutElementBuilders.Box.Builder setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_TOP, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Column.Builder androidx.wear.protolayout.LayoutElementBuilders.Column.Builder setHorizontalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_LEFT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_RIGHT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.ContentScaleModeProp.Builder androidx.wear.protolayout.LayoutElementBuilders.ContentScaleModeProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_FIT, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_CROP, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_FILL_BOUNDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder setPreferredFontFamilies(java.lang.String, java.lang.String...) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FontStyle.ROBOTO_FONT, androidx.wear.protolayout.LayoutElementBuilders.FontStyle.ROBOTO_FLEX_FONT}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder setVariant(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_TITLE, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_BODY, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_CUSTOM_1}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder setWeight(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_MEDIUM, androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_BOLD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.FontVariantProp.Builder androidx.wear.protolayout.LayoutElementBuilders.FontVariantProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_TITLE, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_BODY, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_CUSTOM_1}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.FontWeightProp.Builder androidx.wear.protolayout.LayoutElementBuilders.FontWeightProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_NORMAL, androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_MEDIUM, androidx.wear.protolayout.LayoutElementBuilders.FONT_WEIGHT_BOLD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.HorizontalAlignmentProp.Builder androidx.wear.protolayout.LayoutElementBuilders.HorizontalAlignmentProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_LEFT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_RIGHT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Image.Builder androidx.wear.protolayout.LayoutElementBuilders.Image.Builder setContentScaleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_FIT, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_CROP, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_FILL_BOUNDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Row.Builder androidx.wear.protolayout.LayoutElementBuilders.Row.Builder setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_TOP, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.SpanImage.Builder androidx.wear.protolayout.LayoutElementBuilders.SpanImage.Builder setAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.SPAN_VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.SPAN_VERTICAL_ALIGN_BOTTOM, androidx.wear.protolayout.LayoutElementBuilders.SPAN_VERTICAL_ALIGN_TEXT_BASELINE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.SpanVerticalAlignmentProp.Builder androidx.wear.protolayout.LayoutElementBuilders.SpanVerticalAlignmentProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.SPAN_VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.SPAN_VERTICAL_ALIGN_BOTTOM, androidx.wear.protolayout.LayoutElementBuilders.SPAN_VERTICAL_ALIGN_TEXT_BASELINE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Spannable.Builder androidx.wear.protolayout.LayoutElementBuilders.Spannable.Builder setMultilineAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_LEFT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_RIGHT, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.HORIZONTAL_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Spannable.Builder androidx.wear.protolayout.LayoutElementBuilders.Spannable.Builder setOverflow(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_TRUNCATE, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE_END, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_MARQUEE, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.StrokeCapProp.Builder androidx.wear.protolayout.LayoutElementBuilders.StrokeCapProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_BUTT, androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_ROUND, androidx.wear.protolayout.LayoutElementBuilders.STROKE_CAP_SQUARE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Text.Builder androidx.wear.protolayout.LayoutElementBuilders.Text.Builder setMultilineAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.Text.Builder androidx.wear.protolayout.LayoutElementBuilders.Text.Builder setOverflow(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_TRUNCATE, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE_END, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_MARQUEE, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.TextAlignmentProp.Builder androidx.wear.protolayout.LayoutElementBuilders.TextAlignmentProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.TextOverflowProp.Builder androidx.wear.protolayout.LayoutElementBuilders.TextOverflowProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_TRUNCATE, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE_END, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_MARQUEE, androidx.wear.protolayout.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.VerticalAlignmentProp.Builder androidx.wear.protolayout.LayoutElementBuilders.VerticalAlignmentProp.Builder setValue(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_TOP, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.VERTICAL_ALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.DefaultContentTransitions androidx.wear.protolayout.ModifiersBuilders.EnterTransition fadeInSlideIn(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.DefaultContentTransitions androidx.wear.protolayout.ModifiersBuilders.EnterTransition slideIn(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.DefaultContentTransitions androidx.wear.protolayout.ModifiersBuilders.ExitTransition fadeOutSlideOut(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.DefaultContentTransitions androidx.wear.protolayout.ModifiersBuilders.ExitTransition slideOut(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.DefaultContentTransitions androidx.wear.protolayout.ModifiersBuilders.SlideInTransition slideInTransition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.DefaultContentTransitions androidx.wear.protolayout.ModifiersBuilders.SlideOutTransition slideOutTransition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.Semantics.Builder androidx.wear.protolayout.ModifiersBuilders.Semantics.Builder setRole(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SEMANTICS_ROLE_NONE, androidx.wear.protolayout.ModifiersBuilders.SEMANTICS_ROLE_IMAGE, androidx.wear.protolayout.ModifiersBuilders.SEMANTICS_ROLE_BUTTON, androidx.wear.protolayout.ModifiersBuilders.SEMANTICS_ROLE_CHECKBOX, androidx.wear.protolayout.ModifiersBuilders.SEMANTICS_ROLE_SWITCH, androidx.wear.protolayout.ModifiersBuilders.SEMANTICS_ROLE_RADIOBUTTON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.SlideInTransition.Builder androidx.wear.protolayout.ModifiersBuilders.SlideInTransition.Builder setDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.SlideOutTransition.Builder androidx.wear.protolayout.ModifiersBuilders.SlideOutTransition.Builder setDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_LEFT_TO_RIGHT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_RIGHT_TO_LEFT, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_TOP_TO_BOTTOM, androidx.wear.protolayout.ModifiersBuilders.SLIDE_DIRECTION_BOTTOM_TO_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ModifiersBuilders.SlideParentBound.Builder androidx.wear.protolayout.ModifiersBuilders.SlideParentBound.Builder setSnapTo(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ModifiersBuilders.SLIDE_PARENT_SNAP_UNDEFINED, androidx.wear.protolayout.ModifiersBuilders.SLIDE_PARENT_SNAP_TO_INSIDE, androidx.wear.protolayout.ModifiersBuilders.SLIDE_PARENT_SNAP_TO_OUTSIDE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ResourceBuilders.AndroidAnimatedImageResourceByResId.Builder androidx.wear.protolayout.ResourceBuilders.AndroidAnimatedImageResourceByResId.Builder setAnimatedImageFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ResourceBuilders.ANIMATED_IMAGE_FORMAT_UNDEFINED, androidx.wear.protolayout.ResourceBuilders.ANIMATED_IMAGE_FORMAT_AVD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ResourceBuilders.AndroidSeekableAnimatedImageResourceByResId.Builder androidx.wear.protolayout.ResourceBuilders.AndroidSeekableAnimatedImageResourceByResId.Builder setAnimatedImageFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ResourceBuilders.ANIMATED_IMAGE_FORMAT_UNDEFINED, androidx.wear.protolayout.ResourceBuilders.ANIMATED_IMAGE_FORMAT_AVD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.ResourceBuilders.InlineImageResource.Builder androidx.wear.protolayout.ResourceBuilders.InlineImageResource.Builder setFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.ResourceBuilders.IMAGE_FORMAT_UNDEFINED, androidx.wear.protolayout.ResourceBuilders.IMAGE_FORMAT_RGB_565, androidx.wear.protolayout.ResourceBuilders.IMAGE_FORMAT_ARGB_8888}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.protolayout.TypeBuilders.StringLayoutConstraint.Builder androidx.wear.protolayout.TypeBuilders.StringLayoutConstraint.Builder setAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_START, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_CENTER, androidx.wear.protolayout.LayoutElementBuilders.TEXT_ALIGN_END}"></val>
+        </annotation>
+    </item>
+</root>

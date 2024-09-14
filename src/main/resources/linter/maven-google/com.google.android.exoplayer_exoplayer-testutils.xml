@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource Resource(java.lang.String, byte[], boolean, boolean, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED, com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_ENABLED, com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.Builder com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.Builder setGzipSupport(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED, com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_ENABLED, com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED}"></val>
+        </annotation>
+    </item>
+</root>

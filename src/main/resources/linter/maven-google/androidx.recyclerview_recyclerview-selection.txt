@@ -1,0 +1,4 @@
+androidx.recyclerview.selection.ItemKeyProvider.SCOPE_CACHED=1
+androidx.recyclerview.selection.ItemKeyProvider.SCOPE_MAPPED=0
+androidx.recyclerview.selection.Range.TYPE_PRIMARY=0
+androidx.recyclerview.selection.Range.TYPE_PROVISIONAL=1

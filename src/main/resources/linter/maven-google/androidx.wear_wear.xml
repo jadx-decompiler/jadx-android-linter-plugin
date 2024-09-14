@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.utils.ActivityAnimationUtil android.view.animation.Animation getStandardActivityAnimation(android.content.Context, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.utils.ActivityAnimationUtil.OPEN_ENTER, androidx.wear.utils.ActivityAnimationUtil.OPEN_EXIT, androidx.wear.utils.ActivityAnimationUtil.CLOSE_ENTER, androidx.wear.utils.ActivityAnimationUtil.CLOSE_EXIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.ArcLayout void setAnchorType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.ArcLayout.ANCHOR_START, androidx.wear.widget.ArcLayout.ANCHOR_CENTER, androidx.wear.widget.ArcLayout.ANCHOR_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.ArcLayout.LayoutParams void setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.ArcLayout.LayoutParams.VERTICAL_ALIGN_OUTER, androidx.wear.widget.ArcLayout.LayoutParams.VERTICAL_ALIGN_CENTER, androidx.wear.widget.ArcLayout.LayoutParams.VERTICAL_ALIGN_INNER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.BoxInsetLayout.LayoutParams LayoutParams(int, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.BoxInsetLayout.LayoutParams.BOX_NONE, androidx.wear.widget.BoxInsetLayout.LayoutParams.BOX_LEFT, androidx.wear.widget.BoxInsetLayout.LayoutParams.BOX_TOP, androidx.wear.widget.BoxInsetLayout.LayoutParams.BOX_RIGHT, androidx.wear.widget.BoxInsetLayout.LayoutParams.BOX_BOTTOM, androidx.wear.widget.BoxInsetLayout.LayoutParams.BOX_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.ConfirmationOverlay androidx.wear.widget.ConfirmationOverlay setType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.ConfirmationOverlay.SUCCESS_ANIMATION, androidx.wear.widget.ConfirmationOverlay.FAILURE_ANIMATION, androidx.wear.widget.ConfirmationOverlay.OPEN_ON_PHONE_ANIMATION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.CurvedTextView void setAnchorType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.ArcLayout.ANCHOR_START, androidx.wear.widget.ArcLayout.ANCHOR_CENTER, androidx.wear.widget.ArcLayout.ANCHOR_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.drawer.WearableDrawerLayout.DrawerStateCallback void onDrawerStateChanged(androidx.wear.widget.drawer.WearableDrawerLayout, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.drawer.WearableDrawerView.STATE_IDLE, androidx.wear.widget.drawer.WearableDrawerView.STATE_DRAGGING, androidx.wear.widget.drawer.WearableDrawerView.STATE_SETTLING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.drawer.WearableDrawerView void onDrawerStateChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.drawer.WearableDrawerView.STATE_IDLE, androidx.wear.widget.drawer.WearableDrawerView.STATE_DRAGGING, androidx.wear.widget.drawer.WearableDrawerView.STATE_SETTLING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.widget.drawer.WearableDrawerView void setDrawerState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.widget.drawer.WearableDrawerView.STATE_IDLE, androidx.wear.widget.drawer.WearableDrawerView.STATE_DRAGGING, androidx.wear.widget.drawer.WearableDrawerView.STATE_SETTLING}"></val>
+        </annotation>
+    </item>
+</root>

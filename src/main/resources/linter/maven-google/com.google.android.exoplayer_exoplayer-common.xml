@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.BasePlayer boolean isCommandAvailable(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void repeatCurrentMediaItem(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void seekTo(int, long, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void seekToCurrentItem(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void seekToDefaultPositionInternal(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void seekToNextMediaItemInternal(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void seekToOffset(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BasePlayer void seekToPreviousMediaItemInternal(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.C java.lang.String getFormatSupportString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.FORMAT_HANDLED, com.google.android.exoplayer2.C.FORMAT_EXCEEDS_CAPABILITIES, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_DRM, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_SUBTYPE, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_TYPE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DeviceInfo DeviceInfo(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DeviceInfo.PLAYBACK_TYPE_LOCAL, com.google.android.exoplayer2.DeviceInfo.PLAYBACK_TYPE_REMOTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DeviceInfo.Builder Builder(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DeviceInfo.PLAYBACK_TYPE_LOCAL, com.google.android.exoplayer2.DeviceInfo.PLAYBACK_TYPE_REMOTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Format com.google.android.exoplayer2.Format copyWithCryptoType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.CRYPTO_TYPE_UNSUPPORTED, com.google.android.exoplayer2.C.CRYPTO_TYPE_NONE, com.google.android.exoplayer2.C.CRYPTO_TYPE_FRAMEWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Format.Builder com.google.android.exoplayer2.Format.Builder setCryptoType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.CRYPTO_TYPE_UNSUPPORTED, com.google.android.exoplayer2.C.CRYPTO_TYPE_NONE, com.google.android.exoplayer2.C.CRYPTO_TYPE_FRAMEWORK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Format.Builder com.google.android.exoplayer2.Format.Builder setPcmEncoding(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Format.Builder com.google.android.exoplayer2.Format.Builder setRoleFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Format.Builder com.google.android.exoplayer2.Format.Builder setSelectionFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.SELECTION_FLAG_DEFAULT, com.google.android.exoplayer2.C.SELECTION_FLAG_FORCED, com.google.android.exoplayer2.C.SELECTION_FLAG_AUTOSELECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Format.Builder com.google.android.exoplayer2.Format.Builder setStereoMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.STEREO_MODE_MONO, com.google.android.exoplayer2.C.STEREO_MODE_TOP_BOTTOM, com.google.android.exoplayer2.C.STEREO_MODE_LEFT_RIGHT, com.google.android.exoplayer2.C.STEREO_MODE_STEREO_MESH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer boolean isCommandAvailable(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer void decreaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer void increaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer void setDeviceMuted(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer void setDeviceVolume(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onMediaItemTransition(com.google.android.exoplayer2.MediaItem, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_REPEAT, com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_AUTO, com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_SEEK, com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_PLAYLIST_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onPlayWhenReadyChanged(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_USER_REQUEST, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_FOCUS_LOSS, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_BECOMING_NOISY, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_REMOTE, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_END_OF_MEDIA_ITEM, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_SUPPRESSED_TOO_LONG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onPlaybackStateChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.STATE_IDLE, com.google.android.exoplayer2.Player.STATE_BUFFERING, com.google.android.exoplayer2.Player.STATE_READY, com.google.android.exoplayer2.Player.STATE_ENDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onPlaybackSuppressionReasonChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_USER_REQUEST, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_FOCUS_LOSS, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_BECOMING_NOISY, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_REMOTE, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_END_OF_MEDIA_ITEM, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_SUPPRESSED_TOO_LONG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onPlayerStateChanged(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.STATE_IDLE, com.google.android.exoplayer2.Player.STATE_BUFFERING, com.google.android.exoplayer2.Player.STATE_READY, com.google.android.exoplayer2.Player.STATE_ENDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo, com.google.android.exoplayer2.Player.PositionInfo, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_AUTO_TRANSITION, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SKIP, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_REMOVE, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_INTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onPositionDiscontinuity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_AUTO_TRANSITION, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SKIP, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_REMOVE, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_INTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onRepeatModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ForwardingPlayer.ForwardingListener void onTimelineChanged(com.google.android.exoplayer2.Timeline, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.TIMELINE_CHANGE_REASON_PLAYLIST_CHANGED, com.google.android.exoplayer2.Player.TIMELINE_CHANGE_REASON_SOURCE_UPDATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaItem.Subtitle Subtitle(android.net.Uri, java.lang.String, java.lang.String, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.SELECTION_FLAG_DEFAULT, com.google.android.exoplayer2.C.SELECTION_FLAG_FORCED, com.google.android.exoplayer2.C.SELECTION_FLAG_AUTOSELECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaItem.Subtitle Subtitle(android.net.Uri, java.lang.String, java.lang.String, int, int, java.lang.String) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.SELECTION_FLAG_DEFAULT, com.google.android.exoplayer2.C.SELECTION_FLAG_FORCED, com.google.android.exoplayer2.C.SELECTION_FLAG_AUTOSELECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaItem.Subtitle Subtitle(android.net.Uri, java.lang.String, java.lang.String, int, int, java.lang.String) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaItem.SubtitleConfiguration.Builder com.google.android.exoplayer2.MediaItem.SubtitleConfiguration.Builder setRoleFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaItem.SubtitleConfiguration.Builder com.google.android.exoplayer2.MediaItem.SubtitleConfiguration.Builder setSelectionFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.SELECTION_FLAG_DEFAULT, com.google.android.exoplayer2.C.SELECTION_FLAG_FORCED, com.google.android.exoplayer2.C.SELECTION_FLAG_AUTOSELECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaMetadata int getFolderTypeFromMediaType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_MIXED, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_MUSIC, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_AUDIO_BOOK_CHAPTER, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_PODCAST_EPISODE, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_RADIO_STATION, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_NEWS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_VIDEO, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TRAILER, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_MOVIE, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_SHOW, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_ALBUM, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_ARTIST, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_GENRE, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_PLAYLIST, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_YEAR, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_AUDIO_BOOK, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_PODCAST, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_CHANNEL, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_SERIES, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_SEASON, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_MIXED, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_ALBUMS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_ARTISTS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_GENRES, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_PLAYLISTS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_YEARS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_AUDIO_BOOKS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_PODCASTS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TV_CHANNELS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TV_SERIES, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TV_SHOWS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_RADIO_STATIONS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_NEWS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_VIDEOS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TRAILERS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_MOVIES}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaMetadata int getMediaTypeFromFolderType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_NONE, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_MIXED, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_TITLES, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_ALBUMS, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_ARTISTS, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_GENRES, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_PLAYLISTS, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_YEARS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaMetadata.Builder com.google.android.exoplayer2.MediaMetadata.Builder maybeSetArtworkData(byte[], int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_OTHER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_FILE_ICON, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_FILE_ICON_OTHER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_FRONT_COVER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_BACK_COVER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_LEAFLET_PAGE, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_MEDIA, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_LEAD_ARTIST_PERFORMER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_ARTIST_PERFORMER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_CONDUCTOR, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_BAND_ORCHESTRA, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_COMPOSER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_LYRICIST, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_RECORDING_LOCATION, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_DURING_RECORDING, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_DURING_PERFORMANCE, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_MOVIE_VIDEO_SCREEN_CAPTURE, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_A_BRIGHT_COLORED_FISH, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_ILLUSTRATION, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_BAND_ARTIST_LOGO, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_PUBLISHER_STUDIO_LOGO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaMetadata.Builder com.google.android.exoplayer2.MediaMetadata.Builder setArtworkData(byte[], java.lang.Integer) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_OTHER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_FILE_ICON, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_FILE_ICON_OTHER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_FRONT_COVER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_BACK_COVER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_LEAFLET_PAGE, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_MEDIA, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_LEAD_ARTIST_PERFORMER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_ARTIST_PERFORMER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_CONDUCTOR, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_BAND_ORCHESTRA, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_COMPOSER, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_LYRICIST, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_RECORDING_LOCATION, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_DURING_RECORDING, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_DURING_PERFORMANCE, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_MOVIE_VIDEO_SCREEN_CAPTURE, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_A_BRIGHT_COLORED_FISH, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_ILLUSTRATION, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_BAND_ARTIST_LOGO, com.google.android.exoplayer2.MediaMetadata.PICTURE_TYPE_PUBLISHER_STUDIO_LOGO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaMetadata.Builder com.google.android.exoplayer2.MediaMetadata.Builder setFolderType(java.lang.Integer) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_NONE, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_MIXED, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_TITLES, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_ALBUMS, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_ARTISTS, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_GENRES, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_PLAYLISTS, com.google.android.exoplayer2.MediaMetadata.FOLDER_TYPE_YEARS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaMetadata.Builder com.google.android.exoplayer2.MediaMetadata.Builder setMediaType(java.lang.Integer) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_MIXED, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_MUSIC, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_AUDIO_BOOK_CHAPTER, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_PODCAST_EPISODE, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_RADIO_STATION, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_NEWS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_VIDEO, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TRAILER, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_MOVIE, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_SHOW, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_ALBUM, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_ARTIST, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_GENRE, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_PLAYLIST, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_YEAR, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_AUDIO_BOOK, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_PODCAST, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_CHANNEL, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_SERIES, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_TV_SEASON, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_MIXED, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_ALBUMS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_ARTISTS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_GENRES, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_PLAYLISTS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_YEARS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_AUDIO_BOOKS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_PODCASTS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TV_CHANNELS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TV_SERIES, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TV_SHOWS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_RADIO_STATIONS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_NEWS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_VIDEOS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_TRAILERS, com.google.android.exoplayer2.MediaMetadata.MEDIA_TYPE_FOLDER_MOVIES}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ParserException ParserException(java.lang.String, java.lang.Throwable, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.DATA_TYPE_UNKNOWN, com.google.android.exoplayer2.C.DATA_TYPE_MEDIA, com.google.android.exoplayer2.C.DATA_TYPE_MEDIA_INITIALIZATION, com.google.android.exoplayer2.C.DATA_TYPE_DRM, com.google.android.exoplayer2.C.DATA_TYPE_MANIFEST, com.google.android.exoplayer2.C.DATA_TYPE_TIME_SYNCHRONIZATION, com.google.android.exoplayer2.C.DATA_TYPE_AD, com.google.android.exoplayer2.C.DATA_TYPE_MEDIA_PROGRESSIVE_LIVE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.PlaybackException PlaybackException(java.lang.String, java.lang.Throwable, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.PlaybackException.ERROR_CODE_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_REMOTE_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_BEHIND_LIVE_WINDOW, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_TIMEOUT, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_FAILED_RUNTIME_CHECK, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_TIMEOUT, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_INVALID_HTTP_CONTENT_TYPE, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_BAD_HTTP_STATUS, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_FILE_NOT_FOUND, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NO_PERMISSION, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_CLEARTEXT_NOT_PERMITTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_READ_POSITION_OUT_OF_RANGE, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_CONTAINER_MALFORMED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_MANIFEST_MALFORMED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_MANIFEST_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODER_INIT_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODER_QUERY_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FORMAT_EXCEEDS_CAPABILITIES, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FORMAT_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_AUDIO_TRACK_INIT_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_AUDIO_TRACK_WRITE_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_SCHEME_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_PROVISIONING_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_CONTENT_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_LICENSE_ACQUISITION_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_DISALLOWED_OPERATION, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_SYSTEM_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_DEVICE_REVOKED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_LICENSE_EXPIRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.PlaybackException PlaybackException(java.lang.String, java.lang.Throwable, int, long) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.PlaybackException.ERROR_CODE_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_REMOTE_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_BEHIND_LIVE_WINDOW, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_TIMEOUT, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_FAILED_RUNTIME_CHECK, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_TIMEOUT, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_INVALID_HTTP_CONTENT_TYPE, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_BAD_HTTP_STATUS, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_FILE_NOT_FOUND, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NO_PERMISSION, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_CLEARTEXT_NOT_PERMITTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_READ_POSITION_OUT_OF_RANGE, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_CONTAINER_MALFORMED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_MANIFEST_MALFORMED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_MANIFEST_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODER_INIT_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODER_QUERY_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FORMAT_EXCEEDS_CAPABILITIES, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FORMAT_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_AUDIO_TRACK_INIT_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_AUDIO_TRACK_WRITE_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_SCHEME_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_PROVISIONING_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_CONTENT_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_LICENSE_ACQUISITION_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_DISALLOWED_OPERATION, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_SYSTEM_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_DEVICE_REVOKED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_LICENSE_EXPIRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.PlaybackException java.lang.String getErrorCodeName(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.PlaybackException.ERROR_CODE_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_REMOTE_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_BEHIND_LIVE_WINDOW, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_TIMEOUT, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_FAILED_RUNTIME_CHECK, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NETWORK_CONNECTION_TIMEOUT, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_INVALID_HTTP_CONTENT_TYPE, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_BAD_HTTP_STATUS, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_FILE_NOT_FOUND, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_NO_PERMISSION, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_CLEARTEXT_NOT_PERMITTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_IO_READ_POSITION_OUT_OF_RANGE, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_CONTAINER_MALFORMED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_MANIFEST_MALFORMED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_PARSING_MANIFEST_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODER_INIT_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODER_QUERY_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FORMAT_EXCEEDS_CAPABILITIES, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DECODING_FORMAT_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_AUDIO_TRACK_INIT_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_AUDIO_TRACK_WRITE_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_UNSPECIFIED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_SCHEME_UNSUPPORTED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_PROVISIONING_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_CONTENT_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_LICENSE_ACQUISITION_FAILED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_DISALLOWED_OPERATION, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_SYSTEM_ERROR, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_DEVICE_REVOKED, com.google.android.exoplayer2.PlaybackException.ERROR_CODE_DRM_LICENSE_EXPIRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player boolean isCommandAvailable(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player void decreaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player void increaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player void setDeviceMuted(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands boolean contains(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands boolean containsAny(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands.Builder com.google.android.exoplayer2.Player.Commands.Builder add(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands.Builder com.google.android.exoplayer2.Player.Commands.Builder addAll(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands.Builder com.google.android.exoplayer2.Player.Commands.Builder addIf(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands.Builder com.google.android.exoplayer2.Player.Commands.Builder remove(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands.Builder com.google.android.exoplayer2.Player.Commands.Builder removeAll(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Commands.Builder com.google.android.exoplayer2.Player.Commands.Builder removeIf(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Events boolean contains(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.EVENT_TIMELINE_CHANGED, com.google.android.exoplayer2.Player.EVENT_MEDIA_ITEM_TRANSITION, com.google.android.exoplayer2.Player.EVENT_TRACKS_CHANGED, com.google.android.exoplayer2.Player.EVENT_IS_LOADING_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYBACK_STATE_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAY_WHEN_READY_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYBACK_SUPPRESSION_REASON_CHANGED, com.google.android.exoplayer2.Player.EVENT_IS_PLAYING_CHANGED, com.google.android.exoplayer2.Player.EVENT_REPEAT_MODE_CHANGED, com.google.android.exoplayer2.Player.EVENT_SHUFFLE_MODE_ENABLED_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYER_ERROR, com.google.android.exoplayer2.Player.EVENT_POSITION_DISCONTINUITY, com.google.android.exoplayer2.Player.EVENT_PLAYBACK_PARAMETERS_CHANGED, com.google.android.exoplayer2.Player.EVENT_AVAILABLE_COMMANDS_CHANGED, com.google.android.exoplayer2.Player.EVENT_MEDIA_METADATA_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYLIST_METADATA_CHANGED, com.google.android.exoplayer2.Player.EVENT_SEEK_BACK_INCREMENT_CHANGED, com.google.android.exoplayer2.Player.EVENT_SEEK_FORWARD_INCREMENT_CHANGED, com.google.android.exoplayer2.Player.EVENT_MAX_SEEK_TO_PREVIOUS_POSITION_CHANGED, com.google.android.exoplayer2.Player.EVENT_TRACK_SELECTION_PARAMETERS_CHANGED, com.google.android.exoplayer2.Player.EVENT_AUDIO_ATTRIBUTES_CHANGED, com.google.android.exoplayer2.Player.EVENT_AUDIO_SESSION_ID, com.google.android.exoplayer2.Player.EVENT_VOLUME_CHANGED, com.google.android.exoplayer2.Player.EVENT_SKIP_SILENCE_ENABLED_CHANGED, com.google.android.exoplayer2.Player.EVENT_SURFACE_SIZE_CHANGED, com.google.android.exoplayer2.Player.EVENT_VIDEO_SIZE_CHANGED, com.google.android.exoplayer2.Player.EVENT_RENDERED_FIRST_FRAME, com.google.android.exoplayer2.Player.EVENT_CUES, com.google.android.exoplayer2.Player.EVENT_METADATA, com.google.android.exoplayer2.Player.EVENT_DEVICE_INFO_CHANGED, com.google.android.exoplayer2.Player.EVENT_DEVICE_VOLUME_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Events boolean containsAny(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.EVENT_TIMELINE_CHANGED, com.google.android.exoplayer2.Player.EVENT_MEDIA_ITEM_TRANSITION, com.google.android.exoplayer2.Player.EVENT_TRACKS_CHANGED, com.google.android.exoplayer2.Player.EVENT_IS_LOADING_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYBACK_STATE_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAY_WHEN_READY_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYBACK_SUPPRESSION_REASON_CHANGED, com.google.android.exoplayer2.Player.EVENT_IS_PLAYING_CHANGED, com.google.android.exoplayer2.Player.EVENT_REPEAT_MODE_CHANGED, com.google.android.exoplayer2.Player.EVENT_SHUFFLE_MODE_ENABLED_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYER_ERROR, com.google.android.exoplayer2.Player.EVENT_POSITION_DISCONTINUITY, com.google.android.exoplayer2.Player.EVENT_PLAYBACK_PARAMETERS_CHANGED, com.google.android.exoplayer2.Player.EVENT_AVAILABLE_COMMANDS_CHANGED, com.google.android.exoplayer2.Player.EVENT_MEDIA_METADATA_CHANGED, com.google.android.exoplayer2.Player.EVENT_PLAYLIST_METADATA_CHANGED, com.google.android.exoplayer2.Player.EVENT_SEEK_BACK_INCREMENT_CHANGED, com.google.android.exoplayer2.Player.EVENT_SEEK_FORWARD_INCREMENT_CHANGED, com.google.android.exoplayer2.Player.EVENT_MAX_SEEK_TO_PREVIOUS_POSITION_CHANGED, com.google.android.exoplayer2.Player.EVENT_TRACK_SELECTION_PARAMETERS_CHANGED, com.google.android.exoplayer2.Player.EVENT_AUDIO_ATTRIBUTES_CHANGED, com.google.android.exoplayer2.Player.EVENT_AUDIO_SESSION_ID, com.google.android.exoplayer2.Player.EVENT_VOLUME_CHANGED, com.google.android.exoplayer2.Player.EVENT_SKIP_SILENCE_ENABLED_CHANGED, com.google.android.exoplayer2.Player.EVENT_SURFACE_SIZE_CHANGED, com.google.android.exoplayer2.Player.EVENT_VIDEO_SIZE_CHANGED, com.google.android.exoplayer2.Player.EVENT_RENDERED_FIRST_FRAME, com.google.android.exoplayer2.Player.EVENT_CUES, com.google.android.exoplayer2.Player.EVENT_METADATA, com.google.android.exoplayer2.Player.EVENT_DEVICE_INFO_CHANGED, com.google.android.exoplayer2.Player.EVENT_DEVICE_VOLUME_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onMediaItemTransition(com.google.android.exoplayer2.MediaItem, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_REPEAT, com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_AUTO, com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_SEEK, com.google.android.exoplayer2.Player.MEDIA_ITEM_TRANSITION_REASON_PLAYLIST_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onPlayWhenReadyChanged(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_USER_REQUEST, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_FOCUS_LOSS, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_BECOMING_NOISY, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_REMOTE, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_END_OF_MEDIA_ITEM, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_SUPPRESSED_TOO_LONG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onPlaybackStateChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.STATE_IDLE, com.google.android.exoplayer2.Player.STATE_BUFFERING, com.google.android.exoplayer2.Player.STATE_READY, com.google.android.exoplayer2.Player.STATE_ENDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onPlaybackSuppressionReasonChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.PLAYBACK_SUPPRESSION_REASON_NONE, com.google.android.exoplayer2.Player.PLAYBACK_SUPPRESSION_REASON_TRANSIENT_AUDIO_FOCUS_LOSS, com.google.android.exoplayer2.Player.PLAYBACK_SUPPRESSION_REASON_UNSUITABLE_AUDIO_ROUTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onPlayerStateChanged(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.STATE_IDLE, com.google.android.exoplayer2.Player.STATE_BUFFERING, com.google.android.exoplayer2.Player.STATE_READY, com.google.android.exoplayer2.Player.STATE_ENDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo, com.google.android.exoplayer2.Player.PositionInfo, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_AUTO_TRANSITION, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SKIP, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_REMOVE, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_INTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onPositionDiscontinuity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_AUTO_TRANSITION, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SKIP, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_REMOVE, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_INTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onRepeatModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Player.Listener void onTimelineChanged(com.google.android.exoplayer2.Timeline, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.TIMELINE_CHANGE_REASON_PLAYLIST_CHANGED, com.google.android.exoplayer2.Player.TIMELINE_CHANGE_REASON_SOURCE_UPDATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer boolean shouldHandleCommand(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer com.google.common.util.concurrent.ListenableFuture&lt;?&gt; handleDecreaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer com.google.common.util.concurrent.ListenableFuture&lt;?&gt; handleIncreaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer com.google.common.util.concurrent.ListenableFuture&lt;?&gt; handleSeek(int, long, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer com.google.common.util.concurrent.ListenableFuture&lt;?&gt; handleSetDeviceMuted(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer com.google.common.util.concurrent.ListenableFuture&lt;?&gt; handleSetRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer void decreaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer void increaseDeviceVolume(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer void seekTo(int, long, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.COMMAND_INVALID, com.google.android.exoplayer2.Player.COMMAND_PLAY_PAUSE, com.google.android.exoplayer2.Player.COMMAND_PREPARE, com.google.android.exoplayer2.Player.COMMAND_STOP, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_DEFAULT_POSITION, com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT, com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK, com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD, com.google.android.exoplayer2.Player.COMMAND_SET_SPEED_AND_PITCH, com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE, com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE, com.google.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_GET_TIMELINE, com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_GET_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEMS_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_PLAYLIST_METADATA, com.google.android.exoplayer2.Player.COMMAND_SET_MEDIA_ITEM, com.google.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS, com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_GET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_SET_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME, com.google.android.exoplayer2.Player.COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE, com.google.android.exoplayer2.Player.COMMAND_GET_TEXT, com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS, com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS, com.google.android.exoplayer2.Player.COMMAND_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer void setDeviceMuted(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer void setDeviceVolume(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.VOLUME_FLAG_SHOW_UI, com.google.android.exoplayer2.C.VOLUME_FLAG_ALLOW_RINGER_MODES, com.google.android.exoplayer2.C.VOLUME_FLAG_PLAY_SOUND, com.google.android.exoplayer2.C.VOLUME_FLAG_REMOVE_SOUND_AND_VIBRATE, com.google.android.exoplayer2.C.VOLUME_FLAG_VIBRATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer.State.Builder com.google.android.exoplayer2.SimpleBasePlayer.State.Builder setPlayWhenReady(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_USER_REQUEST, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_FOCUS_LOSS, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_AUDIO_BECOMING_NOISY, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_REMOTE, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_END_OF_MEDIA_ITEM, com.google.android.exoplayer2.Player.PLAY_WHEN_READY_CHANGE_REASON_SUPPRESSED_TOO_LONG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer.State.Builder com.google.android.exoplayer2.SimpleBasePlayer.State.Builder setPlaybackState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.STATE_IDLE, com.google.android.exoplayer2.Player.STATE_BUFFERING, com.google.android.exoplayer2.Player.STATE_READY, com.google.android.exoplayer2.Player.STATE_ENDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer.State.Builder com.google.android.exoplayer2.SimpleBasePlayer.State.Builder setPlaybackSuppressionReason(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.PLAYBACK_SUPPRESSION_REASON_NONE, com.google.android.exoplayer2.Player.PLAYBACK_SUPPRESSION_REASON_TRANSIENT_AUDIO_FOCUS_LOSS, com.google.android.exoplayer2.Player.PLAYBACK_SUPPRESSION_REASON_UNSUITABLE_AUDIO_ROUTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer.State.Builder com.google.android.exoplayer2.SimpleBasePlayer.State.Builder setPositionDiscontinuity(int, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_AUTO_TRANSITION, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SKIP, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_REMOVE, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_INTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.SimpleBasePlayer.State.Builder com.google.android.exoplayer2.SimpleBasePlayer.State.Builder setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Timeline boolean isLastPeriod(int, com.google.android.exoplayer2.Timeline.Period, com.google.android.exoplayer2.Timeline.Window, int, boolean) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Timeline int getNextPeriodIndex(int, com.google.android.exoplayer2.Timeline.Period, com.google.android.exoplayer2.Timeline.Window, int, boolean) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Timeline int getNextWindowIndex(int, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Timeline int getPreviousWindowIndex(int, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Timeline.RemotableTimeline int getNextWindowIndex(int, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Timeline.RemotableTimeline int getPreviousWindowIndex(int, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks boolean containsType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks boolean isTypeSelected(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks boolean isTypeSupported(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks boolean isTypeSupported(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks boolean isTypeSupportedOrEmpty(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks boolean isTypeSupportedOrEmpty(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.Tracks.Group Group(com.google.android.exoplayer2.source.TrackGroup, boolean, int[], boolean[]) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.FORMAT_HANDLED, com.google.android.exoplayer2.C.FORMAT_EXCEEDS_CAPABILITIES, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_DRM, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_SUBTYPE, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_TYPE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes AudioAttributes(int, int, int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_MOVIE, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_MUSIC, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_SONIFICATION, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_SPEECH, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_UNKNOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes AudioAttributes(int, int, int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.FLAG_AUDIBILITY_ENFORCED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes AudioAttributes(int, int, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.USAGE_ALARM, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_ACCESSIBILITY, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_SONIFICATION, com.google.android.exoplayer2.C.USAGE_ASSISTANT, com.google.android.exoplayer2.C.USAGE_GAME, com.google.android.exoplayer2.C.USAGE_MEDIA, com.google.android.exoplayer2.C.USAGE_NOTIFICATION, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_EVENT, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_RINGTONE, com.google.android.exoplayer2.C.USAGE_UNKNOWN, com.google.android.exoplayer2.C.USAGE_VOICE_COMMUNICATION, com.google.android.exoplayer2.C.USAGE_VOICE_COMMUNICATION_SIGNALLING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes AudioAttributes(int, int, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_ALL, com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_NONE, com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_SYSTEM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes AudioAttributes(int, int, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.SPATIALIZATION_BEHAVIOR_AUTO, com.google.android.exoplayer2.C.SPATIALIZATION_BEHAVIOR_NEVER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Api29 void setAllowedCapturePolicy(android.media.AudioAttributes.Builder, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_ALL, com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_NONE, com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_SYSTEM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Api32 void setSpatializationBehavior(android.media.AudioAttributes.Builder, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.SPATIALIZATION_BEHAVIOR_AUTO, com.google.android.exoplayer2.C.SPATIALIZATION_BEHAVIOR_NEVER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Builder com.google.android.exoplayer2.audio.AudioAttributes.Builder setAllowedCapturePolicy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_ALL, com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_NONE, com.google.android.exoplayer2.C.ALLOW_CAPTURE_BY_SYSTEM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Builder com.google.android.exoplayer2.audio.AudioAttributes.Builder setContentType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_MOVIE, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_MUSIC, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_SONIFICATION, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_SPEECH, com.google.android.exoplayer2.C.AUDIO_CONTENT_TYPE_UNKNOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Builder com.google.android.exoplayer2.audio.AudioAttributes.Builder setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.FLAG_AUDIBILITY_ENFORCED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Builder com.google.android.exoplayer2.audio.AudioAttributes.Builder setSpatializationBehavior(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.SPATIALIZATION_BEHAVIOR_AUTO, com.google.android.exoplayer2.C.SPATIALIZATION_BEHAVIOR_NEVER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioAttributes.Builder com.google.android.exoplayer2.audio.AudioAttributes.Builder setUsage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.USAGE_ALARM, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_ACCESSIBILITY, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_SONIFICATION, com.google.android.exoplayer2.C.USAGE_ASSISTANT, com.google.android.exoplayer2.C.USAGE_GAME, com.google.android.exoplayer2.C.USAGE_MEDIA, com.google.android.exoplayer2.C.USAGE_NOTIFICATION, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_EVENT, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_RINGTONE, com.google.android.exoplayer2.C.USAGE_UNKNOWN, com.google.android.exoplayer2.C.USAGE_VOICE_COMMUNICATION, com.google.android.exoplayer2.C.USAGE_VOICE_COMMUNICATION_SIGNALLING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioProcessor.AudioFormat AudioFormat(int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.TrackGroup int normalizeRoleFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.AdPlaybackState.AdGroup AdGroup(long, int, int, int[], android.net.Uri[], long[], long, boolean) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_SKIPPED, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.AdPlaybackState.AdGroup com.google.android.exoplayer2.source.ads.AdPlaybackState.AdGroup withAdState(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_SKIPPED, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.AdPlaybackState.AdGroup int[] copyStatesWithSpaceForAdCount(int[], int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_SKIPPED, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED, com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue Cue(java.lang.CharSequence, android.text.Layout.Alignment, android.text.Layout.Alignment, android.graphics.Bitmap, float, int, int, float, int, int, float, float, float, boolean, int, int, float) 15">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.VERTICAL_TYPE_RL, com.google.android.exoplayer2.text.Cue.VERTICAL_TYPE_LR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue Cue(java.lang.CharSequence, android.text.Layout.Alignment, android.text.Layout.Alignment, android.graphics.Bitmap, float, int, int, float, int, int, float, float, float, boolean, int, int, float) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.LINE_TYPE_FRACTION, com.google.android.exoplayer2.text.Cue.LINE_TYPE_NUMBER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue Cue(java.lang.CharSequence, android.text.Layout.Alignment, android.text.Layout.Alignment, android.graphics.Bitmap, float, int, int, float, int, int, float, float, float, boolean, int, int, float) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_START, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_MIDDLE, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue Cue(java.lang.CharSequence, android.text.Layout.Alignment, android.text.Layout.Alignment, android.graphics.Bitmap, float, int, int, float, int, int, float, float, float, boolean, int, int, float) 8">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_START, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_MIDDLE, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue Cue(java.lang.CharSequence, android.text.Layout.Alignment, android.text.Layout.Alignment, android.graphics.Bitmap, float, int, int, float, int, int, float, float, float, boolean, int, int, float) 9">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.TEXT_SIZE_TYPE_FRACTIONAL, com.google.android.exoplayer2.text.Cue.TEXT_SIZE_TYPE_FRACTIONAL_IGNORE_PADDING, com.google.android.exoplayer2.text.Cue.TEXT_SIZE_TYPE_ABSOLUTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue.Builder com.google.android.exoplayer2.text.Cue.Builder setLine(float, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.LINE_TYPE_FRACTION, com.google.android.exoplayer2.text.Cue.LINE_TYPE_NUMBER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue.Builder com.google.android.exoplayer2.text.Cue.Builder setLineAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_START, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_MIDDLE, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue.Builder com.google.android.exoplayer2.text.Cue.Builder setPositionAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_START, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_MIDDLE, com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue.Builder com.google.android.exoplayer2.text.Cue.Builder setTextSize(float, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.TEXT_SIZE_TYPE_FRACTIONAL, com.google.android.exoplayer2.text.Cue.TEXT_SIZE_TYPE_FRACTIONAL_IGNORE_PADDING, com.google.android.exoplayer2.text.Cue.TEXT_SIZE_TYPE_ABSOLUTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.Cue.Builder com.google.android.exoplayer2.text.Cue.Builder setVerticalType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.Cue.TYPE_UNSET, com.google.android.exoplayer2.text.Cue.VERTICAL_TYPE_RL, com.google.android.exoplayer2.text.Cue.VERTICAL_TYPE_LR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.span.RubySpan RubySpan(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.span.TextAnnotation.POSITION_UNKNOWN, com.google.android.exoplayer2.text.span.TextAnnotation.POSITION_BEFORE, com.google.android.exoplayer2.text.span.TextAnnotation.POSITION_AFTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.span.TextEmphasisSpan TextEmphasisSpan(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_NONE, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_CIRCLE, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_DOT, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_SESAME}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.span.TextEmphasisSpan TextEmphasisSpan(int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_FILL_UNKNOWN, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_FILL_FILLED, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_FILL_OPEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.span.TextEmphasisSpan TextEmphasisSpan(int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.span.TextAnnotation.POSITION_UNKNOWN, com.google.android.exoplayer2.text.span.TextAnnotation.POSITION_BEFORE, com.google.android.exoplayer2.text.span.TextAnnotation.POSITION_AFTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder clearOverridesOfType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder setIgnoredTextSelectionFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.SELECTION_FLAG_DEFAULT, com.google.android.exoplayer2.C.SELECTION_FLAG_FORCED, com.google.android.exoplayer2.C.SELECTION_FLAG_AUTOSELECT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder setPreferredAudioRoleFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder setPreferredTextRoleFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder setPreferredVideoRoleFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.ROLE_FLAG_MAIN, com.google.android.exoplayer2.C.ROLE_FLAG_ALTERNATE, com.google.android.exoplayer2.C.ROLE_FLAG_SUPPLEMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_COMMENTARY, com.google.android.exoplayer2.C.ROLE_FLAG_DUB, com.google.android.exoplayer2.C.ROLE_FLAG_EMERGENCY, com.google.android.exoplayer2.C.ROLE_FLAG_CAPTION, com.google.android.exoplayer2.C.ROLE_FLAG_SUBTITLE, com.google.android.exoplayer2.C.ROLE_FLAG_SIGN, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_VIDEO, com.google.android.exoplayer2.C.ROLE_FLAG_DESCRIBES_MUSIC_AND_SOUND, com.google.android.exoplayer2.C.ROLE_FLAG_ENHANCED_DIALOG_INTELLIGIBILITY, com.google.android.exoplayer2.C.ROLE_FLAG_TRANSCRIBES_DIALOG, com.google.android.exoplayer2.C.ROLE_FLAG_EASY_TO_READ, com.google.android.exoplayer2.C.ROLE_FLAG_TRICK_PLAY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder com.google.android.exoplayer2.trackselection.TrackSelectionParameters.Builder setTrackTypeDisabled(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.AdOverlayInfo AdOverlayInfo(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_CONTROLS, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_CLOSE_AD, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_OTHER, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_NOT_VISIBLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.AdOverlayInfo AdOverlayInfo(android.view.View, int, java.lang.String) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_CONTROLS, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_CLOSE_AD, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_OTHER, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_NOT_VISIBLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.AdOverlayInfo.Builder Builder(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_CONTROLS, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_CLOSE_AD, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_OTHER, com.google.android.exoplayer2.ui.AdOverlayInfo.PURPOSE_NOT_VISIBLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.EGLSurfaceTexture android.opengl.EGLContext createEGLContext(android.opengl.EGLDisplay, android.opengl.EGLConfig, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_NONE, com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_SURFACELESS_CONTEXT, com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_PROTECTED_PBUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.EGLSurfaceTexture android.opengl.EGLSurface createEGLSurface(android.opengl.EGLDisplay, android.opengl.EGLConfig, android.opengl.EGLContext, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_NONE, com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_SURFACELESS_CONTEXT, com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_PROTECTED_PBUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.EGLSurfaceTexture void init(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_NONE, com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_SURFACELESS_CONTEXT, com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_PROTECTED_PBUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.GlObjectsProvider android.opengl.EGLSurface createEglSurface(android.opengl.EGLDisplay, java.lang.Object, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_TRANSFER_LINEAR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SDR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SRGB, com.google.android.exoplayer2.C.COLOR_TRANSFER_GAMMA_2_2, com.google.android.exoplayer2.C.COLOR_TRANSFER_ST2084, com.google.android.exoplayer2.C.COLOR_TRANSFER_HLG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.GlUtil android.opengl.EGLSurface createEglSurface(android.opengl.EGLDisplay, java.lang.Object, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_TRANSFER_LINEAR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SDR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SRGB, com.google.android.exoplayer2.C.COLOR_TRANSFER_GAMMA_2_2, com.google.android.exoplayer2.C.COLOR_TRANSFER_ST2084, com.google.android.exoplayer2.C.COLOR_TRANSFER_HLG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Log void setLogLevel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.util.Log.LOG_LEVEL_ALL, com.google.android.exoplayer2.util.Log.LOG_LEVEL_INFO, com.google.android.exoplayer2.util.Log.LOG_LEVEL_WARNING, com.google.android.exoplayer2.util.Log.LOG_LEVEL_ERROR, com.google.android.exoplayer2.util.Log.LOG_LEVEL_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.MediaFormatUtil void maybeSetPcmEncoding(android.media.MediaFormat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.MimeTypes void registerCustomMimeType(java.lang.String, java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.MimeTypes.CustomMimeType CustomMimeType(java.lang.String, java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.NetworkTypeObserver void updateNetworkType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.NETWORK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.NETWORK_TYPE_OFFLINE, com.google.android.exoplayer2.C.NETWORK_TYPE_WIFI, com.google.android.exoplayer2.C.NETWORK_TYPE_2G, com.google.android.exoplayer2.C.NETWORK_TYPE_3G, com.google.android.exoplayer2.C.NETWORK_TYPE_4G, com.google.android.exoplayer2.C.NETWORK_TYPE_5G_SA, com.google.android.exoplayer2.C.NETWORK_TYPE_5G_NSA, com.google.android.exoplayer2.C.NETWORK_TYPE_CELLULAR_UNKNOWN, com.google.android.exoplayer2.C.NETWORK_TYPE_ETHERNET, com.google.android.exoplayer2.C.NETWORK_TYPE_OTHER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.NetworkTypeObserver.Listener void onNetworkTypeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.NETWORK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.NETWORK_TYPE_OFFLINE, com.google.android.exoplayer2.C.NETWORK_TYPE_WIFI, com.google.android.exoplayer2.C.NETWORK_TYPE_2G, com.google.android.exoplayer2.C.NETWORK_TYPE_3G, com.google.android.exoplayer2.C.NETWORK_TYPE_4G, com.google.android.exoplayer2.C.NETWORK_TYPE_5G_SA, com.google.android.exoplayer2.C.NETWORK_TYPE_5G_NSA, com.google.android.exoplayer2.C.NETWORK_TYPE_CELLULAR_UNKNOWN, com.google.android.exoplayer2.C.NETWORK_TYPE_ETHERNET, com.google.android.exoplayer2.C.NETWORK_TYPE_OTHER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.NotificationUtil void createNotificationChannel(android.content.Context, java.lang.String, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.util.NotificationUtil.IMPORTANCE_UNSPECIFIED, com.google.android.exoplayer2.util.NotificationUtil.IMPORTANCE_NONE, com.google.android.exoplayer2.util.NotificationUtil.IMPORTANCE_MIN, com.google.android.exoplayer2.util.NotificationUtil.IMPORTANCE_LOW, com.google.android.exoplayer2.util.NotificationUtil.IMPORTANCE_DEFAULT, com.google.android.exoplayer2.util.NotificationUtil.IMPORTANCE_HIGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.RepeatModeUtil boolean isRepeatModeEnabled(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.RepeatModeUtil int getNextRepeatMode(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Player.REPEAT_MODE_OFF, com.google.android.exoplayer2.Player.REPEAT_MODE_ONE, com.google.android.exoplayer2.Player.REPEAT_MODE_ALL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util boolean isEncodingHighResolutionPcm(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util boolean isEncodingLinearPcm(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT, com.google.android.exoplayer2.C.ENCODING_MP3, com.google.android.exoplayer2.C.ENCODING_AAC_LC, com.google.android.exoplayer2.C.ENCODING_AAC_HE_V1, com.google.android.exoplayer2.C.ENCODING_AAC_HE_V2, com.google.android.exoplayer2.C.ENCODING_AAC_XHE, com.google.android.exoplayer2.C.ENCODING_AAC_ELD, com.google.android.exoplayer2.C.ENCODING_AAC_ER_BSAC, com.google.android.exoplayer2.C.ENCODING_AC3, com.google.android.exoplayer2.C.ENCODING_E_AC3, com.google.android.exoplayer2.C.ENCODING_E_AC3_JOC, com.google.android.exoplayer2.C.ENCODING_AC4, com.google.android.exoplayer2.C.ENCODING_DTS, com.google.android.exoplayer2.C.ENCODING_DTS_HD, com.google.android.exoplayer2.C.ENCODING_DOLBY_TRUEHD, com.google.android.exoplayer2.C.ENCODING_OPUS, com.google.android.exoplayer2.C.ENCODING_DTS_UHD_P2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util com.google.android.exoplayer2.Format getPcmFormat(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util int getAudioContentTypeForStreamType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.STREAM_TYPE_ALARM, com.google.android.exoplayer2.C.STREAM_TYPE_DTMF, com.google.android.exoplayer2.C.STREAM_TYPE_MUSIC, com.google.android.exoplayer2.C.STREAM_TYPE_NOTIFICATION, com.google.android.exoplayer2.C.STREAM_TYPE_RING, com.google.android.exoplayer2.C.STREAM_TYPE_SYSTEM, com.google.android.exoplayer2.C.STREAM_TYPE_VOICE_CALL, com.google.android.exoplayer2.C.STREAM_TYPE_DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util int getAudioUsageForStreamType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.STREAM_TYPE_ALARM, com.google.android.exoplayer2.C.STREAM_TYPE_DTMF, com.google.android.exoplayer2.C.STREAM_TYPE_MUSIC, com.google.android.exoplayer2.C.STREAM_TYPE_NOTIFICATION, com.google.android.exoplayer2.C.STREAM_TYPE_RING, com.google.android.exoplayer2.C.STREAM_TYPE_SYSTEM, com.google.android.exoplayer2.C.STREAM_TYPE_VOICE_CALL, com.google.android.exoplayer2.C.STREAM_TYPE_DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util int getCodecCountOfType(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util int getPcmFrameSize(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.ENCODING_INVALID, com.google.android.exoplayer2.C.ENCODING_PCM_8BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT, com.google.android.exoplayer2.C.ENCODING_PCM_16BIT_BIG_ENDIAN, com.google.android.exoplayer2.C.ENCODING_PCM_24BIT, com.google.android.exoplayer2.C.ENCODING_PCM_32BIT, com.google.android.exoplayer2.C.ENCODING_PCM_FLOAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util int getStreamTypeForAudioUsage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.USAGE_ALARM, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_ACCESSIBILITY, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, com.google.android.exoplayer2.C.USAGE_ASSISTANCE_SONIFICATION, com.google.android.exoplayer2.C.USAGE_ASSISTANT, com.google.android.exoplayer2.C.USAGE_GAME, com.google.android.exoplayer2.C.USAGE_MEDIA, com.google.android.exoplayer2.C.USAGE_NOTIFICATION, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_EVENT, com.google.android.exoplayer2.C.USAGE_NOTIFICATION_RINGTONE, com.google.android.exoplayer2.C.USAGE_UNKNOWN, com.google.android.exoplayer2.C.USAGE_VOICE_COMMUNICATION, com.google.android.exoplayer2.C.USAGE_VOICE_COMMUNICATION_SIGNALLING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util java.lang.String getAdaptiveMimeTypeForContentType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.CONTENT_TYPE_DASH, com.google.android.exoplayer2.C.CONTENT_TYPE_SS, com.google.android.exoplayer2.C.CONTENT_TYPE_HLS, com.google.android.exoplayer2.C.CONTENT_TYPE_RTSP, com.google.android.exoplayer2.C.CONTENT_TYPE_OTHER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util java.lang.String getCodecsOfType(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util java.lang.String getFormatSupportString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.C.FORMAT_HANDLED, com.google.android.exoplayer2.C.FORMAT_EXCEEDS_CAPABILITIES, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_DRM, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_SUBTYPE, com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_TYPE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.Util java.lang.String getTrackTypeString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN, com.google.android.exoplayer2.C.TRACK_TYPE_DEFAULT, com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO, com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO, com.google.android.exoplayer2.C.TRACK_TYPE_TEXT, com.google.android.exoplayer2.C.TRACK_TYPE_IMAGE, com.google.android.exoplayer2.C.TRACK_TYPE_METADATA, com.google.android.exoplayer2.C.TRACK_TYPE_CAMERA_MOTION, com.google.android.exoplayer2.C.TRACK_TYPE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.VideoFrameProcessor void registerInputStream(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_SURFACE, com.google.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_BITMAP, com.google.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_TEXTURE_ID}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo ColorInfo(int, int, int, byte[]) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_SPACE_BT601, com.google.android.exoplayer2.C.COLOR_SPACE_BT709, com.google.android.exoplayer2.C.COLOR_SPACE_BT2020}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo ColorInfo(int, int, int, byte[]) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_RANGE_LIMITED, com.google.android.exoplayer2.C.COLOR_RANGE_FULL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo ColorInfo(int, int, int, byte[]) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_TRANSFER_LINEAR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SDR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SRGB, com.google.android.exoplayer2.C.COLOR_TRANSFER_GAMMA_2_2, com.google.android.exoplayer2.C.COLOR_TRANSFER_ST2084, com.google.android.exoplayer2.C.COLOR_TRANSFER_HLG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo java.lang.String colorRangeToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_RANGE_LIMITED, com.google.android.exoplayer2.C.COLOR_RANGE_FULL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo java.lang.String colorSpaceToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_SPACE_BT601, com.google.android.exoplayer2.C.COLOR_SPACE_BT709, com.google.android.exoplayer2.C.COLOR_SPACE_BT2020}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo java.lang.String colorTransferToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_TRANSFER_LINEAR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SDR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SRGB, com.google.android.exoplayer2.C.COLOR_TRANSFER_GAMMA_2_2, com.google.android.exoplayer2.C.COLOR_TRANSFER_ST2084, com.google.android.exoplayer2.C.COLOR_TRANSFER_HLG}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo.Builder com.google.android.exoplayer2.video.ColorInfo.Builder setColorRange(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_RANGE_LIMITED, com.google.android.exoplayer2.C.COLOR_RANGE_FULL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo.Builder com.google.android.exoplayer2.video.ColorInfo.Builder setColorSpace(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_SPACE_BT601, com.google.android.exoplayer2.C.COLOR_SPACE_BT709, com.google.android.exoplayer2.C.COLOR_SPACE_BT2020}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.ColorInfo.Builder com.google.android.exoplayer2.video.ColorInfo.Builder setColorTransfer(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.Format.NO_VALUE, com.google.android.exoplayer2.C.COLOR_TRANSFER_LINEAR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SDR, com.google.android.exoplayer2.C.COLOR_TRANSFER_SRGB, com.google.android.exoplayer2.C.COLOR_TRANSFER_GAMMA_2_2, com.google.android.exoplayer2.C.COLOR_TRANSFER_ST2084, com.google.android.exoplayer2.C.COLOR_TRANSFER_HLG}"></val>
+        </annotation>
+    </item>
+</root>

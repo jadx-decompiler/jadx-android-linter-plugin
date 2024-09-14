@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.appsearch.localstorage.stats.CallStats.Builder androidx.appsearch.localstorage.stats.CallStats.Builder setCallType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_UNKNOWN, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_INITIALIZE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_SET_SCHEMA, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_PUT_DOCUMENTS, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GET_DOCUMENTS, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REMOVE_DOCUMENTS_BY_ID, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_PUT_DOCUMENT, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GET_DOCUMENT, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REMOVE_DOCUMENT_BY_ID, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_SEARCH, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_OPTIMIZE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_FLUSH, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GLOBAL_SEARCH, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REMOVE_DOCUMENTS_BY_SEARCH, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REMOVE_DOCUMENT_BY_SEARCH, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GLOBAL_GET_DOCUMENT_BY_ID, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_SCHEMA_MIGRATION, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GLOBAL_GET_SCHEMA, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GET_SCHEMA, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GET_NAMESPACES, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GET_NEXT_PAGE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_INVALIDATE_NEXT_PAGE_TOKEN, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_WRITE_SEARCH_RESULTS_TO_FILE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_PUT_DOCUMENTS_FROM_FILE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_SEARCH_SUGGESTION, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REPORT_SYSTEM_USAGE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REPORT_USAGE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GET_STORAGE_INFO, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_REGISTER_OBSERVER_CALLBACK, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_UNREGISTER_OBSERVER_CALLBACK, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_GLOBAL_GET_NEXT_PAGE, androidx.appsearch.localstorage.stats.CallStats.CALL_TYPE_EXECUTE_APP_FUNCTION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.InitializeStats.Builder androidx.appsearch.localstorage.stats.InitializeStats.Builder setDocumentStoreDataStatus(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.InitializeStats.DOCUMENT_STORE_DATA_STATUS_NO_DATA_LOSS, androidx.appsearch.localstorage.stats.InitializeStats.DOCUMENT_STORE_DATA_STATUS_PARTIAL_LOSS, androidx.appsearch.localstorage.stats.InitializeStats.DOCUMENT_STORE_DATA_STATUS_COMPLETE_LOSS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.InitializeStats.Builder androidx.appsearch.localstorage.stats.InitializeStats.Builder setDocumentStoreRecoveryCause(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_NONE, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_DATA_LOSS, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_INCONSISTENT_WITH_GROUND_TRUTH, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_TOTAL_CHECKSUM_MISMATCH, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_IO_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.InitializeStats.Builder androidx.appsearch.localstorage.stats.InitializeStats.Builder setIndexRestorationCause(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_NONE, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_DATA_LOSS, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_INCONSISTENT_WITH_GROUND_TRUTH, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_TOTAL_CHECKSUM_MISMATCH, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_IO_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.InitializeStats.Builder androidx.appsearch.localstorage.stats.InitializeStats.Builder setSchemaStoreRecoveryCause(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_NONE, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_DATA_LOSS, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_INCONSISTENT_WITH_GROUND_TRUTH, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_TOTAL_CHECKSUM_MISMATCH, androidx.appsearch.localstorage.stats.InitializeStats.RECOVERY_CAUSE_IO_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.RemoveStats.Builder androidx.appsearch.localstorage.stats.RemoveStats.Builder setDeleteType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.RemoveStats.UNKNOWN, androidx.appsearch.localstorage.stats.RemoveStats.SINGLE, androidx.appsearch.localstorage.stats.RemoveStats.QUERY, androidx.appsearch.localstorage.stats.RemoveStats.NAMESPACE, androidx.appsearch.localstorage.stats.RemoveStats.SCHEMA_TYPE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.SearchIntentStats.Builder androidx.appsearch.localstorage.stats.SearchIntentStats.Builder setQueryCorrectionType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.SearchIntentStats.QUERY_CORRECTION_TYPE_UNKNOWN, androidx.appsearch.localstorage.stats.SearchIntentStats.QUERY_CORRECTION_TYPE_FIRST_QUERY, androidx.appsearch.localstorage.stats.SearchIntentStats.QUERY_CORRECTION_TYPE_REFINEMENT, androidx.appsearch.localstorage.stats.SearchIntentStats.QUERY_CORRECTION_TYPE_ABANDONMENT, androidx.appsearch.localstorage.stats.SearchIntentStats.QUERY_CORRECTION_TYPE_END_SESSION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.appsearch.localstorage.stats.SearchStats.Builder Builder(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.appsearch.localstorage.stats.SearchStats.VISIBILITY_SCOPE_LOCAL, androidx.appsearch.localstorage.stats.SearchStats.VISIBILITY_SCOPE_GLOBAL, androidx.appsearch.localstorage.stats.SearchStats.VISIBILITY_SCOPE_UNKNOWN}"></val>
+        </annotation>
+    </item>
+</root>

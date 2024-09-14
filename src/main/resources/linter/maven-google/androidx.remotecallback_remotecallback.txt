@@ -1,0 +1,2 @@
+androidx.remotecallback.RemoteCallback.TYPE_PROVIDER=1
+androidx.remotecallback.RemoteCallback.TYPE_RECEIVER=0

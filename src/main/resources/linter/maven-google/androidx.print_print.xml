@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.print.PrintHelper android.graphics.Bitmap convertBitmapForColorMode(android.graphics.Bitmap, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.print.PrintHelper.COLOR_MODE_MONOCHROME, androidx.print.PrintHelper.COLOR_MODE_COLOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.print.PrintHelper android.graphics.Matrix getMatrix(int, int, android.graphics.RectF, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.print.PrintHelper.SCALE_MODE_FIT, androidx.print.PrintHelper.SCALE_MODE_FILL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.print.PrintHelper void setColorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.print.PrintHelper.COLOR_MODE_MONOCHROME, androidx.print.PrintHelper.COLOR_MODE_COLOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.print.PrintHelper void setScaleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.print.PrintHelper.SCALE_MODE_FIT, androidx.print.PrintHelper.SCALE_MODE_FILL}"></val>
+        </annotation>
+    </item>
+</root>

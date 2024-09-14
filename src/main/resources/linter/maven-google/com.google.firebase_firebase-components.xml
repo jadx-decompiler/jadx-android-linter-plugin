@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.components.Component Component(java.lang.String, java.util.Set&lt;com.google.firebase.components.Qualified&lt;? super T&gt;&gt;, java.util.Set&lt;com.google.firebase.components.Dependency&gt;, int, int, com.google.firebase.components.ComponentFactory&lt;T&gt;, java.util.Set&lt;java.lang.Class&lt;?&gt;&gt;) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Component.Instantiation.LAZY, com.google.firebase.components.Component.Instantiation.ALWAYS_EAGER, com.google.firebase.components.Component.Instantiation.EAGER_IN_DEFAULT_APP}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Component Component(java.lang.String, java.util.Set&lt;com.google.firebase.components.Qualified&lt;? super T&gt;&gt;, java.util.Set&lt;com.google.firebase.components.Dependency&gt;, int, int, com.google.firebase.components.ComponentFactory&lt;T&gt;, java.util.Set&lt;java.lang.Class&lt;?&gt;&gt;) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Component.ComponentType.VALUE, com.google.firebase.components.Component.ComponentType.SET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Component.Builder com.google.firebase.components.Component.Builder&lt;T&gt; setInstantiation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Component.Instantiation.LAZY, com.google.firebase.components.Component.Instantiation.ALWAYS_EAGER, com.google.firebase.components.Component.Instantiation.EAGER_IN_DEFAULT_APP}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Dependency Dependency(com.google.firebase.components.Qualified&lt;?&gt;, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Dependency.Type.OPTIONAL, com.google.firebase.components.Dependency.Type.REQUIRED, com.google.firebase.components.Dependency.Type.SET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Dependency Dependency(com.google.firebase.components.Qualified&lt;?&gt;, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Dependency.Injection.DIRECT, com.google.firebase.components.Dependency.Injection.PROVIDER, com.google.firebase.components.Dependency.Injection.DEFERRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Dependency Dependency(java.lang.Class&lt;?&gt;, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Dependency.Type.OPTIONAL, com.google.firebase.components.Dependency.Type.REQUIRED, com.google.firebase.components.Dependency.Type.SET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Dependency Dependency(java.lang.Class&lt;?&gt;, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Dependency.Injection.DIRECT, com.google.firebase.components.Dependency.Injection.PROVIDER, com.google.firebase.components.Dependency.Injection.DEFERRED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.firebase.components.Dependency java.lang.String describeInjection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.components.Dependency.Injection.DIRECT, com.google.firebase.components.Dependency.Injection.PROVIDER, com.google.firebase.components.Dependency.Injection.DEFERRED}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, int, int, java.util.concurrent.Executor, androidx.camera.core.SurfaceProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, int, int, java.util.concurrent.Executor, androidx.camera.core.SurfaceProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraEffect.OUTPUT_OPTION_ONE_FOR_ALL_TARGETS, androidx.camera.core.CameraEffect.OUTPUT_OPTION_ONE_FOR_EACH_TARGET}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, int, int, java.util.concurrent.Executor, androidx.camera.core.SurfaceProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.TRANSFORMATION_ARBITRARY, androidx.camera.core.CameraEffect.TRANSFORMATION_CAMERA_AND_SURFACE_ROTATION, androidx.camera.core.CameraEffect.TRANSFORMATION_PASSTHROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, int, java.util.concurrent.Executor, androidx.camera.core.SurfaceProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, int, java.util.concurrent.Executor, androidx.camera.core.SurfaceProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.TRANSFORMATION_ARBITRARY, androidx.camera.core.CameraEffect.TRANSFORMATION_CAMERA_AND_SURFACE_ROTATION, androidx.camera.core.CameraEffect.TRANSFORMATION_PASSTHROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, java.util.concurrent.Executor, androidx.camera.core.ImageProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraEffect CameraEffect(int, java.util.concurrent.Executor, androidx.camera.core.SurfaceProcessor, androidx.core.util.Consumer&lt;java.lang.Throwable&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraInfo int getSensorRotationDegrees(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraSelector.Builder androidx.camera.core.CameraSelector.Builder requireLensFacing(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraSelector.LENS_FACING_UNKNOWN, androidx.camera.core.CameraSelector.LENS_FACING_FRONT, androidx.camera.core.CameraSelector.LENS_FACING_BACK, androidx.camera.core.CameraSelector.LENS_FACING_EXTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraState.StateError androidx.camera.core.CameraState.StateError create(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraState.ERROR_CAMERA_IN_USE, androidx.camera.core.CameraState.ERROR_MAX_CAMERAS_IN_USE, androidx.camera.core.CameraState.ERROR_OTHER_RECOVERABLE_ERROR, androidx.camera.core.CameraState.ERROR_STREAM_CONFIG, androidx.camera.core.CameraState.ERROR_CAMERA_DISABLED, androidx.camera.core.CameraState.ERROR_CAMERA_FATAL_ERROR, androidx.camera.core.CameraState.ERROR_DO_NOT_DISTURB_MODE_ENABLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraState.StateError androidx.camera.core.CameraState.StateError create(int, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraState.ERROR_CAMERA_IN_USE, androidx.camera.core.CameraState.ERROR_MAX_CAMERAS_IN_USE, androidx.camera.core.CameraState.ERROR_OTHER_RECOVERABLE_ERROR, androidx.camera.core.CameraState.ERROR_STREAM_CONFIG, androidx.camera.core.CameraState.ERROR_CAMERA_DISABLED, androidx.camera.core.CameraState.ERROR_CAMERA_FATAL_ERROR, androidx.camera.core.CameraState.ERROR_DO_NOT_DISTURB_MODE_ENABLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraUnavailableException CameraUnavailableException(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraUnavailableException.CAMERA_UNKNOWN_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_DISABLED, androidx.camera.core.CameraUnavailableException.CAMERA_DISCONNECTED, androidx.camera.core.CameraUnavailableException.CAMERA_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_MAX_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_UNAVAILABLE_DO_NOT_DISTURB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraUnavailableException CameraUnavailableException(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraUnavailableException.CAMERA_UNKNOWN_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_DISABLED, androidx.camera.core.CameraUnavailableException.CAMERA_DISCONNECTED, androidx.camera.core.CameraUnavailableException.CAMERA_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_MAX_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_UNAVAILABLE_DO_NOT_DISTURB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraUnavailableException CameraUnavailableException(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraUnavailableException.CAMERA_UNKNOWN_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_DISABLED, androidx.camera.core.CameraUnavailableException.CAMERA_DISCONNECTED, androidx.camera.core.CameraUnavailableException.CAMERA_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_MAX_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_UNAVAILABLE_DO_NOT_DISTURB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.CameraUnavailableException CameraUnavailableException(int, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraUnavailableException.CAMERA_UNKNOWN_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_DISABLED, androidx.camera.core.CameraUnavailableException.CAMERA_DISCONNECTED, androidx.camera.core.CameraUnavailableException.CAMERA_ERROR, androidx.camera.core.CameraUnavailableException.CAMERA_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_MAX_IN_USE, androidx.camera.core.CameraUnavailableException.CAMERA_UNAVAILABLE_DO_NOT_DISTURB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.DynamicRange DynamicRange(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.DynamicRange.ENCODING_UNSPECIFIED, androidx.camera.core.DynamicRange.ENCODING_SDR, androidx.camera.core.DynamicRange.ENCODING_HDR_UNSPECIFIED, androidx.camera.core.DynamicRange.ENCODING_HLG, androidx.camera.core.DynamicRange.ENCODING_HDR10, androidx.camera.core.DynamicRange.ENCODING_HDR10_PLUS, androidx.camera.core.DynamicRange.ENCODING_DOLBY_VISION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.DynamicRange DynamicRange(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.DynamicRange.BIT_DEPTH_UNSPECIFIED, androidx.camera.core.DynamicRange.BIT_DEPTH_8_BIT, androidx.camera.core.DynamicRange.BIT_DEPTH_10_BIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.DynamicRange java.lang.String getEncodingLabel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.DynamicRange.ENCODING_UNSPECIFIED, androidx.camera.core.DynamicRange.ENCODING_SDR, androidx.camera.core.DynamicRange.ENCODING_HDR_UNSPECIFIED, androidx.camera.core.DynamicRange.ENCODING_HLG, androidx.camera.core.DynamicRange.ENCODING_HDR10, androidx.camera.core.DynamicRange.ENCODING_HDR10_PLUS, androidx.camera.core.DynamicRange.ENCODING_DOLBY_VISION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.FocusMeteringAction.Builder Builder(androidx.camera.core.MeteringPoint, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.FocusMeteringAction.FLAG_AF, androidx.camera.core.FocusMeteringAction.FLAG_AE, androidx.camera.core.FocusMeteringAction.FLAG_AWB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.FocusMeteringAction.Builder androidx.camera.core.FocusMeteringAction.Builder addPoint(androidx.camera.core.MeteringPoint, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.FocusMeteringAction.FLAG_AF, androidx.camera.core.FocusMeteringAction.FLAG_AE, androidx.camera.core.FocusMeteringAction.FLAG_AWB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.FocusMeteringAction.Builder androidx.camera.core.FocusMeteringAction.Builder removePoints(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.FocusMeteringAction.FLAG_AF, androidx.camera.core.FocusMeteringAction.FLAG_AE, androidx.camera.core.FocusMeteringAction.FLAG_AWB}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysis void setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysis.Builder androidx.camera.core.ImageAnalysis.Builder setBackpressureStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST, androidx.camera.core.ImageAnalysis.STRATEGY_BLOCK_PRODUCER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysis.Builder androidx.camera.core.ImageAnalysis.Builder setMirrorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.MirrorMode.MIRROR_MODE_OFF, androidx.camera.core.MirrorMode.MIRROR_MODE_ON, androidx.camera.core.MirrorMode.MIRROR_MODE_ON_FRONT_ONLY, androidx.camera.core.MirrorMode.MIRROR_MODE_UNSPECIFIED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysis.Builder androidx.camera.core.ImageAnalysis.Builder setOutputImageFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageAnalysis.OUTPUT_IMAGE_FORMAT_YUV_420_888, androidx.camera.core.ImageAnalysis.OUTPUT_IMAGE_FORMAT_RGBA_8888}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysis.Builder androidx.camera.core.ImageAnalysis.Builder setTargetAspectRatio(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.AspectRatio.RATIO_DEFAULT, androidx.camera.core.AspectRatio.RATIO_4_3, androidx.camera.core.AspectRatio.RATIO_16_9}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysis.Builder androidx.camera.core.ImageAnalysis.Builder setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageAnalysisAbstractAnalyzer void setOutputImageFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageAnalysis.OUTPUT_IMAGE_FORMAT_YUV_420_888, androidx.camera.core.ImageAnalysis.OUTPUT_IMAGE_FORMAT_RGBA_8888}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture void setFlashMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_MODE_UNKNOWN, androidx.camera.core.ImageCapture.FLASH_MODE_AUTO, androidx.camera.core.ImageCapture.FLASH_MODE_ON, androidx.camera.core.ImageCapture.FLASH_MODE_SCREEN, androidx.camera.core.ImageCapture.FLASH_MODE_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture void setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setCaptureMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY, androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY, androidx.camera.core.ImageCapture.CAPTURE_MODE_ZERO_SHUTTER_LAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setFlashMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_MODE_UNKNOWN, androidx.camera.core.ImageCapture.FLASH_MODE_AUTO, androidx.camera.core.ImageCapture.FLASH_MODE_ON, androidx.camera.core.ImageCapture.FLASH_MODE_SCREEN, androidx.camera.core.ImageCapture.FLASH_MODE_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setFlashType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_TYPE_ONE_SHOT_FLASH, androidx.camera.core.ImageCapture.FLASH_TYPE_USE_TORCH_AS_FLASH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setMirrorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.MirrorMode.MIRROR_MODE_OFF, androidx.camera.core.MirrorMode.MIRROR_MODE_ON, androidx.camera.core.MirrorMode.MIRROR_MODE_ON_FRONT_ONLY, androidx.camera.core.MirrorMode.MIRROR_MODE_UNSPECIFIED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setOutputFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.OUTPUT_FORMAT_JPEG, androidx.camera.core.ImageCapture.OUTPUT_FORMAT_JPEG_ULTRA_HDR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setTargetAspectRatio(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.AspectRatio.RATIO_DEFAULT, androidx.camera.core.AspectRatio.RATIO_4_3, androidx.camera.core.AspectRatio.RATIO_16_9}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCapture.Builder androidx.camera.core.ImageCapture.Builder setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ImageCaptureException ImageCaptureException(int, java.lang.String, java.lang.Throwable) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.ERROR_UNKNOWN, androidx.camera.core.ImageCapture.ERROR_FILE_IO, androidx.camera.core.ImageCapture.ERROR_CAPTURE_FAILED, androidx.camera.core.ImageCapture.ERROR_CAMERA_CLOSED, androidx.camera.core.ImageCapture.ERROR_INVALID_CAMERA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.Preview void setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.Preview.Builder androidx.camera.core.Preview.Builder setMirrorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.MirrorMode.MIRROR_MODE_OFF, androidx.camera.core.MirrorMode.MIRROR_MODE_ON, androidx.camera.core.MirrorMode.MIRROR_MODE_ON_FRONT_ONLY, androidx.camera.core.MirrorMode.MIRROR_MODE_UNSPECIFIED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.Preview.Builder androidx.camera.core.Preview.Builder setTargetAspectRatio(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.AspectRatio.RATIO_DEFAULT, androidx.camera.core.AspectRatio.RATIO_4_3, androidx.camera.core.AspectRatio.RATIO_16_9}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.Preview.Builder androidx.camera.core.Preview.Builder setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.SurfaceOutput.Event androidx.camera.core.SurfaceOutput.Event of(int, androidx.camera.core.SurfaceOutput) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.SurfaceOutput.Event.EVENT_REQUEST_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.SurfaceRequest.Result androidx.camera.core.SurfaceRequest.Result of(int, android.view.Surface) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.SurfaceRequest.Result.RESULT_SURFACE_USED_SUCCESSFULLY, androidx.camera.core.SurfaceRequest.Result.RESULT_REQUEST_CANCELLED, androidx.camera.core.SurfaceRequest.Result.RESULT_INVALID_SURFACE, androidx.camera.core.SurfaceRequest.Result.RESULT_SURFACE_ALREADY_PROVIDED, androidx.camera.core.SurfaceRequest.Result.RESULT_WILL_NOT_PROVIDE_SURFACE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.SurfaceRequest.TransformationInfo androidx.camera.core.SurfaceRequest.TransformationInfo of(android.graphics.Rect, int, int, boolean, android.graphics.Matrix, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.ImageOutputConfig.ROTATION_NOT_SPECIFIED, android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.UseCase boolean isEffectTargetsSupported(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.UseCase boolean setTargetRotationInternal(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ViewPort ViewPort(int, android.util.Rational, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ViewPort.FILL_START, androidx.camera.core.ViewPort.FILL_CENTER, androidx.camera.core.ViewPort.FILL_END, androidx.camera.core.ViewPort.FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ViewPort ViewPort(int, android.util.Rational, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ViewPort ViewPort(int, android.util.Rational, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.util.LayoutDirection.LTR, android.util.LayoutDirection.RTL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ViewPort.Builder Builder(android.util.Rational, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ViewPort.Builder androidx.camera.core.ViewPort.Builder setLayoutDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.util.LayoutDirection.LTR, android.util.LayoutDirection.RTL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.ViewPort.Builder androidx.camera.core.ViewPort.Builder setScaleType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ViewPort.FILL_START, androidx.camera.core.ViewPort.FILL_CENTER, androidx.camera.core.ViewPort.FILL_END, androidx.camera.core.ViewPort.FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.concurrent.CameraCoordinator void setCameraOperatingMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_UNSPECIFIED, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_SINGLE, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_CONCURRENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.concurrent.CameraCoordinator.ConcurrentCameraModeListener void onCameraOperatingModeUpdated(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_UNSPECIFIED, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_SINGLE, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_CONCURRENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.concurrent.CameraCoordinator.ConcurrentCameraModeListener void onCameraOperatingModeUpdated(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_UNSPECIFIED, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_SINGLE, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_CONCURRENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.imagecapture.TakePictureRequest androidx.camera.core.imagecapture.TakePictureRequest of(java.util.concurrent.Executor, androidx.camera.core.ImageCapture.OnImageCapturedCallback, androidx.camera.core.ImageCapture.OnImageSavedCallback, androidx.camera.core.ImageCapture.OutputFileOptions, android.graphics.Rect, android.graphics.Matrix, int, int, int, java.util.List&lt;androidx.camera.core.impl.CameraCaptureCallback&gt;) 8">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY, androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY, androidx.camera.core.ImageCapture.CAPTURE_MODE_ZERO_SHUTTER_LAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraConfig.Builder B setUseCaseCombinationRequiredRule(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.CameraConfig.REQUIRED_RULE_NONE, androidx.camera.core.impl.CameraConfig.REQUIRED_RULE_COEXISTING_PREVIEW_AND_IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraControlInternal com.google.common.util.concurrent.ListenableFuture&lt;java.util.List&lt;java.lang.Void&gt;&gt; submitStillCaptureRequests(java.util.List&lt;androidx.camera.core.impl.CaptureConfig&gt;, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY, androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY, androidx.camera.core.ImageCapture.CAPTURE_MODE_ZERO_SHUTTER_LAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraControlInternal com.google.common.util.concurrent.ListenableFuture&lt;java.util.List&lt;java.lang.Void&gt;&gt; submitStillCaptureRequests(java.util.List&lt;androidx.camera.core.impl.CaptureConfig&gt;, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_TYPE_ONE_SHOT_FLASH, androidx.camera.core.ImageCapture.FLASH_TYPE_USE_TORCH_AS_FLASH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraControlInternal void setFlashMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_MODE_UNKNOWN, androidx.camera.core.ImageCapture.FLASH_MODE_AUTO, androidx.camera.core.ImageCapture.FLASH_MODE_ON, androidx.camera.core.ImageCapture.FLASH_MODE_SCREEN, androidx.camera.core.ImageCapture.FLASH_MODE_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraDeviceSurfaceManager android.util.Pair&lt;java.util.Map&lt;androidx.camera.core.impl.UseCaseConfig&lt;?&gt;,androidx.camera.core.impl.StreamSpec&gt;,java.util.Map&lt;androidx.camera.core.impl.AttachedSurfaceInfo,androidx.camera.core.impl.StreamSpec&gt;&gt; getSuggestedStreamSpecs(int, java.lang.String, java.util.List&lt;androidx.camera.core.impl.AttachedSurfaceInfo&gt;, java.util.Map&lt;androidx.camera.core.impl.UseCaseConfig&lt;?&gt;,java.util.List&lt;android.util.Size&gt;&gt;, boolean, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.CameraMode.DEFAULT, androidx.camera.core.impl.CameraMode.CONCURRENT_CAMERA, androidx.camera.core.impl.CameraMode.ULTRA_HIGH_RESOLUTION_CAMERA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraDeviceSurfaceManager androidx.camera.core.impl.SurfaceConfig transformSurfaceConfig(int, java.lang.String, int, android.util.Size) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.CameraMode.DEFAULT, androidx.camera.core.impl.CameraMode.CONCURRENT_CAMERA, androidx.camera.core.impl.CameraMode.ULTRA_HIGH_RESOLUTION_CAMERA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraMode java.lang.String toLabelString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.CameraMode.DEFAULT, androidx.camera.core.impl.CameraMode.CONCURRENT_CAMERA, androidx.camera.core.impl.CameraMode.ULTRA_HIGH_RESOLUTION_CAMERA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraStateRegistry void onCameraOperatingModeUpdated(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_UNSPECIFIED, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_SINGLE, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_CONCURRENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CameraStateRegistry void onCameraOperatingModeUpdated(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_UNSPECIFIED, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_SINGLE, androidx.camera.core.concurrent.CameraCoordinator.CAMERA_OPERATING_MODE_CONCURRENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CaptureConfig.Builder void setPreviewStabilization(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.stabilization.StabilizationMode.UNSPECIFIED, androidx.camera.core.impl.stabilization.StabilizationMode.OFF, androidx.camera.core.impl.stabilization.StabilizationMode.ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.CaptureConfig.Builder void setVideoStabilization(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.stabilization.StabilizationMode.UNSPECIFIED, androidx.camera.core.impl.stabilization.StabilizationMode.OFF, androidx.camera.core.impl.stabilization.StabilizationMode.ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.EncoderProfilesProxy int getRequiredAudioProfile(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.media.MediaRecorder.AudioEncoder.AAC, android.media.MediaRecorder.AudioEncoder.AAC_ELD, android.media.MediaRecorder.AudioEncoder.AMR_NB, android.media.MediaRecorder.AudioEncoder.AMR_WB, android.media.MediaRecorder.AudioEncoder.HE_AAC, android.media.MediaRecorder.AudioEncoder.OPUS, android.media.MediaRecorder.AudioEncoder.VORBIS, android.media.MediaRecorder.AudioEncoder.DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.EncoderProfilesProxy java.lang.String getAudioCodecMimeType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.media.MediaRecorder.AudioEncoder.AAC, android.media.MediaRecorder.AudioEncoder.AAC_ELD, android.media.MediaRecorder.AudioEncoder.AMR_NB, android.media.MediaRecorder.AudioEncoder.AMR_WB, android.media.MediaRecorder.AudioEncoder.HE_AAC, android.media.MediaRecorder.AudioEncoder.OPUS, android.media.MediaRecorder.AudioEncoder.VORBIS, android.media.MediaRecorder.AudioEncoder.DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.EncoderProfilesProxy java.lang.String getVideoCodecMimeType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.media.MediaRecorder.VideoEncoder.H263, android.media.MediaRecorder.VideoEncoder.H264, android.media.MediaRecorder.VideoEncoder.HEVC, android.media.MediaRecorder.VideoEncoder.VP8, android.media.MediaRecorder.VideoEncoder.MPEG_4_SP, android.media.MediaRecorder.VideoEncoder.VP9, android.media.MediaRecorder.VideoEncoder.DOLBY_VISION, android.media.MediaRecorder.VideoEncoder.AV1, android.media.MediaRecorder.VideoEncoder.DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.EncoderProfilesProxy.AudioProfileProxy androidx.camera.core.impl.EncoderProfilesProxy.AudioProfileProxy create(int, java.lang.String, int, int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.media.MediaRecorder.AudioEncoder.AAC, android.media.MediaRecorder.AudioEncoder.AAC_ELD, android.media.MediaRecorder.AudioEncoder.AMR_NB, android.media.MediaRecorder.AudioEncoder.AMR_WB, android.media.MediaRecorder.AudioEncoder.HE_AAC, android.media.MediaRecorder.AudioEncoder.OPUS, android.media.MediaRecorder.AudioEncoder.VORBIS, android.media.MediaRecorder.AudioEncoder.DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.EncoderProfilesProxy.VideoProfileProxy androidx.camera.core.impl.EncoderProfilesProxy.VideoProfileProxy create(int, java.lang.String, int, int, int, int, int, int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.media.MediaRecorder.VideoEncoder.H263, android.media.MediaRecorder.VideoEncoder.H264, android.media.MediaRecorder.VideoEncoder.HEVC, android.media.MediaRecorder.VideoEncoder.VP8, android.media.MediaRecorder.VideoEncoder.MPEG_4_SP, android.media.MediaRecorder.VideoEncoder.VP9, android.media.MediaRecorder.VideoEncoder.DOLBY_VISION, android.media.MediaRecorder.VideoEncoder.AV1, android.media.MediaRecorder.VideoEncoder.DEFAULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ForwardingCameraControl com.google.common.util.concurrent.ListenableFuture&lt;java.util.List&lt;java.lang.Void&gt;&gt; submitStillCaptureRequests(java.util.List&lt;androidx.camera.core.impl.CaptureConfig&gt;, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY, androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY, androidx.camera.core.ImageCapture.CAPTURE_MODE_ZERO_SHUTTER_LAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ForwardingCameraControl com.google.common.util.concurrent.ListenableFuture&lt;java.util.List&lt;java.lang.Void&gt;&gt; submitStillCaptureRequests(java.util.List&lt;androidx.camera.core.impl.CaptureConfig&gt;, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_TYPE_ONE_SHOT_FLASH, androidx.camera.core.ImageCapture.FLASH_TYPE_USE_TORCH_AS_FLASH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ForwardingCameraControl void setFlashMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_MODE_UNKNOWN, androidx.camera.core.ImageCapture.FLASH_MODE_AUTO, androidx.camera.core.ImageCapture.FLASH_MODE_ON, androidx.camera.core.ImageCapture.FLASH_MODE_SCREEN, androidx.camera.core.ImageCapture.FLASH_MODE_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ImageAnalysisConfig int getBackpressureStrategy(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST, androidx.camera.core.ImageAnalysis.STRATEGY_BLOCK_PRODUCER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ImageCaptureConfig int getFlashMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_MODE_UNKNOWN, androidx.camera.core.ImageCapture.FLASH_MODE_AUTO, androidx.camera.core.ImageCapture.FLASH_MODE_ON, androidx.camera.core.ImageCapture.FLASH_MODE_SCREEN, androidx.camera.core.ImageCapture.FLASH_MODE_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ImageCaptureConfig int getFlashType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_TYPE_ONE_SHOT_FLASH, androidx.camera.core.ImageCapture.FLASH_TYPE_USE_TORCH_AS_FLASH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ImageOutputConfig.Builder B setMirrorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.MirrorMode.MIRROR_MODE_OFF, androidx.camera.core.MirrorMode.MIRROR_MODE_ON, androidx.camera.core.MirrorMode.MIRROR_MODE_ON_FRONT_ONLY, androidx.camera.core.MirrorMode.MIRROR_MODE_UNSPECIFIED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ImageOutputConfig.Builder B setTargetAspectRatio(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.AspectRatio.RATIO_DEFAULT, androidx.camera.core.AspectRatio.RATIO_4_3, androidx.camera.core.AspectRatio.RATIO_16_9}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.ImageOutputConfig.Builder B setTargetRotation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.LensFacingCameraFilter LensFacingCameraFilter(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.CameraSelector.LENS_FACING_UNKNOWN, androidx.camera.core.CameraSelector.LENS_FACING_FRONT, androidx.camera.core.CameraSelector.LENS_FACING_BACK, androidx.camera.core.CameraSelector.LENS_FACING_EXTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SessionConfig.Builder androidx.camera.core.impl.SessionConfig.Builder addSurface(androidx.camera.core.impl.DeferrableSurface, androidx.camera.core.DynamicRange, java.lang.String, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.MirrorMode.MIRROR_MODE_OFF, androidx.camera.core.MirrorMode.MIRROR_MODE_ON, androidx.camera.core.MirrorMode.MIRROR_MODE_ON_FRONT_ONLY, androidx.camera.core.MirrorMode.MIRROR_MODE_UNSPECIFIED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SessionConfig.Builder androidx.camera.core.impl.SessionConfig.Builder setPreviewStabilization(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.stabilization.StabilizationMode.UNSPECIFIED, androidx.camera.core.impl.stabilization.StabilizationMode.OFF, androidx.camera.core.impl.stabilization.StabilizationMode.ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SessionConfig.Builder androidx.camera.core.impl.SessionConfig.Builder setVideoStabilization(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.stabilization.StabilizationMode.UNSPECIFIED, androidx.camera.core.impl.stabilization.StabilizationMode.OFF, androidx.camera.core.impl.stabilization.StabilizationMode.ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SessionConfig.OutputConfig.Builder androidx.camera.core.impl.SessionConfig.OutputConfig.Builder setMirrorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.MirrorMode.MIRROR_MODE_OFF, androidx.camera.core.MirrorMode.MIRROR_MODE_ON, androidx.camera.core.MirrorMode.MIRROR_MODE_ON_FRONT_ONLY, androidx.camera.core.MirrorMode.MIRROR_MODE_UNSPECIFIED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SessionConfig.ValidatingBuilder void setPreviewStabilizationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.stabilization.StabilizationMode.UNSPECIFIED, androidx.camera.core.impl.stabilization.StabilizationMode.OFF, androidx.camera.core.impl.stabilization.StabilizationMode.ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SessionConfig.ValidatingBuilder void setVideoStabilizationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.stabilization.StabilizationMode.UNSPECIFIED, androidx.camera.core.impl.stabilization.StabilizationMode.OFF, androidx.camera.core.impl.stabilization.StabilizationMode.ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.SurfaceConfig androidx.camera.core.impl.SurfaceConfig transformSurfaceConfig(int, int, android.util.Size, androidx.camera.core.impl.SurfaceSizeDefinition) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.CameraMode.DEFAULT, androidx.camera.core.impl.CameraMode.CONCURRENT_CAMERA, androidx.camera.core.impl.CameraMode.ULTRA_HIGH_RESOLUTION_CAMERA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.UseCaseConfigFactory androidx.camera.core.impl.Config getConfig(androidx.camera.core.impl.UseCaseConfigFactory.CaptureType, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY, androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY, androidx.camera.core.ImageCapture.CAPTURE_MODE_ZERO_SHUTTER_LAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.utils.CameraOrientationUtil int surfaceRotationToDegrees(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.impl.utils.SessionProcessorUtil boolean isOperationSupported(androidx.camera.core.impl.SessionProcessor, int...) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_ZOOM, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_AUTO_FOCUS, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_AF_REGION, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_AE_REGION, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_AWB_REGION, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_FLASH, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_TORCH, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_EXPOSURE_COMPENSATION, androidx.camera.core.impl.RestrictedCameraInfo.CAMERA_OPERATION_EXTENSION_STRENGTH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.CameraUseCaseAdapter java.util.Map&lt;androidx.camera.core.UseCase,androidx.camera.core.impl.StreamSpec&gt; calculateSuggestedStreamSpecs(int, androidx.camera.core.impl.CameraInfoInternal, java.util.Collection&lt;androidx.camera.core.UseCase&gt;, java.util.Collection&lt;androidx.camera.core.UseCase&gt;, java.util.Map&lt;androidx.camera.core.UseCase,androidx.camera.core.internal.CameraUseCaseAdapter.ConfigPair&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.CameraMode.DEFAULT, androidx.camera.core.impl.CameraMode.CONCURRENT_CAMERA, androidx.camera.core.impl.CameraMode.ULTRA_HIGH_RESOLUTION_CAMERA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.SupportedOutputSizesSorter android.util.Rational getTargetAspectRatioRationalValue(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.AspectRatio.RATIO_DEFAULT, androidx.camera.core.AspectRatio.RATIO_4_3, androidx.camera.core.AspectRatio.RATIO_16_9}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.SupportedOutputSizesSorter java.util.List&lt;android.util.Size&gt; applyResolutionFilter(java.util.List&lt;android.util.Size&gt;, androidx.camera.core.resolutionselector.ResolutionFilter, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.ViewPorts android.graphics.RectF getScaledRect(android.graphics.RectF, android.util.Rational, int, boolean, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ViewPort.FILL_START, androidx.camera.core.ViewPort.FILL_CENTER, androidx.camera.core.ViewPort.FILL_END, androidx.camera.core.ViewPort.FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.ViewPorts android.graphics.RectF getScaledRect(android.graphics.RectF, android.util.Rational, int, boolean, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.util.LayoutDirection.LTR, android.util.LayoutDirection.RTL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.ViewPorts boolean shouldMirrorStartAndEnd(boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.util.LayoutDirection.LTR, android.util.LayoutDirection.RTL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.ViewPorts java.util.Map&lt;androidx.camera.core.UseCase,android.graphics.Rect&gt; calculateViewPortRects(android.graphics.Rect, boolean, android.util.Rational, int, int, int, java.util.Map&lt;androidx.camera.core.UseCase,androidx.camera.core.impl.StreamSpec&gt;) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ViewPort.FILL_START, androidx.camera.core.ViewPort.FILL_CENTER, androidx.camera.core.ViewPort.FILL_END, androidx.camera.core.ViewPort.FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.internal.ViewPorts java.util.Map&lt;androidx.camera.core.UseCase,android.graphics.Rect&gt; calculateViewPortRects(android.graphics.Rect, boolean, android.util.Rational, int, int, int, java.util.Map&lt;androidx.camera.core.UseCase,androidx.camera.core.impl.StreamSpec&gt;) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.util.LayoutDirection.LTR, android.util.LayoutDirection.RTL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceEdge SurfaceEdge(int, int, androidx.camera.core.impl.StreamSpec, android.graphics.Matrix, boolean, android.graphics.Rect, int, int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceEdge SurfaceEdge(int, int, androidx.camera.core.impl.StreamSpec, android.graphics.Matrix, boolean, android.graphics.Rect, int, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.impl.ImageFormatConstants.INTERNAL_DEFINED_IMAGE_FORMAT_PRIVATE, android.graphics.ImageFormat.JPEG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceEdge SurfaceEdge(int, int, androidx.camera.core.impl.StreamSpec, android.graphics.Matrix, boolean, android.graphics.Rect, int, int, boolean) 7">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.ImageOutputConfig.ROTATION_NOT_SPECIFIED, android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceEdge com.google.common.util.concurrent.ListenableFuture&lt;androidx.camera.core.SurfaceOutput&gt; createSurfaceOutputFuture(int, androidx.camera.core.SurfaceOutput.CameraInputInfo, androidx.camera.core.SurfaceOutput.CameraInputInfo) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.impl.ImageFormatConstants.INTERNAL_DEFINED_IMAGE_FORMAT_PRIVATE, android.graphics.ImageFormat.JPEG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceEdge void updateTransformation(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.impl.ImageOutputConfig.ROTATION_NOT_SPECIFIED, android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceEdge.SettableSurface SettableSurface(android.util.Size, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.impl.ImageFormatConstants.INTERNAL_DEFINED_IMAGE_FORMAT_PRIVATE, android.graphics.ImageFormat.JPEG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceOutputImpl SurfaceOutputImpl(android.view.Surface, int, int, android.util.Size, androidx.camera.core.SurfaceOutput.CameraInputInfo, androidx.camera.core.SurfaceOutput.CameraInputInfo, android.graphics.Matrix) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.SurfaceOutputImpl SurfaceOutputImpl(android.view.Surface, int, int, android.util.Size, androidx.camera.core.SurfaceOutput.CameraInputInfo, androidx.camera.core.SurfaceOutput.CameraInputInfo, android.graphics.Matrix) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.impl.ImageFormatConstants.INTERNAL_DEFINED_IMAGE_FORMAT_PRIVATE, android.graphics.ImageFormat.JPEG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.util.OutConfig androidx.camera.core.processing.util.OutConfig of(int, int, android.graphics.Rect, android.util.Size, int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.util.OutConfig androidx.camera.core.processing.util.OutConfig of(int, int, android.graphics.Rect, android.util.Size, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.impl.ImageFormatConstants.INTERNAL_DEFINED_IMAGE_FORMAT_PRIVATE, android.graphics.ImageFormat.JPEG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.util.OutConfig androidx.camera.core.processing.util.OutConfig of(int, int, android.graphics.Rect, android.util.Size, int, boolean, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.CameraEffect.PREVIEW, androidx.camera.core.CameraEffect.VIDEO_CAPTURE, androidx.camera.core.CameraEffect.IMAGE_CAPTURE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.processing.util.OutConfig androidx.camera.core.processing.util.OutConfig of(int, int, android.graphics.Rect, android.util.Size, int, boolean, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.camera.core.impl.ImageFormatConstants.INTERNAL_DEFINED_IMAGE_FORMAT_PRIVATE, android.graphics.ImageFormat.JPEG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.resolutionselector.AspectRatioStrategy AspectRatioStrategy(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.AspectRatio.RATIO_DEFAULT, androidx.camera.core.AspectRatio.RATIO_4_3, androidx.camera.core.AspectRatio.RATIO_16_9}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.resolutionselector.AspectRatioStrategy AspectRatioStrategy(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.resolutionselector.AspectRatioStrategy.FALLBACK_RULE_NONE, androidx.camera.core.resolutionselector.AspectRatioStrategy.FALLBACK_RULE_AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.resolutionselector.ResolutionSelector ResolutionSelector(androidx.camera.core.resolutionselector.AspectRatioStrategy, androidx.camera.core.resolutionselector.ResolutionStrategy, androidx.camera.core.resolutionselector.ResolutionFilter, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.resolutionselector.ResolutionSelector.PREFER_CAPTURE_RATE_OVER_HIGHER_RESOLUTION, androidx.camera.core.resolutionselector.ResolutionSelector.PREFER_HIGHER_RESOLUTION_OVER_CAPTURE_RATE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.resolutionselector.ResolutionSelector.Builder androidx.camera.core.resolutionselector.ResolutionSelector.Builder setAllowedResolutionMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.resolutionselector.ResolutionSelector.PREFER_CAPTURE_RATE_OVER_HIGHER_RESOLUTION, androidx.camera.core.resolutionselector.ResolutionSelector.PREFER_HIGHER_RESOLUTION_OVER_CAPTURE_RATE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.resolutionselector.ResolutionStrategy ResolutionStrategy(android.util.Size, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.resolutionselector.ResolutionStrategy.FALLBACK_RULE_NONE, androidx.camera.core.resolutionselector.ResolutionStrategy.FALLBACK_RULE_CLOSEST_HIGHER_THEN_LOWER, androidx.camera.core.resolutionselector.ResolutionStrategy.FALLBACK_RULE_CLOSEST_HIGHER, androidx.camera.core.resolutionselector.ResolutionStrategy.FALLBACK_RULE_CLOSEST_LOWER_THEN_HIGHER, androidx.camera.core.resolutionselector.ResolutionStrategy.FALLBACK_RULE_CLOSEST_LOWER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.streamsharing.VirtualCameraAdapter androidx.camera.core.processing.util.OutConfig calculateOutConfig(androidx.camera.core.UseCase, androidx.camera.core.streamsharing.ResolutionsMerger, androidx.camera.core.impl.CameraInternal, androidx.camera.core.processing.SurfaceEdge, int, boolean) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.streamsharing.VirtualCameraAdapter java.util.Map&lt;androidx.camera.core.UseCase,androidx.camera.core.processing.concurrent.DualOutConfig&gt; getChildrenOutConfigs(androidx.camera.core.processing.SurfaceEdge, androidx.camera.core.processing.SurfaceEdge, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.streamsharing.VirtualCameraAdapter java.util.Map&lt;androidx.camera.core.UseCase,androidx.camera.core.processing.util.OutConfig&gt; getChildrenOutConfigs(androidx.camera.core.processing.SurfaceEdge, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.streamsharing.VirtualCameraControl com.google.common.util.concurrent.ListenableFuture&lt;java.util.List&lt;java.lang.Void&gt;&gt; submitStillCaptureRequests(java.util.List&lt;androidx.camera.core.impl.CaptureConfig&gt;, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.CAPTURE_MODE_MAXIMIZE_QUALITY, androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY, androidx.camera.core.ImageCapture.CAPTURE_MODE_ZERO_SHUTTER_LAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.streamsharing.VirtualCameraControl com.google.common.util.concurrent.ListenableFuture&lt;java.util.List&lt;java.lang.Void&gt;&gt; submitStillCaptureRequests(java.util.List&lt;androidx.camera.core.impl.CaptureConfig&gt;, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.camera.core.ImageCapture.FLASH_TYPE_ONE_SHOT_FLASH, androidx.camera.core.ImageCapture.FLASH_TYPE_USE_TORCH_AS_FLASH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.camera.core.streamsharing.VirtualCameraInfo int getSensorRotationDegrees(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Surface.ROTATION_0, android.view.Surface.ROTATION_90, android.view.Surface.ROTATION_180, android.view.Surface.ROTATION_270}"></val>
+        </annotation>
+    </item>
+</root>

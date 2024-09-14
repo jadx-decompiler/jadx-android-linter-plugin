@@ -1,0 +1,15 @@
+com.google.android.exoplayer2.source.rtsp.RtspAuthenticationInfo.BASIC=1
+com.google.android.exoplayer2.source.rtsp.RtspAuthenticationInfo.DIGEST=2
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_ANNOUNCE=1
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE=2
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_GET_PARAMETER=3
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS=4
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PAUSE=5
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY=6
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY_NOTIFY=7
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_RECORD=8
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_REDIRECT=9
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP=10
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SET_PARAMETER=11
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN=12
+com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_UNSET=0

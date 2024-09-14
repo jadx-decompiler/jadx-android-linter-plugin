@@ -1,0 +1,9 @@
+{
+  "artifacts": [
+    {
+      "name": "com.github.yalantis_ucrop",
+      "rules": "sha512-UBgW93aP6D6q+ayqPns7V0TJybsa1f2HLLLj15GjzPK8fKVdB6feIJeMeZjXWPKc4hiYGZ7FCwDX59gDTGEmEA==",
+      "constants": "sha512-jgWsGtHTMrd8TWofNwmBElL8lxWTyOz3iMHD20oCA34aytVRFqDLfwBDO8QjGNH74EWwtuMy05EjjdAXltaUZw=="
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.javascriptengine.IsolateUsableState.IJsSandboxIsolateCallbackStubWrapper void reportError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.javascriptengine.ExecutionErrorTypes.JS_EVALUATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.javascriptengine.IsolateUsableState.IJsSandboxIsolateSyncCallbackStubWrapper void reportErrorWithFd(int, android.content.res.AssetFileDescriptor) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.javascriptengine.ExecutionErrorTypes.JS_EVALUATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.javascriptengine.JavaScriptConsoleCallback.ConsoleMessage ConsoleMessage(int, java.lang.String, java.lang.String, int, int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.javascriptengine.JavaScriptConsoleCallback.ConsoleMessage.LEVEL_LOG, androidx.javascriptengine.JavaScriptConsoleCallback.ConsoleMessage.LEVEL_DEBUG, androidx.javascriptengine.JavaScriptConsoleCallback.ConsoleMessage.LEVEL_INFO, androidx.javascriptengine.JavaScriptConsoleCallback.ConsoleMessage.LEVEL_ERROR, androidx.javascriptengine.JavaScriptConsoleCallback.ConsoleMessage.LEVEL_WARNING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.javascriptengine.JavaScriptSandbox boolean isFeatureSupported(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_ISOLATE_TERMINATION, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_PROMISE_RETURN, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_PROVIDE_CONSUME_ARRAY_BUFFER, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_WASM_COMPILATION, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_ISOLATE_MAX_HEAP_SIZE, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_EVALUATE_WITHOUT_TRANSACTION_LIMIT, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_CONSOLE_MESSAGING, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_ISOLATE_CLIENT, androidx.javascriptengine.JavaScriptSandbox.JS_FEATURE_EVALUATE_FROM_FD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.javascriptengine.TerminationInfo TerminationInfo(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.javascriptengine.TerminationInfo.STATUS_UNKNOWN_ERROR, androidx.javascriptengine.TerminationInfo.STATUS_SANDBOX_DEAD, androidx.javascriptengine.TerminationInfo.STATUS_MEMORY_LIMIT_EXCEEDED}"></val>
+        </annotation>
+    </item>
+</root>

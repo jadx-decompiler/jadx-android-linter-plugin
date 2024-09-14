@@ -1,0 +1,5 @@
+com.airbnb.android:lottie
+com.ashokvarma.android:bottom-navigation-bar
+com.jonathanfinerty.once:once
+com.microsoft.appcenter:appcenter-crashes
+com.simplecityapps:recyclerview-fastscroll

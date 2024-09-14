@@ -1,0 +1,6 @@
+androidx.viewpager2.widget.ViewPager2.OFFSCREEN_PAGE_LIMIT_DEFAULT=-1
+androidx.viewpager2.widget.ViewPager2.ORIENTATION_HORIZONTAL=0
+androidx.viewpager2.widget.ViewPager2.ORIENTATION_VERTICAL=1
+androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING=1
+androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE=0
+androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING=2

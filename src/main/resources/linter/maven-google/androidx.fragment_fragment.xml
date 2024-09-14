@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.fragment.app.DialogFragment void setStyle(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.fragment.app.DialogFragment.STYLE_NORMAL, androidx.fragment.app.DialogFragment.STYLE_NO_TITLE, androidx.fragment.app.DialogFragment.STYLE_NO_FRAME, androidx.fragment.app.DialogFragment.STYLE_NO_INPUT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.fragment.app.FragmentPagerAdapter FragmentPagerAdapter(androidx.fragment.app.FragmentManager, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.fragment.app.FragmentPagerAdapter.BEHAVIOR_SET_USER_VISIBLE_HINT, androidx.fragment.app.FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.fragment.app.FragmentStatePagerAdapter FragmentStatePagerAdapter(androidx.fragment.app.FragmentManager, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_SET_USER_VISIBLE_HINT, androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.fragment.app.FragmentTransaction androidx.fragment.app.FragmentTransaction setTransition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.fragment.app.FragmentTransaction.TRANSIT_NONE, androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_OPEN, androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_CLOSE, androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE, androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_MATCH_ACTIVITY_OPEN, androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_MATCH_ACTIVITY_CLOSE}"></val>
+        </annotation>
+    </item>
+</root>

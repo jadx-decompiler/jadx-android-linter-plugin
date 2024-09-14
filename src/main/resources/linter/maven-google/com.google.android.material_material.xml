@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.material.appbar.AppBarLayout.LayoutParams void setScrollEffect(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_EFFECT_NONE, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_EFFECT_COMPRESS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.appbar.AppBarLayout.LayoutParams void setScrollFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_NO_SCROLL, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_SCROLL, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_EXIT_UNTIL_COLLAPSED, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_ENTER_ALWAYS, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_ENTER_ALWAYS_COLLAPSED, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_SNAP, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_SNAP_MARGINS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.appbar.CollapsingToolbarLayout void setTitleCollapseMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.appbar.CollapsingToolbarLayout.TITLE_COLLAPSE_MODE_SCALE, com.google.android.material.appbar.CollapsingToolbarLayout.TITLE_COLLAPSE_MODE_FADE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.appbar.CollapsingToolbarLayout.LayoutParams void setCollapseMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.appbar.CollapsingToolbarLayout.LayoutParams.COLLAPSE_MODE_OFF, com.google.android.material.appbar.CollapsingToolbarLayout.LayoutParams.COLLAPSE_MODE_PIN, com.google.android.material.appbar.CollapsingToolbarLayout.LayoutParams.COLLAPSE_MODE_PARALLAX}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.badge.BadgeDrawable void setBadgeFixedEdge(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.badge.BadgeDrawable.BADGE_FIXED_EDGE_START, com.google.android.material.badge.BadgeDrawable.BADGE_FIXED_EDGE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.badge.BadgeDrawable void setBadgeGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.badge.BadgeDrawable.TOP_END, com.google.android.material.badge.BadgeDrawable.TOP_START, com.google.android.material.badge.BadgeDrawable.BOTTOM_END, com.google.android.material.badge.BadgeDrawable.BOTTOM_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.badge.BadgeState void setBadgeGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.badge.BadgeDrawable.TOP_END, com.google.android.material.badge.BadgeDrawable.TOP_START, com.google.android.material.badge.BadgeDrawable.BOTTOM_END, com.google.android.material.badge.BadgeDrawable.BOTTOM_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.behavior.HideBottomViewOnScrollBehavior void updateCurrentState(V, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.behavior.HideBottomViewOnScrollBehavior.STATE_SCROLLED_DOWN, com.google.android.material.behavior.HideBottomViewOnScrollBehavior.STATE_SCROLLED_UP}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.behavior.HideBottomViewOnScrollBehavior.OnScrollStateChangedListener void onStateChanged(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.behavior.HideBottomViewOnScrollBehavior.STATE_SCROLLED_DOWN, com.google.android.material.behavior.HideBottomViewOnScrollBehavior.STATE_SCROLLED_UP}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.behavior.SwipeDismissBehavior void setSwipeDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.behavior.SwipeDismissBehavior.SWIPE_DIRECTION_START_TO_END, com.google.android.material.behavior.SwipeDismissBehavior.SWIPE_DIRECTION_END_TO_START, com.google.android.material.behavior.SwipeDismissBehavior.SWIPE_DIRECTION_ANY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar float getFabTranslationX(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar int getActionMenuViewTranslationX(androidx.appcompat.widget.ActionMenuView, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void createFabDefaultXAnimation(int, java.util.List&lt;android.animation.Animator&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void createFabTranslationXAnimation(int, java.util.List&lt;android.animation.Animator&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void createMenuViewTranslationAnimation(int, boolean, java.util.List&lt;android.animation.Animator&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void maybeAnimateMenuView(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void maybeAnimateModeChange(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void setFabAlignmentMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void setFabAlignmentModeAndReplaceMenu(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void setFabAnchorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ANCHOR_MODE_EMBED, com.google.android.material.bottomappbar.BottomAppBar.FAB_ANCHOR_MODE_CRADLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void setFabAnimationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ANIMATION_MODE_SCALE, com.google.android.material.bottomappbar.BottomAppBar.FAB_ANIMATION_MODE_SLIDE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void setMenuAlignmentMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.MENU_ALIGNMENT_MODE_AUTO, com.google.android.material.bottomappbar.BottomAppBar.MENU_ALIGNMENT_MODE_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void translateActionMenuView(androidx.appcompat.widget.ActionMenuView, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomappbar.BottomAppBar void translateActionMenuView(androidx.appcompat.widget.ActionMenuView, int, boolean, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_CENTER, com.google.android.material.bottomappbar.BottomAppBar.FAB_ALIGNMENT_MODE_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior androidx.core.view.accessibility.AccessibilityViewCommand createAccessibilityViewCommandForState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior int addAccessibilityActionForState(android.view.View, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior int getTopOffsetForState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void replaceAccessibilityActionForState(android.view.View, androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void setSaveFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_PEEK_HEIGHT, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_FIT_TO_CONTENTS, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_HIDEABLE, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_SKIP_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_ALL, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_NONE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void setState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void setStateInternal(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void startSettling(android.view.View, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void updateDrawableForTargetState(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior.BottomSheetCallback void onStateChanged(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior.SavedState SavedState(android.os.Parcelable, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetBehavior.StateSettlingTracker void continueSettlingToState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.bottomsheet.BottomSheetDragHandleView void onBottomSheetStateChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.button.MaterialButton void setIconGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.button.MaterialButton.ICON_GRAVITY_START, com.google.android.material.button.MaterialButton.ICON_GRAVITY_TEXT_START, com.google.android.material.button.MaterialButton.ICON_GRAVITY_END, com.google.android.material.button.MaterialButton.ICON_GRAVITY_TEXT_END, com.google.android.material.button.MaterialButton.ICON_GRAVITY_TOP, com.google.android.material.button.MaterialButton.ICON_GRAVITY_TEXT_TOP}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.card.MaterialCardView void setCheckedIconGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_TOP_START, com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_BOTTOM_START, com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_TOP_END, com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_BOTTOM_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.card.MaterialCardViewHelper void setCheckedIconGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_TOP_START, com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_BOTTOM_START, com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_TOP_END, com.google.android.material.card.MaterialCardView.CHECKED_ICON_GRAVITY_BOTTOM_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.carousel.CarouselLayoutManager void setCarouselAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.carousel.CarouselLayoutManager.ALIGNMENT_START, com.google.android.material.carousel.CarouselLayoutManager.ALIGNMENT_CENTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.carousel.CarouselStrategyHelper com.google.android.material.carousel.KeylineState createKeylineState(android.content.Context, float, float, com.google.android.material.carousel.Arrangement, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.carousel.CarouselLayoutManager.ALIGNMENT_START, com.google.android.material.carousel.CarouselLayoutManager.ALIGNMENT_CENTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.checkbox.MaterialCheckBox void setCheckedState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.checkbox.MaterialCheckBox.STATE_UNCHECKED, com.google.android.material.checkbox.MaterialCheckBox.STATE_CHECKED, com.google.android.material.checkbox.MaterialCheckBox.STATE_INDETERMINATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.checkbox.MaterialCheckBox.OnCheckedStateChangedListener void onCheckedStateChangedListener(com.google.android.material.checkbox.MaterialCheckBox, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.checkbox.MaterialCheckBox.STATE_UNCHECKED, com.google.android.material.checkbox.MaterialCheckBox.STATE_CHECKED, com.google.android.material.checkbox.MaterialCheckBox.STATE_INDETERMINATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.datepicker.MaterialDatePicker.Builder com.google.android.material.datepicker.MaterialDatePicker.Builder&lt;S&gt; setInputMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.datepicker.MaterialDatePicker.INPUT_MODE_CALENDAR, com.google.android.material.datepicker.MaterialDatePicker.INPUT_MODE_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.datepicker.Month com.google.android.material.datepicker.Month create(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.JANUARY, java.util.Calendar.FEBRUARY, java.util.Calendar.MARCH, java.util.Calendar.APRIL, java.util.Calendar.MAY, java.util.Calendar.JUNE, java.util.Calendar.JULY, java.util.Calendar.AUGUST, java.util.Calendar.SEPTEMBER, java.util.Calendar.OCTOBER, java.util.Calendar.NOVEMBER, java.util.Calendar.DECEMBER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.Size getSizeFromExtendStrategyType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.EXTEND_STRATEGY_AUTO, com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.EXTEND_STRATEGY_WRAP_CONTENT, com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.EXTEND_STRATEGY_MATCH_PARENT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton void performMotion(int, com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.OnChangedCallback) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.SHOW, com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.HIDE, com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.SHRINK, com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.EXTEND}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.floatingactionbutton.FloatingActionButton int getSizeDimension(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_MINI, com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_NORMAL, com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.floatingactionbutton.FloatingActionButton void setSize(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_MINI, com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_NORMAL, com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarItemView void setItemGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.ITEM_GRAVITY_TOP_CENTER, com.google.android.material.navigation.NavigationBarView.ITEM_GRAVITY_CENTER, com.google.android.material.navigation.NavigationBarView.ITEM_GRAVITY_START_CENTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarItemView void setItemIconGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.ITEM_ICON_GRAVITY_TOP, com.google.android.material.navigation.NavigationBarView.ITEM_ICON_GRAVITY_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarItemView void setLabelVisibilityMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_AUTO, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_SELECTED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_LABELED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_UNLABELED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarMenuView boolean isShifting(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_AUTO, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_SELECTED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_LABELED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_UNLABELED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarMenuView void setItemIconGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.ITEM_ICON_GRAVITY_TOP, com.google.android.material.navigation.NavigationBarView.ITEM_ICON_GRAVITY_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarMenuView void setLabelVisibilityMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_AUTO, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_SELECTED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_LABELED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_UNLABELED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarView void setItemGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.ITEM_GRAVITY_TOP_CENTER, com.google.android.material.navigation.NavigationBarView.ITEM_GRAVITY_CENTER, com.google.android.material.navigation.NavigationBarView.ITEM_GRAVITY_START_CENTER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarView void setItemIconGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.ITEM_ICON_GRAVITY_TOP, com.google.android.material.navigation.NavigationBarView.ITEM_ICON_GRAVITY_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.navigation.NavigationBarView void setLabelVisibilityMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_AUTO, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_SELECTED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_LABELED, com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_UNLABELED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.progressindicator.BaseProgressIndicator void setHideAnimationBehavior(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.progressindicator.BaseProgressIndicator.HIDE_NONE, com.google.android.material.progressindicator.BaseProgressIndicator.HIDE_OUTWARD, com.google.android.material.progressindicator.BaseProgressIndicator.HIDE_INWARD, com.google.android.material.progressindicator.BaseProgressIndicator.HIDE_ESCAPE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.progressindicator.BaseProgressIndicator void setShowAnimationBehavior(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.progressindicator.BaseProgressIndicator.SHOW_NONE, com.google.android.material.progressindicator.BaseProgressIndicator.SHOW_OUTWARD, com.google.android.material.progressindicator.BaseProgressIndicator.SHOW_INWARD}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.progressindicator.CircularProgressIndicator void setIndeterminateAnimationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.progressindicator.CircularProgressIndicator.INDETERMINATE_ANIMATION_TYPE_ADVANCE, com.google.android.material.progressindicator.CircularProgressIndicator.INDETERMINATE_ANIMATION_TYPE_RETREAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.progressindicator.CircularProgressIndicator void setIndicatorDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.progressindicator.CircularProgressIndicator.INDICATOR_DIRECTION_CLOCKWISE, com.google.android.material.progressindicator.CircularProgressIndicator.INDICATOR_DIRECTION_COUNTERCLOCKWISE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.progressindicator.LinearProgressIndicator void setIndeterminateAnimationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.progressindicator.LinearProgressIndicator.INDETERMINATE_ANIMATION_TYPE_CONTIGUOUS, com.google.android.material.progressindicator.LinearProgressIndicator.INDETERMINATE_ANIMATION_TYPE_DISJOINT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.progressindicator.LinearProgressIndicator void setIndicatorDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.progressindicator.LinearProgressIndicator.INDICATOR_DIRECTION_LEFT_TO_RIGHT, com.google.android.material.progressindicator.LinearProgressIndicator.INDICATOR_DIRECTION_RIGHT_TO_LEFT, com.google.android.material.progressindicator.LinearProgressIndicator.INDICATOR_DIRECTION_START_TO_END, com.google.android.material.progressindicator.LinearProgressIndicator.INDICATOR_DIRECTION_END_TO_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.MaterialShapeDrawable void setShadowCompatibilityMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.MaterialShapeDrawable.SHADOW_COMPAT_MODE_DEFAULT, com.google.android.material.shape.MaterialShapeDrawable.SHADOW_COMPAT_MODE_NEVER, com.google.android.material.shape.MaterialShapeDrawable.SHADOW_COMPAT_MODE_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.MaterialShapeUtils com.google.android.material.shape.CornerTreatment createCornerTreatment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setAllCorners(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setBottomLeftCorner(int, com.google.android.material.shape.CornerSize) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setBottomLeftCorner(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setBottomRightCorner(int, com.google.android.material.shape.CornerSize) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setBottomRightCorner(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setTopLeftCorner(int, com.google.android.material.shape.CornerSize) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setTopLeftCorner(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setTopRightCorner(int, com.google.android.material.shape.CornerSize) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.shape.ShapeAppearanceModel.Builder com.google.android.material.shape.ShapeAppearanceModel.Builder setTopRightCorner(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.Sheet void setState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SheetCallback void onStateChanged(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_DRAGGING, com.google.android.material.sidesheet.Sheet.STATE_SETTLING, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior androidx.core.view.accessibility.AccessibilityViewCommand createAccessibilityViewCommandForState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_DRAGGING, com.google.android.material.sidesheet.Sheet.STATE_SETTLING, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior int getOuterEdgeOffsetForState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior void replaceAccessibilityActionForState(V, androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_DRAGGING, com.google.android.material.sidesheet.Sheet.STATE_SETTLING, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior void setSheetEdge(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.EDGE_RIGHT, com.google.android.material.sidesheet.Sheet.EDGE_LEFT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior void setState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior void setStateInternal(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_DRAGGING, com.google.android.material.sidesheet.Sheet.STATE_SETTLING, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior void startSettling(android.view.View, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetBehavior.StateSettlingTracker void continueSettlingToState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.sidesheet.SideSheetCallback void onStateChanged(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.sidesheet.Sheet.STATE_EXPANDED, com.google.android.material.sidesheet.Sheet.STATE_DRAGGING, com.google.android.material.sidesheet.Sheet.STATE_SETTLING, com.google.android.material.sidesheet.Sheet.STATE_HIDDEN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.slider.BaseSlider void setLabelBehavior(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.slider.LabelFormatter.LABEL_FLOATING, com.google.android.material.slider.LabelFormatter.LABEL_WITHIN_BOUNDS, com.google.android.material.slider.LabelFormatter.LABEL_GONE, com.google.android.material.slider.LabelFormatter.LABEL_VISIBLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.snackbar.BaseTransientBottomBar B setAnimationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.snackbar.BaseTransientBottomBar.ANIMATION_MODE_SLIDE, com.google.android.material.snackbar.BaseTransientBottomBar.ANIMATION_MODE_FADE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.snackbar.BaseTransientBottomBar void dispatchDismiss(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_SWIPE, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_ACTION, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_TIMEOUT, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_MANUAL, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_CONSECUTIVE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.snackbar.BaseTransientBottomBar void hideView(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_SWIPE, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_ACTION, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_TIMEOUT, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_MANUAL, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_CONSECUTIVE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback void onDismissed(B, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_SWIPE, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_ACTION, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_TIMEOUT, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_MANUAL, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_CONSECUTIVE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.snackbar.BaseTransientBottomBar.SnackbarBaseLayout void setAnimationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.snackbar.BaseTransientBottomBar.ANIMATION_MODE_SLIDE, com.google.android.material.snackbar.BaseTransientBottomBar.ANIMATION_MODE_FADE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.snackbar.Snackbar.Callback void onDismissed(com.google.android.material.snackbar.Snackbar, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_SWIPE, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_ACTION, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_TIMEOUT, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_MANUAL, com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback.DISMISS_EVENT_CONSECUTIVE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.tabs.TabLayout void setSelectedTabIndicatorGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.tabs.TabLayout.INDICATOR_GRAVITY_BOTTOM, com.google.android.material.tabs.TabLayout.INDICATOR_GRAVITY_CENTER, com.google.android.material.tabs.TabLayout.INDICATOR_GRAVITY_TOP, com.google.android.material.tabs.TabLayout.INDICATOR_GRAVITY_STRETCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.tabs.TabLayout void setTabGravity(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.material.tabs.TabLayout.GRAVITY_FILL, com.google.android.material.tabs.TabLayout.GRAVITY_CENTER, com.google.android.material.tabs.TabLayout.GRAVITY_START}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.tabs.TabLayout void setTabIndicatorAnimationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.tabs.TabLayout.INDICATOR_ANIMATION_MODE_LINEAR, com.google.android.material.tabs.TabLayout.INDICATOR_ANIMATION_MODE_ELASTIC, com.google.android.material.tabs.TabLayout.INDICATOR_ANIMATION_MODE_FADE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.tabs.TabLayout void setTabMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.tabs.TabLayout.MODE_SCROLLABLE, com.google.android.material.tabs.TabLayout.MODE_FIXED, com.google.android.material.tabs.TabLayout.MODE_AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.tabs.TabLayout.Tab com.google.android.material.tabs.TabLayout.Tab setTabLabelVisibility(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.tabs.TabLayout.TAB_LABEL_VISIBILITY_UNLABELED, com.google.android.material.tabs.TabLayout.TAB_LABEL_VISIBILITY_LABELED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.DropdownMenuEndIconDelegate boolean isBoxBackgroundModeSupported(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_NONE, com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_FILLED, com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_OUTLINE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.EndCompoundLayout void dispatchOnEndIconChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM, com.google.android.material.textfield.TextInputLayout.END_ICON_NONE, com.google.android.material.textfield.TextInputLayout.END_ICON_PASSWORD_TOGGLE, com.google.android.material.textfield.TextInputLayout.END_ICON_CLEAR_TEXT, com.google.android.material.textfield.TextInputLayout.END_ICON_DROPDOWN_MENU}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.EndCompoundLayout void setEndIconMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM, com.google.android.material.textfield.TextInputLayout.END_ICON_NONE, com.google.android.material.textfield.TextInputLayout.END_ICON_PASSWORD_TOGGLE, com.google.android.material.textfield.TextInputLayout.END_ICON_CLEAR_TEXT, com.google.android.material.textfield.TextInputLayout.END_ICON_DROPDOWN_MENU}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.EndCompoundLayout.EndIconDelegates com.google.android.material.textfield.EndIconDelegate create(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM, com.google.android.material.textfield.TextInputLayout.END_ICON_NONE, com.google.android.material.textfield.TextInputLayout.END_ICON_PASSWORD_TOGGLE, com.google.android.material.textfield.TextInputLayout.END_ICON_CLEAR_TEXT, com.google.android.material.textfield.TextInputLayout.END_ICON_DROPDOWN_MENU}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.EndCompoundLayout.EndIconDelegates com.google.android.material.textfield.EndIconDelegate get(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM, com.google.android.material.textfield.TextInputLayout.END_ICON_NONE, com.google.android.material.textfield.TextInputLayout.END_ICON_PASSWORD_TOGGLE, com.google.android.material.textfield.TextInputLayout.END_ICON_CLEAR_TEXT, com.google.android.material.textfield.TextInputLayout.END_ICON_DROPDOWN_MENU}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.EndIconDelegate boolean isBoxBackgroundModeSupported(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_NONE, com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_FILLED, com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_OUTLINE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController android.widget.TextView getCaptionViewFromDisplayState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController boolean isCaptionStateError(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController boolean isCaptionStateHelperText(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController boolean isCaptionView(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.COUNTER_INDEX, com.google.android.material.textfield.IndicatorViewController.ERROR_INDEX, com.google.android.material.textfield.IndicatorViewController.HELPER_INDEX}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void addIndicator(android.widget.TextView, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.COUNTER_INDEX, com.google.android.material.textfield.IndicatorViewController.ERROR_INDEX, com.google.android.material.textfield.IndicatorViewController.HELPER_INDEX}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void createCaptionAnimators(java.util.List&lt;android.animation.Animator&gt;, boolean, android.widget.TextView, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void createCaptionAnimators(java.util.List&lt;android.animation.Animator&gt;, boolean, android.widget.TextView, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void createCaptionAnimators(java.util.List&lt;android.animation.Animator&gt;, boolean, android.widget.TextView, int, int, int) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void removeIndicator(android.widget.TextView, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.COUNTER_INDEX, com.google.android.material.textfield.IndicatorViewController.ERROR_INDEX, com.google.android.material.textfield.IndicatorViewController.HELPER_INDEX}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void setCaptionViewVisibilities(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void setCaptionViewVisibilities(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void updateCaptionViewsVisibility(int, int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.IndicatorViewController void updateCaptionViewsVisibility(int, int, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_NONE, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_ERROR, com.google.android.material.textfield.IndicatorViewController.CAPTION_STATE_HELPER_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.TextInputLayout void setBoxBackgroundMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_NONE, com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_FILLED, com.google.android.material.textfield.TextInputLayout.BOX_BACKGROUND_OUTLINE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.TextInputLayout void setBoxCornerFamily(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.shape.CornerFamily.ROUNDED, com.google.android.material.shape.CornerFamily.CUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.TextInputLayout void setEndIconMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM, com.google.android.material.textfield.TextInputLayout.END_ICON_NONE, com.google.android.material.textfield.TextInputLayout.END_ICON_PASSWORD_TOGGLE, com.google.android.material.textfield.TextInputLayout.END_ICON_CLEAR_TEXT, com.google.android.material.textfield.TextInputLayout.END_ICON_DROPDOWN_MENU}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.textfield.TextInputLayout.OnEndIconChangedListener void onEndIconChanged(com.google.android.material.textfield.TextInputLayout, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM, com.google.android.material.textfield.TextInputLayout.END_ICON_NONE, com.google.android.material.textfield.TextInputLayout.END_ICON_PASSWORD_TOGGLE, com.google.android.material.textfield.TextInputLayout.END_ICON_CLEAR_TEXT, com.google.android.material.textfield.TextInputLayout.END_ICON_DROPDOWN_MENU}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.ClockFaceView void setCurrentLevel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.RadialViewGroup.LEVEL_1, com.google.android.material.timepicker.RadialViewGroup.LEVEL_2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.ClockHandView int getLeveledCircleRadius(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.RadialViewGroup.LEVEL_1, com.google.android.material.timepicker.RadialViewGroup.LEVEL_2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.ClockHandView void setCurrentLevel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.RadialViewGroup.LEVEL_1, com.google.android.material.timepicker.RadialViewGroup.LEVEL_2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.MaterialTimePicker android.util.Pair&lt;java.lang.Integer,java.lang.Integer&gt; dataForMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_CLOCK, com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_KEYBOARD}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.MaterialTimePicker.Builder com.google.android.material.timepicker.MaterialTimePicker.Builder setInputMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_CLOCK, com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_KEYBOARD}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.MaterialTimePicker.Builder com.google.android.material.timepicker.MaterialTimePicker.Builder setTimeFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.RadialViewGroup int getLeveledRadius(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.RadialViewGroup.LEVEL_1, com.google.android.material.timepicker.RadialViewGroup.LEVEL_2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimeModel TimeModel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimeModel TimeModel(int, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimeModel TimeModel(int, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimeModel void setPeriod(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerClockPresenter void setSelection(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerControls void setActiveSelection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerControls void updateTime(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerTextInputKeyController void moveSelection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerView void setActiveSelection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerView void setCurrentLevel(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.timepicker.RadialViewGroup.LEVEL_1, com.google.android.material.timepicker.RadialViewGroup.LEVEL_2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerView void updateTime(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerView.OnPeriodChangeListener void onPeriodChange(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.timepicker.TimePickerView.OnSelectionChange void onSelectionChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.FadeModeEvaluators com.google.android.material.transition.FadeModeEvaluator get(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_IN, com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_OUT, com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_CROSS, com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_THROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.FitModeEvaluators com.google.android.material.transition.FitModeEvaluator get(int, boolean, android.graphics.RectF, android.graphics.RectF) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialContainerTransform.FIT_MODE_AUTO, com.google.android.material.transition.MaterialContainerTransform.FIT_MODE_WIDTH, com.google.android.material.transition.MaterialContainerTransform.FIT_MODE_HEIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.MaterialContainerTransform void setFadeMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_IN, com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_OUT, com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_CROSS, com.google.android.material.transition.MaterialContainerTransform.FADE_MODE_THROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.MaterialContainerTransform void setFitMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialContainerTransform.FIT_MODE_AUTO, com.google.android.material.transition.MaterialContainerTransform.FIT_MODE_WIDTH, com.google.android.material.transition.MaterialContainerTransform.FIT_MODE_HEIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.MaterialContainerTransform void setTransitionDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialContainerTransform.TRANSITION_DIRECTION_AUTO, com.google.android.material.transition.MaterialContainerTransform.TRANSITION_DIRECTION_ENTER, com.google.android.material.transition.MaterialContainerTransform.TRANSITION_DIRECTION_RETURN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.MaterialSharedAxis MaterialSharedAxis(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialSharedAxis.X, com.google.android.material.transition.MaterialSharedAxis.Y, com.google.android.material.transition.MaterialSharedAxis.Z}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.MaterialSharedAxis com.google.android.material.transition.VisibilityAnimatorProvider createPrimaryAnimatorProvider(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.MaterialSharedAxis.X, com.google.android.material.transition.MaterialSharedAxis.Y, com.google.android.material.transition.MaterialSharedAxis.Z}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.SlideDistanceProvider SlideDistanceProvider(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.SlideDistanceProvider android.animation.Animator createTranslationAppearAnimator(android.view.View, android.view.View, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.SlideDistanceProvider android.animation.Animator createTranslationDisappearAnimator(android.view.View, android.view.View, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.SlideDistanceProvider void setSlideEdge(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.FadeModeEvaluators com.google.android.material.transition.platform.FadeModeEvaluator get(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_IN, com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_OUT, com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_CROSS, com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_THROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.FitModeEvaluators com.google.android.material.transition.platform.FitModeEvaluator get(int, boolean, android.graphics.RectF, android.graphics.RectF) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialContainerTransform.FIT_MODE_AUTO, com.google.android.material.transition.platform.MaterialContainerTransform.FIT_MODE_WIDTH, com.google.android.material.transition.platform.MaterialContainerTransform.FIT_MODE_HEIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.MaterialContainerTransform void setFadeMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_IN, com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_OUT, com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_CROSS, com.google.android.material.transition.platform.MaterialContainerTransform.FADE_MODE_THROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.MaterialContainerTransform void setFitMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialContainerTransform.FIT_MODE_AUTO, com.google.android.material.transition.platform.MaterialContainerTransform.FIT_MODE_WIDTH, com.google.android.material.transition.platform.MaterialContainerTransform.FIT_MODE_HEIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.MaterialContainerTransform void setTransitionDirection(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialContainerTransform.TRANSITION_DIRECTION_AUTO, com.google.android.material.transition.platform.MaterialContainerTransform.TRANSITION_DIRECTION_ENTER, com.google.android.material.transition.platform.MaterialContainerTransform.TRANSITION_DIRECTION_RETURN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.MaterialSharedAxis MaterialSharedAxis(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialSharedAxis.X, com.google.android.material.transition.platform.MaterialSharedAxis.Y, com.google.android.material.transition.platform.MaterialSharedAxis.Z}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.MaterialSharedAxis com.google.android.material.transition.platform.VisibilityAnimatorProvider createPrimaryAnimatorProvider(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.material.transition.platform.MaterialSharedAxis.X, com.google.android.material.transition.platform.MaterialSharedAxis.Y, com.google.android.material.transition.platform.MaterialSharedAxis.Z}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.SlideDistanceProvider SlideDistanceProvider(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.SlideDistanceProvider android.animation.Animator createTranslationAppearAnimator(android.view.View, android.view.View, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.SlideDistanceProvider android.animation.Animator createTranslationDisappearAnimator(android.view.View, android.view.View, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.material.transition.platform.SlideDistanceProvider void setSlideEdge(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.TOP, android.view.Gravity.RIGHT, android.view.Gravity.BOTTOM, android.view.Gravity.START, android.view.Gravity.END}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,3 @@
+androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED=1
+androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_ENABLED=2
+androidx.media3.test.utils.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED=3

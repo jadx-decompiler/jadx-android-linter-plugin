@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "androidSdkRules": "sha512-WVJNIwj5TZ+08NYY8c4t9me01FHsU4dZ7uFaGtkUZDmGi1q2LM+ErNAlx3BIaKJt7MvHS736lXMM+fu+pLQwsQ==",
+  "androidSdkConstants": "sha512-n4VCe5U03Nr5073XcsUmVUC+pi/g92A4D3Oonez+RC9B39bTTfTaGKjWRu3rkgpk//3tI9JUDzKqFas/aAe9cA==",
+  "additionalConstants": "sha512-ibd1jlKHiku3+TPxz4bBCvhDW7WCdZSQXp78YLjhX/N+uP1Bhj1FKIAO7sReKdmyU8+67iJNoQ7vGQzTyWeG9w==",
+  "repositories": [
+    {
+      "name": "jitpack",
+      "index": "sha512-9P2SPoHEAopOT2i/pyW0xrax0FIcbUy6aPGrauEOCJvEKY1qelgqGNsgdhDKq0ZeC6wmKPCcLJx4IPNO1GtKTA=="
+    },
+    {
+      "name": "maven-central",
+      "index": "sha512-VOlrRDbZp0l7ICgagl9Yy29OZ378Kzh51t6Pyjwzs3HeMcx/HKY9311mqgsjQj+M74DUzvFElfCdTqoy4MkeNA=="
+    },
+    {
+      "name": "maven-google",
+      "index": "sha512-pnVHh/QBd7i5fos9n2Zfzewyh7/yGByt/Llng8VrGnytp1voYcKYlJVzIYxPbVPFu0Q6qqKQ2na6JdnFMPLstg=="
+    }
+  ]
+}

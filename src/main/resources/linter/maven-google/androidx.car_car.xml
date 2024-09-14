@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.car.uxrestrictions.CarUxRestrictions.Builder Builder(boolean, int, long) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_BASELINE, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_DIALPAD, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_FILTERING, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_LIMIT_STRING_LENGTH, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_KEYBOARD, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_VIDEO, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_LIMIT_CONTENT, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_SETUP, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_TEXT_MESSAGE, androidx.car.uxrestrictions.CarUxRestrictions.UX_RESTRICTIONS_NO_VOICE_TRANSCRIPTION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.ActionListItem void setPrimaryActionIcon(android.graphics.drawable.Drawable, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.ActionListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.ActionListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.ActionListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.ActionListItem void setPrimaryActionIcon(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.ActionListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.ActionListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.ActionListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.ListItemAdapter ListItemAdapter(android.content.Context, androidx.car.widget.ListItemProvider, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.ListItemAdapter.BackgroundStyle.SOLID, androidx.car.widget.ListItemAdapter.BackgroundStyle.NONE, androidx.car.widget.ListItemAdapter.BackgroundStyle.CARD, androidx.car.widget.ListItemAdapter.BackgroundStyle.PANEL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.PagedListView void setGutter(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.PagedListView.Gutter.NONE, androidx.car.widget.PagedListView.Gutter.START, androidx.car.widget.PagedListView.Gutter.END, androidx.car.widget.PagedListView.Gutter.BOTH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.RadioButtonListItem void setPrimaryActionIcon(android.graphics.drawable.Icon, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.RadioButtonListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.RadioButtonListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.RadioButtonListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.SubheaderListItem void setTextStartMarginType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.SubheaderListItem.TEXT_START_MARGIN_TYPE_NONE, androidx.car.widget.SubheaderListItem.TEXT_START_MARGIN_TYPE_LARGE, androidx.car.widget.SubheaderListItem.TEXT_START_MARGIN_TYPE_SMALL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.SwitchListItem void setPrimaryActionIcon(android.graphics.drawable.Icon, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.SwitchListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.SwitchListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.SwitchListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.TextListItem void setPrimaryActionIcon(android.graphics.drawable.Drawable, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.TextListItem void setPrimaryActionIcon(android.graphics.drawable.Icon, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.car.widget.TextListItem void setPrimaryActionIcon(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_SMALL, androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_MEDIUM, androidx.car.widget.TextListItem.PRIMARY_ACTION_ICON_SIZE_LARGE}"></val>
+        </annotation>
+    </item>
+</root>

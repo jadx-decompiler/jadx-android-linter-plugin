@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.webkit.ProxyConfig.Builder androidx.webkit.ProxyConfig.Builder addDirect(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.ProxyConfig.MATCH_HTTP, androidx.webkit.ProxyConfig.MATCH_HTTPS, androidx.webkit.ProxyConfig.MATCH_ALL_SCHEMES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.ProxyConfig.Builder androidx.webkit.ProxyConfig.Builder addProxyRule(java.lang.String, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.ProxyConfig.MATCH_HTTP, androidx.webkit.ProxyConfig.MATCH_HTTPS, androidx.webkit.ProxyConfig.MATCH_ALL_SCHEMES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.ServiceWorkerWebSettingsCompat void setCacheMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.webkit.WebSettings.LOAD_DEFAULT, android.webkit.WebSettings.LOAD_CACHE_ELSE_NETWORK, android.webkit.WebSettings.LOAD_NO_CACHE, android.webkit.WebSettings.LOAD_CACHE_ONLY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.TracingConfig TracingConfig(int, java.util.List&lt;java.lang.String&gt;, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.webkit.TracingConfig.CATEGORIES_NONE, androidx.webkit.TracingConfig.CATEGORIES_ALL, androidx.webkit.TracingConfig.CATEGORIES_ANDROID_WEBVIEW, androidx.webkit.TracingConfig.CATEGORIES_WEB_DEVELOPER, androidx.webkit.TracingConfig.CATEGORIES_INPUT_LATENCY, androidx.webkit.TracingConfig.CATEGORIES_RENDERING, androidx.webkit.TracingConfig.CATEGORIES_JAVASCRIPT_AND_RENDERING, androidx.webkit.TracingConfig.CATEGORIES_FRAME_VIEWER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.TracingConfig TracingConfig(int, java.util.List&lt;java.lang.String&gt;, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.TracingConfig.RECORD_UNTIL_FULL, androidx.webkit.TracingConfig.RECORD_CONTINUOUSLY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.TracingConfig.Builder androidx.webkit.TracingConfig.Builder addCategories(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.webkit.TracingConfig.CATEGORIES_NONE, androidx.webkit.TracingConfig.CATEGORIES_ALL, androidx.webkit.TracingConfig.CATEGORIES_ANDROID_WEBVIEW, androidx.webkit.TracingConfig.CATEGORIES_WEB_DEVELOPER, androidx.webkit.TracingConfig.CATEGORIES_INPUT_LATENCY, androidx.webkit.TracingConfig.CATEGORIES_RENDERING, androidx.webkit.TracingConfig.CATEGORIES_JAVASCRIPT_AND_RENDERING, androidx.webkit.TracingConfig.CATEGORIES_FRAME_VIEWER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.TracingConfig.Builder androidx.webkit.TracingConfig.Builder setTracingMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.TracingConfig.RECORD_UNTIL_FULL, androidx.webkit.TracingConfig.RECORD_CONTINUOUSLY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebMessageCompat java.lang.String typeToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebMessageCompat.TYPE_STRING, androidx.webkit.WebMessageCompat.TYPE_ARRAY_BUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebMessageCompat void checkType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebMessageCompat.TYPE_STRING, androidx.webkit.WebMessageCompat.TYPE_ARRAY_BUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebSettingsCompat void setAttributionRegistrationBehavior(android.webkit.WebSettings, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebSettingsCompat.ATTRIBUTION_BEHAVIOR_DISABLED, androidx.webkit.WebSettingsCompat.ATTRIBUTION_BEHAVIOR_APP_SOURCE_AND_WEB_TRIGGER, androidx.webkit.WebSettingsCompat.ATTRIBUTION_BEHAVIOR_WEB_SOURCE_AND_WEB_TRIGGER, androidx.webkit.WebSettingsCompat.ATTRIBUTION_BEHAVIOR_APP_SOURCE_AND_APP_TRIGGER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebSettingsCompat void setDisabledActionModeMenuItems(android.webkit.WebSettings, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{android.webkit.WebSettings.MENU_ITEM_NONE, android.webkit.WebSettings.MENU_ITEM_SHARE, android.webkit.WebSettings.MENU_ITEM_WEB_SEARCH, android.webkit.WebSettings.MENU_ITEM_PROCESS_TEXT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebSettingsCompat void setForceDark(android.webkit.WebSettings, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebSettingsCompat.FORCE_DARK_OFF, androidx.webkit.WebSettingsCompat.FORCE_DARK_AUTO, androidx.webkit.WebSettingsCompat.FORCE_DARK_ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebSettingsCompat void setForceDarkStrategy(android.webkit.WebSettings, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebSettingsCompat.DARK_STRATEGY_USER_AGENT_DARKENING_ONLY, androidx.webkit.WebSettingsCompat.DARK_STRATEGY_WEB_THEME_DARKENING_ONLY, androidx.webkit.WebSettingsCompat.DARK_STRATEGY_PREFER_WEB_THEME_OVER_USER_AGENT_DARKENING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewClientCompat void onSafeBrowsingHit(android.webkit.WebView, android.webkit.WebResourceRequest, int, android.webkit.SafeBrowsingResponse) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.webkit.WebViewClient.SAFE_BROWSING_THREAT_UNKNOWN, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_MALWARE, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_PHISHING, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_UNWANTED_SOFTWARE, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_BILLING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewClientCompat void onSafeBrowsingHit(android.webkit.WebView, android.webkit.WebResourceRequest, int, androidx.webkit.SafeBrowsingResponseCompat) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.webkit.WebViewClient.SAFE_BROWSING_THREAT_UNKNOWN, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_MALWARE, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_PHISHING, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_UNWANTED_SOFTWARE, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_BILLING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewClientCompat void onSafeBrowsingHit(android.webkit.WebView, android.webkit.WebResourceRequest, int, java.lang.reflect.InvocationHandler) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.webkit.WebViewClient.SAFE_BROWSING_THREAT_UNKNOWN, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_MALWARE, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_PHISHING, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_UNWANTED_SOFTWARE, android.webkit.WebViewClient.SAFE_BROWSING_THREAT_BILLING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewFeature boolean isFeatureSupported(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.WebViewFeature.VISUAL_STATE_CALLBACK, androidx.webkit.WebViewFeature.OFF_SCREEN_PRERASTER, androidx.webkit.WebViewFeature.SAFE_BROWSING_ENABLE, androidx.webkit.WebViewFeature.DISABLED_ACTION_MODE_MENU_ITEMS, androidx.webkit.WebViewFeature.START_SAFE_BROWSING, androidx.webkit.WebViewFeature.SAFE_BROWSING_ALLOWLIST, androidx.webkit.WebViewFeature.SAFE_BROWSING_WHITELIST, androidx.webkit.WebViewFeature.SAFE_BROWSING_PRIVACY_POLICY_URL, androidx.webkit.WebViewFeature.SERVICE_WORKER_BASIC_USAGE, androidx.webkit.WebViewFeature.SERVICE_WORKER_CACHE_MODE, androidx.webkit.WebViewFeature.SERVICE_WORKER_CONTENT_ACCESS, androidx.webkit.WebViewFeature.SERVICE_WORKER_FILE_ACCESS, androidx.webkit.WebViewFeature.SERVICE_WORKER_BLOCK_NETWORK_LOADS, androidx.webkit.WebViewFeature.SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST, androidx.webkit.WebViewFeature.RECEIVE_WEB_RESOURCE_ERROR, androidx.webkit.WebViewFeature.RECEIVE_HTTP_ERROR, androidx.webkit.WebViewFeature.SHOULD_OVERRIDE_WITH_REDIRECTS, androidx.webkit.WebViewFeature.SAFE_BROWSING_HIT, androidx.webkit.WebViewFeature.TRACING_CONTROLLER_BASIC_USAGE, androidx.webkit.WebViewFeature.WEB_RESOURCE_REQUEST_IS_REDIRECT, androidx.webkit.WebViewFeature.WEB_RESOURCE_ERROR_GET_DESCRIPTION, androidx.webkit.WebViewFeature.WEB_RESOURCE_ERROR_GET_CODE, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_PROCEED, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_POST_MESSAGE, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_CLOSE, androidx.webkit.WebViewFeature.WEB_MESSAGE_ARRAY_BUFFER, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK, androidx.webkit.WebViewFeature.CREATE_WEB_MESSAGE_CHANNEL, androidx.webkit.WebViewFeature.POST_WEB_MESSAGE, androidx.webkit.WebViewFeature.WEB_MESSAGE_CALLBACK_ON_MESSAGE, androidx.webkit.WebViewFeature.GET_WEB_VIEW_CLIENT, androidx.webkit.WebViewFeature.GET_WEB_CHROME_CLIENT, androidx.webkit.WebViewFeature.GET_WEB_VIEW_RENDERER, androidx.webkit.WebViewFeature.WEB_VIEW_RENDERER_TERMINATE, androidx.webkit.WebViewFeature.WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE, androidx.webkit.WebViewFeature.PROXY_OVERRIDE, androidx.webkit.WebViewFeature.MULTI_PROCESS, androidx.webkit.WebViewFeature.FORCE_DARK, androidx.webkit.WebViewFeature.FORCE_DARK_STRATEGY, androidx.webkit.WebViewFeature.WEB_MESSAGE_LISTENER, androidx.webkit.WebViewFeature.DOCUMENT_START_SCRIPT, androidx.webkit.WebViewFeature.PROXY_OVERRIDE_REVERSE_BYPASS, androidx.webkit.WebViewFeature.GET_VARIATIONS_HEADER, androidx.webkit.WebViewFeature.ALGORITHMIC_DARKENING, androidx.webkit.WebViewFeature.ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY, androidx.webkit.WebViewFeature.GET_COOKIE_INFO, androidx.webkit.WebViewFeature.REQUESTED_WITH_HEADER_ALLOW_LIST, androidx.webkit.WebViewFeature.USER_AGENT_METADATA, androidx.webkit.WebViewFeature.MULTI_PROFILE, androidx.webkit.WebViewFeature.ATTRIBUTION_REGISTRATION_BEHAVIOR, androidx.webkit.WebViewFeature.WEBVIEW_MEDIA_INTEGRITY_API_STATUS, androidx.webkit.WebViewFeature.MUTE_AUDIO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewFeature boolean isStartupFeatureSupported(android.content.Context, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.WebViewFeature.STARTUP_FEATURE_SET_DATA_DIRECTORY_SUFFIX, androidx.webkit.WebViewFeature.STARTUP_FEATURE_SET_DIRECTORY_BASE_PATHS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewMediaIntegrityApiStatusConfig.Builder Builder(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebViewMediaIntegrityApiStatusConfig.WEBVIEW_MEDIA_INTEGRITY_API_DISABLED, androidx.webkit.WebViewMediaIntegrityApiStatusConfig.WEBVIEW_MEDIA_INTEGRITY_API_ENABLED_WITHOUT_APP_IDENTITY, androidx.webkit.WebViewMediaIntegrityApiStatusConfig.WEBVIEW_MEDIA_INTEGRITY_API_ENABLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.WebViewMediaIntegrityApiStatusConfig.Builder androidx.webkit.WebViewMediaIntegrityApiStatusConfig.Builder addOverrideRule(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebViewMediaIntegrityApiStatusConfig.WEBVIEW_MEDIA_INTEGRITY_API_DISABLED, androidx.webkit.WebViewMediaIntegrityApiStatusConfig.WEBVIEW_MEDIA_INTEGRITY_API_ENABLED_WITHOUT_APP_IDENTITY, androidx.webkit.WebViewMediaIntegrityApiStatusConfig.WEBVIEW_MEDIA_INTEGRITY_API_ENABLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.internal.WebMessageAdapter boolean isMessagePayloadTypeSupportedByWebView(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.webkit.WebMessageCompat.TYPE_STRING, androidx.webkit.WebMessageCompat.TYPE_ARRAY_BUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.internal.WebMessagePayloadAdapter void checkType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{org.chromium.support_lib_boundary.WebMessagePayloadBoundaryInterface.WebMessagePayloadType.TYPE_STRING, org.chromium.support_lib_boundary.WebMessagePayloadBoundaryInterface.WebMessagePayloadType.TYPE_ARRAY_BUFFER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.internal.WebViewFeatureInternal boolean isStartupFeatureSupported(java.lang.String, android.content.Context) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.WebViewFeature.STARTUP_FEATURE_SET_DATA_DIRECTORY_SUFFIX, androidx.webkit.WebViewFeature.STARTUP_FEATURE_SET_DIRECTORY_BASE_PATHS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.internal.WebViewFeatureInternal boolean isStartupFeatureSupported(java.lang.String, java.util.Collection&lt;androidx.webkit.internal.StartupApiFeature&gt;, android.content.Context) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.WebViewFeature.STARTUP_FEATURE_SET_DATA_DIRECTORY_SUFFIX, androidx.webkit.WebViewFeature.STARTUP_FEATURE_SET_DIRECTORY_BASE_PATHS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.internal.WebViewFeatureInternal boolean isSupported(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.WebViewFeature.VISUAL_STATE_CALLBACK, androidx.webkit.WebViewFeature.OFF_SCREEN_PRERASTER, androidx.webkit.WebViewFeature.SAFE_BROWSING_ENABLE, androidx.webkit.WebViewFeature.DISABLED_ACTION_MODE_MENU_ITEMS, androidx.webkit.WebViewFeature.START_SAFE_BROWSING, androidx.webkit.WebViewFeature.SAFE_BROWSING_ALLOWLIST, androidx.webkit.WebViewFeature.SAFE_BROWSING_WHITELIST, androidx.webkit.WebViewFeature.SAFE_BROWSING_PRIVACY_POLICY_URL, androidx.webkit.WebViewFeature.SERVICE_WORKER_BASIC_USAGE, androidx.webkit.WebViewFeature.SERVICE_WORKER_CACHE_MODE, androidx.webkit.WebViewFeature.SERVICE_WORKER_CONTENT_ACCESS, androidx.webkit.WebViewFeature.SERVICE_WORKER_FILE_ACCESS, androidx.webkit.WebViewFeature.SERVICE_WORKER_BLOCK_NETWORK_LOADS, androidx.webkit.WebViewFeature.SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST, androidx.webkit.WebViewFeature.RECEIVE_WEB_RESOURCE_ERROR, androidx.webkit.WebViewFeature.RECEIVE_HTTP_ERROR, androidx.webkit.WebViewFeature.SHOULD_OVERRIDE_WITH_REDIRECTS, androidx.webkit.WebViewFeature.SAFE_BROWSING_HIT, androidx.webkit.WebViewFeature.TRACING_CONTROLLER_BASIC_USAGE, androidx.webkit.WebViewFeature.WEB_RESOURCE_REQUEST_IS_REDIRECT, androidx.webkit.WebViewFeature.WEB_RESOURCE_ERROR_GET_DESCRIPTION, androidx.webkit.WebViewFeature.WEB_RESOURCE_ERROR_GET_CODE, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_PROCEED, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_POST_MESSAGE, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_CLOSE, androidx.webkit.WebViewFeature.WEB_MESSAGE_ARRAY_BUFFER, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK, androidx.webkit.WebViewFeature.CREATE_WEB_MESSAGE_CHANNEL, androidx.webkit.WebViewFeature.POST_WEB_MESSAGE, androidx.webkit.WebViewFeature.WEB_MESSAGE_CALLBACK_ON_MESSAGE, androidx.webkit.WebViewFeature.GET_WEB_VIEW_CLIENT, androidx.webkit.WebViewFeature.GET_WEB_CHROME_CLIENT, androidx.webkit.WebViewFeature.GET_WEB_VIEW_RENDERER, androidx.webkit.WebViewFeature.WEB_VIEW_RENDERER_TERMINATE, androidx.webkit.WebViewFeature.WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE, androidx.webkit.WebViewFeature.PROXY_OVERRIDE, androidx.webkit.WebViewFeature.MULTI_PROCESS, androidx.webkit.WebViewFeature.FORCE_DARK, androidx.webkit.WebViewFeature.FORCE_DARK_STRATEGY, androidx.webkit.WebViewFeature.WEB_MESSAGE_LISTENER, androidx.webkit.WebViewFeature.DOCUMENT_START_SCRIPT, androidx.webkit.WebViewFeature.PROXY_OVERRIDE_REVERSE_BYPASS, androidx.webkit.WebViewFeature.GET_VARIATIONS_HEADER, androidx.webkit.WebViewFeature.ALGORITHMIC_DARKENING, androidx.webkit.WebViewFeature.ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY, androidx.webkit.WebViewFeature.GET_COOKIE_INFO, androidx.webkit.WebViewFeature.REQUESTED_WITH_HEADER_ALLOW_LIST, androidx.webkit.WebViewFeature.USER_AGENT_METADATA, androidx.webkit.WebViewFeature.MULTI_PROFILE, androidx.webkit.WebViewFeature.ATTRIBUTION_REGISTRATION_BEHAVIOR, androidx.webkit.WebViewFeature.WEBVIEW_MEDIA_INTEGRITY_API_STATUS, androidx.webkit.WebViewFeature.MUTE_AUDIO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.webkit.internal.WebViewFeatureInternal boolean isSupported(java.lang.String, java.util.Collection&lt;T&gt;) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.webkit.WebViewFeature.VISUAL_STATE_CALLBACK, androidx.webkit.WebViewFeature.OFF_SCREEN_PRERASTER, androidx.webkit.WebViewFeature.SAFE_BROWSING_ENABLE, androidx.webkit.WebViewFeature.DISABLED_ACTION_MODE_MENU_ITEMS, androidx.webkit.WebViewFeature.START_SAFE_BROWSING, androidx.webkit.WebViewFeature.SAFE_BROWSING_ALLOWLIST, androidx.webkit.WebViewFeature.SAFE_BROWSING_WHITELIST, androidx.webkit.WebViewFeature.SAFE_BROWSING_PRIVACY_POLICY_URL, androidx.webkit.WebViewFeature.SERVICE_WORKER_BASIC_USAGE, androidx.webkit.WebViewFeature.SERVICE_WORKER_CACHE_MODE, androidx.webkit.WebViewFeature.SERVICE_WORKER_CONTENT_ACCESS, androidx.webkit.WebViewFeature.SERVICE_WORKER_FILE_ACCESS, androidx.webkit.WebViewFeature.SERVICE_WORKER_BLOCK_NETWORK_LOADS, androidx.webkit.WebViewFeature.SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST, androidx.webkit.WebViewFeature.RECEIVE_WEB_RESOURCE_ERROR, androidx.webkit.WebViewFeature.RECEIVE_HTTP_ERROR, androidx.webkit.WebViewFeature.SHOULD_OVERRIDE_WITH_REDIRECTS, androidx.webkit.WebViewFeature.SAFE_BROWSING_HIT, androidx.webkit.WebViewFeature.TRACING_CONTROLLER_BASIC_USAGE, androidx.webkit.WebViewFeature.WEB_RESOURCE_REQUEST_IS_REDIRECT, androidx.webkit.WebViewFeature.WEB_RESOURCE_ERROR_GET_DESCRIPTION, androidx.webkit.WebViewFeature.WEB_RESOURCE_ERROR_GET_CODE, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_PROCEED, androidx.webkit.WebViewFeature.SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_POST_MESSAGE, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_CLOSE, androidx.webkit.WebViewFeature.WEB_MESSAGE_ARRAY_BUFFER, androidx.webkit.WebViewFeature.WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK, androidx.webkit.WebViewFeature.CREATE_WEB_MESSAGE_CHANNEL, androidx.webkit.WebViewFeature.POST_WEB_MESSAGE, androidx.webkit.WebViewFeature.WEB_MESSAGE_CALLBACK_ON_MESSAGE, androidx.webkit.WebViewFeature.GET_WEB_VIEW_CLIENT, androidx.webkit.WebViewFeature.GET_WEB_CHROME_CLIENT, androidx.webkit.WebViewFeature.GET_WEB_VIEW_RENDERER, androidx.webkit.WebViewFeature.WEB_VIEW_RENDERER_TERMINATE, androidx.webkit.WebViewFeature.WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE, androidx.webkit.WebViewFeature.PROXY_OVERRIDE, androidx.webkit.WebViewFeature.MULTI_PROCESS, androidx.webkit.WebViewFeature.FORCE_DARK, androidx.webkit.WebViewFeature.FORCE_DARK_STRATEGY, androidx.webkit.WebViewFeature.WEB_MESSAGE_LISTENER, androidx.webkit.WebViewFeature.DOCUMENT_START_SCRIPT, androidx.webkit.WebViewFeature.PROXY_OVERRIDE_REVERSE_BYPASS, androidx.webkit.WebViewFeature.GET_VARIATIONS_HEADER, androidx.webkit.WebViewFeature.ALGORITHMIC_DARKENING, androidx.webkit.WebViewFeature.ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY, androidx.webkit.WebViewFeature.GET_COOKIE_INFO, androidx.webkit.WebViewFeature.REQUESTED_WITH_HEADER_ALLOW_LIST, androidx.webkit.WebViewFeature.USER_AGENT_METADATA, androidx.webkit.WebViewFeature.MULTI_PROFILE, androidx.webkit.WebViewFeature.ATTRIBUTION_REGISTRATION_BEHAVIOR, androidx.webkit.WebViewFeature.WEBVIEW_MEDIA_INTEGRITY_API_STATUS, androidx.webkit.WebViewFeature.MUTE_AUDIO}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,2 @@
+com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION=1
+com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_INSERT_SHORT_FRAME=0

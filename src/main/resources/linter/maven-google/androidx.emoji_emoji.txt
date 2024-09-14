@@ -1,0 +1,9 @@
+androidx.emoji.text.EmojiCompat.LOAD_STATE_DEFAULT=3
+androidx.emoji.text.EmojiCompat.LOAD_STATE_FAILED=2
+androidx.emoji.text.EmojiCompat.LOAD_STATE_LOADING=0
+androidx.emoji.text.EmojiCompat.LOAD_STATE_SUCCEEDED=1
+androidx.emoji.text.EmojiCompat.LOAD_STRATEGY_DEFAULT=0
+androidx.emoji.text.EmojiCompat.LOAD_STRATEGY_MANUAL=1
+androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_ALL=1
+androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_DEFAULT=0
+androidx.emoji.text.EmojiCompat.REPLACE_STRATEGY_NON_EXISTENT=2

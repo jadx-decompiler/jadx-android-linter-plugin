@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.muxer.Boxes java.util.List&lt;java.lang.Long&gt; durationsVuForStts(java.util.List&lt;android.media.MediaCodec.BufferInfo&gt;, long, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_INSERT_SHORT_FRAME}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.muxer.Boxes void adjustLastSampleDuration(java.util.List&lt;java.lang.Long&gt;, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_INSERT_SHORT_FRAME}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.muxer.Mp4MoovStructure Mp4MoovStructure(com.google.android.exoplayer2.muxer.MetadataCollector, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_INSERT_SHORT_FRAME}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.muxer.Mp4Muxer.Builder com.google.android.exoplayer2.muxer.Mp4Muxer.Builder setLastFrameDurationBehavior(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, com.google.android.exoplayer2.muxer.Mp4Muxer.LAST_FRAME_DURATION_BEHAVIOR_INSERT_SHORT_FRAME}"></val>
+        </annotation>
+    </item>
+</root>

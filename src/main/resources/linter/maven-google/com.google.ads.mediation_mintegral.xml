@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.ads.mediation.mintegral.MintegralConstants com.google.android.gms.ads.AdError createAdapterError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.ads.mediation.mintegral.MintegralConstants.ERROR_INVALID_SERVER_PARAMETERS, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_BANNER_SIZE_UNSUPPORTED, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_INVALID_BID_RESPONSE, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_MINTEGRAL_SDK, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_CODE_NO_FILL, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_CODE_SDK_INIT_FAILED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.ads.mediation.mintegral.MintegralConstants com.google.android.gms.ads.AdError createSdkError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.ads.mediation.mintegral.MintegralConstants.ERROR_INVALID_SERVER_PARAMETERS, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_BANNER_SIZE_UNSUPPORTED, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_INVALID_BID_RESPONSE, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_MINTEGRAL_SDK, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_CODE_NO_FILL, com.google.ads.mediation.mintegral.MintegralConstants.ERROR_CODE_SDK_INIT_FAILED}"></val>
+        </annotation>
+    </item>
+</root>

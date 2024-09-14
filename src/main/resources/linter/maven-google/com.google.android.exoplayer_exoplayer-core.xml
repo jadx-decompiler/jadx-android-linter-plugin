@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.AudioFocusManager void executePlayerCommand(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_DO_NOT_PLAY, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_WAIT_FOR_CALLBACK, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_PLAY_WHEN_READY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.AudioFocusManager void setAudioFocusState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.AudioFocusManager.AUDIO_FOCUS_STATE_NO_FOCUS, com.google.android.exoplayer2.AudioFocusManager.AUDIO_FOCUS_STATE_HAVE_FOCUS, com.google.android.exoplayer2.AudioFocusManager.AUDIO_FOCUS_STATE_LOSS_TRANSIENT, com.google.android.exoplayer2.AudioFocusManager.AUDIO_FOCUS_STATE_LOSS_TRANSIENT_DUCK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.AudioFocusManager.PlayerControl void executePlayerCommand(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_DO_NOT_PLAY, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_WAIT_FOR_CALLBACK, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_PLAY_WHEN_READY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BaseRenderer int readSource(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.BaseRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory com.google.android.exoplayer2.DefaultRenderersFactory setExtensionRendererMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory void buildAudioRenderers(android.content.Context, int, com.google.android.exoplayer2.mediacodec.MediaCodecSelector, boolean, com.google.android.exoplayer2.audio.AudioSink, android.os.Handler, com.google.android.exoplayer2.audio.AudioRendererEventListener, java.util.ArrayList&lt;com.google.android.exoplayer2.Renderer&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory void buildCameraMotionRenderers(android.content.Context, int, java.util.ArrayList&lt;com.google.android.exoplayer2.Renderer&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory void buildMetadataRenderers(android.content.Context, com.google.android.exoplayer2.metadata.MetadataOutput, android.os.Looper, int, java.util.ArrayList&lt;com.google.android.exoplayer2.Renderer&gt;) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory void buildMiscellaneousRenderers(android.content.Context, android.os.Handler, int, java.util.ArrayList&lt;com.google.android.exoplayer2.Renderer&gt;) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory void buildTextRenderers(android.content.Context, com.google.android.exoplayer2.text.TextOutput, android.os.Looper, int, java.util.ArrayList&lt;com.google.android.exoplayer2.Renderer&gt;) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.DefaultRenderersFactory void buildVideoRenderers(android.content.Context, int, com.google.android.exoplayer2.mediacodec.MediaCodecSelector, boolean, android.os.Handler, com.google.android.exoplayer2.video.VideoRendererEventListener, long, java.util.ArrayList&lt;com.google.android.exoplayer2.Renderer&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON, com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlaybackException ExoPlaybackException(int, java.lang.Throwable, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ExoPlaybackException.TYPE_SOURCE, com.google.android.exoplayer2.ExoPlaybackException.TYPE_RENDERER, com.google.android.exoplayer2.ExoPlaybackException.TYPE_UNEXPECTED, com.google.android.exoplayer2.ExoPlaybackException.TYPE_REMOTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlaybackException ExoPlaybackException(int, java.lang.Throwable, java.lang.String, int, java.lang.String, int, com.google.android.exoplayer2.Format, int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ExoPlaybackException.TYPE_SOURCE, com.google.android.exoplayer2.ExoPlaybackException.TYPE_RENDERER, com.google.android.exoplayer2.ExoPlaybackException.TYPE_UNEXPECTED, com.google.android.exoplayer2.ExoPlaybackException.TYPE_REMOTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlaybackException ExoPlaybackException(java.lang.String, java.lang.Throwable, int, int, java.lang.String, int, com.google.android.exoplayer2.Format, int, com.google.android.exoplayer2.source.MediaPeriodId, long, boolean) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ExoPlaybackException.TYPE_SOURCE, com.google.android.exoplayer2.ExoPlaybackException.TYPE_RENDERER, com.google.android.exoplayer2.ExoPlaybackException.TYPE_UNEXPECTED, com.google.android.exoplayer2.ExoPlaybackException.TYPE_REMOTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlaybackException java.lang.String deriveMessage(int, java.lang.String, java.lang.String, int, com.google.android.exoplayer2.Format, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ExoPlaybackException.TYPE_SOURCE, com.google.android.exoplayer2.ExoPlaybackException.TYPE_RENDERER, com.google.android.exoplayer2.ExoPlaybackException.TYPE_UNEXPECTED, com.google.android.exoplayer2.ExoPlaybackException.TYPE_REMOTE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlayerImpl void updatePlayWhenReady(boolean, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_DO_NOT_PLAY, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_WAIT_FOR_CALLBACK, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_PLAY_WHEN_READY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlayerImpl.ComponentListener void executePlayerCommand(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_DO_NOT_PLAY, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_WAIT_FOR_CALLBACK, com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_PLAY_WHEN_READY}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoPlayerImpl.FrameMetadataListener void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoTimeoutException ExoTimeoutException(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_UNDEFINED, com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_RELEASE, com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_SET_FOREGROUND_MODE, com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_DETACH_SURFACE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ExoTimeoutException java.lang.String getErrorMessage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_UNDEFINED, com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_RELEASE, com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_SET_FOREGROUND_MODE, com.google.android.exoplayer2.ExoTimeoutException.TIMEOUT_OPERATION_DETACH_SURFACE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.MediaSourceList.ForwardingEventListener void onDrmSessionAcquired(int, com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.NoSampleRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.PlayerMessage.Target void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.RendererCapabilities int create(int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.RendererCapabilities int create(int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.TUNNELING_SUPPORTED, com.google.android.exoplayer2.RendererCapabilities.TUNNELING_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.RendererCapabilities int create(int, int, int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.RendererCapabilities int create(int, int, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.TUNNELING_SUPPORTED, com.google.android.exoplayer2.RendererCapabilities.TUNNELING_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.RendererCapabilities int create(int, int, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.HARDWARE_ACCELERATION_SUPPORTED, com.google.android.exoplayer2.RendererCapabilities.HARDWARE_ACCELERATION_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.RendererCapabilities int create(int, int, int, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.DECODER_SUPPORT_FALLBACK_MIMETYPE, com.google.android.exoplayer2.RendererCapabilities.DECODER_SUPPORT_PRIMARY, com.google.android.exoplayer2.RendererCapabilities.DECODER_SUPPORT_FALLBACK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.AnalyticsListener void onDrmSessionAcquired(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.AnalyticsListener.Events boolean contains(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TIMELINE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_ITEM_TRANSITION, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACKS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_LOADING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_STATE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAY_WHEN_READY_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_SUPPRESSION_REASON_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_PLAYING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_REPEAT_MODE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SHUFFLE_MODE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_POSITION_DISCONTINUITY, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AVAILABLE_COMMANDS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYLIST_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_BACK_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_FORWARD_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MAX_SEEK_TO_PREVIOUS_POSITION_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACK_SELECTION_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_INFO_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_STARTED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_COMPLETED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_CANCELED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DOWNSTREAM_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_UPSTREAM_DISCARDED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_BANDWIDTH_ESTIMATE, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_METADATA, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_CUES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_POSITION_ADVANCING, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_UNDERRUN, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SESSION_ID, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ATTRIBUTES_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SKIP_SILENCE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SINK_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DROPPED_VIDEO_FRAMES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_FRAME_PROCESSING_OFFSET, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_RENDERED_FIRST_FRAME, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SURFACE_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_ACQUIRED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_LOADED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_MANAGER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_RESTORED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_REMOVED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_CODEC_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_CODEC_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.AnalyticsListener.Events boolean containsAny(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TIMELINE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_ITEM_TRANSITION, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACKS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_LOADING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_STATE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAY_WHEN_READY_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_SUPPRESSION_REASON_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_PLAYING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_REPEAT_MODE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SHUFFLE_MODE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_POSITION_DISCONTINUITY, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AVAILABLE_COMMANDS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYLIST_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_BACK_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_FORWARD_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MAX_SEEK_TO_PREVIOUS_POSITION_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACK_SELECTION_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_INFO_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_STARTED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_COMPLETED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_CANCELED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DOWNSTREAM_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_UPSTREAM_DISCARDED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_BANDWIDTH_ESTIMATE, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_METADATA, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_CUES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_POSITION_ADVANCING, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_UNDERRUN, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SESSION_ID, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ATTRIBUTES_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SKIP_SILENCE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SINK_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DROPPED_VIDEO_FRAMES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_FRAME_PROCESSING_OFFSET, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_RENDERED_FIRST_FRAME, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SURFACE_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_ACQUIRED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_LOADED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_MANAGER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_RESTORED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_REMOVED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_CODEC_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_CODEC_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.AnalyticsListener.Events com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime getEventTime(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TIMELINE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_ITEM_TRANSITION, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACKS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_LOADING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_STATE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAY_WHEN_READY_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_SUPPRESSION_REASON_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_PLAYING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_REPEAT_MODE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SHUFFLE_MODE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_POSITION_DISCONTINUITY, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AVAILABLE_COMMANDS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYLIST_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_BACK_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_FORWARD_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MAX_SEEK_TO_PREVIOUS_POSITION_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACK_SELECTION_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_INFO_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_STARTED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_COMPLETED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_CANCELED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DOWNSTREAM_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_UPSTREAM_DISCARDED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_BANDWIDTH_ESTIMATE, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_METADATA, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_CUES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_POSITION_ADVANCING, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_UNDERRUN, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SESSION_ID, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ATTRIBUTES_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SKIP_SILENCE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SINK_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DROPPED_VIDEO_FRAMES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_FRAME_PROCESSING_OFFSET, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_RENDERED_FIRST_FRAME, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SURFACE_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_ACQUIRED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_LOADED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_MANAGER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_RESTORED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_REMOVED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_CODEC_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_CODEC_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.DefaultAnalyticsCollector void onDrmSessionAcquired(int, com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStats long getPlaybackStateDurationMs(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStats.EventTimeAndPlaybackState EventTimeAndPlaybackState(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener boolean hasEvent(com.google.android.exoplayer2.analytics.AnalyticsListener.Events, java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TIMELINE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_ITEM_TRANSITION, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACKS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_LOADING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_STATE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAY_WHEN_READY_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_SUPPRESSION_REASON_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_IS_PLAYING_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_REPEAT_MODE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SHUFFLE_MODE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_POSITION_DISCONTINUITY, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYBACK_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AVAILABLE_COMMANDS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MEDIA_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYLIST_METADATA_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_BACK_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SEEK_FORWARD_INCREMENT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_MAX_SEEK_TO_PREVIOUS_POSITION_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_TRACK_SELECTION_PARAMETERS_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_INFO_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DEVICE_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_STARTED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_COMPLETED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_CANCELED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_LOAD_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DOWNSTREAM_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_UPSTREAM_DISCARDED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_BANDWIDTH_ESTIMATE, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_METADATA, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_CUES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_POSITION_ADVANCING, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_UNDERRUN, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SESSION_ID, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_ATTRIBUTES_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SKIP_SILENCE_ENABLED_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_SINK_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VOLUME_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_ENABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_INITIALIZED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_INPUT_FORMAT_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DROPPED_VIDEO_FRAMES, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DECODER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_DISABLED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_FRAME_PROCESSING_OFFSET, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_RENDERED_FIRST_FRAME, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_SURFACE_SIZE_CHANGED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_ACQUIRED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_LOADED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_MANAGER_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_RESTORED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_KEYS_REMOVED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_DRM_SESSION_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_PLAYER_RELEASED, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_AUDIO_CODEC_ERROR, com.google.android.exoplayer2.analytics.AnalyticsListener.EVENT_VIDEO_CODEC_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener.PlaybackStatsTracker boolean isInvalidJoinTransition(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener.PlaybackStatsTracker boolean isInvalidJoinTransition(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener.PlaybackStatsTracker boolean isPausedState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener.PlaybackStatsTracker boolean isReadyState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener.PlaybackStatsTracker boolean isRebufferingState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.analytics.PlaybackStatsListener.PlaybackStatsTracker void updatePlaybackState(int, com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_NOT_STARTED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_BACKGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_JOINING_FOREGROUND, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PLAYING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SEEKING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_PAUSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_SUPPRESSED_BUFFERING, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ENDED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_STOPPED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_FAILED, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_INTERRUPTED_BY_AD, com.google.android.exoplayer2.analytics.PlaybackStats.PLAYBACK_STATE_ABANDONED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.AudioTimestampPoller void updateState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.audio.AudioTimestampPoller.STATE_INITIALIZING, com.google.android.exoplayer2.audio.AudioTimestampPoller.STATE_TIMESTAMP, com.google.android.exoplayer2.audio.AudioTimestampPoller.STATE_TIMESTAMP_ADVANCING, com.google.android.exoplayer2.audio.AudioTimestampPoller.STATE_NO_TIMESTAMP, com.google.android.exoplayer2.audio.AudioTimestampPoller.STATE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.DecoderAudioRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.DefaultAudioSink.AudioTrackBufferSizeProvider int getBufferSizeInBytes(int, int, int, int, int, int, double) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM, com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_OFFLOAD, com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.DefaultAudioSink.Builder com.google.android.exoplayer2.audio.DefaultAudioSink.Builder setOffloadMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.audio.DefaultAudioSink.OFFLOAD_MODE_DISABLED, com.google.android.exoplayer2.audio.DefaultAudioSink.OFFLOAD_MODE_ENABLED_GAPLESS_REQUIRED, com.google.android.exoplayer2.audio.DefaultAudioSink.OFFLOAD_MODE_ENABLED_GAPLESS_NOT_REQUIRED, com.google.android.exoplayer2.audio.DefaultAudioSink.OFFLOAD_MODE_ENABLED_GAPLESS_DISABLED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.DefaultAudioSink.Configuration Configuration(com.google.android.exoplayer2.Format, int, int, int, int, int, int, int, com.google.android.exoplayer2.audio.AudioProcessingPipeline, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM, com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_OFFLOAD, com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.DefaultAudioTrackBufferSizeProvider int getBufferSizeInBytes(int, int, int, int, int, int, double) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM, com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_OFFLOAD, com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.audio.MediaCodecAudioRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.decoder.DecoderReuseEvaluation DecoderReuseEvaluation(java.lang.String, com.google.android.exoplayer2.Format, com.google.android.exoplayer2.Format, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_NO, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITH_FLUSH, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITH_RECONFIGURATION, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.decoder.DecoderReuseEvaluation DecoderReuseEvaluation(java.lang.String, com.google.android.exoplayer2.Format, com.google.android.exoplayer2.Format, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_REUSE_NOT_IMPLEMENTED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_WORKAROUND, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_APP_OVERRIDE, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_MIME_TYPE_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_OPERATING_RATE_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_INITIALIZATION_DATA_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_DRM_SESSION_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_MAX_INPUT_SIZE_EXCEEDED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_VIDEO_MAX_RESOLUTION_EXCEEDED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_VIDEO_RESOLUTION_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_VIDEO_ROTATION_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_VIDEO_COLOR_INFO_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_AUDIO_CHANNEL_COUNT_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_AUDIO_SAMPLE_RATE_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_AUDIO_ENCODING_CHANGED, com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_AUDIO_BYPASS_POSSIBLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.DefaultDrmSession DefaultDrmSession(java.util.UUID, com.google.android.exoplayer2.drm.ExoMediaDrm, com.google.android.exoplayer2.drm.DefaultDrmSession.ProvisioningManager, com.google.android.exoplayer2.drm.DefaultDrmSession.ReferenceCountListener, java.util.List&lt;com.google.android.exoplayer2.drm.DrmInitData.SchemeData&gt;, int, boolean, boolean, byte[], java.util.HashMap&lt;java.lang.String,java.lang.String&gt;, com.google.android.exoplayer2.drm.MediaDrmCallback, android.os.Looper, com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy, com.google.android.exoplayer2.analytics.PlayerId) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_PLAYBACK, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_QUERY, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_DOWNLOAD, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.DefaultDrmSession void onError(java.lang.Exception, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmUtil.ERROR_SOURCE_EXO_MEDIA_DRM, com.google.android.exoplayer2.drm.DrmUtil.ERROR_SOURCE_LICENSE_ACQUISITION, com.google.android.exoplayer2.drm.DrmUtil.ERROR_SOURCE_PROVISIONING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.DefaultDrmSessionManager void setMode(int, byte[]) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_PLAYBACK, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_QUERY, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_DOWNLOAD, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.DrmSessionEventListener void onDrmSessionAcquired(int, com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher void drmSessionAcquired(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.DrmUtil int getErrorCodeForMediaDrmException(java.lang.Exception, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmUtil.ERROR_SOURCE_EXO_MEDIA_DRM, com.google.android.exoplayer2.drm.DrmUtil.ERROR_SOURCE_LICENSE_ACQUISITION, com.google.android.exoplayer2.drm.DrmUtil.ERROR_SOURCE_PROVISIONING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest KeyRequest(byte[], java.lang.String, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest.REQUEST_TYPE_UNKNOWN, com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest.REQUEST_TYPE_INITIAL, com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest.REQUEST_TYPE_RENEWAL, com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest.REQUEST_TYPE_RELEASE, com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest.REQUEST_TYPE_NONE, com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest.REQUEST_TYPE_UPDATE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.OfflineLicenseHelper byte[] acquireSessionAndGetOfflineLicenseKeySetIdOnHandlerThread(int, byte[], com.google.android.exoplayer2.Format) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_PLAYBACK, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_QUERY, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_DOWNLOAD, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.OfflineLicenseHelper com.google.android.exoplayer2.drm.DrmSession acquireFirstSessionOnHandlerThread(int, byte[], com.google.android.exoplayer2.Format) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_PLAYBACK, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_QUERY, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_DOWNLOAD, com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_RELEASE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.UnsupportedDrmException UnsupportedDrmException(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.UnsupportedDrmException.REASON_UNSUPPORTED_SCHEME, com.google.android.exoplayer2.drm.UnsupportedDrmException.REASON_INSTANTIATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.drm.UnsupportedDrmException UnsupportedDrmException(int, java.lang.Exception) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.UnsupportedDrmException.REASON_UNSUPPORTED_SCHEME, com.google.android.exoplayer2.drm.UnsupportedDrmException.REASON_INSTANTIATION_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.mediacodec.MediaCodecRenderer boolean readSourceOmittingSampleData(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DefaultDownloadIndex com.google.android.exoplayer2.offline.DownloadCursor getDownloads(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DefaultDownloadIndex java.lang.String getStateQuery(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.Download Download(com.google.android.exoplayer2.offline.DownloadRequest, int, long, long, long, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.Download Download(com.google.android.exoplayer2.offline.DownloadRequest, int, long, long, long, int, int) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.FAILURE_REASON_NONE, com.google.android.exoplayer2.offline.Download.FAILURE_REASON_UNKNOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.Download Download(com.google.android.exoplayer2.offline.DownloadRequest, int, long, long, long, int, int, com.google.android.exoplayer2.offline.DownloadProgress) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.Download Download(com.google.android.exoplayer2.offline.DownloadRequest, int, long, long, long, int, int, com.google.android.exoplayer2.offline.DownloadProgress) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.FAILURE_REASON_NONE, com.google.android.exoplayer2.offline.Download.FAILURE_REASON_UNKNOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadIndex com.google.android.exoplayer2.offline.DownloadCursor getDownloads(int...) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadManager void onRequirementsStateChanged(com.google.android.exoplayer2.scheduler.RequirementsWatcher, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadManager.InternalHandler com.google.android.exoplayer2.offline.Download copyDownloadWithState(com.google.android.exoplayer2.offline.Download, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadManager.InternalHandler com.google.android.exoplayer2.offline.Download putDownloadWithState(com.google.android.exoplayer2.offline.Download, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadManager.InternalHandler void setNotMetRequirements(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadManager.Listener void onRequirementsStateChanged(com.google.android.exoplayer2.offline.DownloadManager, com.google.android.exoplayer2.scheduler.Requirements, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadService android.app.Notification getForegroundNotification(java.util.List&lt;com.google.android.exoplayer2.offline.Download&gt;, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadService boolean needsStartedService(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.offline.Download.STATE_QUEUED, com.google.android.exoplayer2.offline.Download.STATE_STOPPED, com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING, com.google.android.exoplayer2.offline.Download.STATE_COMPLETED, com.google.android.exoplayer2.offline.Download.STATE_FAILED, com.google.android.exoplayer2.offline.Download.STATE_REMOVING, com.google.android.exoplayer2.offline.Download.STATE_RESTARTING}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.offline.DownloadService.DownloadManagerHelper void onRequirementsStateChanged(com.google.android.exoplayer2.offline.DownloadManager, com.google.android.exoplayer2.scheduler.Requirements, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.scheduler.Requirements Requirements(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.scheduler.RequirementsWatcher.Listener void onRequirementsStateChanged(com.google.android.exoplayer2.scheduler.RequirementsWatcher, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ClippingMediaPeriod.ClippingSampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException IllegalClippingException(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException.REASON_INVALID_PERIOD_COUNT, com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException.REASON_NOT_SEEKABLE_TO_START, com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException.REASON_START_EXCEEDS_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException java.lang.String getReasonDescription(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException.REASON_INVALID_PERIOD_COUNT, com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException.REASON_NOT_SEEKABLE_TO_START, com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException.REASON_START_EXCEEDS_END}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.CompositeMediaSource.ForwardingEventListener void onDrmSessionAcquired(int, com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.EmptySampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.MergingMediaPeriod.TimeOffsetSampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.MergingMediaSource.IllegalMergeException IllegalMergeException(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.MergingMediaSource.IllegalMergeException.REASON_PERIOD_COUNT_MISMATCH}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ProgressiveMediaPeriod int readData(int, com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ProgressiveMediaPeriod.SampleStreamImpl int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.SampleQueue int read(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.SampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.SilenceMediaSource.SilenceSampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.SingleSampleMediaPeriod.SampleStreamImpl int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException AdLoadException(int, java.lang.Exception) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException.TYPE_AD, com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException.TYPE_AD_GROUP, com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException.TYPE_ALL_ADS, com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException.TYPE_UNEXPECTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.ServerSideAdInsertionMediaSource void onDrmSessionAcquired(int, com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.ServerSideAdInsertionMediaSource.SampleStreamImpl int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.ads.ServerSideAdInsertionMediaSource.SharedMediaPeriod int readData(com.google.android.exoplayer2.source.ads.ServerSideAdInsertionMediaSource.MediaPeriodImpl, int, com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.chunk.ChunkSampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.source.chunk.ChunkSampleStream.EmbeddedSampleStream int readData(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK, com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT, com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection AdaptiveTrackSelection(com.google.android.exoplayer2.source.TrackGroup, int[], int, com.google.android.exoplayer2.upstream.BandwidthMeter, long, long, long, int, int, float, float, java.util.List&lt;com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection.AdaptationCheckpoint&gt;, com.google.android.exoplayer2.util.Clock) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.BaseTrackSelection BaseTrackSelection(com.google.android.exoplayer2.source.TrackGroup, int[], int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector android.util.Pair&lt;com.google.android.exoplayer2.RendererConfiguration[],com.google.android.exoplayer2.trackselection.ExoTrackSelection[]&gt; selectTracks(com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo, int[][][], int[], com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, com.google.android.exoplayer2.Timeline) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector android.util.Pair&lt;com.google.android.exoplayer2.trackselection.ExoTrackSelection.Definition,java.lang.Integer&gt; selectAudioTrack(com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo, int[][][], int[], com.google.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector android.util.Pair&lt;com.google.android.exoplayer2.trackselection.ExoTrackSelection.Definition,java.lang.Integer&gt; selectVideoTrack(com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo, int[][][], int[], com.google.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector com.google.android.exoplayer2.trackselection.ExoTrackSelection.Definition[] selectAllTracks(com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo, int[][][], int[], com.google.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector.SelectionOverride SelectionOverride(int, int[], int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector.VideoTrackInfo VideoTrackInfo(int, com.google.android.exoplayer2.source.TrackGroup, int, com.google.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters, int, int, boolean) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector.VideoTrackInfo com.google.common.collect.ImmutableList&lt;com.google.android.exoplayer2.trackselection.DefaultTrackSelector.VideoTrackInfo&gt; createForTrackGroup(int, com.google.android.exoplayer2.source.TrackGroup, com.google.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters, int[], int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.DefaultTrackSelector.VideoTrackInfo int evaluateSelectionEligibility(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.ExoTrackSelection.Definition Definition(com.google.android.exoplayer2.source.TrackGroup, int[], int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.FixedTrackSelection FixedTrackSelection(com.google.android.exoplayer2.source.TrackGroup, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.FixedTrackSelection FixedTrackSelection(com.google.android.exoplayer2.source.TrackGroup, int, int, int, java.lang.Object) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.MappingTrackSelector android.util.Pair&lt;com.google.android.exoplayer2.RendererConfiguration[],com.google.android.exoplayer2.trackselection.ExoTrackSelection[]&gt; selectTracks(com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo, int[][][], int[], com.google.android.exoplayer2.source.MediaSource.MediaPeriodId, com.google.android.exoplayer2.Timeline) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo MappedTrackInfo(java.lang.String[], int[], com.google.android.exoplayer2.source.TrackGroupArray[], int[], int[][][], com.google.android.exoplayer2.source.TrackGroupArray) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS, com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.trackselection.RandomTrackSelection RandomTrackSelection(com.google.android.exoplayer2.source.TrackGroup, int[], int, java.util.Random) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.trackselection.TrackSelection.TYPE_UNSET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.DownloadNotificationHelper android.app.Notification buildProgressNotification(android.content.Context, int, android.app.PendingIntent, java.lang.String, java.util.List&lt;com.google.android.exoplayer2.offline.Download&gt;, int) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.scheduler.Requirements.NETWORK, com.google.android.exoplayer2.scheduler.Requirements.NETWORK_UNMETERED, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_IDLE, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_CHARGING, com.google.android.exoplayer2.scheduler.Requirements.DEVICE_STORAGE_NOT_LOW}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.CmcdConfiguration.RequestConfig boolean isKeyAllowed(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_BITRATE, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_BUFFER_LENGTH, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_CONTENT_ID, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_SESSION_ID, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_MAXIMUM_REQUESTED_BITRATE, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_STREAMING_FORMAT, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_STREAM_TYPE, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_VERSION, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_TOP_BITRATE, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_OBJECT_DURATION, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_MEASURED_THROUGHPUT, com.google.android.exoplayer2.upstream.CmcdConfiguration.KEY_OBJECT_TYPE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.CmcdHeadersFactory CmcdHeadersFactory(com.google.android.exoplayer2.upstream.CmcdConfiguration, com.google.android.exoplayer2.trackselection.ExoTrackSelection, long, java.lang.String, boolean) 3">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAMING_FORMAT_DASH, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAMING_FORMAT_HLS, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAMING_FORMAT_SS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.CmcdHeadersFactory com.google.android.exoplayer2.upstream.CmcdHeadersFactory setObjectType(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_INIT_SEGMENT, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_AUDIO_ONLY, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_VIDEO_ONLY, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_MUXED_AUDIO_AND_VIDEO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.CmcdHeadersFactory.CmcdObject.Builder com.google.android.exoplayer2.upstream.CmcdHeadersFactory.CmcdObject.Builder setObjectType(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_INIT_SEGMENT, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_AUDIO_ONLY, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_VIDEO_ONLY, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.OBJECT_TYPE_MUXED_AUDIO_AND_VIDEO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.CmcdHeadersFactory.CmcdSession.Builder com.google.android.exoplayer2.upstream.CmcdHeadersFactory.CmcdSession.Builder setStreamType(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAM_TYPE_VOD, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAM_TYPE_LIVE}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.CmcdHeadersFactory.CmcdSession.Builder com.google.android.exoplayer2.upstream.CmcdHeadersFactory.CmcdSession.Builder setStreamingFormat(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAMING_FORMAT_DASH, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAMING_FORMAT_HLS, com.google.android.exoplayer2.upstream.CmcdHeadersFactory.STREAMING_FORMAT_SS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FallbackOptions boolean isFallbackAvailable(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_LOCATION, com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_TRACK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FallbackSelection FallbackSelection(int, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_LOCATION, com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_TRACK}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.upstream.Loader.LoadErrorAction LoadErrorAction(int, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.upstream.Loader.ACTION_TYPE_RETRY, com.google.android.exoplayer2.upstream.Loader.ACTION_TYPE_RETRY_AND_RESET_ERROR_COUNT, com.google.android.exoplayer2.upstream.Loader.ACTION_TYPE_DONT_RETRY, com.google.android.exoplayer2.upstream.Loader.ACTION_TYPE_DONT_RETRY_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.util.EventLogger void onDrmSessionAcquired(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED, com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED, com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.DecoderVideoRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.MediaCodecVideoRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.spherical.CameraMotionRenderer void handleMessage(int, java.lang.Object) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT, com.google.android.exoplayer2.Renderer.MSG_SET_VOLUME, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_ATTRIBUTES, com.google.android.exoplayer2.Renderer.MSG_SET_SCALING_MODE, com.google.android.exoplayer2.Renderer.MSG_SET_CHANGE_FRAME_RATE_STRATEGY, com.google.android.exoplayer2.Renderer.MSG_SET_AUX_EFFECT_INFO, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_FRAME_METADATA_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_CAMERA_MOTION_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_SKIP_SILENCE_ENABLED, com.google.android.exoplayer2.Renderer.MSG_SET_AUDIO_SESSION_ID, com.google.android.exoplayer2.Renderer.MSG_SET_WAKEUP_LISTENER, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_EFFECTS, com.google.android.exoplayer2.Renderer.MSG_SET_VIDEO_OUTPUT_RESOLUTION}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.video.spherical.Projection.SubMesh SubMesh(int, float[], float[], int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.video.spherical.Projection.DRAW_MODE_TRIANGLES, com.google.android.exoplayer2.video.spherical.Projection.DRAW_MODE_TRIANGLES_STRIP, com.google.android.exoplayer2.video.spherical.Projection.DRAW_MODE_TRIANGLES_FAN}"></val>
+        </annotation>
+    </item>
+</root>

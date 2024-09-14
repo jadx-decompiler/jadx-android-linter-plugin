@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.recyclerview.selection.DefaultSelectionTracker void extendRange(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.ItemKeyProvider ItemKeyProvider(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.ItemKeyProvider.SCOPE_MAPPED, androidx.recyclerview.selection.ItemKeyProvider.SCOPE_CACHED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.ItemKeyProvider boolean hasAccess(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.ItemKeyProvider.SCOPE_MAPPED, androidx.recyclerview.selection.ItemKeyProvider.SCOPE_CACHED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void establishRange(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void extendRange(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void log(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void reviseAscending(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void reviseDescending(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void reviseRange(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range void updateRange(int, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.recyclerview.selection.Range.Callbacks void updateForRange(int, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.recyclerview.selection.Range.TYPE_PRIMARY, androidx.recyclerview.selection.Range.TYPE_PROVISIONAL}"></val>
+        </annotation>
+    </item>
+</root>

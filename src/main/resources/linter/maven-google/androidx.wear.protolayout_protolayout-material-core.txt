@@ -1,0 +1,5 @@
+androidx.wear.protolayout.materialcore.Button.Builder.CUSTOM_CONTENT=3
+androidx.wear.protolayout.materialcore.Button.Builder.ICON=0
+androidx.wear.protolayout.materialcore.Button.Builder.IMAGE=2
+androidx.wear.protolayout.materialcore.Button.Builder.NOT_SET=-1
+androidx.wear.protolayout.materialcore.Button.Builder.TEXT=1

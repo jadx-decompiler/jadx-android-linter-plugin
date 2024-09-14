@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.extractor.Ac3Util.SyncFrameInfo SyncFrameInfo(java.lang.String, int, int, int, int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.Ac3Util.SyncFrameInfo.STREAM_TYPE_UNDEFINED, androidx.media3.extractor.Ac3Util.SyncFrameInfo.STREAM_TYPE_TYPE0, androidx.media3.extractor.Ac3Util.SyncFrameInfo.STREAM_TYPE_TYPE1, androidx.media3.extractor.Ac3Util.SyncFrameInfo.STREAM_TYPE_TYPE2}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.BinarySearchSeeker.TimestampSearchResult TimestampSearchResult(int, long, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_TARGET_TIMESTAMP_FOUND, androidx.media3.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_POSITION_OVERESTIMATED, androidx.media3.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_POSITION_UNDERESTIMATED, androidx.media3.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_NO_TIMESTAMP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setAdtsExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setAmrExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, androidx.media3.extractor.amr.AmrExtractor.FLAG_ENABLE_INDEX_SEEKING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setFlacExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.flac.FlacExtractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setFragmentedMp4ExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setJpegExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.jpeg.JpegExtractor.FLAG_READ_IMAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setMatroskaExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES, androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setMp3ExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setMp4ExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.Mp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_MOTION_PHOTO_METADATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_SEF_DATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_MARK_FIRST_VIDEO_TRACK_WITH_MAIN_ROLE, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_EDITABLE_VIDEO_TRACKS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setTsExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DefaultExtractorsFactory androidx.media3.extractor.DefaultExtractorsFactory setTsExtractorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.MODE_MULTI_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_SINGLE_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DiscardingTrackOutput int sampleData(androidx.media3.common.DataReader, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DiscardingTrackOutput void sampleData(androidx.media3.common.util.ParsableByteArray, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DummyTrackOutput int sampleData(androidx.media3.common.DataReader, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.DummyTrackOutput void sampleData(androidx.media3.common.util.ParsableByteArray, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.TrackOutput int sampleData(androidx.media3.common.DataReader, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.TrackOutput void sampleData(androidx.media3.common.util.ParsableByteArray, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.amr.AmrExtractor AmrExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, androidx.media3.extractor.amr.AmrExtractor.FLAG_ENABLE_INDEX_SEEKING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.avi.AviExtractor AviExtractor(int, androidx.media3.extractor.text.SubtitleParser.Factory) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.avi.AviExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.avi.ChunkReader int getChunkIdFourCc(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.avi.ChunkReader.CHUNK_TYPE_VIDEO_COMPRESSED, androidx.media3.extractor.avi.ChunkReader.CHUNK_TYPE_VIDEO_UNCOMPRESSED, androidx.media3.extractor.avi.ChunkReader.CHUNK_TYPE_AUDIO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.jpeg.JpegExtractor JpegExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.jpeg.JpegExtractor.FLAG_READ_IMAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mkv.MatroskaExtractor MatroskaExtractor(androidx.media3.extractor.mkv.EbmlReader, int, androidx.media3.extractor.text.SubtitleParser.Factory) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES, androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mkv.MatroskaExtractor MatroskaExtractor(androidx.media3.extractor.text.SubtitleParser.Factory, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES, androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mkv.MatroskaExtractor MatroskaExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES, androidx.media3.extractor.mkv.MatroskaExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp3.Mp3Extractor Mp3Extractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp3.Mp3Extractor Mp3Extractor(int, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING, androidx.media3.extractor.mp3.Mp3Extractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(androidx.media3.extractor.text.SubtitleParser.Factory, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(androidx.media3.extractor.text.SubtitleParser.Factory, int, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.mp4.Track, java.util.List&lt;androidx.media3.common.Format&gt;, androidx.media3.extractor.TrackOutput) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, androidx.media3.common.util.TimestampAdjuster) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.mp4.Track) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.mp4.Track, java.util.List&lt;androidx.media3.common.Format&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.mp4.Track, java.util.List&lt;androidx.media3.common.Format&gt;, androidx.media3.extractor.TrackOutput) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor int parseTrun(androidx.media3.extractor.mp4.FragmentedMp4Extractor.TrackBundle, int, int, androidx.media3.common.util.ParsableByteArray, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor void parseMoof(androidx.media3.container.Mp4Box.ContainerBox, android.util.SparseArray&lt;androidx.media3.extractor.mp4.FragmentedMp4Extractor.TrackBundle&gt;, boolean, int, byte[]) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor void parseTraf(androidx.media3.container.Mp4Box.ContainerBox, android.util.SparseArray&lt;androidx.media3.extractor.mp4.FragmentedMp4Extractor.TrackBundle&gt;, boolean, int, byte[]) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.FragmentedMp4Extractor void parseTruns(androidx.media3.container.Mp4Box.ContainerBox, androidx.media3.extractor.mp4.FragmentedMp4Extractor.TrackBundle, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.FragmentedMp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.Mp4Extractor Mp4Extractor(androidx.media3.extractor.text.SubtitleParser.Factory, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.Mp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_MOTION_PHOTO_METADATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_SEF_DATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_MARK_FIRST_VIDEO_TRACK_WITH_MAIN_ROLE, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_EDITABLE_VIDEO_TRACKS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.Mp4Extractor Mp4Extractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.Mp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_MOTION_PHOTO_METADATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_SEF_DATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_MARK_FIRST_VIDEO_TRACK_WITH_MAIN_ROLE, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_EMIT_RAW_SUBTITLE_DATA, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_WITHIN_GOP_SAMPLE_DEPENDENCIES, androidx.media3.extractor.mp4.Mp4Extractor.FLAG_READ_EDITABLE_VIDEO_TRACKS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.SefReader.DataReference DataReference(int, long, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.mp4.SefReader.TYPE_SLOW_MOTION_DATA, androidx.media3.extractor.mp4.SefReader.TYPE_SUPER_SLOW_MOTION_DATA, androidx.media3.extractor.mp4.SefReader.TYPE_SUPER_SLOW_MOTION_BGM, androidx.media3.extractor.mp4.SefReader.TYPE_SUPER_SLOW_MOTION_EDIT_DATA, androidx.media3.extractor.mp4.SefReader.TYPE_SUPER_SLOW_DEFLICKERING_ON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.SmtaAtomUtil int getCaptureFrameRate(int, androidx.media3.common.util.ParsableByteArray, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="open" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.mp4.SmtaAtomUtil.NO_VALUE, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_NORMAL, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_SINGLE_SUPERSLOW_MOTION, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_FRC_SUPERSLOW_MOTION, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_SLOW_MOTION_V2, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_SLOW_MOTION_V2_120, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_SLOW_MOTION_V2_HEVC, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_FRC_SUPERSLOW_MOTION_HEVC, androidx.media3.extractor.mp4.SmtaAtomUtil.CAMCORDER_QFRC_SUPERSLOW_MOTION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.mp4.Track Track(int, int, long, long, long, androidx.media3.common.Format, int, androidx.media3.extractor.mp4.TrackEncryptionBox[], int, long[], long[]) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.mp4.Track.TRANSFORMATION_NONE, androidx.media3.extractor.mp4.Track.TRANSFORMATION_CEA608_CDAT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.SubtitleTranscodingTrackOutput int sampleData(androidx.media3.common.DataReader, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.SubtitleTranscodingTrackOutput void sampleData(androidx.media3.common.util.ParsableByteArray, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, androidx.media3.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaParser android.text.Layout.Alignment toTextAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaParser int toLineAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaParser int toPositionAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaStyle SsaStyle(java.lang.String, int, java.lang.Integer, java.lang.Integer, float, boolean, boolean, boolean, boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaStyle SsaStyle(java.lang.String, int, java.lang.Integer, java.lang.Integer, float, boolean, boolean, boolean, boolean, int) 9">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_BORDER_STYLE_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_BORDER_STYLE_OUTLINE, androidx.media3.extractor.text.ssa.SsaStyle.SSA_BORDER_STYLE_BOX}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaStyle boolean isValidAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaStyle boolean isValidBorderStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_BORDER_STYLE_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_BORDER_STYLE_OUTLINE, androidx.media3.extractor.text.ssa.SsaStyle.SSA_BORDER_STYLE_BOX}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ssa.SsaStyle.Overrides Overrides(int, android.graphics.PointF) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, androidx.media3.extractor.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ttml.TextEmphasis TextEmphasis(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.common.text.TextEmphasisSpan.MARK_SHAPE_NONE, androidx.media3.common.text.TextEmphasisSpan.MARK_SHAPE_CIRCLE, androidx.media3.common.text.TextEmphasisSpan.MARK_SHAPE_DOT, androidx.media3.common.text.TextEmphasisSpan.MARK_SHAPE_SESAME, androidx.media3.extractor.text.ttml.TextEmphasis.MARK_SHAPE_AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.ttml.TtmlStyle androidx.media3.extractor.text.ttml.TtmlStyle setRubyType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.ttml.TtmlStyle.UNSPECIFIED, androidx.media3.extractor.text.ttml.TtmlStyle.RUBY_TYPE_CONTAINER, androidx.media3.extractor.text.ttml.TtmlStyle.RUBY_TYPE_BASE, androidx.media3.extractor.text.ttml.TtmlStyle.RUBY_TYPE_TEXT, androidx.media3.extractor.text.ttml.TtmlStyle.RUBY_TYPE_DELIMITER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.webvtt.WebvttCssStyle androidx.media3.extractor.text.webvtt.WebvttCssStyle setFontSizeUnit(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.webvtt.WebvttCssStyle.UNSPECIFIED, androidx.media3.extractor.text.webvtt.WebvttCssStyle.FONT_SIZE_UNIT_PIXEL, androidx.media3.extractor.text.webvtt.WebvttCssStyle.FONT_SIZE_UNIT_EM, androidx.media3.extractor.text.webvtt.WebvttCssStyle.FONT_SIZE_UNIT_PERCENT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.webvtt.WebvttCueParser.WebvttCueInfoBuilder android.text.Layout.Alignment convertTextAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_START, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_CENTER, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_END, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_LEFT, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.webvtt.WebvttCueParser.WebvttCueInfoBuilder float derivePosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_START, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_CENTER, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_END, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_LEFT, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.text.webvtt.WebvttCueParser.WebvttCueInfoBuilder int derivePositionAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_START, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_CENTER, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_END, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_LEFT, androidx.media3.extractor.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.Ac3Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.Ac4Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.AdtsExtractor AdtsExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, androidx.media3.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.AdtsReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory DefaultTsPayloadReaderFactory(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory DefaultTsPayloadReaderFactory(int, java.util.List&lt;androidx.media3.common.Format&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory boolean isSet(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.DtsReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.DvbSubtitleReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.ElementaryStreamReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.H262Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.H263Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.H264Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.H265Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.Id3Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.LatmReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.MpegAudioReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.MpeghReader boolean shouldParsePacket(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_FILLDATA, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_MPEGH3DACFG, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_MPEGH3DAFRAME, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_AUDIOSCENEINFO, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_SYNC, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_SYNCGAP, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_MARKER, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_CRC16, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_CRC32, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_DESCRIPTOR, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_USERINTERACTION, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_LOUDNESS_DRC, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_BUFFERINFO, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_GLOBAL_CRC16, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_GLOBAL_CRC32, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_AUDIOTRUNCATION, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_GENDATA, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYPE_EARCON, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYPE_PCMCONFIG, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYPE_PCMDATA, androidx.media3.extractor.ts.MpeghUtil.MhasPacketHeader.PACTYP_LOUDNESS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.MpeghReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.PesReader void consume(androidx.media3.common.util.ParsableByteArray, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.SectionReader void consume(androidx.media3.common.util.ParsableByteArray, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.ts.TsPayloadReader.Factory) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.MODE_MULTI_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_SINGLE_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.ts.TsPayloadReader.Factory, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.MODE_MULTI_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_SINGLE_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, androidx.media3.extractor.text.SubtitleParser.Factory) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, int, androidx.media3.extractor.text.SubtitleParser.Factory, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.ts.TsPayloadReader.Factory, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.MODE_MULTI_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_SINGLE_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, int, androidx.media3.extractor.text.SubtitleParser.Factory, androidx.media3.common.util.TimestampAdjuster, androidx.media3.extractor.ts.TsPayloadReader.Factory, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.FLAG_EMIT_RAW_SUBTITLE_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.TsExtractor.MODE_MULTI_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_SINGLE_PMT, androidx.media3.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsExtractor TsExtractor(int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsPayloadReader void consume(androidx.media3.common.util.ParsableByteArray, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, androidx.media3.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.extractor.ts.TsPayloadReader.EsInfo EsInfo(int, java.lang.String, int, java.util.List&lt;androidx.media3.extractor.ts.TsPayloadReader.DvbSubtitleInfo&gt;, byte[]) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.extractor.ts.TsPayloadReader.EsInfo.AUDIO_TYPE_UNDEFINED, androidx.media3.extractor.ts.TsPayloadReader.EsInfo.AUDIO_TYPE_CLEAN_EFFECTS, androidx.media3.extractor.ts.TsPayloadReader.EsInfo.AUDIO_TYPE_HEARING_IMPAIRED, androidx.media3.extractor.ts.TsPayloadReader.EsInfo.AUDIO_TYPE_VISUAL_IMPAIRED_COMMENTARY}"></val>
+        </annotation>
+    </item>
+</root>

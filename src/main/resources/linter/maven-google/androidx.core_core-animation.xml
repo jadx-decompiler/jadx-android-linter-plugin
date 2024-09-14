@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.core.animation.ValueAnimator void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.core.animation.ValueAnimator.RESTART, androidx.core.animation.ValueAnimator.REVERSE}"></val>
+        </annotation>
+    </item>
+</root>

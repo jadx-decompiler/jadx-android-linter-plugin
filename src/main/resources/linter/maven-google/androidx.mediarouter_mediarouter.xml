@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.mediarouter.app.MediaRouteButton boolean showDialogForType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouterParams.DIALOG_TYPE_DEFAULT, androidx.mediarouter.media.MediaRouterParams.DIALOG_TYPE_DYNAMIC_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.app.MediaRouteChooserDialog void updateViewForState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.app.MediaRouteChooserDialog.FINDING_DEVICES, androidx.mediarouter.app.MediaRouteChooserDialog.SHOWING_ROUTES, androidx.mediarouter.app.MediaRouteChooserDialog.NO_DEVICES_NO_WIFI_HINT, androidx.mediarouter.app.MediaRouteChooserDialog.NO_ROUTES}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.GlobalMediaRouter void notifyTransfer(androidx.mediarouter.media.GlobalMediaRouter, androidx.mediarouter.media.MediaRouter.RouteInfo, androidx.mediarouter.media.MediaRouteProvider.RouteController, int, androidx.mediarouter.media.MediaRouter.RouteInfo, java.util.Collection&lt;androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor&gt;) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.GlobalMediaRouter void selectRoute(androidx.mediarouter.media.MediaRouter.RouteInfo, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.GlobalMediaRouter void selectRouteInternal(androidx.mediarouter.media.MediaRouter.RouteInfo, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.GlobalMediaRouter.Mr2ProviderCallback void onSelectFallbackRoute(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.GlobalMediaRouter.Mr2ProviderCallback void onSelectRoute(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.GlobalMediaRouter.Mr2ProviderCallback void selectRouteToFallbackRoute(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRoute2Provider.Callback void onSelectFallbackRoute(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRoute2Provider.Callback void onSelectRoute(java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRoute2ProviderServiceAdapter.DynamicGroupRouteControllerProxy void onUnselect(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouteDescriptor.Builder androidx.mediarouter.media.MediaRouteDescriptor.Builder setDeviceType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_UNKNOWN, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_TV, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_SPEAKER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_REMOTE_SPEAKER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_BLUETOOTH_A2DP, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_AUDIO_VIDEO_RECEIVER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_TABLET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_TABLET_DOCKED, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_COMPUTER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_GAME_CONSOLE, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_CAR, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_SMARTWATCH, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_SMARTPHONE, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_BUILTIN_SPEAKER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_WIRED_HEADSET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_WIRED_HEADPHONES, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HDMI, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_USB_DEVICE, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_USB_ACCESSORY, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_DOCK, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_USB_HEADSET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HEARING_AID, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_BLE_HEADSET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HDMI_ARC, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HDMI_EARC, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor DynamicRouteDescriptor(androidx.mediarouter.media.MediaRouteDescriptor, int, boolean, boolean, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.UNSELECTING, androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.UNSELECTED, androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.SELECTING, androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.SELECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.Builder androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.Builder setSelectionState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.UNSELECTING, androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.UNSELECTED, androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.SELECTING, androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor.SELECTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouteProvider.RouteController void onUnselect(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouteProviderService.MediaRouteProviderServiceImpl boolean onUnselectRoute(android.os.Messenger, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouteProviderService.MediaRouteProviderServiceImplBase boolean onUnselectRoute(android.os.Messenger, int, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter void addCallback(androidx.mediarouter.media.MediaRouteSelector, androidx.mediarouter.media.MediaRouter.Callback, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.CALLBACK_FLAG_PERFORM_ACTIVE_SCAN, androidx.mediarouter.media.MediaRouter.CALLBACK_FLAG_REQUEST_DISCOVERY, androidx.mediarouter.media.MediaRouter.CALLBACK_FLAG_UNFILTERED_EVENTS, androidx.mediarouter.media.MediaRouter.CALLBACK_FLAG_FORCE_DISCOVERY}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter void unselect(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter.Callback void onRouteSelected(androidx.mediarouter.media.MediaRouter, androidx.mediarouter.media.MediaRouter.RouteInfo, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter.Callback void onRouteSelected(androidx.mediarouter.media.MediaRouter, androidx.mediarouter.media.MediaRouter.RouteInfo, int, androidx.mediarouter.media.MediaRouter.RouteInfo) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter.Callback void onRouteUnselected(androidx.mediarouter.media.MediaRouter, androidx.mediarouter.media.MediaRouter.RouteInfo, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter.PrepareTransferNotifier PrepareTransferNotifier(androidx.mediarouter.media.GlobalMediaRouter, androidx.mediarouter.media.MediaRouter.RouteInfo, androidx.mediarouter.media.MediaRouteProvider.RouteController, int, androidx.mediarouter.media.MediaRouter.RouteInfo, java.util.Collection&lt;androidx.mediarouter.media.MediaRouteProvider.DynamicGroupRouteController.DynamicRouteDescriptor&gt;) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouter2Utils int androidXDeviceTypeToFwkDeviceType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_UNKNOWN, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_TV, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_SPEAKER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_REMOTE_SPEAKER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_BLUETOOTH_A2DP, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_AUDIO_VIDEO_RECEIVER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_TABLET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_TABLET_DOCKED, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_COMPUTER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_GAME_CONSOLE, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_CAR, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_SMARTWATCH, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_SMARTPHONE, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_BUILTIN_SPEAKER, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_WIRED_HEADSET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_WIRED_HEADPHONES, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HDMI, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_USB_DEVICE, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_USB_ACCESSORY, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_DOCK, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_USB_HEADSET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HEARING_AID, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_BLE_HEADSET, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HDMI_ARC, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_HDMI_EARC, androidx.mediarouter.media.MediaRouter.RouteInfo.DEVICE_TYPE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.MediaRouterParams.Builder androidx.mediarouter.media.MediaRouterParams.Builder setDialogType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouterParams.DIALOG_TYPE_DEFAULT, androidx.mediarouter.media.MediaRouterParams.DIALOG_TYPE_DYNAMIC_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.RegisteredMediaRouteProvider.Connection void unselectRoute(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.RegisteredMediaRouteProvider.RegisteredDynamicController void onUnselect(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.mediarouter.media.RegisteredMediaRouteProvider.RegisteredRouteController void onUnselect(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_UNKNOWN, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_DISCONNECTED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_STOPPED, androidx.mediarouter.media.MediaRouter.UNSELECT_REASON_ROUTE_CHANGED}"></val>
+        </annotation>
+    </item>
+</root>

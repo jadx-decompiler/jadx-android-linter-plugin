@@ -1,0 +1,14 @@
+androidx.slice.core.SliceHints.ACTION_WITH_LABEL=6
+androidx.slice.core.SliceHints.HINT_ACTIVITY=activity
+androidx.slice.core.SliceHints.HINT_CACHED=cached
+androidx.slice.core.SliceHints.HINT_END_OF_SECTION=end_of_section
+androidx.slice.core.SliceHints.HINT_OVERLAY=overlay
+androidx.slice.core.SliceHints.HINT_RAW=raw
+androidx.slice.core.SliceHints.HINT_SELECTION_OPTION=selection_option
+androidx.slice.core.SliceHints.HINT_SHOW_LABEL=show_label
+androidx.slice.core.SliceHints.ICON_IMAGE=0
+androidx.slice.core.SliceHints.LARGE_IMAGE=2
+androidx.slice.core.SliceHints.RAW_IMAGE_LARGE=4
+androidx.slice.core.SliceHints.RAW_IMAGE_SMALL=3
+androidx.slice.core.SliceHints.SMALL_IMAGE=1
+androidx.slice.core.SliceHints.UNKNOWN_IMAGE=5

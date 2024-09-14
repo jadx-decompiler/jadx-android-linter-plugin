@@ -1,0 +1,10 @@
+androidx.slice.builders.ListBuilder.ACTION_WITH_LABEL=6
+androidx.slice.builders.ListBuilder.ICON_IMAGE=0
+androidx.slice.builders.ListBuilder.LARGE_IMAGE=2
+androidx.slice.builders.ListBuilder.RANGE_MODE_DETERMINATE=0
+androidx.slice.builders.ListBuilder.RANGE_MODE_INDETERMINATE=1
+androidx.slice.builders.ListBuilder.RANGE_MODE_STAR_RATING=2
+androidx.slice.builders.ListBuilder.RAW_IMAGE_LARGE=4
+androidx.slice.builders.ListBuilder.RAW_IMAGE_SMALL=3
+androidx.slice.builders.ListBuilder.SMALL_IMAGE=1
+androidx.slice.builders.ListBuilder.UNKNOWN_IMAGE=5

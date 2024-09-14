@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.compose.ui.platform.coreshims.ViewCompatShims void setImportantForContentCapture(android.view.View, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_AUTO, androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_YES, androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_NO, androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_YES_EXCLUDE_DESCENDANTS, androidx.compose.ui.platform.coreshims.ViewCompatShims.IMPORTANT_FOR_CONTENT_CAPTURE_NO_EXCLUDE_DESCENDANTS}"></val>
+        </annotation>
+    </item>
+</root>

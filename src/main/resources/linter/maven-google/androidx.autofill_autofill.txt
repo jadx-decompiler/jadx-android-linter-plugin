@@ -1,0 +1,1 @@
+androidx.autofill.inline.UiVersions.INLINE_UI_VERSION_1=androidx.autofill.inline.ui.version:v1

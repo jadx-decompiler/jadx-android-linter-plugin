@@ -1,0 +1,3 @@
+com.google.firebase.appcheck.internal.NetworkClient.DEBUG=2
+com.google.firebase.appcheck.internal.NetworkClient.PLAY_INTEGRITY=3
+com.google.firebase.appcheck.internal.NetworkClient.UNKNOWN=0

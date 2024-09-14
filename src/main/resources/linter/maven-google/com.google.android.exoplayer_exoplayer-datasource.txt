@@ -1,0 +1,15 @@
+com.google.android.exoplayer2.upstream.DataSpec.FLAG_ALLOW_CACHE_FRAGMENTATION=4
+com.google.android.exoplayer2.upstream.DataSpec.FLAG_ALLOW_GZIP=1
+com.google.android.exoplayer2.upstream.DataSpec.FLAG_DONT_CACHE_IF_LENGTH_UNKNOWN=2
+com.google.android.exoplayer2.upstream.DataSpec.FLAG_MIGHT_NOT_USE_FULL_NETWORK_SPEED=8
+com.google.android.exoplayer2.upstream.DataSpec.HTTP_METHOD_GET=1
+com.google.android.exoplayer2.upstream.DataSpec.HTTP_METHOD_HEAD=3
+com.google.android.exoplayer2.upstream.DataSpec.HTTP_METHOD_POST=2
+com.google.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException.TYPE_CLOSE=3
+com.google.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException.TYPE_OPEN=1
+com.google.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException.TYPE_READ=2
+com.google.android.exoplayer2.upstream.cache.CacheDataSource.CACHE_IGNORED_REASON_ERROR=0
+com.google.android.exoplayer2.upstream.cache.CacheDataSource.CACHE_IGNORED_REASON_UNSET_LENGTH=1
+com.google.android.exoplayer2.upstream.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE=1
+com.google.android.exoplayer2.upstream.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS=4
+com.google.android.exoplayer2.upstream.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR=2

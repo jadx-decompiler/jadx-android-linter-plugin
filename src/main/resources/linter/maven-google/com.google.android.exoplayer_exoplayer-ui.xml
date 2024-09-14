@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.ui.AspectRatioFrameLayout void setResizeMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIT, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIXED_WIDTH, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIXED_HEIGHT, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_ZOOM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.CaptionStyleCompat CaptionStyleCompat(int, int, int, int, int, android.graphics.Typeface) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.CaptionStyleCompat.EDGE_TYPE_NONE, com.google.android.exoplayer2.ui.CaptionStyleCompat.EDGE_TYPE_OUTLINE, com.google.android.exoplayer2.ui.CaptionStyleCompat.EDGE_TYPE_DROP_SHADOW, com.google.android.exoplayer2.ui.CaptionStyleCompat.EDGE_TYPE_RAISED, com.google.android.exoplayer2.ui.CaptionStyleCompat.EDGE_TYPE_DEPRESSED}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.PlayerNotificationManager void setPriority(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.core.app.NotificationCompat.PRIORITY_DEFAULT, androidx.core.app.NotificationCompat.PRIORITY_MAX, androidx.core.app.NotificationCompat.PRIORITY_HIGH, androidx.core.app.NotificationCompat.PRIORITY_LOW, androidx.core.app.NotificationCompat.PRIORITY_MIN}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.PlayerNotificationManager void setVisibility(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.core.app.NotificationCompat.VISIBILITY_PRIVATE, androidx.core.app.NotificationCompat.VISIBILITY_PUBLIC, androidx.core.app.NotificationCompat.VISIBILITY_SECRET}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.PlayerView void setResizeMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIT, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIXED_WIDTH, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIXED_HEIGHT, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_ZOOM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.PlayerView void setShowBuffering(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_NEVER, com.google.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_WHEN_PLAYING, com.google.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.StyledPlayerView void setArtworkDisplayMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.StyledPlayerView.ARTWORK_DISPLAY_MODE_OFF, com.google.android.exoplayer2.ui.StyledPlayerView.ARTWORK_DISPLAY_MODE_FIT, com.google.android.exoplayer2.ui.StyledPlayerView.ARTWORK_DISPLAY_MODE_FILL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.StyledPlayerView void setResizeMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIT, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIXED_WIDTH, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FIXED_HEIGHT, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL, com.google.android.exoplayer2.ui.AspectRatioFrameLayout.RESIZE_MODE_ZOOM}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.StyledPlayerView void setShowBuffering(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.StyledPlayerView.SHOW_BUFFERING_NEVER, com.google.android.exoplayer2.ui.StyledPlayerView.SHOW_BUFFERING_WHEN_PLAYING, com.google.android.exoplayer2.ui.StyledPlayerView.SHOW_BUFFERING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.ui.SubtitleView void setViewType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.ui.SubtitleView.VIEW_TYPE_CANVAS, com.google.android.exoplayer2.ui.SubtitleView.VIEW_TYPE_WEB}"></val>
+        </annotation>
+    </item>
+</root>

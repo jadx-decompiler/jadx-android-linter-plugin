@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.drawerlayout.widget.DrawerLayout boolean isDrawerOpen(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout boolean isDrawerVisible(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout int getDrawerLockMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout java.lang.CharSequence getDrawerTitle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout java.lang.String gravityToString(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void closeDrawer(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void closeDrawer(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void openDrawer(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void openDrawer(int, boolean) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerLockMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNLOCKED, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_CLOSED, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_OPEN, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNDEFINED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerLockMode(int, android.view.View) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNLOCKED, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_CLOSED, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_OPEN, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNDEFINED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerLockMode(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNLOCKED, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_CLOSED, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_OPEN, androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNDEFINED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerLockMode(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerShadow(android.graphics.drawable.Drawable, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerShadow(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void setDrawerTitle(int, java.lang.CharSequence) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.view.Gravity.LEFT, android.view.Gravity.RIGHT, androidx.core.view.GravityCompat.START, androidx.core.view.GravityCompat.END, android.view.Gravity.NO_GRAVITY}"></val>
+            <val name="flag" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout void updateDrawerState(int, android.view.View) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.drawerlayout.widget.DrawerLayout.STATE_IDLE, androidx.drawerlayout.widget.DrawerLayout.STATE_DRAGGING, androidx.drawerlayout.widget.DrawerLayout.STATE_SETTLING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.drawerlayout.widget.DrawerLayout.DrawerListener void onDrawerStateChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.drawerlayout.widget.DrawerLayout.STATE_IDLE, androidx.drawerlayout.widget.DrawerLayout.STATE_DRAGGING, androidx.drawerlayout.widget.DrawerLayout.STATE_SETTLING}"></val>
+        </annotation>
+    </item>
+</root>

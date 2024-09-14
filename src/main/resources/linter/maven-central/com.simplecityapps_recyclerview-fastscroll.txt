@@ -1,0 +1,4 @@
+com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.ADJACENT=0
+com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupPosition.CENTER=1
+com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupTextVerticalAlignmentMode.FONT_METRICS=1
+com.simplecityapps.recyclerview_fastscroll.views.FastScroller.PopupTextVerticalAlignmentMode.TEXT_BOUNDS=0

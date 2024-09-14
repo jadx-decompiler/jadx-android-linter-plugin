@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.datasource.DataSpec DataSpec(android.net.Uri, long, int, byte[], java.util.Map&lt;java.lang.String,java.lang.String&gt;, long, long, java.lang.String, int, java.lang.Object) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.DataSpec.HTTP_METHOD_GET, androidx.media3.datasource.DataSpec.HTTP_METHOD_POST, androidx.media3.datasource.DataSpec.HTTP_METHOD_HEAD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.DataSpec DataSpec(android.net.Uri, long, int, byte[], java.util.Map&lt;java.lang.String,java.lang.String&gt;, long, long, java.lang.String, int, java.lang.Object) 8">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.DataSpec.FLAG_ALLOW_GZIP, androidx.media3.datasource.DataSpec.FLAG_DONT_CACHE_IF_LENGTH_UNKNOWN, androidx.media3.datasource.DataSpec.FLAG_ALLOW_CACHE_FRAGMENTATION, androidx.media3.datasource.DataSpec.FLAG_MIGHT_NOT_USE_FULL_NETWORK_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.DataSpec boolean isFlagSet(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.DataSpec.FLAG_ALLOW_GZIP, androidx.media3.datasource.DataSpec.FLAG_DONT_CACHE_IF_LENGTH_UNKNOWN, androidx.media3.datasource.DataSpec.FLAG_ALLOW_CACHE_FRAGMENTATION, androidx.media3.datasource.DataSpec.FLAG_MIGHT_NOT_USE_FULL_NETWORK_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.DataSpec java.lang.String getStringForHttpMethod(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.DataSpec.HTTP_METHOD_GET, androidx.media3.datasource.DataSpec.HTTP_METHOD_POST, androidx.media3.datasource.DataSpec.HTTP_METHOD_HEAD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.DataSpec.Builder androidx.media3.datasource.DataSpec.Builder setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.DataSpec.FLAG_ALLOW_GZIP, androidx.media3.datasource.DataSpec.FLAG_DONT_CACHE_IF_LENGTH_UNKNOWN, androidx.media3.datasource.DataSpec.FLAG_ALLOW_CACHE_FRAGMENTATION, androidx.media3.datasource.DataSpec.FLAG_MIGHT_NOT_USE_FULL_NETWORK_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.DataSpec.Builder androidx.media3.datasource.DataSpec.Builder setHttpMethod(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.DataSpec.HTTP_METHOD_GET, androidx.media3.datasource.DataSpec.HTTP_METHOD_POST, androidx.media3.datasource.DataSpec.HTTP_METHOD_HEAD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.DefaultHttpDataSource java.net.HttpURLConnection makeConnection(java.net.URL, int, byte[], long, long, boolean, boolean, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.DataSpec.HTTP_METHOD_GET, androidx.media3.datasource.DataSpec.HTTP_METHOD_POST, androidx.media3.datasource.DataSpec.HTTP_METHOD_HEAD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(androidx.media3.datasource.DataSpec, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(androidx.media3.datasource.DataSpec, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(java.io.IOException, androidx.media3.datasource.DataSpec, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(java.io.IOException, androidx.media3.datasource.DataSpec, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(java.lang.String, androidx.media3.datasource.DataSpec, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(java.lang.String, androidx.media3.datasource.DataSpec, int, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(java.lang.String, java.io.IOException, androidx.media3.datasource.DataSpec, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException HttpDataSourceException(java.lang.String, java.io.IOException, androidx.media3.datasource.DataSpec, int, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException androidx.media3.datasource.HttpDataSource.HttpDataSourceException createForIOException(java.io.IOException, androidx.media3.datasource.DataSpec, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.HttpDataSource.HttpDataSourceException int assignErrorCode(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_OPEN, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_READ, androidx.media3.datasource.HttpDataSource.HttpDataSourceException.TYPE_CLOSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource CacheDataSource(androidx.media3.datasource.cache.Cache, androidx.media3.datasource.DataSource, androidx.media3.datasource.DataSource, androidx.media3.datasource.DataSink, androidx.media3.datasource.cache.CacheKeyFactory, int, androidx.media3.common.PriorityTaskManager, int, androidx.media3.datasource.cache.CacheDataSource.EventListener) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource CacheDataSource(androidx.media3.datasource.cache.Cache, androidx.media3.datasource.DataSource, androidx.media3.datasource.DataSource, androidx.media3.datasource.DataSink, int, androidx.media3.datasource.cache.CacheDataSource.EventListener) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource CacheDataSource(androidx.media3.datasource.cache.Cache, androidx.media3.datasource.DataSource, androidx.media3.datasource.DataSource, androidx.media3.datasource.DataSink, int, androidx.media3.datasource.cache.CacheDataSource.EventListener, androidx.media3.datasource.cache.CacheKeyFactory) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource CacheDataSource(androidx.media3.datasource.cache.Cache, androidx.media3.datasource.DataSource, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource void notifyCacheIgnored(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.CACHE_IGNORED_REASON_ERROR, androidx.media3.datasource.cache.CacheDataSource.CACHE_IGNORED_REASON_UNSET_LENGTH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource.EventListener void onCacheIgnored(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.CACHE_IGNORED_REASON_ERROR, androidx.media3.datasource.cache.CacheDataSource.CACHE_IGNORED_REASON_UNSET_LENGTH}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource.Factory androidx.media3.datasource.cache.CacheDataSource createDataSourceInternal(androidx.media3.datasource.DataSource, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.datasource.cache.CacheDataSource.Factory androidx.media3.datasource.cache.CacheDataSource.Factory setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.datasource.cache.CacheDataSource.FLAG_BLOCK_ON_CACHE, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR, androidx.media3.datasource.cache.CacheDataSource.FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS}"></val>
+        </annotation>
+    </item>
+</root>

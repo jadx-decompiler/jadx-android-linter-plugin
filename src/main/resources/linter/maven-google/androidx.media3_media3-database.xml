@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.database.VersionTable int getVersion(android.database.sqlite.SQLiteDatabase, int, java.lang.String) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.database.VersionTable.FEATURE_OFFLINE, androidx.media3.database.VersionTable.FEATURE_CACHE_CONTENT_METADATA, androidx.media3.database.VersionTable.FEATURE_CACHE_FILE_METADATA, androidx.media3.database.VersionTable.FEATURE_EXTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.database.VersionTable void removeVersion(android.database.sqlite.SQLiteDatabase, int, java.lang.String) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.database.VersionTable.FEATURE_OFFLINE, androidx.media3.database.VersionTable.FEATURE_CACHE_CONTENT_METADATA, androidx.media3.database.VersionTable.FEATURE_CACHE_FILE_METADATA, androidx.media3.database.VersionTable.FEATURE_EXTERNAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.database.VersionTable void setVersion(android.database.sqlite.SQLiteDatabase, int, java.lang.String, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.database.VersionTable.FEATURE_OFFLINE, androidx.media3.database.VersionTable.FEATURE_CACHE_CONTENT_METADATA, androidx.media3.database.VersionTable.FEATURE_CACHE_FILE_METADATA, androidx.media3.database.VersionTable.FEATURE_EXTERNAL}"></val>
+        </annotation>
+    </item>
+</root>

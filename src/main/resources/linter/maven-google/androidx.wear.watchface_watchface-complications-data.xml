@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="android.support.wearable.complications.ComplicationText.TimeDifferenceBuilder android.support.wearable.complications.ComplicationText.TimeDifferenceBuilder setStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_STOPWATCH, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_DUAL_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_WORDS_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_WORDS_SINGLE_UNIT}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.ComplicationText.TimeFormatBuilder android.support.wearable.complications.ComplicationText.TimeFormatBuilder setStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeDifferenceText TimeDifferenceText(long, long, int, boolean, java.util.concurrent.TimeUnit) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_STOPWATCH, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_DUAL_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_WORDS_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_WORDS_SINGLE_UNIT}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeDifferenceText.SerializedForm SerializedForm(long, long, int, boolean, java.util.concurrent.TimeUnit) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_STOPWATCH, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_DUAL_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_WORDS_SINGLE_UNIT, android.support.wearable.complications.ComplicationText.DIFFERENCE_STYLE_SHORT_WORDS_SINGLE_UNIT}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeFormatText TimeFormatText(java.lang.String, int, java.util.TimeZone) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeFormatText TimeFormatText(java.text.SimpleDateFormat, int, java.util.TimeZone, long) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE}"></val>
+        </annotation>
+    </item>
+    <item name="android.support.wearable.complications.TimeFormatText.SerializedForm SerializedForm(java.text.SimpleDateFormat, int, java.util.TimeZone, long) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{android.support.wearable.complications.ComplicationText.FORMAT_STYLE_DEFAULT, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_UPPER_CASE, android.support.wearable.complications.ComplicationText.FORMAT_STYLE_LOWER_CASE}"></val>
+        </annotation>
+    </item>
+</root>

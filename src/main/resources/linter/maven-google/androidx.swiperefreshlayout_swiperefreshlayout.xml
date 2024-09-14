@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.swiperefreshlayout.widget.CircularProgressDrawable void setStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.swiperefreshlayout.widget.CircularProgressDrawable.LARGE, androidx.swiperefreshlayout.widget.CircularProgressDrawable.DEFAULT}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,7 @@
+com.yalantis.ucrop.UCropActivity.NONE=0
+com.yalantis.ucrop.UCropActivity.SCALE=1
+com.yalantis.ucrop.UCropActivity.ROTATE=2
+com.yalantis.ucrop.UCropActivity.ALL=3
+com.yalantis.ucrop.view.OverlayView.FREESTYLE_CROP_MODE_DISABLE=0
+com.yalantis.ucrop.view.OverlayView.FREESTYLE_CROP_MODE_ENABLE=1
+com.yalantis.ucrop.view.OverlayView.FREESTYLE_CROP_MODE_ENABLE_WITH_PASS_THROUGH=2

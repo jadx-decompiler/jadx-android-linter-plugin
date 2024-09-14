@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.muxer.Boxes int getLastSampleDurationVu(java.util.List&lt;java.lang.Integer&gt;, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_INSERT_SHORT_SAMPLE, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_USING_END_OF_STREAM_FLAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Boxes java.nio.ByteBuffer moov(java.util.List&lt;androidx.media3.muxer.Track&gt;, androidx.media3.muxer.MetadataCollector, long, boolean, int) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_INSERT_SHORT_SAMPLE, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_USING_END_OF_STREAM_FLAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Boxes java.util.List&lt;java.lang.Integer&gt; convertPresentationTimestampsToDurationsVu(java.util.List&lt;android.media.MediaCodec.BufferInfo&gt;, long, int, int, long) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_INSERT_SHORT_SAMPLE, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_USING_END_OF_STREAM_FLAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Mp4Muxer Mp4Muxer(java.io.FileOutputStream, int, androidx.media3.muxer.AnnexBToAvccConverter, boolean, boolean, int, androidx.media3.muxer.Mp4Muxer.EditableVideoParameters) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_INSERT_SHORT_SAMPLE, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_USING_END_OF_STREAM_FLAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Mp4Muxer Mp4Muxer(java.io.FileOutputStream, int, androidx.media3.muxer.AnnexBToAvccConverter, boolean, boolean, int, androidx.media3.muxer.Mp4Muxer.EditableVideoParameters) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.FILE_FORMAT_DEFAULT, androidx.media3.muxer.Mp4Muxer.FILE_FORMAT_EDITABLE_VIDEO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Mp4Muxer.Builder androidx.media3.muxer.Mp4Muxer.Builder setLastSampleDurationBehavior(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_INSERT_SHORT_SAMPLE, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_USING_END_OF_STREAM_FLAG}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Mp4Muxer.Builder androidx.media3.muxer.Mp4Muxer.Builder setOutputFileFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.FILE_FORMAT_DEFAULT, androidx.media3.muxer.Mp4Muxer.FILE_FORMAT_EDITABLE_VIDEO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.muxer.Mp4Writer Mp4Writer(java.nio.channels.FileChannel, androidx.media3.muxer.MetadataCollector, androidx.media3.muxer.AnnexBToAvccConverter, int, boolean, boolean) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_INSERT_SHORT_SAMPLE, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_DUPLICATE_PREV_DURATION, androidx.media3.muxer.Mp4Muxer.LAST_SAMPLE_DURATION_BEHAVIOR_USING_END_OF_STREAM_FLAG}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.firebase.dynamiclinks.DynamicLink.Builder com.google.android.gms.tasks.Task&lt;com.google.firebase.dynamiclinks.ShortDynamicLink&gt; buildShortDynamicLink(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.firebase.dynamiclinks.ShortDynamicLink.Suffix.UNGUESSABLE, com.google.firebase.dynamiclinks.ShortDynamicLink.Suffix.SHORT}"></val>
+        </annotation>
+    </item>
+</root>

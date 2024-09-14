@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.window.extensions.ExtensionDeviceState ExtensionDeviceState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.window.extensions.ExtensionDeviceState.POSTURE_UNKNOWN, androidx.window.extensions.ExtensionDeviceState.POSTURE_CLOSED, androidx.window.extensions.ExtensionDeviceState.POSTURE_HALF_OPENED, androidx.window.extensions.ExtensionDeviceState.POSTURE_OPENED, androidx.window.extensions.ExtensionDeviceState.POSTURE_FLIPPED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.window.extensions.ExtensionDisplayFeature ExtensionDisplayFeature(android.graphics.Rect, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.window.extensions.ExtensionDisplayFeature.TYPE_FOLD, androidx.window.extensions.ExtensionDisplayFeature.TYPE_HINGE}"></val>
+        </annotation>
+    </item>
+</root>

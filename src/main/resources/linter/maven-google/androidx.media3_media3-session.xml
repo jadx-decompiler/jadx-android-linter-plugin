@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.session.CommandButton CommandButton(androidx.media3.session.SessionCommand, int, int, int, android.net.Uri, java.lang.CharSequence, android.os.Bundle, boolean) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.CommandButton.ICON_UNDEFINED, androidx.media3.session.CommandButton.ICON_PLAY, androidx.media3.session.CommandButton.ICON_PAUSE, androidx.media3.session.CommandButton.ICON_STOP, androidx.media3.session.CommandButton.ICON_NEXT, androidx.media3.session.CommandButton.ICON_PREVIOUS, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_5, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_10, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_15, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_30, androidx.media3.session.CommandButton.ICON_SKIP_BACK, androidx.media3.session.CommandButton.ICON_SKIP_BACK_5, androidx.media3.session.CommandButton.ICON_SKIP_BACK_10, androidx.media3.session.CommandButton.ICON_SKIP_BACK_15, androidx.media3.session.CommandButton.ICON_SKIP_BACK_30, androidx.media3.session.CommandButton.ICON_FAST_FORWARD, androidx.media3.session.CommandButton.ICON_REWIND, androidx.media3.session.CommandButton.ICON_REPEAT_ALL, androidx.media3.session.CommandButton.ICON_REPEAT_ONE, androidx.media3.session.CommandButton.ICON_REPEAT_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_ON, androidx.media3.session.CommandButton.ICON_SHUFFLE_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_STAR, androidx.media3.session.CommandButton.ICON_HEART_FILLED, androidx.media3.session.CommandButton.ICON_HEART_UNFILLED, androidx.media3.session.CommandButton.ICON_STAR_FILLED, androidx.media3.session.CommandButton.ICON_STAR_UNFILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_FILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_UNFILLED, androidx.media3.session.CommandButton.ICON_FLAG_FILLED, androidx.media3.session.CommandButton.ICON_FLAG_UNFILLED, androidx.media3.session.CommandButton.ICON_PLUS, androidx.media3.session.CommandButton.ICON_MINUS, androidx.media3.session.CommandButton.ICON_PLAYLIST_ADD, androidx.media3.session.CommandButton.ICON_PLAYLIST_REMOVE, androidx.media3.session.CommandButton.ICON_QUEUE_ADD, androidx.media3.session.CommandButton.ICON_QUEUE_NEXT, androidx.media3.session.CommandButton.ICON_QUEUE_REMOVE, androidx.media3.session.CommandButton.ICON_BLOCK, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_0, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_2, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_2_0, androidx.media3.session.CommandButton.ICON_SETTINGS, androidx.media3.session.CommandButton.ICON_QUALITY, androidx.media3.session.CommandButton.ICON_SUBTITLES, androidx.media3.session.CommandButton.ICON_SUBTITLES_OFF, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS_OFF, androidx.media3.session.CommandButton.ICON_SYNC, androidx.media3.session.CommandButton.ICON_SHARE, androidx.media3.session.CommandButton.ICON_VOLUME_UP, androidx.media3.session.CommandButton.ICON_VOLUME_DOWN, androidx.media3.session.CommandButton.ICON_VOLUME_OFF, androidx.media3.session.CommandButton.ICON_ARTIST, androidx.media3.session.CommandButton.ICON_ALBUM, androidx.media3.session.CommandButton.ICON_RADIO, androidx.media3.session.CommandButton.ICON_SIGNAL, androidx.media3.session.CommandButton.ICON_FEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.CommandButton int getIconResIdForIconConstant(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.CommandButton.ICON_UNDEFINED, androidx.media3.session.CommandButton.ICON_PLAY, androidx.media3.session.CommandButton.ICON_PAUSE, androidx.media3.session.CommandButton.ICON_STOP, androidx.media3.session.CommandButton.ICON_NEXT, androidx.media3.session.CommandButton.ICON_PREVIOUS, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_5, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_10, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_15, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_30, androidx.media3.session.CommandButton.ICON_SKIP_BACK, androidx.media3.session.CommandButton.ICON_SKIP_BACK_5, androidx.media3.session.CommandButton.ICON_SKIP_BACK_10, androidx.media3.session.CommandButton.ICON_SKIP_BACK_15, androidx.media3.session.CommandButton.ICON_SKIP_BACK_30, androidx.media3.session.CommandButton.ICON_FAST_FORWARD, androidx.media3.session.CommandButton.ICON_REWIND, androidx.media3.session.CommandButton.ICON_REPEAT_ALL, androidx.media3.session.CommandButton.ICON_REPEAT_ONE, androidx.media3.session.CommandButton.ICON_REPEAT_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_ON, androidx.media3.session.CommandButton.ICON_SHUFFLE_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_STAR, androidx.media3.session.CommandButton.ICON_HEART_FILLED, androidx.media3.session.CommandButton.ICON_HEART_UNFILLED, androidx.media3.session.CommandButton.ICON_STAR_FILLED, androidx.media3.session.CommandButton.ICON_STAR_UNFILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_FILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_UNFILLED, androidx.media3.session.CommandButton.ICON_FLAG_FILLED, androidx.media3.session.CommandButton.ICON_FLAG_UNFILLED, androidx.media3.session.CommandButton.ICON_PLUS, androidx.media3.session.CommandButton.ICON_MINUS, androidx.media3.session.CommandButton.ICON_PLAYLIST_ADD, androidx.media3.session.CommandButton.ICON_PLAYLIST_REMOVE, androidx.media3.session.CommandButton.ICON_QUEUE_ADD, androidx.media3.session.CommandButton.ICON_QUEUE_NEXT, androidx.media3.session.CommandButton.ICON_QUEUE_REMOVE, androidx.media3.session.CommandButton.ICON_BLOCK, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_0, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_2, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_2_0, androidx.media3.session.CommandButton.ICON_SETTINGS, androidx.media3.session.CommandButton.ICON_QUALITY, androidx.media3.session.CommandButton.ICON_SUBTITLES, androidx.media3.session.CommandButton.ICON_SUBTITLES_OFF, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS_OFF, androidx.media3.session.CommandButton.ICON_SYNC, androidx.media3.session.CommandButton.ICON_SHARE, androidx.media3.session.CommandButton.ICON_VOLUME_UP, androidx.media3.session.CommandButton.ICON_VOLUME_DOWN, androidx.media3.session.CommandButton.ICON_VOLUME_OFF, androidx.media3.session.CommandButton.ICON_ARTIST, androidx.media3.session.CommandButton.ICON_ALBUM, androidx.media3.session.CommandButton.ICON_RADIO, androidx.media3.session.CommandButton.ICON_SIGNAL, androidx.media3.session.CommandButton.ICON_FEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.CommandButton.Builder Builder(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.CommandButton.ICON_UNDEFINED, androidx.media3.session.CommandButton.ICON_PLAY, androidx.media3.session.CommandButton.ICON_PAUSE, androidx.media3.session.CommandButton.ICON_STOP, androidx.media3.session.CommandButton.ICON_NEXT, androidx.media3.session.CommandButton.ICON_PREVIOUS, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_5, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_10, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_15, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_30, androidx.media3.session.CommandButton.ICON_SKIP_BACK, androidx.media3.session.CommandButton.ICON_SKIP_BACK_5, androidx.media3.session.CommandButton.ICON_SKIP_BACK_10, androidx.media3.session.CommandButton.ICON_SKIP_BACK_15, androidx.media3.session.CommandButton.ICON_SKIP_BACK_30, androidx.media3.session.CommandButton.ICON_FAST_FORWARD, androidx.media3.session.CommandButton.ICON_REWIND, androidx.media3.session.CommandButton.ICON_REPEAT_ALL, androidx.media3.session.CommandButton.ICON_REPEAT_ONE, androidx.media3.session.CommandButton.ICON_REPEAT_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_ON, androidx.media3.session.CommandButton.ICON_SHUFFLE_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_STAR, androidx.media3.session.CommandButton.ICON_HEART_FILLED, androidx.media3.session.CommandButton.ICON_HEART_UNFILLED, androidx.media3.session.CommandButton.ICON_STAR_FILLED, androidx.media3.session.CommandButton.ICON_STAR_UNFILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_FILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_UNFILLED, androidx.media3.session.CommandButton.ICON_FLAG_FILLED, androidx.media3.session.CommandButton.ICON_FLAG_UNFILLED, androidx.media3.session.CommandButton.ICON_PLUS, androidx.media3.session.CommandButton.ICON_MINUS, androidx.media3.session.CommandButton.ICON_PLAYLIST_ADD, androidx.media3.session.CommandButton.ICON_PLAYLIST_REMOVE, androidx.media3.session.CommandButton.ICON_QUEUE_ADD, androidx.media3.session.CommandButton.ICON_QUEUE_NEXT, androidx.media3.session.CommandButton.ICON_QUEUE_REMOVE, androidx.media3.session.CommandButton.ICON_BLOCK, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_0, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_2, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_2_0, androidx.media3.session.CommandButton.ICON_SETTINGS, androidx.media3.session.CommandButton.ICON_QUALITY, androidx.media3.session.CommandButton.ICON_SUBTITLES, androidx.media3.session.CommandButton.ICON_SUBTITLES_OFF, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS_OFF, androidx.media3.session.CommandButton.ICON_SYNC, androidx.media3.session.CommandButton.ICON_SHARE, androidx.media3.session.CommandButton.ICON_VOLUME_UP, androidx.media3.session.CommandButton.ICON_VOLUME_DOWN, androidx.media3.session.CommandButton.ICON_VOLUME_OFF, androidx.media3.session.CommandButton.ICON_ARTIST, androidx.media3.session.CommandButton.ICON_ALBUM, androidx.media3.session.CommandButton.ICON_RADIO, androidx.media3.session.CommandButton.ICON_SIGNAL, androidx.media3.session.CommandButton.ICON_FEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.CommandButton.Builder Builder(int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.CommandButton.ICON_UNDEFINED, androidx.media3.session.CommandButton.ICON_PLAY, androidx.media3.session.CommandButton.ICON_PAUSE, androidx.media3.session.CommandButton.ICON_STOP, androidx.media3.session.CommandButton.ICON_NEXT, androidx.media3.session.CommandButton.ICON_PREVIOUS, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_5, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_10, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_15, androidx.media3.session.CommandButton.ICON_SKIP_FORWARD_30, androidx.media3.session.CommandButton.ICON_SKIP_BACK, androidx.media3.session.CommandButton.ICON_SKIP_BACK_5, androidx.media3.session.CommandButton.ICON_SKIP_BACK_10, androidx.media3.session.CommandButton.ICON_SKIP_BACK_15, androidx.media3.session.CommandButton.ICON_SKIP_BACK_30, androidx.media3.session.CommandButton.ICON_FAST_FORWARD, androidx.media3.session.CommandButton.ICON_REWIND, androidx.media3.session.CommandButton.ICON_REPEAT_ALL, androidx.media3.session.CommandButton.ICON_REPEAT_ONE, androidx.media3.session.CommandButton.ICON_REPEAT_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_ON, androidx.media3.session.CommandButton.ICON_SHUFFLE_OFF, androidx.media3.session.CommandButton.ICON_SHUFFLE_STAR, androidx.media3.session.CommandButton.ICON_HEART_FILLED, androidx.media3.session.CommandButton.ICON_HEART_UNFILLED, androidx.media3.session.CommandButton.ICON_STAR_FILLED, androidx.media3.session.CommandButton.ICON_STAR_UNFILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_FILLED, androidx.media3.session.CommandButton.ICON_BOOKMARK_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_UP_UNFILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_FILLED, androidx.media3.session.CommandButton.ICON_THUMB_DOWN_UNFILLED, androidx.media3.session.CommandButton.ICON_FLAG_FILLED, androidx.media3.session.CommandButton.ICON_FLAG_UNFILLED, androidx.media3.session.CommandButton.ICON_PLUS, androidx.media3.session.CommandButton.ICON_MINUS, androidx.media3.session.CommandButton.ICON_PLAYLIST_ADD, androidx.media3.session.CommandButton.ICON_PLAYLIST_REMOVE, androidx.media3.session.CommandButton.ICON_QUEUE_ADD, androidx.media3.session.CommandButton.ICON_QUEUE_NEXT, androidx.media3.session.CommandButton.ICON_QUEUE_REMOVE, androidx.media3.session.CommandButton.ICON_BLOCK, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_PLUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_MINUS_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_FILLED, androidx.media3.session.CommandButton.ICON_CHECK_CIRCLE_UNFILLED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_0_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_0, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_2, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_5, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_1_8, androidx.media3.session.CommandButton.ICON_PLAYBACK_SPEED_2_0, androidx.media3.session.CommandButton.ICON_SETTINGS, androidx.media3.session.CommandButton.ICON_QUALITY, androidx.media3.session.CommandButton.ICON_SUBTITLES, androidx.media3.session.CommandButton.ICON_SUBTITLES_OFF, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS, androidx.media3.session.CommandButton.ICON_CLOSED_CAPTIONS_OFF, androidx.media3.session.CommandButton.ICON_SYNC, androidx.media3.session.CommandButton.ICON_SHARE, androidx.media3.session.CommandButton.ICON_VOLUME_UP, androidx.media3.session.CommandButton.ICON_VOLUME_DOWN, androidx.media3.session.CommandButton.ICON_VOLUME_OFF, androidx.media3.session.CommandButton.ICON_ARTIST, androidx.media3.session.CommandButton.ICON_ALBUM, androidx.media3.session.CommandButton.ICON_RADIO, androidx.media3.session.CommandButton.ICON_SIGNAL, androidx.media3.session.CommandButton.ICON_FEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.ConnectedControllersManager boolean isSessionCommandAvailable(androidx.media3.session.MediaSession.ControllerInfo, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.common.MediaItem convertToMediaItem(androidx.media3.session.legacy.MediaMetadataCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.common.MediaItem convertToMediaItem(java.lang.String, androidx.media3.session.legacy.MediaMetadataCompat, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.common.MediaMetadata convertToMediaMetadata(androidx.media3.session.legacy.MediaDescriptionCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.common.MediaMetadata convertToMediaMetadata(androidx.media3.session.legacy.MediaDescriptionCompat, int, boolean, boolean) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.common.MediaMetadata convertToMediaMetadata(androidx.media3.session.legacy.MediaMetadataCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.session.SessionError convertToSessionError(int, int, java.lang.CharSequence, android.os.Bundle, android.content.Context) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.STATE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.STATE_STOPPED, androidx.media3.session.legacy.PlaybackStateCompat.STATE_PAUSED, androidx.media3.session.legacy.PlaybackStateCompat.STATE_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_FAST_FORWARDING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_REWINDING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_BUFFERING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.STATE_CONNECTING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_QUEUE_ITEM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions androidx.media3.session.SessionError convertToSessionError(int, int, java.lang.CharSequence, android.os.Bundle, android.content.Context) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_UNKNOWN_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_APP_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_SUPPORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_AUTHENTICATION_EXPIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONCURRENT_STREAM_LIMIT, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_AVAILABLE_IN_REGION, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONTENT_ALREADY_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_SKIP_LIMIT_REACHED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_ACTION_ABORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_END_OF_QUEUE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions boolean convertToShuffleModeEnabled(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions boolean hasAction(long, long) 1">
+        <annotation name="androidx.annotation.LongDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ACTION_STOP, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_REWIND, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_FAST_FORWARD, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_RATING, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SEEK_TO, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_FROM_MEDIA_ID, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_FROM_SEARCH, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_QUEUE_ITEM, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_FROM_URI, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE_FROM_MEDIA_ID, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE_FROM_SEARCH, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE_FROM_URI, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_REPEAT_MODE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_SHUFFLE_MODE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_CAPTIONING_ENABLED, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_PLAYBACK_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions int convertToLegacyErrorCode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_CONTENT_ALREADY_PLAYING, androidx.media3.session.SessionError.ERROR_SESSION_END_OF_PLAYLIST, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED, androidx.media3.session.SessionError.INFO_CANCELLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions int convertToPlaybackExceptionErrorCode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_UNKNOWN_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_APP_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_SUPPORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_AUTHENTICATION_EXPIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONCURRENT_STREAM_LIMIT, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_AVAILABLE_IN_REGION, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONTENT_ALREADY_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_SKIP_LIMIT_REACHED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_ACTION_ABORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_END_OF_QUEUE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions int convertToRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions int convertToSessionErrorCode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_UNKNOWN_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_APP_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_SUPPORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_AUTHENTICATION_EXPIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONCURRENT_STREAM_LIMIT, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_AVAILABLE_IN_REGION, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONTENT_ALREADY_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_SKIP_LIMIT_REACHED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_ACTION_ABORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_END_OF_QUEUE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LegacyConversions java.lang.String getSessionErrorMessage(int, android.content.Context) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_CONTENT_ALREADY_PLAYING, androidx.media3.session.SessionError.ERROR_SESSION_END_OF_PLAYLIST, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED, androidx.media3.session.SessionError.INFO_CANCELLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LibraryResult LibraryResult(int, long, androidx.media3.session.MediaLibraryService.LibraryParams, androidx.media3.session.SessionError, V, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.LibraryResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LibraryResult LibraryResult(int, long, androidx.media3.session.MediaLibraryService.LibraryParams, androidx.media3.session.SessionError, V, int) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.LibraryResult.VALUE_TYPE_VOID, androidx.media3.session.LibraryResult.VALUE_TYPE_ITEM, androidx.media3.session.LibraryResult.VALUE_TYPE_ITEM_LIST, androidx.media3.session.LibraryResult.VALUE_TYPE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LibraryResult androidx.media3.session.LibraryResult&lt;?&gt; fromBundle(android.os.Bundle, java.lang.Integer) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.LibraryResult.VALUE_TYPE_VOID, androidx.media3.session.LibraryResult.VALUE_TYPE_ITEM, androidx.media3.session.LibraryResult.VALUE_TYPE_ITEM_LIST, androidx.media3.session.LibraryResult.VALUE_TYPE_ERROR}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LibraryResult androidx.media3.session.LibraryResult&lt;V&gt; ofError(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.LibraryResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.LibraryResult androidx.media3.session.LibraryResult&lt;V&gt; ofError(int, androidx.media3.session.MediaLibraryService.LibraryParams) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.LibraryResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaController boolean isSessionCommandAvailable(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplBase androidx.media3.session.IMediaSession getSessionInterfaceWithSessionCommandIfAble(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplBase com.google.common.util.concurrent.ListenableFuture&lt;androidx.media3.session.SessionResult&gt; dispatchRemoteSessionTaskWithSessionCommand(int, androidx.media3.session.MediaControllerImplBase.RemoteSessionTask) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplBase com.google.common.util.concurrent.ListenableFuture&lt;androidx.media3.session.SessionResult&gt; dispatchRemoteSessionTaskWithSessionCommandInternal(int, androidx.media3.session.SessionCommand, androidx.media3.session.MediaControllerImplBase.RemoteSessionTask) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy androidx.media3.session.MediaControllerImplLegacy.ControllerInfo buildNewControllerInfo(boolean, androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo, androidx.media3.session.MediaControllerImplLegacy.ControllerInfo, androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo, java.lang.String, long, boolean, int, long, java.lang.String, android.content.Context) 7">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.ControllerCompatCallback void onRepeatModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.ControllerCompatCallback void onShuffleModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo LegacyPlayerInfo(androidx.media3.session.legacy.MediaControllerCompat.PlaybackInfo, androidx.media3.session.legacy.PlaybackStateCompat, androidx.media3.session.legacy.MediaMetadataCompat, java.util.List&lt;androidx.media3.session.legacy.MediaSessionCompat.QueueItem&gt;, java.lang.CharSequence, int, int, android.os.Bundle) 5">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo LegacyPlayerInfo(androidx.media3.session.legacy.MediaControllerCompat.PlaybackInfo, androidx.media3.session.legacy.PlaybackStateCompat, androidx.media3.session.legacy.MediaMetadataCompat, java.util.List&lt;androidx.media3.session.legacy.MediaSessionCompat.QueueItem&gt;, java.lang.CharSequence, int, int, android.os.Bundle) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo copyWithExtraBinderGetters(androidx.media3.session.legacy.PlaybackStateCompat, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo copyWithExtraBinderGetters(androidx.media3.session.legacy.PlaybackStateCompat, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo copyWithRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo androidx.media3.session.MediaControllerImplLegacy.LegacyPlayerInfo copyWithShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaLibraryService.MediaLibrarySession MediaLibrarySession(android.content.Context, java.lang.String, androidx.media3.common.Player, android.app.PendingIntent, com.google.common.collect.ImmutableList&lt;androidx.media3.session.CommandButton&gt;, androidx.media3.session.MediaSession.Callback, android.os.Bundle, android.os.Bundle, androidx.media3.common.util.BitmapLoader, boolean, boolean, int) 11">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NONE, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_FATAL, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NON_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaLibraryService.MediaLibrarySession androidx.media3.session.MediaLibrarySessionImpl createImpl(android.content.Context, java.lang.String, androidx.media3.common.Player, android.app.PendingIntent, com.google.common.collect.ImmutableList&lt;androidx.media3.session.CommandButton&gt;, androidx.media3.session.MediaSession.Callback, android.os.Bundle, android.os.Bundle, androidx.media3.common.util.BitmapLoader, boolean, boolean, int) 11">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NONE, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_FATAL, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NON_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaLibraryService.MediaLibrarySession.Builder androidx.media3.session.MediaLibraryService.MediaLibrarySession.Builder setLibraryErrorReplicationMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NONE, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_FATAL, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NON_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaLibrarySessionImpl MediaLibrarySessionImpl(androidx.media3.session.MediaLibraryService.MediaLibrarySession, android.content.Context, java.lang.String, androidx.media3.common.Player, android.app.PendingIntent, com.google.common.collect.ImmutableList&lt;androidx.media3.session.CommandButton&gt;, androidx.media3.session.MediaLibraryService.MediaLibrarySession.Callback, android.os.Bundle, android.os.Bundle, androidx.media3.common.util.BitmapLoader, boolean, boolean, int) 12">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NONE, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_FATAL, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NON_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaLibrarySessionImpl boolean isReplicationErrorCode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.LibraryResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSession MediaSession(android.content.Context, java.lang.String, androidx.media3.common.Player, android.app.PendingIntent, com.google.common.collect.ImmutableList&lt;androidx.media3.session.CommandButton&gt;, androidx.media3.session.MediaSession.Callback, android.os.Bundle, android.os.Bundle, androidx.media3.common.util.BitmapLoader, boolean, boolean, int) 11">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NONE, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_FATAL, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NON_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSession androidx.media3.session.MediaSessionImpl createImpl(android.content.Context, java.lang.String, androidx.media3.common.Player, android.app.PendingIntent, com.google.common.collect.ImmutableList&lt;androidx.media3.session.CommandButton&gt;, androidx.media3.session.MediaSession.Callback, android.os.Bundle, android.os.Bundle, androidx.media3.common.util.BitmapLoader, boolean, boolean, int) 11">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NONE, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_FATAL, androidx.media3.session.MediaLibraryService.MediaLibrarySession.LIBRARY_ERROR_REPLICATION_MODE_NON_FATAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSessionLegacyStub void dispatchSessionTaskWithSessionCommand(int, androidx.media3.session.MediaSessionLegacyStub.SessionTask) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSessionLegacyStub void dispatchSessionTaskWithSessionCommandInternal(androidx.media3.session.SessionCommand, int, androidx.media3.session.MediaSessionLegacyStub.SessionTask, androidx.media3.session.legacy.MediaSessionManager.RemoteUserInfo) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSessionLegacyStub void onSetRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSessionLegacyStub void onSetShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSessionStub void dispatchSessionTaskWithSessionCommand(androidx.media3.session.IMediaController, int, androidx.media3.session.SessionCommand, int, androidx.media3.session.MediaSessionStub.SessionTask&lt;com.google.common.util.concurrent.ListenableFuture&lt;java.lang.Void&gt;,K&gt;) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.MediaSessionStub void dispatchSessionTaskWithSessionCommand(androidx.media3.session.IMediaController, int, int, androidx.media3.session.MediaSessionStub.SessionTask&lt;com.google.common.util.concurrent.ListenableFuture&lt;java.lang.Void&gt;,K&gt;) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.PlayerWrapper.LegacyError LegacyError(boolean, int, java.lang.String, android.os.Bundle) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_UNKNOWN_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_APP_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_SUPPORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_AUTHENTICATION_EXPIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONCURRENT_STREAM_LIMIT, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_AVAILABLE_IN_REGION, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONTENT_ALREADY_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_SKIP_LIMIT_REACHED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_ACTION_ABORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_END_OF_QUEUE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionCommand SessionCommand(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionCommands boolean contains(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionCommands boolean containsCommandCode(java.util.Collection&lt;androidx.media3.session.SessionCommand&gt;, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionCommands.Builder androidx.media3.session.SessionCommands.Builder add(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionCommands.Builder androidx.media3.session.SessionCommands.Builder remove(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionCommand.COMMAND_CODE_CUSTOM, androidx.media3.session.SessionCommand.COMMAND_CODE_SESSION_SET_RATING, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_LIBRARY_ROOT, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_UNSUBSCRIBE, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_CHILDREN, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_ITEM, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_SEARCH, androidx.media3.session.SessionCommand.COMMAND_CODE_LIBRARY_GET_SEARCH_RESULT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionError SessionError(int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_CONTENT_ALREADY_PLAYING, androidx.media3.session.SessionError.ERROR_SESSION_END_OF_PLAYLIST, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED, androidx.media3.session.SessionError.INFO_CANCELLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionError SessionError(int, java.lang.String, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_CONTENT_ALREADY_PLAYING, androidx.media3.session.SessionError.ERROR_SESSION_END_OF_PLAYLIST, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED, androidx.media3.session.SessionError.INFO_CANCELLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionError java.lang.String getErrorCodeName(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_CONTENT_ALREADY_PLAYING, androidx.media3.session.SessionError.ERROR_SESSION_END_OF_PLAYLIST, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED, androidx.media3.session.SessionError.INFO_CANCELLED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionResult SessionResult(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionResult SessionResult(int, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.SessionResult SessionResult(int, android.os.Bundle, long, androidx.media3.session.SessionError) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.SessionResult.RESULT_SUCCESS, androidx.media3.session.SessionError.INFO_CANCELLED, androidx.media3.session.SessionError.ERROR_UNKNOWN, androidx.media3.session.SessionError.ERROR_INVALID_STATE, androidx.media3.session.SessionError.ERROR_BAD_VALUE, androidx.media3.session.SessionError.ERROR_PERMISSION_DENIED, androidx.media3.session.SessionError.ERROR_IO, androidx.media3.session.SessionError.ERROR_SESSION_DISCONNECTED, androidx.media3.session.SessionError.ERROR_NOT_SUPPORTED, androidx.media3.session.SessionError.ERROR_SESSION_AUTHENTICATION_EXPIRED, androidx.media3.session.SessionError.ERROR_SESSION_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.SessionError.ERROR_SESSION_CONCURRENT_STREAM_LIMIT, androidx.media3.session.SessionError.ERROR_SESSION_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.SessionError.ERROR_SESSION_NOT_AVAILABLE_IN_REGION, androidx.media3.session.SessionError.ERROR_SESSION_SKIP_LIMIT_REACHED, androidx.media3.session.SessionError.ERROR_SESSION_SETUP_REQUIRED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat int toVolumeStreamType(boolean, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.USAGE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_MEDIA, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION_SIGNALLING, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ALARM, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_RINGTONE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_EVENT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_ACCESSIBILITY, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_SONIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_GAME, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VIRTUAL_SOURCE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImpl.Builder androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImpl.Builder setContentType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_SPEECH, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_MUSIC, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_MOVIE, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_SONIFICATION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImpl.Builder androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImpl.Builder setUsage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.USAGE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_MEDIA, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION_SIGNALLING, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ALARM, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_RINGTONE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_EVENT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_ACCESSIBILITY, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_SONIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_GAME, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VIRTUAL_SOURCE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImplBase.Builder androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImplBase.Builder setContentType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_SPEECH, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_MUSIC, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_MOVIE, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_SONIFICATION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImplBase.Builder androidx.media3.session.legacy.AudioAttributesCompat.AudioAttributesImplBase.Builder setUsage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.USAGE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_MEDIA, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION_SIGNALLING, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ALARM, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_RINGTONE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_EVENT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_ACCESSIBILITY, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_SONIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_GAME, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VIRTUAL_SOURCE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat.Builder androidx.media3.session.legacy.AudioAttributesCompat.Builder setContentType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_SPEECH, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_MUSIC, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_MOVIE, androidx.media3.session.legacy.AudioAttributesCompat.CONTENT_TYPE_SONIFICATION}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.AudioAttributesCompat.Builder androidx.media3.session.legacy.AudioAttributesCompat.Builder setUsage(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.AudioAttributesCompat.USAGE_UNKNOWN, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_MEDIA, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VOICE_COMMUNICATION_SIGNALLING, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ALARM, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_RINGTONE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_REQUEST, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_INSTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_COMMUNICATION_DELAYED, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_NOTIFICATION_EVENT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_ACCESSIBILITY, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANCE_SONIFICATION, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_GAME, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_ASSISTANT, androidx.media3.session.legacy.AudioAttributesCompat.USAGE_VIRTUAL_SOURCE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaBrowserCompat.MediaItem MediaItem(androidx.media3.session.legacy.MediaDescriptionCompat, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.MediaBrowserCompat.MediaItem.FLAG_BROWSABLE, androidx.media3.session.legacy.MediaBrowserCompat.MediaItem.FLAG_PLAYABLE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaBrowserServiceCompat.Result void setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.MediaBrowserServiceCompat.RESULT_FLAG_OPTION_NOT_HANDLED, androidx.media3.session.legacy.MediaBrowserServiceCompat.RESULT_FLAG_ON_LOAD_ITEM_NOT_IMPLEMENTED, androidx.media3.session.legacy.MediaBrowserServiceCompat.RESULT_FLAG_ON_SEARCH_NOT_IMPLEMENTED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaButtonReceiver android.app.PendingIntent buildMediaButtonPendingIntent(android.content.Context, android.content.ComponentName, long) 2">
+        <annotation name="androidx.annotation.LongDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ACTION_STOP, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_REWIND, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_FAST_FORWARD, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_PAUSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaButtonReceiver android.app.PendingIntent buildMediaButtonPendingIntent(android.content.Context, long) 1">
+        <annotation name="androidx.annotation.LongDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ACTION_STOP, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_REWIND, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_FAST_FORWARD, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_PAUSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.Callback void onRepeatModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.Callback void onShuffleModeChanged(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.TransportControls void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.TransportControls void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.TransportControlsApi21 void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.TransportControlsApi21 void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.TransportControlsBase void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaControllerCompat.TransportControlsBase void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat android.graphics.Bitmap getBitmap(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat androidx.media3.session.legacy.RatingCompat getRating(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_USER_RATING, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_RATING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat java.lang.CharSequence getText(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_AUTHOR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_WRITER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPOSER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPILATION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DATE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_GENRE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_ID, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_URI}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat java.lang.String getString(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_AUTHOR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_WRITER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPOSER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPILATION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DATE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_GENRE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_ID, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_URI}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat long getLong(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DURATION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_YEAR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TRACK_NUMBER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_NUM_TRACKS, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISC_NUMBER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_BT_FOLDER_TYPE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ADVERTISEMENT, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DOWNLOAD_STATUS}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat.Builder androidx.media3.session.legacy.MediaMetadataCompat.Builder putBitmap(java.lang.String, android.graphics.Bitmap) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat.Builder androidx.media3.session.legacy.MediaMetadataCompat.Builder putLong(java.lang.String, long) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DURATION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_YEAR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TRACK_NUMBER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_NUM_TRACKS, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISC_NUMBER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_BT_FOLDER_TYPE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ADVERTISEMENT, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DOWNLOAD_STATUS}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat.Builder androidx.media3.session.legacy.MediaMetadataCompat.Builder putRating(java.lang.String, androidx.media3.session.legacy.RatingCompat) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_USER_RATING, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_RATING}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat.Builder androidx.media3.session.legacy.MediaMetadataCompat.Builder putString(java.lang.String, java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_AUTHOR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_WRITER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPOSER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPILATION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DATE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_GENRE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_ID, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_URI}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaMetadataCompat.Builder androidx.media3.session.legacy.MediaMetadataCompat.Builder putText(java.lang.String, java.lang.CharSequence) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_AUTHOR, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_WRITER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPOSER, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_COMPILATION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DATE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_GENRE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ARTIST, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_ALBUM_ART_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_TITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_SUBTITLE, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_DESCRIPTION, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_DISPLAY_ICON_URI, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_ID, androidx.media3.session.legacy.MediaMetadataCompat.METADATA_KEY_MEDIA_URI}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat void setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_QUEUE_COMMANDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat void setRatingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.Callback void onSetRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.Callback void onSetShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImpl void setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_QUEUE_COMMANDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImpl void setRatingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImpl void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImpl void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplApi21 void setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_QUEUE_COMMANDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplApi21 void setRatingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplApi21 void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplApi21 void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplApi22 void setRatingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplBase void setFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS, androidx.media3.session.legacy.MediaSessionCompat.FLAG_HANDLES_QUEUE_COMMANDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplBase void setRatingType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplBase void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ONE, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.REPEAT_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.MediaSessionCompat.MediaSessionImplBase void setShuffleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_INVALID, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_ALL, androidx.media3.session.legacy.PlaybackStateCompat.SHUFFLE_MODE_GROUP}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.PlaybackStateCompat int toKeyCode(long) 0">
+        <annotation name="androidx.annotation.LongDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ACTION_STOP, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_REWIND, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_FAST_FORWARD, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_PAUSE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.PlaybackStateCompat.Builder androidx.media3.session.legacy.PlaybackStateCompat.Builder setActions(long) 0">
+        <annotation name="androidx.annotation.LongDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ACTION_STOP, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_REWIND, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_FAST_FORWARD, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_RATING, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SEEK_TO, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_PAUSE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_FROM_MEDIA_ID, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_FROM_SEARCH, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SKIP_TO_QUEUE_ITEM, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PLAY_FROM_URI, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE_FROM_MEDIA_ID, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE_FROM_SEARCH, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_PREPARE_FROM_URI, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_REPEAT_MODE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_SHUFFLE_MODE, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_CAPTIONING_ENABLED, androidx.media3.session.legacy.PlaybackStateCompat.ACTION_SET_PLAYBACK_SPEED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.PlaybackStateCompat.Builder androidx.media3.session.legacy.PlaybackStateCompat.Builder setErrorMessage(int, java.lang.CharSequence) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_UNKNOWN_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_APP_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_SUPPORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_AUTHENTICATION_EXPIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PREMIUM_ACCOUNT_REQUIRED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONCURRENT_STREAM_LIMIT, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_PARENTAL_CONTROL_RESTRICTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_NOT_AVAILABLE_IN_REGION, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_CONTENT_ALREADY_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_SKIP_LIMIT_REACHED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_ACTION_ABORTED, androidx.media3.session.legacy.PlaybackStateCompat.ERROR_CODE_END_OF_QUEUE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.PlaybackStateCompat.Builder androidx.media3.session.legacy.PlaybackStateCompat.Builder setState(int, long, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.STATE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.STATE_STOPPED, androidx.media3.session.legacy.PlaybackStateCompat.STATE_PAUSED, androidx.media3.session.legacy.PlaybackStateCompat.STATE_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_FAST_FORWARDING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_REWINDING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_BUFFERING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.STATE_CONNECTING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_QUEUE_ITEM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.PlaybackStateCompat.Builder androidx.media3.session.legacy.PlaybackStateCompat.Builder setState(int, long, float, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.PlaybackStateCompat.STATE_NONE, androidx.media3.session.legacy.PlaybackStateCompat.STATE_STOPPED, androidx.media3.session.legacy.PlaybackStateCompat.STATE_PAUSED, androidx.media3.session.legacy.PlaybackStateCompat.STATE_PLAYING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_FAST_FORWARDING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_REWINDING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_BUFFERING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_ERROR, androidx.media3.session.legacy.PlaybackStateCompat.STATE_CONNECTING, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_PREVIOUS, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_NEXT, androidx.media3.session.legacy.PlaybackStateCompat.STATE_SKIPPING_TO_QUEUE_ITEM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.RatingCompat RatingCompat(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.RatingCompat androidx.media3.session.legacy.RatingCompat newStarRating(int, float) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.RatingCompat androidx.media3.session.legacy.RatingCompat newUnratedRating(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.RatingCompat.RATING_NONE, androidx.media3.session.legacy.RatingCompat.RATING_HEART, androidx.media3.session.legacy.RatingCompat.RATING_THUMB_UP_DOWN, androidx.media3.session.legacy.RatingCompat.RATING_3_STARS, androidx.media3.session.legacy.RatingCompat.RATING_4_STARS, androidx.media3.session.legacy.RatingCompat.RATING_5_STARS, androidx.media3.session.legacy.RatingCompat.RATING_PERCENTAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.VolumeProviderCompat VolumeProviderCompat(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.VolumeProviderCompat.VOLUME_CONTROL_FIXED, androidx.media3.session.legacy.VolumeProviderCompat.VOLUME_CONTROL_RELATIVE, androidx.media3.session.legacy.VolumeProviderCompat.VOLUME_CONTROL_ABSOLUTE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.session.legacy.VolumeProviderCompat VolumeProviderCompat(int, int, int, java.lang.String) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.session.legacy.VolumeProviderCompat.VOLUME_CONTROL_FIXED, androidx.media3.session.legacy.VolumeProviderCompat.VOLUME_CONTROL_RELATIVE, androidx.media3.session.legacy.VolumeProviderCompat.VOLUME_CONTROL_ABSOLUTE}"></val>
+        </annotation>
+    </item>
+</root>

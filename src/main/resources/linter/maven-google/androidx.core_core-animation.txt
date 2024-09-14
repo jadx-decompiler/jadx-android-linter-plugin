@@ -1,0 +1,2 @@
+androidx.core.animation.ValueAnimator.RESTART=1
+androidx.core.animation.ValueAnimator.REVERSE=2

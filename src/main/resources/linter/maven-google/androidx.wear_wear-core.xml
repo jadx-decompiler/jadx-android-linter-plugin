@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.utils.WearApiVersionHelper boolean isApiVersionAtLeast(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_1, androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_2, androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_3, androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_4, androidx.wear.utils.WearApiVersionHelper.WEAR_UDC_1}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.utils.WearApiVersionHelper.WearApiVersionCompat WearApiVersionCompat(java.lang.String) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_1, androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_2, androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_3, androidx.wear.utils.WearApiVersionHelper.WEAR_TIRAMISU_4, androidx.wear.utils.WearApiVersionHelper.WEAR_UDC_1}"></val>
+        </annotation>
+    </item>
+</root>

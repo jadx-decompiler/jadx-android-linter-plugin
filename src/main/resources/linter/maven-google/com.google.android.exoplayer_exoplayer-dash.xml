@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.source.dash.DashMediaPeriod.TrackGroupInfo TrackGroupInfo(int, int, int[], int, int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.source.dash.DashMediaPeriod.TrackGroupInfo.CATEGORY_PRIMARY, com.google.android.exoplayer2.source.dash.DashMediaPeriod.TrackGroupInfo.CATEGORY_EMBEDDED, com.google.android.exoplayer2.source.dash.DashMediaPeriod.TrackGroupInfo.CATEGORY_MANIFEST_EVENTS}"></val>
+        </annotation>
+    </item>
+</root>

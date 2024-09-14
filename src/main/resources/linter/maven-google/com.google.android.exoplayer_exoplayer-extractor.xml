@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.google.android.exoplayer2.audio.Ac3Util.SyncFrameInfo SyncFrameInfo(java.lang.String, int, int, int, int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.audio.Ac3Util.SyncFrameInfo.STREAM_TYPE_UNDEFINED, com.google.android.exoplayer2.audio.Ac3Util.SyncFrameInfo.STREAM_TYPE_TYPE0, com.google.android.exoplayer2.audio.Ac3Util.SyncFrameInfo.STREAM_TYPE_TYPE1, com.google.android.exoplayer2.audio.Ac3Util.SyncFrameInfo.STREAM_TYPE_TYPE2}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.BinarySearchSeeker.TimestampSearchResult TimestampSearchResult(int, long, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_TARGET_TIMESTAMP_FOUND, com.google.android.exoplayer2.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_POSITION_OVERESTIMATED, com.google.android.exoplayer2.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_POSITION_UNDERESTIMATED, com.google.android.exoplayer2.extractor.BinarySearchSeeker.TimestampSearchResult.TYPE_NO_TIMESTAMP}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setAdtsExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setAmrExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setFlacExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.flac.FlacExtractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setFragmentedMp4ExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setMatroskaExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setMp3ExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setMp4ExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.FLAG_READ_MOTION_PHOTO_METADATA, com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.FLAG_READ_SEF_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setTsExtractorFlags(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DefaultExtractorsFactory com.google.android.exoplayer2.extractor.DefaultExtractorsFactory setTsExtractorMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_MULTI_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_SINGLE_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DummyTrackOutput int sampleData(com.google.android.exoplayer2.upstream.DataReader, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.DummyTrackOutput void sampleData(com.google.android.exoplayer2.util.ParsableByteArray, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.TrackOutput int sampleData(com.google.android.exoplayer2.upstream.DataReader, int, boolean, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.TrackOutput void sampleData(com.google.android.exoplayer2.util.ParsableByteArray, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_MAIN, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_ENCRYPTION, com.google.android.exoplayer2.extractor.TrackOutput.SAMPLE_DATA_PART_SUPPLEMENTAL}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.amr.AmrExtractor AmrExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.amr.AmrExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.avi.ChunkReader int getChunkIdFourCc(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.avi.ChunkReader.CHUNK_TYPE_VIDEO_COMPRESSED, com.google.android.exoplayer2.extractor.avi.ChunkReader.CHUNK_TYPE_VIDEO_UNCOMPRESSED, com.google.android.exoplayer2.extractor.avi.ChunkReader.CHUNK_TYPE_AUDIO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor MatroskaExtractor(com.google.android.exoplayer2.extractor.mkv.EbmlReader, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor MatroskaExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor.FLAG_DISABLE_SEEK_FOR_CUES}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp3.Mp3Extractor Mp3Extractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp3.Mp3Extractor Mp3Extractor(int, long) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING, com.google.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_DISABLE_ID3_METADATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, com.google.android.exoplayer2.util.TimestampAdjuster) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, com.google.android.exoplayer2.util.TimestampAdjuster, com.google.android.exoplayer2.extractor.mp4.Track) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, com.google.android.exoplayer2.util.TimestampAdjuster, com.google.android.exoplayer2.extractor.mp4.Track, java.util.List&lt;com.google.android.exoplayer2.Format&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor FragmentedMp4Extractor(int, com.google.android.exoplayer2.util.TimestampAdjuster, com.google.android.exoplayer2.extractor.mp4.Track, java.util.List&lt;com.google.android.exoplayer2.Format&gt;, com.google.android.exoplayer2.extractor.TrackOutput) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor int parseTrun(com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.TrackBundle, int, int, com.google.android.exoplayer2.util.ParsableByteArray, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor void parseMoof(com.google.android.exoplayer2.extractor.mp4.Atom.ContainerAtom, android.util.SparseArray&lt;com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.TrackBundle&gt;, boolean, int, byte[]) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor void parseTraf(com.google.android.exoplayer2.extractor.mp4.Atom.ContainerAtom, android.util.SparseArray&lt;com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.TrackBundle&gt;, boolean, int, byte[]) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor void parseTruns(com.google.android.exoplayer2.extractor.mp4.Atom.ContainerAtom, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.TrackBundle, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_TFDT_BOX, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_ENABLE_EMSG_TRACK, com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.Mp4Extractor Mp4Extractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS, com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.FLAG_READ_MOTION_PHOTO_METADATA, com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.FLAG_READ_SEF_DATA}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.SefReader.DataReference DataReference(int, long, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.SefReader.TYPE_SLOW_MOTION_DATA, com.google.android.exoplayer2.extractor.mp4.SefReader.TYPE_SUPER_SLOW_MOTION_DATA, com.google.android.exoplayer2.extractor.mp4.SefReader.TYPE_SUPER_SLOW_MOTION_BGM, com.google.android.exoplayer2.extractor.mp4.SefReader.TYPE_SUPER_SLOW_MOTION_EDIT_DATA, com.google.android.exoplayer2.extractor.mp4.SefReader.TYPE_SUPER_SLOW_DEFLICKERING_ON}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.mp4.Track Track(int, int, long, long, long, com.google.android.exoplayer2.Format, int, com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox[], int, long[], long[]) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.mp4.Track.TRANSFORMATION_NONE, com.google.android.exoplayer2.extractor.mp4.Track.TRANSFORMATION_CEA608_CDAT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.Ac3Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.Ac4Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.AdtsExtractor AdtsExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, com.google.android.exoplayer2.extractor.ts.AdtsExtractor.FLAG_ENABLE_CONSTANT_BITRATE_SEEKING_ALWAYS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.AdtsReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory DefaultTsPayloadReaderFactory(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory DefaultTsPayloadReaderFactory(int, java.util.List&lt;com.google.android.exoplayer2.Format&gt;) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory boolean isSet(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.DtsReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.DvbSubtitleReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.ElementaryStreamReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.H262Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.H263Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.H264Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.H265Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.Id3Reader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.LatmReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.MpegAudioReader void packetStarted(long, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.PesReader void consume(com.google.android.exoplayer2.util.ParsableByteArray, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.SectionReader void consume(com.google.android.exoplayer2.util.ParsableByteArray, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.TsExtractor TsExtractor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.TsExtractor TsExtractor(int, com.google.android.exoplayer2.util.TimestampAdjuster, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Factory) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_MULTI_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_SINGLE_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.TsExtractor TsExtractor(int, com.google.android.exoplayer2.util.TimestampAdjuster, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Factory, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_MULTI_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_SINGLE_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.TsExtractor TsExtractor(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_MULTI_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_SINGLE_PMT, com.google.android.exoplayer2.extractor.ts.TsExtractor.MODE_HLS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.TsExtractor TsExtractor(int, int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_AAC_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_DETECT_ACCESS_UNITS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_IGNORE_SPLICE_INFO_STREAM, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_OVERRIDE_CAPTION_DESCRIPTORS, com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.extractor.ts.TsPayloadReader void consume(com.google.android.exoplayer2.util.ParsableByteArray, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="flag" val="true"></val>
+            <val name="value" val="{com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_PAYLOAD_UNIT_START_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_RANDOM_ACCESS_INDICATOR, com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaDecoder android.text.Layout.Alignment toTextAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaDecoder int toLineAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaDecoder int toPositionAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaStyle SsaStyle(java.lang.String, int, java.lang.Integer, java.lang.Integer, float, boolean, boolean, boolean, boolean, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaStyle SsaStyle(java.lang.String, int, java.lang.Integer, java.lang.Integer, float, boolean, boolean, boolean, boolean, int) 9">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_BORDER_STYLE_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_BORDER_STYLE_OUTLINE, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_BORDER_STYLE_BOX}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaStyle boolean isValidAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaStyle boolean isValidBorderStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_BORDER_STYLE_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_BORDER_STYLE_OUTLINE, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_BORDER_STYLE_BOX}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ssa.SsaStyle.Overrides Overrides(int, android.graphics.PointF) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_UNKNOWN, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_BOTTOM_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_MIDDLE_RIGHT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_LEFT, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_CENTER, com.google.android.exoplayer2.text.ssa.SsaStyle.SSA_ALIGNMENT_TOP_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ttml.TextEmphasis TextEmphasis(int, int, int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_NONE, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_CIRCLE, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_DOT, com.google.android.exoplayer2.text.span.TextEmphasisSpan.MARK_SHAPE_SESAME, com.google.android.exoplayer2.text.ttml.TextEmphasis.MARK_SHAPE_AUTO}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.ttml.TtmlStyle com.google.android.exoplayer2.text.ttml.TtmlStyle setRubyType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.ttml.TtmlStyle.UNSPECIFIED, com.google.android.exoplayer2.text.ttml.TtmlStyle.RUBY_TYPE_CONTAINER, com.google.android.exoplayer2.text.ttml.TtmlStyle.RUBY_TYPE_BASE, com.google.android.exoplayer2.text.ttml.TtmlStyle.RUBY_TYPE_TEXT, com.google.android.exoplayer2.text.ttml.TtmlStyle.RUBY_TYPE_DELIMITER}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.webvtt.WebvttCssStyle com.google.android.exoplayer2.text.webvtt.WebvttCssStyle setFontSizeUnit(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.webvtt.WebvttCssStyle.UNSPECIFIED, com.google.android.exoplayer2.text.webvtt.WebvttCssStyle.FONT_SIZE_UNIT_PIXEL, com.google.android.exoplayer2.text.webvtt.WebvttCssStyle.FONT_SIZE_UNIT_EM, com.google.android.exoplayer2.text.webvtt.WebvttCssStyle.FONT_SIZE_UNIT_PERCENT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.webvtt.WebvttCueParser.WebvttCueInfoBuilder android.text.Layout.Alignment convertTextAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_START, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_CENTER, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_END, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_LEFT, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.webvtt.WebvttCueParser.WebvttCueInfoBuilder float derivePosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_START, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_CENTER, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_END, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_LEFT, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_RIGHT}"></val>
+        </annotation>
+    </item>
+    <item name="com.google.android.exoplayer2.text.webvtt.WebvttCueParser.WebvttCueInfoBuilder int derivePositionAnchor(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_START, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_CENTER, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_END, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_LEFT, com.google.android.exoplayer2.text.webvtt.WebvttCueParser.TEXT_ALIGNMENT_RIGHT}"></val>
+        </annotation>
+    </item>
+</root>

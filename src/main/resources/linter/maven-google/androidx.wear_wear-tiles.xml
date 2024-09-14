@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Arc.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Arc.Builder setAnchorType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.ARC_ANCHOR_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.ARC_ANCHOR_START, androidx.wear.tiles.builders.LayoutElementBuilders.ARC_ANCHOR_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.ARC_ANCHOR_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Arc.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Arc.Builder setVerticalAlign(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_TOP, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Box.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Box.Builder setHorizontalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_LEFT, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_RIGHT, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_START, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Box.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Box.Builder setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_TOP, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Column.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Column.Builder setHorizontalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_LEFT, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_RIGHT, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_START, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.FontStyle.Builder androidx.wear.tiles.builders.LayoutElementBuilders.FontStyle.Builder setWeight(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.FONT_WEIGHT_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.FONT_WEIGHT_NORMAL, androidx.wear.tiles.builders.LayoutElementBuilders.FONT_WEIGHT_BOLD}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Image.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Image.Builder setContentScaleMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.CONTENT_SCALE_MODE_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.CONTENT_SCALE_MODE_FIT, androidx.wear.tiles.builders.LayoutElementBuilders.CONTENT_SCALE_MODE_CROP, androidx.wear.tiles.builders.LayoutElementBuilders.CONTENT_SCALE_MODE_FILL_BOUNDS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Row.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Row.Builder setVerticalAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_TOP, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.VALIGN_BOTTOM}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Spannable.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Spannable.Builder setMultilineAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_LEFT, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_RIGHT, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_START, androidx.wear.tiles.builders.LayoutElementBuilders.HALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Spannable.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Spannable.Builder setOverflow(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_OVERFLOW_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_OVERFLOW_TRUNCATE, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Text.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Text.Builder setMultilineAlignment(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_ALIGN_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_ALIGN_START, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_ALIGN_CENTER, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_ALIGN_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.LayoutElementBuilders.Text.Builder androidx.wear.tiles.builders.LayoutElementBuilders.Text.Builder setOverflow(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_OVERFLOW_UNDEFINED, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_OVERFLOW_TRUNCATE, androidx.wear.tiles.builders.LayoutElementBuilders.TEXT_OVERFLOW_ELLIPSIZE_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.wear.tiles.builders.ResourceBuilders.InlineImageResource.Builder androidx.wear.tiles.builders.ResourceBuilders.InlineImageResource.Builder setFormat(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.wear.tiles.builders.ResourceBuilders.IMAGE_FORMAT_UNDEFINED, androidx.wear.tiles.builders.ResourceBuilders.IMAGE_FORMAT_RGB_565}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.ashokvarma.bottomnavigation.BottomNavigationBar com.ashokvarma.bottomnavigation.BottomNavigationBar setBackgroundStyle(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.BottomNavigationBar.BACKGROUND_STYLE_DEFAULT, com.ashokvarma.bottomnavigation.BottomNavigationBar.BACKGROUND_STYLE_STATIC, com.ashokvarma.bottomnavigation.BottomNavigationBar.BACKGROUND_STYLE_RIPPLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.BottomNavigationBar com.ashokvarma.bottomnavigation.BottomNavigationBar setMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.BottomNavigationBar.MODE_DEFAULT, com.ashokvarma.bottomnavigation.BottomNavigationBar.MODE_FIXED, com.ashokvarma.bottomnavigation.BottomNavigationBar.MODE_SHIFTING, com.ashokvarma.bottomnavigation.BottomNavigationBar.MODE_FIXED_NO_TITLE, com.ashokvarma.bottomnavigation.BottomNavigationBar.MODE_SHIFTING_NO_TITLE}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.BottomNavigationBar void setFab(com.google.android.material.floatingactionbutton.FloatingActionButton, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.BottomNavigationBar.FAB_BEHAVIOUR_TRANSLATE_AND_STICK, com.ashokvarma.bottomnavigation.BottomNavigationBar.FAB_BEHAVIOUR_DISAPPEAR, com.ashokvarma.bottomnavigation.BottomNavigationBar.FAB_BEHAVIOUR_TRANSLATE_OUT}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.ShapeBadgeItem com.ashokvarma.bottomnavigation.ShapeBadgeItem setShape(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_OVAL, com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_RECTANGLE, com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_HEART, com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_STAR_3_VERTICES, com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_STAR_4_VERTICES, com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_STAR_5_VERTICES, com.ashokvarma.bottomnavigation.ShapeBadgeItem.SHAPE_STAR_6_VERTICES}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.BottomVerticalScrollBehavior boolean onNestedDirectionFling(androidx.coordinatorlayout.widget.CoordinatorLayout, V, android.view.View, float, float, boolean, int) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.BottomVerticalScrollBehavior void onNestedVerticalPreScroll(androidx.coordinatorlayout.widget.CoordinatorLayout, V, android.view.View, int, int, int[], int) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.BottomVerticalScrollBehavior void onNestedVerticalScrollConsumed(androidx.coordinatorlayout.widget.CoordinatorLayout, V, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.BottomVerticalScrollBehavior void onNestedVerticalScrollUnconsumed(androidx.coordinatorlayout.widget.CoordinatorLayout, V, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior boolean onNestedDirectionFling(androidx.coordinatorlayout.widget.CoordinatorLayout, V, android.view.View, float, float, boolean, int) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior void onNestedVerticalPreScroll(androidx.coordinatorlayout.widget.CoordinatorLayout, V, android.view.View, int, int, int[], int) 6">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior void onNestedVerticalScrollConsumed(androidx.coordinatorlayout.widget.CoordinatorLayout, V, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+    <item name="com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior void onNestedVerticalScrollUnconsumed(androidx.coordinatorlayout.widget.CoordinatorLayout, V, int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_UP, com.ashokvarma.bottomnavigation.behaviour.VerticalScrollingBehavior.ScrollDirection.SCROLL_DIRECTION_DOWN}"></val>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.browser.browseractions.BrowserActionsIntent.Builder androidx.browser.browseractions.BrowserActionsIntent.Builder setUrlType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.browseractions.BrowserActionsIntent.URL_TYPE_NONE, androidx.browser.browseractions.BrowserActionsIntent.URL_TYPE_IMAGE, androidx.browser.browseractions.BrowserActionsIntent.URL_TYPE_VIDEO, androidx.browser.browseractions.BrowserActionsIntent.URL_TYPE_AUDIO, androidx.browser.browseractions.BrowserActionsIntent.URL_TYPE_FILE, androidx.browser.browseractions.BrowserActionsIntent.URL_TYPE_PLUGIN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsCallback void onActivityLayout(int, int, int, int, int, android.os.Bundle) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_UNKNOWN, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_BOTTOM_SHEET, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_BOTTOM_SHEET_MAXIMIZED, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_SIDE_SHEET, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_SIDE_SHEET_MAXIMIZED, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_FULL_SCREEN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsCallback void onRelationshipValidationResult(int, android.net.Uri, boolean, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsService.RELATION_USE_AS_ORIGIN, androidx.browser.customtabs.CustomTabsService.RELATION_HANDLE_ALL_URLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent androidx.browser.customtabs.CustomTabColorSchemeParams getColorSchemeParams(android.content.Intent, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_SYSTEM, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_LIGHT, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_DARK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setActivitySideSheetDecorationType(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_DEFAULT, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_NONE, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_SHADOW, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_DIVIDER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setActivitySideSheetPosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_POSITION_DEFAULT, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_POSITION_START, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_POSITION_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setActivitySideSheetRoundedCornersPosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_DEFAULT, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_NONE, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_SHADOW, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_SIDE_SHEET_DECORATION_TYPE_DIVIDER}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setCloseButtonPosition(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.CLOSE_BUTTON_POSITION_DEFAULT, androidx.browser.customtabs.CustomTabsIntent.CLOSE_BUTTON_POSITION_START, androidx.browser.customtabs.CustomTabsIntent.CLOSE_BUTTON_POSITION_END}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setColorScheme(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_SYSTEM, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_LIGHT, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_DARK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setColorSchemeParams(int, androidx.browser.customtabs.CustomTabColorSchemeParams) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_SYSTEM, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_LIGHT, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_DARK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setInitialActivityHeightPx(int, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_HEIGHT_DEFAULT, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_HEIGHT_ADJUSTABLE, androidx.browser.customtabs.CustomTabsIntent.ACTIVITY_HEIGHT_FIXED}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsIntent.Builder androidx.browser.customtabs.CustomTabsIntent.Builder setShareState(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.SHARE_STATE_DEFAULT, androidx.browser.customtabs.CustomTabsIntent.SHARE_STATE_ON, androidx.browser.customtabs.CustomTabsIntent.SHARE_STATE_OFF}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsService boolean receiveFile(androidx.browser.customtabs.CustomTabsSessionToken, android.net.Uri, int, android.os.Bundle) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsService.FILE_PURPOSE_TRUSTED_WEB_ACTIVITY_SPLASH_IMAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsService boolean validateRelationship(androidx.browser.customtabs.CustomTabsSessionToken, int, android.net.Uri, android.os.Bundle) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsService.RELATION_USE_AS_ORIGIN, androidx.browser.customtabs.CustomTabsService.RELATION_HANDLE_ALL_URLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsSession boolean receiveFile(android.net.Uri, int, android.os.Bundle) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsService.FILE_PURPOSE_TRUSTED_WEB_ACTIVITY_SPLASH_IMAGE}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsSession boolean validateRelationship(int, android.net.Uri, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsService.RELATION_USE_AS_ORIGIN, androidx.browser.customtabs.CustomTabsService.RELATION_HANDLE_ALL_URLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsSessionToken.MockCallback void onActivityLayout(int, int, int, int, int, android.os.Bundle) 4">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_UNKNOWN, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_BOTTOM_SHEET, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_BOTTOM_SHEET_MAXIMIZED, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_SIDE_SHEET, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_SIDE_SHEET_MAXIMIZED, androidx.browser.customtabs.CustomTabsCallback.ACTIVITY_LAYOUT_STATE_FULL_SCREEN}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.customtabs.CustomTabsSessionToken.MockCallback void onRelationshipValidationResult(int, android.net.Uri, boolean, android.os.Bundle) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsService.RELATION_USE_AS_ORIGIN, androidx.browser.customtabs.CustomTabsService.RELATION_HANDLE_ALL_URLS}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.trusted.TrustedWebActivityIntentBuilder androidx.browser.trusted.TrustedWebActivityIntentBuilder setColorScheme(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_SYSTEM, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_LIGHT, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_DARK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.trusted.TrustedWebActivityIntentBuilder androidx.browser.trusted.TrustedWebActivityIntentBuilder setColorSchemeParams(int, androidx.browser.customtabs.CustomTabColorSchemeParams) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_SYSTEM, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_LIGHT, androidx.browser.customtabs.CustomTabsIntent.COLOR_SCHEME_DARK}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.trusted.TrustedWebActivityIntentBuilder androidx.browser.trusted.TrustedWebActivityIntentBuilder setScreenOrientation(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.browser.trusted.ScreenOrientation.DEFAULT, androidx.browser.trusted.ScreenOrientation.PORTRAIT_PRIMARY, androidx.browser.trusted.ScreenOrientation.PORTRAIT_SECONDARY, androidx.browser.trusted.ScreenOrientation.LANDSCAPE_PRIMARY, androidx.browser.trusted.ScreenOrientation.LANDSCAPE_SECONDARY, androidx.browser.trusted.ScreenOrientation.ANY, androidx.browser.trusted.ScreenOrientation.LANDSCAPE, androidx.browser.trusted.ScreenOrientation.PORTRAIT, androidx.browser.trusted.ScreenOrientation.NATURAL}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.trusted.sharing.ShareTarget ShareTarget(java.lang.String, java.lang.String, java.lang.String, androidx.browser.trusted.sharing.ShareTarget.Params) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.browser.trusted.sharing.ShareTarget.METHOD_GET, androidx.browser.trusted.sharing.ShareTarget.METHOD_POST}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.browser.trusted.sharing.ShareTarget ShareTarget(java.lang.String, java.lang.String, java.lang.String, androidx.browser.trusted.sharing.ShareTarget.Params) 2">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.browser.trusted.sharing.ShareTarget.ENCODING_TYPE_URL_ENCODED, androidx.browser.trusted.sharing.ShareTarget.ENCODING_TYPE_MULTIPART}"></val>
+        </annotation>
+    </item>
+</root>

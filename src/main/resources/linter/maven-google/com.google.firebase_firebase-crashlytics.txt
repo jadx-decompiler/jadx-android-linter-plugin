@@ -1,0 +1,6 @@
+com.google.firebase.crashlytics.internal.model.CrashlyticsReport.Architecture.ARM64=9
+com.google.firebase.crashlytics.internal.model.CrashlyticsReport.Architecture.ARMV6=5
+com.google.firebase.crashlytics.internal.model.CrashlyticsReport.Architecture.ARMV7=6
+com.google.firebase.crashlytics.internal.model.CrashlyticsReport.Architecture.UNKNOWN=7
+com.google.firebase.crashlytics.internal.model.CrashlyticsReport.Architecture.X86_32=0
+com.google.firebase.crashlytics.internal.model.CrashlyticsReport.Architecture.X86_64=1

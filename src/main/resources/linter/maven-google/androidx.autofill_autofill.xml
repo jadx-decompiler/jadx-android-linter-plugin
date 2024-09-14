@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.autofill.inline.VersionUtils android.os.Bundle readStyleByVersion(android.os.Bundle, java.lang.String) 1">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.autofill.inline.UiVersions.INLINE_UI_VERSION_1}"></val>
+        </annotation>
+    </item>
+</root>

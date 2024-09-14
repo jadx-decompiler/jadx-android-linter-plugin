@@ -1,0 +1,2 @@
+androidx.swiperefreshlayout.widget.CircularProgressDrawable.DEFAULT=1
+androidx.swiperefreshlayout.widget.CircularProgressDrawable.LARGE=0

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="com.airbnb.lottie.LottieAnimationView void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.airbnb.lottie.LottieDrawable.RESTART, com.airbnb.lottie.LottieDrawable.REVERSE}"></val>
+        </annotation>
+    </item>
+    <item name="com.airbnb.lottie.LottieDrawable void setRepeatMode(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{com.airbnb.lottie.LottieDrawable.RESTART, com.airbnb.lottie.LottieDrawable.REVERSE}"></val>
+        </annotation>
+    </item>
+</root>

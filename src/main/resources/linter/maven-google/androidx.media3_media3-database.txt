@@ -1,0 +1,4 @@
+androidx.media3.database.VersionTable.FEATURE_CACHE_CONTENT_METADATA=1
+androidx.media3.database.VersionTable.FEATURE_CACHE_FILE_METADATA=2
+androidx.media3.database.VersionTable.FEATURE_EXTERNAL=1000
+androidx.media3.database.VersionTable.FEATURE_OFFLINE=0
