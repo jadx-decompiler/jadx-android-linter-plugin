@@ -194,7 +194,7 @@ public class AndroidLinterPass implements JadxDecompilePass {
 		final List<RegisterArg> useList = new ArrayList<>(ssaVar.getUseList());
 		int replaceCount = 0;
 		for (final RegisterArg rArg : useList) {
-			if (canInline(mth, rArg) && replaceArg(mth, arg, constArg, constInsn, useInsn, rule)) {
+			if (canInline(rArg) && replaceArg(mth, arg, constArg, constInsn, useInsn, rule)) {
 				replaceCount++;
 			}
 		}
@@ -281,7 +281,7 @@ public class AndroidLinterPass implements JadxDecompilePass {
 		for (final Map.Entry<?, IFieldInfoRef> flag : rule.getValueToReference().entrySet()) {
 			long flagValue = Long.parseLong(flag.getKey().toString());
 			if ((constantValue & flagValue) != 0) {
-				constList.add(flag.getValue().getFieldInfo().toString());
+				constList.add(flag.getValue().getFieldInfo().getName());
 				combinedValue |= flagValue;
 			}
 		}
@@ -295,7 +295,7 @@ public class AndroidLinterPass implements JadxDecompilePass {
 		useInsn.addAttr(AType.CODE_COMMENTS, new CodeComment(comment));
 	}
 
-	private static boolean canInline(final MethodNode mth, final RegisterArg arg) {
+	private static boolean canInline(final RegisterArg arg) {
 		if (arg.contains(AFlag.DONT_INLINE_CONST) || arg.contains(AFlag.DONT_INLINE)) {
 			return false;
 		}

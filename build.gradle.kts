@@ -23,8 +23,8 @@ dependencies {
 		isChanging = true
 	}
 	compileOnly("com.google.code.gson:gson:2.11.0")
-	compileOnly("commons-io:commons-io:2.16.1")
-	compileOnly("ch.qos.logback:logback-classic:1.5.6")
+	compileOnly("commons-io:commons-io:2.17.0")
+	compileOnly("ch.qos.logback:logback-classic:1.5.8")
 
 	testImplementation("io.github.skylot:jadx-core:1.5.1-SNAPSHOT") {
 		isChanging = true
@@ -34,11 +34,16 @@ dependencies {
 	}
 	testImplementation("com.google.code.gson:gson:2.11.0")
 	testImplementation("ch.qos.logback:logback-classic:1.5.8")
-	testImplementation("org.apache.commons:commons-lang3:3.14.0")
+	testImplementation("org.apache.commons:commons-lang3:3.17.0")
 	testImplementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.2")
 	testImplementation("org.ow2.asm:asm:9.7")
-	testRuntimeOnly("com.sun.xml.bind:jaxb-impl:4.0.0")
+	testRuntimeOnly("com.sun.xml.bind:jaxb-impl:4.0.5")
 
+	testImplementation("io.github.skylot:jadx-smali-input:1.5.1-SNAPSHOT") {
+		isChanging = true
+	}
+
+	testImplementation("org.assertj:assertj-core:3.24.2")
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.1")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.1")
 }
