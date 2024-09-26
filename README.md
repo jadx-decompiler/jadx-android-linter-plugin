@@ -41,18 +41,18 @@ JADX_VERSION="1.5.1-SNAPSHOT" ./gradlew publishToMavenLocal
 #### Build the plugin
 
 ```bash
-git clone https://github.com/nitram84/jadx-android-linter-plugin.git
+git clone https://github.com/jadx-decompiler/jadx-android-linter-plugin.git
 cd jadx-android-linter-plugin
 ./gradlew assemble
 ```
 
 ### Install
 
-Install using location id: `github:nitram84:jadx-android-linter-plugin`
+Install using location id: `github:jadx-decompiler:jadx-android-linter-plugin`
 
 In jadx-cli:
 ```bash
-  jadx plugins --install "github:nitram84:jadx-android-linter-plugin"
+  jadx plugins --install "github:jadx-decompiler:jadx-android-linter-plugin"
 ```
 
 ### How to update the rules

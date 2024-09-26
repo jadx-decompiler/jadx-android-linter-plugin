@@ -101,7 +101,7 @@ public class RuleIndexUtils {
 	private static void downloadLinterFile(final File targetDir, final String filename) {
 		try {
 			final URL indexURL = new URL(
-					"https://raw.githubusercontent.com/nitram84/jadx-android-linter-plugin/main/src/main/resources/linter/"
+					"https://raw.githubusercontent.com/jadx-decompiler/jadx-android-linter-plugin/main/src/main/resources/linter/"
 							+ filename);
 			try (final InputStream is = indexURL.openStream();
 					final FileOutputStream out = new FileOutputStream(new File(targetDir, filename))) {
