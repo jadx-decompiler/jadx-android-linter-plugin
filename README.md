@@ -28,23 +28,13 @@ Example:
 
 JDK 11 or higher must be installed.
 
-This plugin currently depends on an unreleased version on JADX. Therefore, you have to build the latest version of JADX:
-
-```bash
-git clone https://github.com/skylot/jadx.git
-cd jadx
-JADX_VERSION="1.5.1-SNAPSHOT" ./gradlew publishToMavenLocal
-```
-
-(on Windows, use gradlew.bat instead of ./gradlew)
-
-#### Build the plugin
-
 ```bash
 git clone https://github.com/jadx-decompiler/jadx-android-linter-plugin.git
 cd jadx-android-linter-plugin
 ./gradlew assemble
 ```
+
+(on Windows, use gradlew.bat instead of ./gradlew)
 
 ### Install
 
