@@ -16,36 +16,26 @@ plugins {
 
 dependencies {
 	// use compile only scope to exclude jadx-core and its dependencies from result jar
-	compileOnly("io.github.skylot:jadx-core:1.5.1-SNAPSHOT") {
-		isChanging = true
-	}
-	compileOnly("io.github.skylot:jadx-app-commons:1.5.1-SNAPSHOT") {
-		isChanging = true
-	}
+	compileOnly("io.github.skylot:jadx-core:1.5.1")
+	compileOnly("io.github.skylot:jadx-app-commons:1.5.1")
 	compileOnly("com.google.code.gson:gson:2.11.0")
-	compileOnly("commons-io:commons-io:2.17.0")
-	compileOnly("ch.qos.logback:logback-classic:1.5.11")
+	compileOnly("commons-io:commons-io:2.18.0")
+	compileOnly("ch.qos.logback:logback-classic:1.5.12")
 
-	testImplementation("io.github.skylot:jadx-core:1.5.1-SNAPSHOT") {
-		isChanging = true
-	}
-	testImplementation("io.github.skylot:jadx-app-commons:1.5.1-SNAPSHOT") {
-		isChanging = true
-	}
+	testImplementation("io.github.skylot:jadx-core:1.5.1")
+	testImplementation("io.github.skylot:jadx-app-commons:1.5.1")
 	testImplementation("com.google.code.gson:gson:2.11.0")
-	testImplementation("ch.qos.logback:logback-classic:1.5.11")
+	testImplementation("ch.qos.logback:logback-classic:1.5.12")
 	testImplementation("org.apache.commons:commons-lang3:3.17.0")
 	testImplementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.2")
 	testImplementation("org.ow2.asm:asm:9.7.1")
 	testRuntimeOnly("com.sun.xml.bind:jaxb-impl:4.0.5")
 
-	testImplementation("io.github.skylot:jadx-smali-input:1.5.1-SNAPSHOT") {
-		isChanging = true
-	}
+	testImplementation("io.github.skylot:jadx-smali-input:1.5.1")
 
 	testImplementation("org.assertj:assertj-core:3.26.3")
-	testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.2")
-	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.2")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.3")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.3")
 }
 
 allprojects {
